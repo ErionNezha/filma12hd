@@ -760,5 +760,52 @@
   "desc": "Çarli Braun përpiqet të fitojë zemrën e vajzës së re flokëkuqe, ndërsa Snupi nis një aventurë imagjinare kundër Baronit të Kuq.",
   "published": "2026-10-09",
   "source_url": ""
+ },
+ {
+  "id": "m34",
+  "title_al": "Bianka dhe Berni në tokën e kangurëve",
+  "title_orig": "The Rescuers Down Under",
+  "year": "1990",
+  "duration": "77 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m34.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Bianka%20dhe%20Berni%20n%C3%AB%20tok%C3%ABn%20e%20kangur%C3%ABve%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Dy minjtë agjentë Bianka dhe Berni nisen për në Australi për të shpëtuar djalin Kodi nga gjahtari i keq MekLiç.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m35",
+  "title_al": "Rango",
+  "title_orig": "Rango",
+  "year": "2011",
+  "duration": "107 min",
+  "studio": "Paramount",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Aventurë",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m35.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Rango%20-%20Dubluar%20n%C3%AB%20Shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Një kameleon i humbur në shkretëtirë bëhet sheriff i qytetit Pluhur dhe duhet të zgjidhë misterin e ujit të zhdukur.",
+  "published": "2026-10-09",
+  "source_url": ""
  }
 ]
