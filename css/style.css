@@ -38,29 +38,29 @@ button{font-family:inherit;cursor:pointer}
 ::-webkit-scrollbar-thumb{background:linear-gradient(var(--gold-deep),var(--gold));border-radius:8px}
 
 /* ============================================================
-   PRELOADER — play me rreth që vizatohet
+   PRELOADER — aurora abstrakte
    ============================================================ */
 #loader{
   position:fixed;inset:0;z-index:9999;
-  background:#050508;
+  background:#07070d;
   display:flex;align-items:center;justify-content:center;
+  overflow:hidden;
   transition:opacity .7s ease,visibility .7s;
 }
 #loader.done{opacity:0;visibility:hidden}
-.ld-core{display:flex;flex-direction:column;align-items:center;gap:24px}
-.ld-play{position:relative;width:92px;height:92px;display:flex;align-items:center;justify-content:center}
-.ld-ringsvg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
-.ld-draw{
-  fill:none;stroke:var(--gold);stroke-width:2.5;stroke-linecap:round;
-  stroke-dasharray:239;stroke-dashoffset:239;
-  animation:draw 1.3s ease forwards;
-  filter:drop-shadow(0 0 8px rgba(232,182,76,.5));
-}
-@keyframes draw{to{stroke-dashoffset:0}}
-.ld-tri{width:34px;height:34px;fill:var(--gold);margin-left:4px;opacity:0;transform:scale(.6);animation:triIn .5s ease .9s forwards}
-@keyframes triIn{to{opacity:1;transform:scale(1)}}
-.loader-brand{font-family:var(--font-d);font-size:26px;letter-spacing:10px;color:var(--cream)}
-.loader-brand span{color:var(--gold)}
+.ld-aurora{position:absolute;inset:0;pointer-events:none;filter:blur(70px);opacity:.55}
+.ld-aurora span{position:absolute;border-radius:50%;animation:drift 9s ease-in-out infinite}
+.ld-aurora .a1{width:44vmax;height:44vmax;left:-10%;top:-12%;background:radial-gradient(circle,rgba(232,182,76,.5),transparent 70%)}
+.ld-aurora .a2{width:38vmax;height:38vmax;right:-8%;top:20%;background:radial-gradient(circle,rgba(190,120,60,.4),transparent 70%);animation-delay:-3s}
+.ld-aurora .a3{width:34vmax;height:34vmax;left:30%;bottom:-14%;background:radial-gradient(circle,rgba(120,90,200,.28),transparent 70%);animation-delay:-6s}
+@keyframes drift{0%,100%{transform:translate(0,0) scale(1)}50%{transform:translate(4%,6%) scale(1.12)}}
+.ld-core{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:26px}
+.loader-brand{font-family:var(--font-d);font-size:40px;letter-spacing:14px;color:var(--cream);display:flex}
+.loader-brand i{font-style:normal;opacity:0;transform:translateY(26px);animation:rise .55s cubic-bezier(.2,.9,.3,1.3) forwards}
+.loader-brand i.g{color:var(--gold)}
+@keyframes rise{to{opacity:1;transform:none}}
+.ld-bar{width:180px;height:2px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden}
+#ldBarFill{display:block;height:100%;width:0;border-radius:99px;background:var(--gold);transition:width 1.2s ease}
 
 /* ============================================================
    GLOBAL FX — grain, dust, spotlight
