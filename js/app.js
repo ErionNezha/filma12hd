@@ -39,11 +39,59 @@ function cardHTML(m,i){
   </article>`;
 }
 
+/* ---------- top 10 (ndryshon çdo ditë) ---------- */
+function buildTop10(){
+  const seed=new Date().toISOString().slice(0,10);
+  let h=0;for(const c of seed)h=(h*31+c.charCodeAt(0))>>>0;
+  const pool=MOVIES.filter(m=>m.type==='film');
+  const picks=[];const used=new Set();
+  let s=h;
+  while(picks.length<10&&picks.length<pool.length){
+    s=(s*1103515245+12345)>>>0;
+    const i=s%pool.length;
+    if(!used.has(i)){used.add(i);picks.push(pool[i]);}
+  }
+  $('#top10Row').innerHTML=picks.map((m,i)=>`
+    <div class="top10-item rv" data-id="${m.id}" tabindex="0" role="link" aria-label="${esc(fullTitle(m))}">
+      <div class="top10-num">${i+1}</div>
+      <div class="top10-card"><img loading="lazy" decoding="async" src="${esc(m.poster)}" alt="${esc(fullTitle(m))}" onerror="this.style.opacity=0"></div>
+    </div>`).join('');
+  bindCards($('#top10Row'));initReveal();
+}
+
+/* ---------- vazhdo shikimin ---------- */
+function buildContinue(){
+  let w=[];
+  try{w=JSON.parse(localStorage.getItem('f12h_watch')||'[]');}catch(e){}
+  const items=w.map(x=>MOVIES.find(m=>m.id===x.id)).filter(Boolean).slice(0,6);
+  if(!items.length)return;
+  $('#continue').hidden=false;
+  $('#continueGrid').innerHTML=items.map((m,i)=>cardHTML(m,i)).join('');
+  bindCards($('#continueGrid'));initReveal();
+}
+
+/* ---------- custom cursor ---------- */
+function initCursor(){
+  if(!matchMedia('(pointer:fine)').matches)return;
+  const dot=$('#cursorDot'),ring=$('#cursorRing');
+  let mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my;
+  addEventListener('pointermove',e=>{mx=e.clientX;my=e.clientY;
+    dot.style.left=mx+'px';dot.style.top=my+'px';},{passive:true});
+  (function loop(){
+    rx+=(mx-rx)*.16;ry+=(my-ry)*.16;
+    ring.style.left=rx+'px';ring.style.top=ry+'px';
+    requestAnimationFrame(loop);
+  })();
+  document.addEventListener('pointerover',e=>{
+    document.body.classList.toggle('cur-hover',!!e.target.closest('a,button,.card,.chip,.top10-item,.ep'));
+  });
+}
+
 /* ---------- data ---------- */
 fetch('data/movies.json').then(r=>r.json()).then(data=>{
   MOVIES=data;
-  buildHero(); buildMarquee(); buildChips(); renderGrids();
-  initReveal(); hideLoader();
+  buildHero(); buildMarquee(); buildChips(); renderGrids(); buildTop10(); buildContinue();
+  initReveal(); initCursor(); hideLoader();
 }).catch(()=>{hideLoader();});
 
 /* ---------- hero ---------- */
