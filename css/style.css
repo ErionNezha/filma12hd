@@ -48,6 +48,16 @@ button{font-family:inherit;cursor:pointer}
   overflow:hidden;
 }
 #loader.done{opacity:0;visibility:hidden}
+/* projector beam from top */
+.ld-beam{
+  position:absolute;top:-10%;left:50%;width:44vmax;height:80vmax;pointer-events:none;
+  transform:translateX(-50%);
+  background:linear-gradient(180deg,rgba(247,220,143,.10),rgba(232,182,76,.03) 60%,transparent);
+  clip-path:polygon(42% 0,58% 0,100% 100%,0 100%);
+  animation:beamSway 7s ease-in-out infinite;
+}
+@keyframes beamSway{0%,100%{transform:translateX(-50%) rotate(-2deg)}50%{transform:translateX(-50%) rotate(2deg)}}
+#ldParticles{position:absolute;inset:0;z-index:1;pointer-events:none}
 /* projector light flicker */
 .ld-projector{
   position:absolute;inset:0;pointer-events:none;
@@ -92,14 +102,26 @@ button{font-family:inherit;cursor:pointer}
   animation:countPop .62s cubic-bezier(.2,.9,.3,1.4);
 }
 @keyframes countPop{0%{opacity:0;transform:scale(1.6)}60%{opacity:1;transform:scale(.94)}100%{transform:scale(1)}}
+/* expanding gold ring on each tick */
+.ld-ring{
+  position:absolute;inset:0;border-radius:50%;z-index:1;pointer-events:none;
+  border:2px solid rgba(232,182,76,.7);
+  animation:ringX .68s ease-out;
+}
+@keyframes ringX{from{opacity:.9;transform:scale(.72)}to{opacity:0;transform:scale(1.28)}}
 .ld-sweep{
   position:absolute;inset:-40%;z-index:1;pointer-events:none;
   background:conic-gradient(from 0deg,transparent 0deg,rgba(247,220,143,.14) 24deg,transparent 60deg);
   animation:sweep 2.4s linear infinite;
 }
 @keyframes sweep{to{transform:rotate(360deg)}}
-.loader-brand{font-family:var(--font-d);font-size:30px;letter-spacing:10px;color:var(--cream)}
-.loader-brand span{color:var(--gold)}
+.loader-brand{
+  font-family:var(--font-d);font-size:30px;letter-spacing:10px;
+  background:linear-gradient(100deg,var(--cream) 30%,var(--gold-hi) 45%,var(--gold) 50%,var(--gold-hi) 55%,var(--cream) 70%);
+  background-size:250% auto;-webkit-background-clip:text;background-clip:text;color:transparent;
+  animation:brandShine 3.2s linear infinite;
+}
+@keyframes brandShine{to{background-position:250% center}}
 .loader-sub{
   display:flex;align-items:center;gap:14px;
   font-size:11px;letter-spacing:3px;color:var(--muted);text-transform:uppercase;
