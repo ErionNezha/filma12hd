@@ -269,6 +269,43 @@ nav.scrolled{background:rgba(7,7,13,.94);backdrop-filter:blur(14px);padding:10px
 @keyframes mq{to{transform:translateX(-50%)}}
 
 /* ============================================================
+   TOP 10 — numra gjigantë si Netflix
+   ============================================================ */
+.top10-row{
+  display:flex;gap:6px;overflow-x:auto;padding:10px 4px 22px;
+  scrollbar-width:thin;scroll-behavior:smooth;
+}
+.top10-item{
+  position:relative;flex:0 0 auto;display:flex;align-items:flex-end;
+  cursor:pointer;transition:transform .35s cubic-bezier(.2,.8,.2,1);
+}
+.top10-item:hover{transform:translateY(-8px) scale(1.03);z-index:5}
+.top10-num{
+  font-family:var(--font-d);font-size:clamp(120px,14vw,210px);line-height:.78;
+  color:transparent;-webkit-text-stroke:3px var(--gold);
+  text-shadow:0 0 44px rgba(232,182,76,.25);
+  margin-right:-24px;position:relative;z-index:1;user-select:none;
+  transition:.35s;
+}
+.top10-item:hover .top10-num{-webkit-text-stroke:3px var(--gold-hi);text-shadow:0 0 60px rgba(232,182,76,.5)}
+.top10-card{
+  width:clamp(130px,12vw,168px);border-radius:12px;overflow:hidden;position:relative;z-index:2;
+  border:1px solid rgba(255,255,255,.1);
+  box-shadow:0 16px 44px rgba(0,0,0,.55);
+  transition:.35s;
+}
+.top10-item:hover .top10-card{border-color:rgba(232,182,76,.6);box-shadow:var(--shadow-gold)}
+.top10-card img{width:100%;aspect-ratio:2/3;object-fit:cover}
+/* custom cursor — vetëm desktop me mouse */
+#cursorDot,#cursorRing{position:fixed;top:0;left:0;pointer-events:none;z-index:9998;border-radius:50%;display:none}
+@media(pointer:fine){
+  #cursorDot{display:block;width:7px;height:7px;background:var(--gold);box-shadow:0 0 12px var(--gold);transform:translate(-50%,-50%)}
+  #cursorRing{display:block;width:36px;height:36px;border:1.5px solid rgba(232,182,76,.55);transform:translate(-50%,-50%);transition:width .25s,height .25s,border-color .25s}
+  body.cur-hover #cursorRing{width:58px;height:58px;border-color:var(--gold-hi)}
+}
+@media(pointer:fine){body{cursor:none} a,button,.card,.chip,.top10-item{cursor:none}}
+
+/* ============================================================
    SECTIONS + ROWS
    ============================================================ */
 .section{padding:64px 4vw 10px;position:relative;z-index:2;max-width:1720px;margin:0 auto}
