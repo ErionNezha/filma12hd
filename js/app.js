@@ -29,6 +29,7 @@ function cardHTML(m,i){
       <div class="card-sheen"></div>
       <span class="q-badge">${esc(m.quality)}</span>
       ${m.type==='serial'?'<span class="type-badge">SERIAL</span>':''}
+      ${m.year?`<span class="y-badge">${esc(m.year)}</span>`:''}
       <div class="card-play"><span class="pp"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
     </div>
     <div class="card-body">
