@@ -162,7 +162,7 @@ function renderGrids(){
   bindCards($('#serGrid')); initReveal();
 }
 function bindCards(root){
-  root.querySelectorAll('.card').forEach(c=>{
+  root.querySelectorAll('.card,.top10-item').forEach(c=>{
     const go=()=>location.href='film.html?id='+c.dataset.id;
     c.addEventListener('click',go);
     c.addEventListener('keydown',e=>{if(e.key==='Enter')go();});
