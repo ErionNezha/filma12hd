@@ -185,9 +185,48 @@ function initReveal(){
   $$('.rv:not(.in)').forEach(el=>io.observe(el));
 }
 
-/* ---------- loader: bileta ---------- */
-setTimeout(()=>$('#loader').classList.add('done'),1700);
-function hideLoader(){setTimeout(()=>$('#loader').classList.add('done'),2500);}
+/* ---------- loader: kamer-focus (skript i përdoruesit) ---------- */
+(function(){
+  var L=document.getElementById('loader');
+  if(!L)return;
+  var pct=document.getElementById('ldPct'), tc=document.getElementById('ldTc'), msg=document.getElementById('ldMsg');
+  var h='',i;
+  for(i=0;i<=50;i++) h+='<span'+(i%10===0?' class="m"':'')+'></span>';
+  document.getElementById('ldTicks').innerHTML=h;
+  var d='';
+  for(i=0;i<16;i++) d+='<i style="left:'+(Math.random()*100).toFixed(1)+'%;--dx:'+((Math.random()*80-40)|0)+'px;animation-delay:-'+(Math.random()*7).toFixed(1)+'s;animation-duration:'+(5+Math.random()*5).toFixed(1)+'s"></i>';
+  document.getElementById('ldDust').innerHTML=d;
+  var lines=document.querySelectorAll('#ldLine span'), li=0;
+  var rot=setInterval(function(){
+    lines[li].classList.remove('on'); li=(li+1)%lines.length; lines[li].classList.add('on');
+  },1100);
+  var DURATION=4200, start=null, finished=false;
+  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function ease(t){return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2}
+  function pad(n){return n<10?'0'+n:''+n}
+  function frame(ts){
+    if(start===null) start=ts;
+    var t=Math.min((ts-start)/DURATION,1), p=ease(t);
+    L.style.setProperty('--p',p.toFixed(4));
+    pct.textContent=Math.round(p*100)+'%';
+    var f=Math.round(p*24*24);
+    tc.textContent='00:'+pad(Math.floor(f/24))+':'+pad(f%24);
+    if(t<1){requestAnimationFrame(frame)}else{finish()}
+  }
+  function finish(){
+    if(finished) return; finished=true; clearInterval(rot);
+    msg.textContent='Në fokus';
+    L.classList.add('flash');
+    setTimeout(function(){
+      L.classList.add('done');
+      document.dispatchEvent(new CustomEvent('loader:done'));
+      setTimeout(function(){ if(L.parentNode) L.parentNode.removeChild(L) },1000);
+    },800);
+  }
+  if(reduce){L.style.setProperty('--p',1);pct.textContent='100%';setTimeout(finish,600)}
+  else requestAnimationFrame(frame);
+})();
+function hideLoader(){var L=document.getElementById('loader');if(L)setTimeout(function(){L.classList.add('done')},6000);}
 
 /* ---------- nav / toTop / spot / dust ---------- */
 const nav=$('#nav'),toTop=$('#toTop');
