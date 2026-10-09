@@ -38,40 +38,29 @@ button{font-family:inherit;cursor:pointer}
 ::-webkit-scrollbar-thumb{background:linear-gradient(var(--gold-deep),var(--gold));border-radius:8px}
 
 /* ============================================================
-   PRELOADER — sallë kinemaje: perde të kuqe që hapen
+   PRELOADER — play me rreth që vizatohet
    ============================================================ */
 #loader{
   position:fixed;inset:0;z-index:9999;
   background:#050508;
   display:flex;align-items:center;justify-content:center;
-  overflow:hidden;
-  transition:opacity .9s ease .55s,visibility .9s ease .55s;
+  transition:opacity .7s ease,visibility .7s;
 }
 #loader.done{opacity:0;visibility:hidden}
-.ld-curtain{
-  position:absolute;top:0;bottom:0;width:22%;z-index:3;
-  transition:transform 1.4s cubic-bezier(.7,0,.3,1);
+.ld-core{display:flex;flex-direction:column;align-items:center;gap:24px}
+.ld-play{position:relative;width:92px;height:92px;display:flex;align-items:center;justify-content:center}
+.ld-ringsvg{position:absolute;inset:0;width:100%;height:100%;transform:rotate(-90deg)}
+.ld-draw{
+  fill:none;stroke:var(--gold);stroke-width:2.5;stroke-linecap:round;
+  stroke-dasharray:239;stroke-dashoffset:239;
+  animation:draw 1.3s ease forwards;
+  filter:drop-shadow(0 0 8px rgba(232,182,76,.5));
 }
-.ld-curtain.left{
-  left:0;background:repeating-linear-gradient(90deg,#7a1f1f 0 30px,#571313 30px 60px);
-  box-shadow:inset -40px 0 60px rgba(0,0,0,.55);border-right:2px solid rgba(232,182,76,.35);
-}
-.ld-curtain.right{
-  right:0;background:repeating-linear-gradient(90deg,#571313 0 30px,#7a1f1f 30px 60px);
-  box-shadow:inset 40px 0 60px rgba(0,0,0,.55);border-left:2px solid rgba(232,182,76,.35);
-}
-#loader.done .ld-curtain.left{transform:translateX(-102%)}
-#loader.done .ld-curtain.right{transform:translateX(102%)}
-.ld-spot{
-  position:absolute;left:50%;top:44%;width:60vmin;height:60vmin;z-index:1;
-  transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;
-  background:radial-gradient(circle,rgba(232,182,76,.13),transparent 65%);
-}
-.ld-core{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:22px}
-.loader-brand{font-family:var(--font-d);font-size:34px;letter-spacing:12px;color:var(--cream)}
+@keyframes draw{to{stroke-dashoffset:0}}
+.ld-tri{width:34px;height:34px;fill:var(--gold);margin-left:4px;opacity:0;transform:scale(.6);animation:triIn .5s ease .9s forwards}
+@keyframes triIn{to{opacity:1;transform:scale(1)}}
+.loader-brand{font-family:var(--font-d);font-size:26px;letter-spacing:10px;color:var(--cream)}
 .loader-brand span{color:var(--gold)}
-.ld-bar{width:170px;height:2px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden}
-#ldBarFill{display:block;height:100%;width:0;border-radius:99px;background:var(--gold);transition:width .4s ease}
 
 /* ============================================================
    GLOBAL FX — grain, dust, spotlight
