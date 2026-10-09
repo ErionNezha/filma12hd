@@ -8,6 +8,12 @@ const id=new URLSearchParams(location.search).get('id');
 fetch('data/movies.json').then(r=>r.json()).then(all=>{
   const m=all.find(x=>x.id===id)||all[0];
   if(!m){location.href='index.html';return;}
+  // ruaj te "vazhdo shikimin"
+  try{
+    let w=JSON.parse(localStorage.getItem('f12h_watch')||'[]');
+    w=[{id:m.id,ts:Date.now()},...w.filter(x=>x.id!==m.id)].slice(0,12);
+    localStorage.setItem('f12h_watch',JSON.stringify(w));
+  }catch(e){}
   render(m,all);
   initFx();
 }).catch(()=>location.href='index.html');
