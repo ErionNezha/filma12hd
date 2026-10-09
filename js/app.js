@@ -183,11 +183,9 @@ function initReveal(){
   $$('.rv:not(.in)').forEach(el=>io.observe(el));
 }
 
-/* ---------- loader: perde hapen ---------- */
-const barFill=$('#ldBarFill');
-if(barFill)requestAnimationFrame(()=>{barFill.style.width='100%'});
-setTimeout(()=>$('#loader').classList.add('done'),1900);
-function hideLoader(){setTimeout(()=>$('#loader').classList.add('done'),2600);}
+/* ---------- loader ---------- */
+setTimeout(()=>$('#loader').classList.add('done'),1600);
+function hideLoader(){setTimeout(()=>$('#loader').classList.add('done'),2400);}
 
 /* ---------- nav / toTop / spot / dust ---------- */
 const nav=$('#nav'),toTop=$('#toTop');
