@@ -156,9 +156,11 @@ function renderFilms(){
 }
 function renderGrids(){
   renderFilms();
-  const sers=MOVIES.filter(m=>m.type==='serial');
+  const q=($('#search').value||'').trim().toLowerCase();
+  const sers=MOVIES.filter(m=>m.type==='serial').filter(m=>!q||matches(m,q));
   $('#serCount').textContent=sers.length+' seriale';
   $('#serGrid').innerHTML=sers.map(cardHTML).join('');
+  $('#seriale').style.display=sers.length?'':'none';
   bindCards($('#serGrid')); initReveal();
 }
 function bindCards(root){
@@ -174,7 +176,7 @@ function bindCards(root){
     c.addEventListener('mouseleave',()=>{c.style.transform='';});
   });
 }
-$('#search').addEventListener('input',renderFilms);
+$('#search').addEventListener('input',renderGrids);
 
 /* ---------- reveal ---------- */
 let io=null;
