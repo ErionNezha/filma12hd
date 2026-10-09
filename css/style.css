@@ -347,12 +347,21 @@ nav.scrolled{background:rgba(7,7,13,.94);backdrop-filter:blur(14px);padding:10px
 .sec-title em{font-style:normal;color:var(--gold)}
 .sec-count{font-size:12px;letter-spacing:2px;color:var(--muted);text-transform:uppercase;border:1px solid var(--line);padding:6px 14px;border-radius:99px}
 .sec-line{flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent);min-width:60px}
-/* genre chips */
-.chips{display:flex;gap:10px;flex-wrap:wrap;margin-bottom:30px}
+/* genre chips — rresht horizontal me scroll */
+.chips{
+  display:flex;gap:10px;flex-wrap:nowrap;overflow-x:auto;
+  margin-bottom:30px;padding:4px 4px 12px;
+  scrollbar-width:none;-webkit-overflow-scrolling:touch;
+  -webkit-mask:linear-gradient(90deg,#000 96%,transparent);
+  mask:linear-gradient(90deg,#000 96%,transparent);
+}
+.chips::-webkit-scrollbar{display:none}
 .chip{
+  flex:0 0 auto;
   font-size:13px;font-weight:700;letter-spacing:1px;
   padding:10px 20px;border-radius:99px;border:1px solid var(--line);
   background:rgba(255,255,255,.03);color:var(--muted);transition:.25s;
+  white-space:nowrap;
 }
 .chip:hover{color:var(--cream);border-color:var(--gold)}
 .chip.on{background:linear-gradient(135deg,var(--gold-hi),var(--gold));color:#141005;border-color:transparent;box-shadow:0 4px 20px rgba(232,182,76,.3)}
