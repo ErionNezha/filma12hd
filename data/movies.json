@@ -4,8 +4,8 @@
   "title_al": "Lart",
   "title_orig": "Up",
   "year": "2009",
-  "duration": "",
-  "studio": "",
+  "duration": "96 min",
+  "studio": "Pixar",
   "genres": [
    "Animuar"
   ],
@@ -25,8 +25,8 @@
   "title_al": "Uolli",
   "title_orig": "WALL-E",
   "year": "2008",
-  "duration": "",
-  "studio": "",
+  "duration": "98 min",
+  "studio": "Pixar",
   "genres": [
    "Animuar"
   ],
@@ -46,8 +46,8 @@
   "title_al": "Bota e lodrave",
   "title_orig": "Toy Story",
   "year": "1995",
-  "duration": "",
-  "studio": "",
+  "duration": "81 min",
+  "studio": "Pixar",
   "genres": [
    "Animuar"
   ],
@@ -67,8 +67,8 @@
   "title_al": "Epoka e akullnajave",
   "title_orig": "Ice Age",
   "year": "2002",
-  "duration": "",
-  "studio": "",
+  "duration": "81 min",
+  "studio": "Blue Sky",
   "genres": [
    "Animuar"
   ],
@@ -88,8 +88,8 @@
   "title_al": "Madagaskar",
   "title_orig": "Madagascar",
   "year": "2005",
-  "duration": "",
-  "studio": "",
+  "duration": "86 min",
+  "studio": "DreamWorks",
   "genres": [
    "Animuar"
   ],
@@ -109,8 +109,8 @@
   "title_al": "Shrek",
   "title_orig": "",
   "year": "2001",
-  "duration": "",
-  "studio": "",
+  "duration": "90 min",
+  "studio": "DreamWorks",
   "genres": [
    "Animuar"
   ],
@@ -129,9 +129,9 @@
   "id": "m07",
   "title_al": "Sferat e dragoit Daima",
   "title_orig": "Dragon Ball DAIMA",
-  "year": "",
+  "year": "2024",
   "duration": "22 min Studio: Toei Animation Dublim: Studio SUPREM (2025) Gjuha: Shqip Viti prodhimit: 2024–2025 Info & Përshkrim shfaq Goku dhe miqtë e tij përballen me një transformim misterioz që i rikthen në fëmijëri, duke i çuar në një aventurë të re epike në botën e Dragon Ball Daima. Cast (Dublim Shqip) shfaq Në role kryesore: - Donald Shehu: Goku - Rei Beka: King Gomah / Mbreti Gomah - Anxhelo Shkreli: Degesu - Nigela Ruka: Dr. Arinsu - Ervin Bejleri: Vegeta / Vexhita - Suela Xhonuzi: Bulma - Lorenc Kaja: Krillin - Flori Gjini: Glorio - Jurgen Caka: Dende - Valdrin Hasani: Majin Buu / Maxhin Bu, Kibito - Erion Dushi: Shin - Xhelil Aliu: Neva - Agim Xheka: Narrator / Tregimtari, Shenron - Devis Muka - Kristen Shalavaci",
-  "studio": "",
+  "studio": "Toei Animation",
   "genres": [],
   "type": "serial",
   "quality": "SD",
@@ -140,7 +140,7 @@
   "videos": [
    "https://app.hajdutetalb.box.ca/Seriale/Sferat%20e%20dragoit%20Daima//1.mp4"
   ],
-  "desc": ":root{ --bg:#0e0e10;--card:#111315;--ink:#e9eef5;--muted:#a9b3c0; --line:#232831;--accent:#66e2d5;--accent-ink:#05363a;--warn:#ff5858;--gold:#ffd35a; } *{box-sizing:border-box} body{background:#0a0b0d;color:var(--ink);font-family:'Inter',system-ui,Segoe UI,Roboto,Arial,sans-serif",
+  "desc": "Goku dhe shokët shndërrohen në fëmijë nga një komplot misterioz dhe nisen në një aventurë të re në Mbretërinë e Demonëve.",
   "published": "2025-11-10",
   "source_url": "https://www.filma12hd.site/2025/11/sferat-e-dragoit-daima-dragon-ball.html"
  },
@@ -149,8 +149,8 @@
   "title_al": "Lilo & Stitch",
   "title_orig": "",
   "year": "2002",
-  "duration": "",
-  "studio": "",
+  "duration": "85 min",
+  "studio": "Disney",
   "genres": [
    "Animuar",
    "Aventure",
@@ -173,8 +173,8 @@
   "title_al": "Rruga për El Dorado",
   "title_orig": "The Road to El Dorado",
   "year": "2000",
-  "duration": "",
-  "studio": "",
+  "duration": "89 min",
+  "studio": "DreamWorks",
   "genres": [
    "Animuar",
    "Aventure",
@@ -219,8 +219,8 @@
   "title_al": "Kështjella shtegtare",
   "title_orig": "Howl's Moving Castle",
   "year": "2004",
-  "duration": "",
-  "studio": "",
+  "duration": "119 min",
+  "studio": "Studio Ghibli",
   "genres": [
    "Animuar",
    "Aventure",
@@ -243,8 +243,8 @@
   "title_al": "Gjiganti i hekurt",
   "title_orig": "The Iron Giant",
   "year": "1999",
-  "duration": "",
-  "studio": "",
+  "duration": "86 min",
+  "studio": "Warner Bros",
   "genres": [
    "Aksion",
    "Animuar",
@@ -267,8 +267,8 @@
   "title_al": "Në anën tjetër të lumit",
   "title_orig": "Spirited Away",
   "year": "2001",
-  "duration": "",
-  "studio": "",
+  "duration": "125 min",
+  "studio": "Studio Ghibli",
   "genres": [
    "Animuar",
    "Aventure",
@@ -362,7 +362,7 @@
   "title_orig": "Dreamworks Spooky Stories",
   "year": "2011",
   "duration": "7 minuta",
-  "studio": "",
+  "studio": "DreamWorks",
   "genres": [
    "Animuar",
    "Aventure",
@@ -409,8 +409,8 @@
   "title_al": "Kurrizoja hundëmadh",
   "title_orig": "Little Longnose",
   "year": "2003",
-  "duration": "",
-  "studio": "",
+  "duration": "85 min",
+  "studio": "Melnitsa",
   "genres": [
    "Animuar",
    "Aventure",
@@ -433,9 +433,9 @@
   "id": "m20",
   "title_al": "Naruto",
   "title_orig": "",
-  "year": "",
+  "year": "2002",
   "duration": "~23 min Studio: Pierrot Prodhim: 2002–2007 Dublim: “Jess” Discographic (2009–2010) Gjuha: Shqip (Dublim) Info & Përshkrim shfaq Nis aventura epike e Naruto Uzumakut drejt të qenit Hokagu, me rivalitetet e para, sfidat ninja dhe teknika të reja. Cast (Dublim Shqip) shfaq Në role kryesore: - Dritan Sejamini: Naruto Uzumaki (1–65) - Denard Xhillari: Naruto (66–220), Choji / Çoshi (3–65), zëra të tjerë - Genti Deçka: Sasuke Uchiha / Sazuke Uçiha - Desantila Kristo: Sakura Haruno - Arben Derhemi: Kakashi, Dosu Kinuta / Dozu - Bledi Naska: Iruka, Neji Hyuga / Nexhi Juga - Devis Muka: Mizuki / Mixuki, Shikamaru, add. - Ahmet Pasha: Third Hokage / Hokagu i tretë - Sonjela Leço: Ino - Eftiola Laçka: Inata, Tsunami - Gent Bejko: Kaiza, Kiba, Ebisu / Ebizu, add. - Dritan Boriçi: Zabuza / Xabuza, Gai Maito (22–65), Orochimaru / Oroçimaru - Ema Andrea: Shiore - Nigela Ruka: Shiore (71) - Julian Canameti: Kabuto - Mirela Naska, Valbona Ostreni (22–65, 73–77), Jessika Kasemi (66–72, 78+): Temari - Anisa Dervishi, Jessika Kasemi: Tenten - Ilir Muhametaj: Rock Lee / Rok Li - Erjol Begolli: Kankuro / Kankuri - Erion Hinaj: Gaara / Gara - Andi Begolli, ?: Shino - Vladimir Saliu, ? (52), Ervin Bejleri (68), Ermal Prifti (73–74): Ibiki Morino - Medi Gurra, Mirela Naska: Anko Mitarashi - Gentian Zenelaj, ?: Hayate Gekko / Hajate - Alfred Trebicka, Bujar Asqeriu (73–): Jiraiya / Xhiraja Në role të tjera: - Ray Kasemi: Konohamaru, add. - Gëzim Rudi: Tazuna - Fadil Kujofsa: Gato, Gamabunta - Mariglen Deçolli: Inari - Moris Rama - Niko Lena - Artion Vreto - Kejvi Mysliu",
-  "studio": "",
+  "studio": "Pierrot",
   "genres": [],
   "type": "serial",
   "quality": "FULL HD",
@@ -450,7 +450,7 @@
    "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E02%20-%20Surviving%20the%20Cut%21%20The%20Rookie%20Nine%20Together%20Again%21.mp4",
    "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E03%20-%20Narrowing%20the%20Field%3A%20Sudden%20Death%20Elimination%21.mp4"
   ],
-  "desc": ":root{ --bg:#0e0e10;--card:#111315;--ink:#e9eef5;--muted:#a9b3c0; --line:#232831;--accent:#66e2d5;--accent-ink:#05363a;--warn:#ff5858;--gold:#ffd35a; } *{box-sizing:border-box} body{background:#0a0b0d;color:var(--ink);font-family:'Inter',system-ui,Segoe UI,Roboto,Arial,sans-serif",
+  "desc": "Naruto Uzumaki, ninxha i ri plot energji, ndjek ëndrrën për t'u bërë Hokage — ninxha më i fortë i fshatit.",
   "published": "2025-11-09",
   "source_url": "https://www.filma12hd.site/2025/11/test.html"
  },
@@ -459,8 +459,8 @@
   "title_al": "Si të zbutësh një dragua 3: Bota e fshehur",
   "title_orig": "How to Train Your Dragon: The Hidden World",
   "year": "2019",
-  "duration": "",
-  "studio": "",
+  "duration": "104 min",
+  "studio": "DreamWorks",
   "genres": [
    "Aksion",
    "Animuar",
