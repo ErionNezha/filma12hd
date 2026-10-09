@@ -153,7 +153,7 @@
   "studio": "Disney",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Familjar",
    "Komedi"
   ],
@@ -177,7 +177,7 @@
   "studio": "DreamWorks",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Komedi"
   ],
   "type": "film",
@@ -200,7 +200,7 @@
   "studio": "DreamWorks Animation",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Fantashkence"
   ],
   "type": "film",
@@ -223,7 +223,7 @@
   "studio": "Studio Ghibli",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Familjar",
    "Fantashkence"
   ],
@@ -248,7 +248,7 @@
   "genres": [
    "Aksion",
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Fantashkence"
   ],
   "type": "film",
@@ -271,7 +271,7 @@
   "studio": "Studio Ghibli",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Familjar"
   ],
   "type": "film",
@@ -294,7 +294,7 @@
   "studio": "Studio Ghibli",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Fantashkence"
   ],
   "type": "film",
@@ -317,10 +317,10 @@
   "studio": "Studio Ghibli",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Familjar",
    "Komedi",
-   "Romance"
+   "Romancë"
   ],
   "type": "film",
   "quality": "FULL HD",
@@ -342,7 +342,7 @@
   "studio": "DreamWorks Animation",
   "genres": [
    "Aksion",
-   "Aventure",
+   "Aventurë",
    "Komedi"
   ],
   "type": "film",
@@ -365,7 +365,7 @@
   "studio": "DreamWorks",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Familjar",
    "Komedi"
   ],
@@ -389,7 +389,7 @@
   "studio": "Paramount Animation",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Familjar",
    "Fantashkence"
   ],
@@ -413,10 +413,10 @@
   "studio": "Melnitsa",
   "genres": [
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Familjar",
    "Komedi",
-   "Romance"
+   "Romancë"
   ],
   "type": "film",
   "quality": "FULL HD",
@@ -464,7 +464,7 @@
   "genres": [
    "Aksion",
    "Animuar",
-   "Aventure",
+   "Aventurë",
    "Fantashkence"
   ],
   "type": "film",
