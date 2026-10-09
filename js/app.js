@@ -183,22 +183,8 @@ function initReveal(){
   $$('.rv:not(.in)').forEach(el=>io.observe(el));
 }
 
-/* ---------- loader: aurora + shkronja ---------- */
-(function(){
-  const brand=$('#ldBrand');
-  if(brand){
-    'FILMA12HD'.split('').forEach((c,i)=>{
-      const el=document.createElement('i');
-      el.textContent=c;
-      if(c==='1'||c==='2')el.className='g';
-      el.style.animationDelay=(i*70)+'ms';
-      brand.appendChild(el);
-    });
-  }
-  const bar=$('#ldBarFill');
-  if(bar)requestAnimationFrame(()=>{bar.style.width='100%'});
-  setTimeout(()=>$('#loader').classList.add('done'),1750);
-})();
+/* ---------- loader: bileta ---------- */
+setTimeout(()=>$('#loader').classList.add('done'),1700);
 function hideLoader(){setTimeout(()=>$('#loader').classList.add('done'),2500);}
 
 /* ---------- nav / toTop / spot / dust ---------- */
