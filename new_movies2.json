@@ -1,0 +1,35 @@
+[
+ {
+  "title_al": "Shrek 2",
+  "title_orig": "Shrek 2",
+  "year": "2004",
+  "duration": "93 min",
+  "studio": "DreamWorks",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Aventurë",
+   "Familjar"
+  ],
+  "quality": "4K",
+  "video_url": "https://app.hajdutetalb.box.ca/Filma/Shrek%202%20-%20Dubluar%20n%C3%AB%20shqip%20-%204K.mkv",
+  "poster_url": "https://xl.movieposterdb.com/08_09/2004/298148/xl_298148_26b6a0b4.jpg",
+  "desc": "Shreku dhe Fiona kthehen në mbretërinë e prindërve të saj, ku i presin intriga, Këpucëvogli Macoku dhe Zanë e keqe që do ta ndajë çiftin."
+ },
+ {
+  "title_al": "Filmi i Kikirikëve",
+  "title_orig": "The Peanuts Movie",
+  "year": "2015",
+  "duration": "88 min",
+  "studio": "Blue Sky",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Familjar"
+  ],
+  "quality": "FULL HD",
+  "video_url": "https://app.hajdutetalb.box.ca/Filma/Filmi%20i%20Kikirik%C3%ABve%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4",
+  "poster_url": "https://image.tmdb.org/t/p/w500/ua18IuYI5e3QCOTYXncdKFQBWR5.jpg",
+  "desc": "Çarli Braun përpiqet të fitojë zemrën e vajzës së re flokëkuqe, ndërsa Snupi nis një aventurë imagjinare kundër Baronit të Kuq."
+ }
+]

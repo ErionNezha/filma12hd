@@ -713,5 +713,52 @@
   "desc": "Oskari, një peshk i vogël me ëndrra të mëdha, gënjen se ka vrarë një peshkaqen dhe bëhet hero — derisa gënjeshtra i del jashtë kontrollit.",
   "published": "2026-10-09",
   "source_url": ""
+ },
+ {
+  "id": "m32",
+  "title_al": "Shrek 2",
+  "title_orig": "Shrek 2",
+  "year": "2004",
+  "duration": "93 min",
+  "studio": "DreamWorks",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Aventurë",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "4K",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m32.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Shrek%202%20-%20Dubluar%20n%C3%AB%20shqip%20-%204K.mkv"
+  ],
+  "desc": "Shreku dhe Fiona kthehen në mbretërinë e prindërve të saj, ku i presin intriga, Këpucëvogli Macoku dhe Zanë e keqe që do ta ndajë çiftin.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m33",
+  "title_al": "Filmi i Kikirikëve",
+  "title_orig": "The Peanuts Movie",
+  "year": "2015",
+  "duration": "88 min",
+  "studio": "Blue Sky",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m33.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Filmi%20i%20Kikirik%C3%ABve%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Çarli Braun përpiqet të fitojë zemrën e vajzës së re flokëkuqe, ndërsa Snupi nis një aventurë imagjinare kundër Baronit të Kuq.",
+  "published": "2026-10-09",
+  "source_url": ""
  }
 ]
