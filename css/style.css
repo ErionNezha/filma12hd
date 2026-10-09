@@ -286,6 +286,12 @@ nav.scrolled{background:rgba(7,7,13,.94);backdrop-filter:blur(14px);padding:10px
   background:linear-gradient(135deg,var(--gold-hi),var(--gold));color:#141005;
   padding:5px 10px;border-radius:7px;
 }
+.y-badge{
+  position:absolute;bottom:10px;left:10px;z-index:4;
+  font-size:11px;font-weight:700;letter-spacing:1px;
+  background:rgba(5,5,8,.78);border:1px solid rgba(255,255,255,.14);color:var(--cream);
+  padding:4px 10px;border-radius:7px;backdrop-filter:blur(6px);
+}
 .card-body{padding:14px 14px 16px}
 .card-title{font-weight:700;font-size:14.5px;line-height:1.35;margin-bottom:6px;
   display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden;min-height:39px}
@@ -310,7 +316,11 @@ nav.scrolled{background:rgba(7,7,13,.94);backdrop-filter:blur(14px);padding:10px
    FILM PAGE — detail + curtain cinema player
    ============================================================ */
 #filmHero{position:relative;min-height:62svh;display:flex;align-items:flex-end;overflow:hidden}
-#filmHero .hero-bg img{filter:saturate(1.1)}
+#filmHero .hero-bg img{filter:saturate(1.15) brightness(.85)}
+#filmHero .hero-bg::after{
+  content:'';position:absolute;inset:0;
+  background:linear-gradient(180deg,rgba(7,7,13,.35) 0%,transparent 40%,var(--bg) 98%);
+}
 .film-inner{padding:0 4vw 46px;max-width:1200px;position:relative;z-index:2;width:100%}
 .back-link{
   display:inline-flex;align-items:center;gap:8px;margin-bottom:22px;
@@ -388,15 +398,37 @@ nav.scrolled{background:rgba(7,7,13,.94);backdrop-filter:blur(14px);padding:10px
 /* info panel */
 .info-grid{max-width:1200px;margin:0 auto;padding:44px 4vw 20px;display:grid;grid-template-columns:280px 1fr;gap:38px;position:relative;z-index:2}
 @media(max-width:760px){.info-grid{grid-template-columns:1fr}}
-.info-poster{border-radius:var(--radius);overflow:hidden;border:1px solid var(--line);box-shadow:0 20px 60px rgba(0,0,0,.5);align-self:start}
+.info-poster{
+  border-radius:var(--radius);overflow:hidden;align-self:start;position:relative;
+  border:1px solid rgba(232,182,76,.35);
+  box-shadow:0 20px 60px rgba(0,0,0,.5),0 0 40px rgba(232,182,76,.1);
+  transition:.35s;
+}
+.info-poster:hover{transform:translateY(-4px) scale(1.01);box-shadow:0 28px 70px rgba(0,0,0,.6),0 0 60px rgba(232,182,76,.18)}
 .info-poster img{width:100%;aspect-ratio:2/3;object-fit:cover}
+.info-poster::after{
+  content:'';position:absolute;inset:0;pointer-events:none;border-radius:var(--radius);
+  background:linear-gradient(180deg,transparent 60%,rgba(0,0,0,.45));
+}
 .info-meta{display:flex;flex-wrap:wrap;gap:10px;margin:18px 0 22px}
 .info-desc{font-size:15.5px;line-height:1.85;color:#d8d2c4;max-width:760px}
 .info-desc b{color:var(--gold)}
+.desc-head{display:flex;align-items:center;gap:14px;margin-bottom:16px}
+.desc-title{font-family:var(--font-d);font-size:22px;letter-spacing:4px;color:var(--gold);white-space:nowrap}
+.desc-line{height:1px;width:44px;background:linear-gradient(90deg,var(--gold),transparent)}
+.desc-line:last-child{background:linear-gradient(90deg,transparent,var(--gold))}
+.info-desc p{font-size:16px;line-height:1.9;color:#ddd6c6}
 .fact-row{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:12px;margin-top:26px}
-.fact{background:var(--card);border:1px solid rgba(255,255,255,.07);border-radius:12px;padding:14px 16px}
-.fact .k{font-size:10.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--muted);margin-bottom:6px}
-.fact .v{font-weight:700;font-size:14.5px}
+.fact{
+  background:linear-gradient(160deg,rgba(232,182,76,.07),rgba(255,255,255,.02));
+  border:1px solid rgba(232,182,76,.18);border-radius:14px;padding:16px 18px;
+  transition:.25s;position:relative;overflow:hidden;
+}
+.fact::before{content:'';position:absolute;top:0;left:0;right:0;height:2px;
+  background:linear-gradient(90deg,var(--gold),transparent);opacity:.7}
+.fact:hover{transform:translateY(-3px);border-color:rgba(232,182,76,.45);box-shadow:0 10px 30px rgba(0,0,0,.4)}
+.fact .k{font-size:10.5px;letter-spacing:2.5px;text-transform:uppercase;color:var(--gold);margin-bottom:8px;font-weight:700}
+.fact .v{font-weight:700;font-size:14.5px;line-height:1.5}
 /* related */
 .rel-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(150px,1fr));gap:18px}
 
