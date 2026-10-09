@@ -42,7 +42,7 @@ function render(m,all){
   $('#coverImg').src=m.poster;
   $('#iPoster').src=m.poster;$('#iPoster').alt=fullTitle(m);
   $('#iMeta').innerHTML=meta;
-  $('#iDesc').innerHTML='<b>Përshkrimi:</b> '+esc(m.desc||'Përshkrim së shpejti.');
+  $('#iDesc').innerHTML='<div class="desc-head"><span class="desc-line"></span><span class="desc-title">PËRSHKRIMI</span><span class="desc-line"></span></div><p>'+esc(m.desc||'Përshkrim së shpejti.')+'</p>';
   const facts=[];
   if(m.year)facts.push(['Viti',m.year]);
   if(m.duration)facts.push(['Kohëzgjatja',m.duration]);
@@ -78,6 +78,7 @@ function render(m,all){
         <img loading="lazy" src="${esc(r.poster)}" alt="${esc(fullTitle(r))}" onerror="this.style.opacity=0">
         <div class="card-sheen"></div>
         <span class="q-badge">${esc(r.quality)}</span>
+        ${r.year?`<span class="y-badge">${esc(r.year)}</span>`:''}
         <div class="card-play"><span class="pp"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
       </div>
       <div class="card-body"><div class="card-title">${esc(r.title_al)}</div>
