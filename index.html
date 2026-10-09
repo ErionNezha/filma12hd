@@ -1,0 +1,133 @@
+<!DOCTYPE html>
+<!-- Created by Erion Nezha — © 2026 All rights reserved -->
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Filma12HD — Filma të Dubluar në Shqip · Kinema në Shtëpinë Tuaj</title>
+<meta name="description" content="Filma12HD — kinema në shtëpinë tuaj. Shikoni filma dhe seriale të dubluar në shqip, me cilësi Full HD. Pa reklama bezdisëse.">
+<meta property="og:title" content="Filma12HD — Kinema në Shtëpinë Tuaj">
+<meta property="og:description" content="Filma të dubluar në shqip · Cilësi Full HD · Pa reklama">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#07070d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307070d'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23e8b64c' font-family='Arial Black'%3EF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<!-- PRELOADER · film countdown -->
+<div id="loader" aria-hidden="true">
+  <div class="count-ring"><div id="countNum">3</div></div>
+  <div class="loader-brand">FILMA<span>12</span>HD</div>
+  <div class="loader-sub">po hapet kinemaja…</div>
+</div>
+
+<div class="grain" aria-hidden="true"></div>
+<canvas id="dust" aria-hidden="true"></canvas>
+<div id="spot" aria-hidden="true"></div>
+
+<!-- NAV -->
+<nav id="nav">
+  <a class="logo" href="index.html">FILMA<b>12</b>HD<small>✦</small></a>
+  <div class="nav-links">
+    <a href="index.html" class="active">Kreu</a>
+    <a href="#filma">Filma</a>
+    <a href="#seriale">Seriale</a>
+  </div>
+  <div class="nav-search">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="search" type="search" placeholder="Kërko film…" autocomplete="off" aria-label="Kërko film">
+    </div>
+  </div>
+</nav>
+
+<!-- HERO -->
+<header id="hero">
+  <div class="hero-bg"><img id="heroImg" src="" alt=""></div>
+  <div class="hero-shade"></div>
+  <div class="hero-spot" id="heroSpot"></div>
+  <div class="hero-inner">
+    <div class="hero-kicker"><span class="dot"></span><span id="heroKick">Tani po luhet</span></div>
+    <h1 class="hero-title" id="heroTitle"></h1>
+    <div class="hero-orig" id="heroOrig"></div>
+    <div class="hero-meta" id="heroMeta"></div>
+    <p class="hero-desc" id="heroDesc"></p>
+    <div class="hero-cta">
+      <a class="btn btn-gold" id="heroPlay" href="#">
+        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
+        Shiko tani
+      </a>
+      <a class="btn btn-ghost" id="heroMore" href="#">Më shumë</a>
+    </div>
+  </div>
+  <div class="hero-dots" id="heroDots"></div>
+  <div class="scroll-hint"><div class="mouse"></div><span>zbrit</span></div>
+</header>
+
+<!-- MARQUEE -->
+<div class="marquee" aria-hidden="true"><div class="marquee-track" id="mq"></div></div>
+
+<!-- FILMA -->
+<section class="section" id="filma">
+  <div class="sec-head rv">
+    <h2 class="sec-title">FILMA <em>TË DUBLUAR</em></h2>
+    <span class="sec-count" id="filmCount"></span>
+    <div class="sec-line"></div>
+  </div>
+  <div class="chips rv" id="chips"></div>
+  <div class="grid" id="filmGrid"></div>
+  <div class="empty" id="noRes" hidden>
+    <div class="big">S'KA REZULTAT</div>
+    <p>Provo me një titull tjetër.</p>
+  </div>
+</section>
+
+<!-- SERIALE -->
+<section class="section" id="seriale">
+  <div class="sec-head rv">
+    <h2 class="sec-title">SERIALE <em>NË SHQIP</em></h2>
+    <span class="sec-count" id="serCount"></span>
+    <div class="sec-line"></div>
+  </div>
+  <div class="grid" id="serGrid"></div>
+</section>
+
+<!-- FOOTER -->
+<footer>
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <div class="logo">FILMA<b>12</b>HD<small>✦</small></div>
+      <p class="foot-tag">Kinema në shtëpinë tuaj — filma dhe seriale të dubluar në shqip, me cilësi Full HD.</p>
+    </div>
+    <div>
+      <div class="foot-h">NAVIGIM</div>
+      <div class="foot-links">
+        <a href="index.html">Kreu</a>
+        <a href="#filma">Filma</a>
+        <a href="#seriale">Seriale</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">INFO</div>
+      <div class="foot-links">
+        <a href="rreth.html">Rreth nesh</a>
+        <a href="privatesia.html">Privatësia</a>
+        <a href="dmca.html">DMCA</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>© 2026 <b>Filma12HD</b> — Të gjitha të drejtat e rezervuara.</span>
+    <span>Krijuar nga <b>Erion Nezha</b></span>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Kthehu lart">↑</button>
+
+<script src="js/app.js"></script>
+</body>
+</html>

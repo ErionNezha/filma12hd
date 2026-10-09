@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<!-- Created by Erion Nezha — © 2026 All rights reserved -->
+<html lang="sq">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title id="pgTitle">Filma12HD</title>
+<meta name="description" id="pgDesc" content="Shiko filma të dubluar në shqip me cilësi Full HD në Filma12HD.">
+<meta name="theme-color" content="#07070d">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' rx='14' fill='%2307070d'/%3E%3Ctext x='32' y='44' font-size='34' text-anchor='middle' fill='%23e8b64c' font-family='Arial Black'%3EF%3C/text%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="grain" aria-hidden="true"></div>
+<canvas id="dust" aria-hidden="true"></canvas>
+<div id="spot" aria-hidden="true"></div>
+
+<nav id="nav">
+  <a class="logo" href="index.html">FILMA<b>12</b>HD<small>✦</small></a>
+  <div class="nav-links">
+    <a href="index.html">Kreu</a>
+    <a href="index.html#filma">Filma</a>
+    <a href="index.html#seriale">Seriale</a>
+  </div>
+  <div class="nav-search">
+    <div class="search-box">
+      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
+      <input id="search" type="search" placeholder="Kërko film…" autocomplete="off" aria-label="Kërko film">
+    </div>
+  </div>
+</nav>
+
+<header id="filmHero">
+  <div class="hero-bg"><img id="heroImg" src="" alt=""></div>
+  <div class="hero-shade"></div>
+  <div class="film-inner">
+    <a class="back-link" href="index.html">← Kthehu te filmat</a>
+    <h1 class="film-title" id="fTitle"></h1>
+    <div class="hero-orig" id="fOrig"></div>
+    <div class="hero-meta" id="fMeta"></div>
+  </div>
+</header>
+
+<!-- CINEMA STAGE -->
+<div class="stage-wrap">
+  <div class="stage-label"><span class="t">SALLA E KINEMASË</span><div class="l"></div></div>
+  <div class="cinema" id="cinema">
+    <div class="curtain left"></div>
+    <div class="curtain right"></div>
+    <div class="valance"></div>
+    <div class="stage-cover" id="stageCover">
+      <img id="coverImg" src="" alt="">
+      <button class="big-play" aria-label="Luaj"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></button>
+      <div class="ct">HAP PERDEN · SHIKO</div>
+    </div>
+    <div id="playerSlot"></div>
+  </div>
+  <div class="screen-glow"></div>
+  <div class="eps" id="eps" hidden></div>
+</div>
+
+<!-- INFO -->
+<div class="info-grid">
+  <div class="info-poster"><img id="iPoster" src="" alt=""></div>
+  <div>
+    <div class="info-meta" id="iMeta"></div>
+    <p class="info-desc" id="iDesc"></p>
+    <div class="fact-row" id="facts"></div>
+  </div>
+</div>
+
+<!-- RELATED -->
+<section class="section">
+  <div class="sec-head rv in">
+    <h2 class="sec-title">MUND TË TË <em>PËLQEJNË</em></h2>
+    <div class="sec-line"></div>
+  </div>
+  <div class="rel-grid" id="relGrid"></div>
+</section>
+
+<footer>
+  <div class="foot-inner">
+    <div class="foot-brand">
+      <div class="logo">FILMA<b>12</b>HD<small>✦</small></div>
+      <p class="foot-tag">Kinema në shtëpinë tuaj — filma dhe seriale të dubluar në shqip, me cilësi Full HD.</p>
+    </div>
+    <div>
+      <div class="foot-h">NAVIGIM</div>
+      <div class="foot-links">
+        <a href="index.html">Kreu</a>
+        <a href="index.html#filma">Filma</a>
+        <a href="index.html#seriale">Seriale</a>
+      </div>
+    </div>
+    <div>
+      <div class="foot-h">INFO</div>
+      <div class="foot-links">
+        <a href="rreth.html">Rreth nesh</a>
+        <a href="privatesia.html">Privatësia</a>
+        <a href="dmca.html">DMCA</a>
+      </div>
+    </div>
+  </div>
+  <div class="foot-bottom">
+    <span>© 2026 <b>Filma12HD</b> — Të gjitha të drejtat e rezervuara.</span>
+    <span>Krijuar nga <b>Erion Nezha</b></span>
+  </div>
+</footer>
+
+<button id="toTop" aria-label="Kthehu lart">↑</button>
+
+<script src="js/film.js"></script>
+</body>
+</html>
