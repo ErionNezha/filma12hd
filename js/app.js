@@ -137,12 +137,22 @@ function initReveal(){
 
 /* ---------- loader countdown ---------- */
 let n=3;
-const cnt=setInterval(()=>{
+const countEl=$('#countNum'), barFill=$('#ldBarFill');
+function tickCount(){
   n--;
-  if(n<=0){clearInterval(cnt);$('#loader').classList.add('done');}
-  else $('#countNum').textContent=n;
-},620);
-function hideLoader(){/* countdown handles it; safety: */setTimeout(()=>$('#loader').classList.add('done'),4000);}
+  if(n<=0){
+    clearInterval(cnt);
+    if(barFill)barFill.style.width='100%';
+    setTimeout(()=>$('#loader').classList.add('done'),350);
+  }else{
+    countEl.textContent=n;
+    countEl.style.animation='none';void countEl.offsetWidth;countEl.style.animation='';
+    if(barFill)barFill.style.width=((3-n)/3*100)+'%';
+  }
+}
+const cnt=setInterval(tickCount,680);
+if(barFill)requestAnimationFrame(()=>barFill.style.width='8%');
+function hideLoader(){/* countdown handles it; safety: */setTimeout(()=>$('#loader').classList.add('done'),4200);}
 
 /* ---------- nav / toTop / spot / dust ---------- */
 const nav=$('#nav'),toTop=$('#toTop');
