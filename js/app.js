@@ -176,7 +176,47 @@ function bindCards(root){
     c.addEventListener('mouseleave',()=>{c.style.transform='';});
   });
 }
-$('#search').addEventListener('input',renderGrids);
+/* ---------- search dropdown ---------- */
+const searchInput=$('#search'), searchDrop=$('#searchDrop');
+let sdIdx=-1;
+function renderDrop(){
+  const q=(searchInput.value||'').trim().toLowerCase();
+  sdIdx=-1;
+  if(!q||q.length<2){searchDrop.hidden=true;searchInput.setAttribute('aria-expanded','false');return;}
+  const res=MOVIES.filter(m=>matches(m,q)).slice(0,6);
+  if(!res.length){
+    searchDrop.innerHTML='<div class="sd-empty">S\'u gjet asnjë film</div>';
+  }else{
+    searchDrop.innerHTML=res.map(m=>`
+      <button class="sd-item" data-id="${m.id}">
+        <img loading="lazy" src="${esc(m.poster)}" alt="" onerror="this.style.opacity=0">
+        <span class="t"><span class="t1">${esc(m.title_al)}</span>
+        <span class="t2">${m.title_orig?esc(m.title_orig)+' · ':''}${esc(m.year||'')}${m.type==='serial'?' · SERIAL':''}</span></span>
+        <span class="go">▸</span>
+      </button>`).join('');
+  }
+  searchDrop.hidden=false;
+  searchInput.setAttribute('aria-expanded','true');
+}
+searchDrop.addEventListener('click',e=>{
+  const b=e.target.closest('.sd-item');if(!b)return;
+  location.href='film.html?id='+b.dataset.id;
+});
+searchInput.addEventListener('keydown',e=>{
+  const items=[...searchDrop.querySelectorAll('.sd-item')];
+  if(e.key==='Escape'){searchDrop.hidden=true;searchInput.blur();}
+  else if(e.key==='ArrowDown'||e.key==='ArrowUp'){
+    if(!items.length)return;e.preventDefault();
+    sdIdx=e.key==='ArrowDown'?(sdIdx+1)%items.length:(sdIdx-1+items.length)%items.length;
+    items.forEach((it,i)=>it.classList.toggle('active',i===sdIdx));
+    items[sdIdx].scrollIntoView({block:'nearest'});
+  }
+  else if(e.key==='Enter'&&sdIdx>=0&&items[sdIdx]){location.href='film.html?id='+items[sdIdx].dataset.id;}
+});
+document.addEventListener('click',e=>{
+  if(!e.target.closest('.search-box'))searchDrop.hidden=true;
+});
+$('#search').addEventListener('input',()=>{renderGrids();renderDrop();});
 
 /* ---------- reveal ---------- */
 let io=null;
