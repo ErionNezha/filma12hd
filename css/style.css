@@ -38,104 +38,40 @@ button{font-family:inherit;cursor:pointer}
 ::-webkit-scrollbar-thumb{background:linear-gradient(var(--gold-deep),var(--gold));border-radius:8px}
 
 /* ============================================================
-   PRELOADER — "Film Leader" premium kinematografik
+   PRELOADER — sallë kinemaje: perde të kuqe që hapen
    ============================================================ */
 #loader{
   position:fixed;inset:0;z-index:9999;
-  background:radial-gradient(120% 100% at 50% 40%,#0d0d14 0%,#050508 70%);
+  background:#050508;
   display:flex;align-items:center;justify-content:center;
-  transition:opacity .8s ease,visibility .8s;
   overflow:hidden;
+  transition:opacity .9s ease .55s,visibility .9s ease .55s;
 }
 #loader.done{opacity:0;visibility:hidden}
-/* projector beam from top */
-.ld-beam{
-  position:absolute;top:-10%;left:50%;width:44vmax;height:80vmax;pointer-events:none;
-  transform:translateX(-50%);
-  background:linear-gradient(180deg,rgba(247,220,143,.10),rgba(232,182,76,.03) 60%,transparent);
-  clip-path:polygon(42% 0,58% 0,100% 100%,0 100%);
-  animation:beamSway 7s ease-in-out infinite;
+.ld-curtain{
+  position:absolute;top:0;bottom:0;width:22%;z-index:3;
+  transition:transform 1.4s cubic-bezier(.7,0,.3,1);
 }
-@keyframes beamSway{0%,100%{transform:translateX(-50%) rotate(-2deg)}50%{transform:translateX(-50%) rotate(2deg)}}
-#ldParticles{position:absolute;inset:0;z-index:1;pointer-events:none}
-/* projector light flicker */
-.ld-projector{
-  position:absolute;inset:0;pointer-events:none;
-  background:radial-gradient(60% 45% at 50% 42%,rgba(232,182,76,.09),transparent 70%);
-  animation:flicker 4s infinite;
+.ld-curtain.left{
+  left:0;background:repeating-linear-gradient(90deg,#7a1f1f 0 30px,#571313 30px 60px);
+  box-shadow:inset -40px 0 60px rgba(0,0,0,.55);border-right:2px solid rgba(232,182,76,.35);
 }
-@keyframes flicker{0%,100%{opacity:1}8%{opacity:.86}9%{opacity:1}36%{opacity:.92}37%{opacity:1}71%{opacity:.88}72%{opacity:1}}
-/* film strips */
-.ld-filmstrip{position:absolute;left:0;right:0;height:44px;background:#0a0a0e;border-top:1px solid rgba(232,182,76,.25);border-bottom:1px solid rgba(232,182,76,.25);overflow:hidden}
-.ld-filmstrip.top{top:0}.ld-filmstrip.bottom{bottom:0}
-.ld-holes{
-  position:absolute;top:50%;left:0;height:16px;transform:translateY(-50%);
-  width:200%;display:flex;gap:26px;padding-left:13px;
-  animation:strip 6s linear infinite;
+.ld-curtain.right{
+  right:0;background:repeating-linear-gradient(90deg,#571313 0 30px,#7a1f1f 30px 60px);
+  box-shadow:inset 40px 0 60px rgba(0,0,0,.55);border-left:2px solid rgba(232,182,76,.35);
 }
-.ld-holes::before,.ld-holes::after{content:'';display:flex;gap:26px}
-.ld-holes::before{width:100%}
-.ld-holes::after{width:100%}
-@keyframes strip{to{transform:translate(-50%,-50%)}}
-.ld-filmstrip .ld-holes{--hole:0}
-.ld-holes span,.ld-filmstrip .ld-holes i{display:none}
-/* sprocket holes via repeating gradient */
-.ld-holes{background:repeating-linear-gradient(90deg,transparent 0 13px,rgba(232,182,76,.5) 13px 29px,transparent 29px 55px)}
-.ld-core{display:flex;flex-direction:column;align-items:center;gap:26px;position:relative;z-index:2;animation:coreIn 1s cubic-bezier(.2,.8,.2,1)}
-@keyframes coreIn{from{opacity:0;transform:scale(.92) translateY(16px)}to{opacity:1;transform:none}}
-/* film leader circle */
-.ld-leader{
-  width:210px;height:210px;border-radius:50%;position:relative;
-  display:flex;align-items:center;justify-content:center;
-  background:radial-gradient(circle at 50% 35%,#16161f,#08080c 75%);
-  border:1px solid rgba(232,182,76,.4);
-  box-shadow:0 0 80px rgba(232,182,76,.18),inset 0 0 60px rgba(0,0,0,.7);
-  overflow:hidden;
+#loader.done .ld-curtain.left{transform:translateX(-102%)}
+#loader.done .ld-curtain.right{transform:translateX(102%)}
+.ld-spot{
+  position:absolute;left:50%;top:44%;width:60vmin;height:60vmin;z-index:1;
+  transform:translate(-50%,-50%);border-radius:50%;pointer-events:none;
+  background:radial-gradient(circle,rgba(232,182,76,.13),transparent 65%);
 }
-.ld-cross{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);opacity:.5}
-.ld-cross circle,.ld-cross line{fill:none;stroke:rgba(232,182,76,.55);stroke-width:1.5}
-.ld-cross{animation:spinSlow 24s linear infinite}
-@keyframes spinSlow{to{transform:rotate(360deg)}}
-#countNum{
-  font-family:var(--font-d);font-size:96px;color:var(--gold);line-height:1;z-index:2;
-  text-shadow:0 0 40px rgba(232,182,76,.65);
-  animation:countPop .62s cubic-bezier(.2,.9,.3,1.4);
-}
-@keyframes countPop{0%{opacity:0;transform:scale(1.6)}60%{opacity:1;transform:scale(.94)}100%{transform:scale(1)}}
-/* expanding gold ring on each tick */
-.ld-ring{
-  position:absolute;inset:0;border-radius:50%;z-index:1;pointer-events:none;
-  border:2px solid rgba(232,182,76,.7);
-  animation:ringX .68s ease-out;
-}
-@keyframes ringX{from{opacity:.9;transform:scale(.72)}to{opacity:0;transform:scale(1.28)}}
-.ld-sweep{
-  position:absolute;inset:-40%;z-index:1;pointer-events:none;
-  background:conic-gradient(from 0deg,transparent 0deg,rgba(247,220,143,.14) 24deg,transparent 60deg);
-  animation:sweep 2.4s linear infinite;
-}
-@keyframes sweep{to{transform:rotate(360deg)}}
-.loader-brand{
-  font-family:var(--font-d);font-size:30px;letter-spacing:10px;
-  background:linear-gradient(100deg,var(--cream) 30%,var(--gold-hi) 45%,var(--gold) 50%,var(--gold-hi) 55%,var(--cream) 70%);
-  background-size:250% auto;-webkit-background-clip:text;background-clip:text;color:transparent;
-  animation:brandShine 3.2s linear infinite;
-}
-@keyframes brandShine{to{background-position:250% center}}
-.loader-sub{
-  display:flex;align-items:center;gap:14px;
-  font-size:11px;letter-spacing:3px;color:var(--muted);text-transform:uppercase;
-}
-.ld-bar{width:120px;height:3px;border-radius:99px;background:rgba(255,255,255,.1);overflow:hidden;display:inline-block}
-#ldBarFill{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--gold-deep),var(--gold-hi));transition:width .5s ease}
-/* red curtains parting on exit */
-.ld-curtain-l,.ld-curtain-r{
-  position:absolute;top:0;bottom:0;width:0;z-index:5;pointer-events:none;
-  background:repeating-linear-gradient(90deg,#7a1f1f 0 26px,#5d1414 26px 52px);
-  transition:width 1s cubic-bezier(.7,0,.3,1);
-}
-.ld-curtain-l{left:0}.ld-curtain-r{right:0}
-#loader.done .ld-curtain-l,#loader.done .ld-curtain-r{width:51%}
+.ld-core{position:relative;z-index:2;display:flex;flex-direction:column;align-items:center;gap:22px}
+.loader-brand{font-family:var(--font-d);font-size:34px;letter-spacing:12px;color:var(--cream)}
+.loader-brand span{color:var(--gold)}
+.ld-bar{width:170px;height:2px;border-radius:99px;background:rgba(255,255,255,.12);overflow:hidden}
+#ldBarFill{display:block;height:100%;width:0;border-radius:99px;background:var(--gold);transition:width .4s ease}
 
 /* ============================================================
    GLOBAL FX — grain, dust, spotlight
