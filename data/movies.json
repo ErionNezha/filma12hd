@@ -477,5 +477,241 @@
   "desc": ".netflix-box { width: 100%; max-width: 900px; margin: 0 auto; border-radius: 14px; overflow: hidden; background: linear-gradient(180deg,#202020,#1b1b1b); /* ✅ Background i ri */ position: relative; box-shadow: 0 10px 40px rgba(0,0,0,0.55); } .netflix-top { position: relative; wid",
   "published": "2025-11-09",
   "source_url": "https://www.filma12hd.site/2025/11/httpsstr41.html"
+ },
+ {
+  "id": "m22",
+  "title_al": "Herkuli",
+  "title_orig": "Hercules",
+  "year": "1997",
+  "duration": "93 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m22.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Herkuli%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Herkuli, djali i Zeusit, rrëmbehet nga Hadi dhe rritet si njeri i vdekshëm. Për t'u kthyer në Olimp, duhet të provojë se është hero i vërtetë me zemër të pastër.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m23",
+  "title_al": "Mulan",
+  "title_orig": "Mulan",
+  "year": "1998",
+  "duration": "88 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m23.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Mulan%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Mulan maskohet si burrë për të zënë vendin e babait të saj në ushtri. Me dragoin Mushu në krah, ajo zbulon guximin e vërtetë dhe shpëton Kinën.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m24",
+  "title_al": "Djemtë e këqij 2",
+  "title_orig": "The Bad Guys 2",
+  "year": "2025",
+  "duration": "104 min",
+  "studio": "DreamWorks",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Aventurë",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m24.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Djemt%C3%AB%20e%20k%C3%ABqij%202%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD%20%28HEVC%29.mp4"
+  ],
+  "desc": "Banda e dikurshme e hajdutëve përpiqet të jetojë ndershëm, por një grup i ri kriminelësh i detyron të kthehen në aksion për një grabitje të fundit.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m25",
+  "title_al": "Mbreti luan 3: Hakuna Matata",
+  "title_orig": "The Lion King 1½",
+  "year": "2004",
+  "duration": "77 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Familjar",
+   "Muzikor"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m25.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Mbreti%20luan%203%3A%20Hakuna%20Matata%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Timoni dhe Pumba tregojnë historinë e Mbretit Luan nga këndvështrimi i tyre — plot humor, këngë dhe filozofinë e famshme Hakuna Matata.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m26",
+  "title_al": "Piter Pan",
+  "title_orig": "Peter Pan",
+  "year": "1953",
+  "duration": "77 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Fantazi",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m26.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Piter%20Pan%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Piter Pani i merr Uendin dhe vëllezërit e saj në Ishullin që Nuk Ekziston, ku i presin piratët e Kapiten Hukut dhe pluhuri magjik i Tinkerbelit.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m27",
+  "title_al": "Robin Hud",
+  "title_orig": "Robin Hood",
+  "year": "1973",
+  "duration": "83 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m27.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Robin%20Hud%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Robin Hudi dhe Xhon i Vogli vjedhin nga princi i keq Xhon për t'u dhënë të varfërve të Sherwoodit. Klasiku i Disney-t me dhelpra dhe arinj.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m28",
+  "title_al": "Bambi",
+  "title_orig": "Bambi",
+  "year": "1942",
+  "duration": "70 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Familjar",
+   "Dramë"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m28.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Bambi%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Bambi, princi i vogël i pyllit, rritet mes miqsh si Thumperi dhe Lulja, duke mësuar bukurinë dhe vështirësitë e jetës në natyrë.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m29",
+  "title_al": "Atlantis: Mbretëria e humbur",
+  "title_orig": "Atlantis: The Lost Empire",
+  "year": "2001",
+  "duration": "95 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Fantazi",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m29.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Atlantis%3A%20Mbret%C3%ABria%20e%20humbur%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mkv"
+  ],
+  "desc": "Milo, një hartograf ëndërrimtar, bashkohet me një ekspeditë nëndetëse për të gjetur qytetin e humbur të Atlantidës dhe sekretet e saj.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m30",
+  "title_al": "Toka para kohërave",
+  "title_orig": "The Land Before Time",
+  "year": "1988",
+  "duration": "69 min",
+  "studio": "Universal",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m30.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Toka%20para%20koh%C3%ABrave%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Litëllfuti dhe miqtë e tij dinosaurë nisen në një udhëtim të rrezikshëm drejt Luginës së Madhe, ku i pret ushqim dhe siguri.",
+  "published": "2026-10-09",
+  "source_url": ""
+ },
+ {
+  "id": "m31",
+  "title_al": "Rrëfenjë peshkaqeni",
+  "title_orig": "Shark Tale",
+  "year": "2004",
+  "duration": "90 min",
+  "studio": "DreamWorks",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m31.jpg",
+  "videos": [
+   "https://app.hajdutetalb.box.ca/Filma/Rr%C3%ABfenj%C3%AB%20peshkaqeni%20-%20Dubluar%20n%C3%AB%20Shqip%20-%20FULL%20HD.mp4"
+  ],
+  "desc": "Oskari, një peshk i vogël me ëndrra të mëdha, gënjen se ka vrarë një peshkaqen dhe bëhet hero — derisa gënjeshtra i del jashtë kontrollit.",
+  "published": "2026-10-09",
+  "source_url": ""
  }
 ]
