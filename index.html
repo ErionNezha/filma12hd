@@ -21,20 +21,32 @@
 <body>
 
 <!-- PRELOADER · kinema premium -->
-<!-- PRELOADER · bileta e artë -->
-<div id="loader" aria-hidden="true">
-  <div class="ld-ticket">
-    <div class="tk-main">
-      <div class="tk-brand">FILMA<b>12</b>HD</div>
-      <div class="tk-sub">BILETA E ARTË</div>
+<!-- PRELOADER · kamer-focus -->
+<div id="loader" role="status" aria-live="polite" aria-label="Po ngarkohet Filma12HD">
+  <div class="beam" aria-hidden="true"></div>
+  <div class="dust" id="ldDust" aria-hidden="true"></div>
+  <div class="strip l" aria-hidden="true"></div>
+  <div class="strip r" aria-hidden="true"></div>
+  <div class="vf" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+  <div class="tag l" aria-hidden="true"><span class="dot"></span>Shqip</div>
+  <div class="tag r" aria-hidden="true">Full HD</div>
+  <div class="center">
+    <div class="logo">FILMA<b>12</b>HD<u>✦</u></div>
+    <div class="streak" aria-hidden="true"></div>
+    <div class="line" id="ldLine">
+      <span class="on">Filma të dubluar në shqip</span>
+      <span>Cilësi Full HD</span>
+      <span>Pa reklama bezdisëse</span>
+      <span>Kinema në shtëpinë tuaj</span>
     </div>
-    <div class="tk-sep"></div>
-    <div class="tk-stub">
-      <svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg>
-      <span>SHIKO</span>
+    <div class="scale" aria-hidden="true">
+      <div class="mark"></div>
+      <div class="ticks" id="ldTicks"></div>
+      <div class="dist"><span>1 m</span><span>2</span><span>3</span><span>5</span><span>10</span><span>∞</span></div>
     </div>
-    <div class="tk-shine"></div>
+    <div class="status"><span id="ldMsg">Po vendoset fokusi</span><span class="pct" id="ldPct">0%</span><em id="ldTc">00:00:00</em></div>
   </div>
+  <div class="credit"><b>Mr.Erionxx</b></div>
 </div>
 
 <div class="grain" aria-hidden="true"></div>
