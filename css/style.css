@@ -38,35 +38,82 @@ button{font-family:inherit;cursor:pointer}
 ::-webkit-scrollbar-thumb{background:linear-gradient(var(--gold-deep),var(--gold));border-radius:8px}
 
 /* ============================================================
-   PRELOADER — film countdown leader 3·2·1
+   PRELOADER — "Film Leader" premium kinematografik
    ============================================================ */
 #loader{
   position:fixed;inset:0;z-index:9999;
-  background:#050508;
+  background:radial-gradient(120% 100% at 50% 40%,#0d0d14 0%,#050508 70%);
   display:flex;align-items:center;justify-content:center;
-  flex-direction:column;gap:26px;
-  transition:opacity .7s ease,visibility .7s;
+  transition:opacity .8s ease,visibility .8s;
+  overflow:hidden;
 }
 #loader.done{opacity:0;visibility:hidden}
-.count-ring{
-  width:170px;height:170px;border-radius:50%;
-  border:2px solid rgba(232,182,76,.25);
+/* projector light flicker */
+.ld-projector{
+  position:absolute;inset:0;pointer-events:none;
+  background:radial-gradient(60% 45% at 50% 42%,rgba(232,182,76,.09),transparent 70%);
+  animation:flicker 4s infinite;
+}
+@keyframes flicker{0%,100%{opacity:1}8%{opacity:.86}9%{opacity:1}36%{opacity:.92}37%{opacity:1}71%{opacity:.88}72%{opacity:1}}
+/* film strips */
+.ld-filmstrip{position:absolute;left:0;right:0;height:44px;background:#0a0a0e;border-top:1px solid rgba(232,182,76,.25);border-bottom:1px solid rgba(232,182,76,.25);overflow:hidden}
+.ld-filmstrip.top{top:0}.ld-filmstrip.bottom{bottom:0}
+.ld-holes{
+  position:absolute;top:50%;left:0;height:16px;transform:translateY(-50%);
+  width:200%;display:flex;gap:26px;padding-left:13px;
+  animation:strip 6s linear infinite;
+}
+.ld-holes::before,.ld-holes::after{content:'';display:flex;gap:26px}
+.ld-holes::before{width:100%}
+.ld-holes::after{width:100%}
+@keyframes strip{to{transform:translate(-50%,-50%)}}
+.ld-filmstrip .ld-holes{--hole:0}
+.ld-holes span,.ld-filmstrip .ld-holes i{display:none}
+/* sprocket holes via repeating gradient */
+.ld-holes{background:repeating-linear-gradient(90deg,transparent 0 13px,rgba(232,182,76,.5) 13px 29px,transparent 29px 55px)}
+.ld-core{display:flex;flex-direction:column;align-items:center;gap:26px;position:relative;z-index:2;animation:coreIn 1s cubic-bezier(.2,.8,.2,1)}
+@keyframes coreIn{from{opacity:0;transform:scale(.92) translateY(16px)}to{opacity:1;transform:none}}
+/* film leader circle */
+.ld-leader{
+  width:210px;height:210px;border-radius:50%;position:relative;
   display:flex;align-items:center;justify-content:center;
-  position:relative;
+  background:radial-gradient(circle at 50% 35%,#16161f,#08080c 75%);
+  border:1px solid rgba(232,182,76,.4);
+  box-shadow:0 0 80px rgba(232,182,76,.18),inset 0 0 60px rgba(0,0,0,.7);
+  overflow:hidden;
 }
-.count-ring::before{
-  content:'';position:absolute;inset:-2px;border-radius:50%;
-  border:2px solid transparent;border-top-color:var(--gold);
-  animation:spin 1s linear infinite;
-}
-@keyframes spin{to{transform:rotate(360deg)}}
+.ld-cross{position:absolute;inset:6px;width:calc(100% - 12px);height:calc(100% - 12px);opacity:.5}
+.ld-cross circle,.ld-cross line{fill:none;stroke:rgba(232,182,76,.55);stroke-width:1.5}
+.ld-cross{animation:spinSlow 24s linear infinite}
+@keyframes spinSlow{to{transform:rotate(360deg)}}
 #countNum{
-  font-family:var(--font-d);font-size:84px;color:var(--gold);
-  line-height:1;text-shadow:0 0 30px rgba(232,182,76,.6);
+  font-family:var(--font-d);font-size:96px;color:var(--gold);line-height:1;z-index:2;
+  text-shadow:0 0 40px rgba(232,182,76,.65);
+  animation:countPop .62s cubic-bezier(.2,.9,.3,1.4);
 }
-.loader-brand{font-family:var(--font-d);font-size:26px;letter-spacing:8px;color:var(--cream)}
+@keyframes countPop{0%{opacity:0;transform:scale(1.6)}60%{opacity:1;transform:scale(.94)}100%{transform:scale(1)}}
+.ld-sweep{
+  position:absolute;inset:-40%;z-index:1;pointer-events:none;
+  background:conic-gradient(from 0deg,transparent 0deg,rgba(247,220,143,.14) 24deg,transparent 60deg);
+  animation:sweep 2.4s linear infinite;
+}
+@keyframes sweep{to{transform:rotate(360deg)}}
+.loader-brand{font-family:var(--font-d);font-size:30px;letter-spacing:10px;color:var(--cream)}
 .loader-brand span{color:var(--gold)}
-.loader-sub{font-size:12px;letter-spacing:3px;color:var(--muted);text-transform:uppercase}
+.loader-sub{
+  display:flex;align-items:center;gap:14px;
+  font-size:11px;letter-spacing:3px;color:var(--muted);text-transform:uppercase;
+}
+.ld-bar{width:120px;height:3px;border-radius:99px;background:rgba(255,255,255,.1);overflow:hidden;display:inline-block}
+#ldBarFill{display:block;height:100%;width:0;border-radius:99px;background:linear-gradient(90deg,var(--gold-deep),var(--gold-hi));transition:width .5s ease}
+/* red curtains parting on exit */
+.ld-curtain-l,.ld-curtain-r{
+  position:absolute;top:0;bottom:0;width:0;z-index:5;pointer-events:none;
+  background:repeating-linear-gradient(90deg,#7a1f1f 0 26px,#5d1414 26px 52px);
+  transition:width 1s cubic-bezier(.7,0,.3,1);
+}
+.ld-curtain-l{left:0}.ld-curtain-r{right:0}
+#loader.done .ld-curtain-l,#loader.done .ld-curtain-r{width:51%}
 
 /* ============================================================
    GLOBAL FX — grain, dust, spotlight
