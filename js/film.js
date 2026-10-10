@@ -91,18 +91,15 @@ function render(m,all){
   const rel=all.filter(x=>x.id!==m.id&&(x.genres||[]).some(g=>(m.genres||[]).includes(g))).slice(0,6);
   const fill=rel.length?rel:all.filter(x=>x.id!==m.id).slice(0,6);
   $('#relGrid').innerHTML=fill.map((r,i)=>`
-    <article class="card rv in" data-id="${r.id}" tabindex="0" role="link" aria-label="${esc(fullTitle(r))}">
-      <div class="card-poster">
+    <div class="c" data-id="${r.id}" tabindex="0" role="link" aria-label="${esc(fullTitle(r))}">
+      <div class="th">
         <img loading="lazy" src="${esc(r.poster)}" alt="${esc(fullTitle(r))}" onerror="this.style.opacity=0">
-        <div class="card-sheen"></div>
-        <span class="q-badge">${esc(r.quality)}</span>
-        ${r.year?`<span class="y-badge">${esc(r.year)}</span>`:''}
-        <div class="card-play"><span class="pp"><svg viewBox="0 0 24 24"><path d="M8 5v14l11-7z"/></svg></span></div>
+        <div class="shade"></div>
+        <span class="qb">${esc(r.quality)}</span>
+        <div class="tt">${esc(r.title_al)}</div>
       </div>
-      <div class="card-body"><div class="card-title">${esc(r.title_al)}</div>
-      <div class="card-sub">${r.title_orig?esc(r.title_orig)+' · ':''}${esc(r.year||'')}</div></div>
-    </article>`).join('');
-  $$('#relGrid .card').forEach(c=>{
+    </div>`).join('');
+  $$('#relGrid .c').forEach(c=>{
     const go=()=>location.href='film.html?id='+c.dataset.id;
     c.addEventListener('click',go);
     c.addEventListener('keydown',e=>{if(e.key==='Enter')go();});
@@ -120,15 +117,12 @@ function loadVideo(url,autoplay){
 }
 
 function initFx(){
-  const nav=$('#nav'),toTop=$('#toTop');
+  const nav=$('#nv'),toTop=$('#toTop');
   addEventListener('scroll',()=>{
-    nav.classList.toggle('scrolled',scrollY>40);
+    nav.classList.toggle('s',scrollY>40);
     toTop.classList.toggle('show',scrollY>600);
   },{passive:true});
   toTop.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
-  $('#search').addEventListener('keydown',e=>{
-    if(e.key==='Enter'&&e.target.value.trim())location.href='index.html#filma';
-  });
   const spot=$('#spot');
   addEventListener('pointermove',e=>{spot.style.left=e.clientX+'px';spot.style.top=e.clientY+'px';},{passive:true});
   const cv=$('#dust'),ctx=cv.getContext('2d');let P=[];
