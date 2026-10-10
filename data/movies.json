@@ -138,7 +138,90 @@
   "dub": "Dubluar në shqip",
   "poster": "img/posters/m07.jpg",
   "videos": [
-   "https://app.hajdutetalb.box.ca/Seriale/Sferat%20e%20dragoit%20Daima//1.mp4"
+   {
+    "label": "Shiko",
+    "url": "https://app.hajdutetalb.box.ca/Seriale/Sferat%20e%20dragoit%20Daima//1.mp4"
+   },
+   {
+    "label": "Episodi 1 — Konspir",
+    "url": "https://abyssplayer.com/2xFc1IkJo"
+   },
+   {
+    "label": "Episodi 2 — Gllorio",
+    "url": "https://abyssplayer.com/J_FquEASG"
+   },
+   {
+    "label": "Episodi 3 — Daima",
+    "url": "https://abyssplayer.com/kZP3zP0NW"
+   },
+   {
+    "label": "Episodi 4 — I ngathët",
+    "url": "https://abyssplayer.com/4ktLyybmQ"
+   },
+   {
+    "label": "Episodi 5 — Trill",
+    "url": "https://abyssplayer.com/PhXNBu5ry"
+   },
+   {
+    "label": "Episodi 6 — Rrufe",
+    "url": "https://abyssplayer.com/zch1z-oQd"
+   },
+   {
+    "label": "Episodi 7 — Jakë",
+    "url": "https://abyssplayer.com/V2om_tEM8"
+   },
+   {
+    "label": "Episodi 8 — Tamagami",
+    "url": "https://abyssplayer.com/xKXXTZWO6"
+   },
+   {
+    "label": "Episodi 9 — Hajdutë",
+    "url": "https://abyssplayer.com/pJbNQfIwk"
+   },
+   {
+    "label": "Episodi 10 — Oqean",
+    "url": "https://abyssplayer.com/sWUZ2oNpOu"
+   },
+   {
+    "label": "Episodi 11 — Legjendë",
+    "url": "https://abyssplayer.com/Bu1Rqp89r"
+   },
+   {
+    "label": "Episodi 12 — Forcë e vërtetë",
+    "url": "https://abyssplayer.com/6H7OS2zHm"
+   },
+   {
+    "label": "Episodi 13 — Befasoj",
+    "url": "https://abyssplayer.com/ZvGFHUyjI"
+   },
+   {
+    "label": "Episodi 14 — Tabu",
+    "url": "https://abyssplayer.com/k3FsTWj5w"
+   },
+   {
+    "label": "Episodi 15 — Syri i tretë",
+    "url": "https://abyssplayer.com/dFWKnz3Xk"
+   },
+   {
+    "label": "Episodi 16 — Degëzim",
+    "url": "https://abyssplayer.com/8k__tODsI"
+   },
+   {
+    "label": "Episodi 17 — Goma",
+    "url": "https://abyssplayer.com/Q4qBjhlY8"
+   },
+   {
+    "label": "Episodi 18 — Zgjim",
+    "url": "https://abyssplayer.com/-V-hjTssb"
+   },
+   {
+    "label": "Episodi 19 — Tradhti",
+    "url": "https://abyssplayer.com/VEYgi01VR"
+   },
+   {
+    "label": "Episodi 20 — Maksimum",
+    "url": "https://abyssplayer.com/26OjmdcRb"
+   }
   ],
   "desc": "Goku dhe shokët shndërrohen në fëmijë nga një komplot misterioz dhe nisen në një aventurë të re në Mbretërinë e Demonëve.",
   "published": "2025-11-10",
@@ -1353,7 +1436,14 @@
   "dub": "Dubluar në shqip",
   "poster": "img/posters/m58.jpg",
   "videos": [
-   "https://app.hajdutetalb.box.ca/Filma/Na%20ishin%20nj%C3%AB%20her%C3%AB%20Krishtlindjet%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+   {
+    "label": "Shiko",
+    "url": "https://app.hajdutetalb.box.ca/Filma/Na%20ishin%20nj%C3%AB%20her%C3%AB%20Krishtlindjet%20-%20Dubluar%20n%C3%AB%20shqip%20-%20FULL%20HD.mp4"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/EfNF4m47X"
+   }
   ],
   "desc": "Tri histori klasike Krishtlindjesh me Mikin, Donaldin dhe Gufin.",
   "published": "2026-10-09",
@@ -3232,7 +3322,146 @@
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "videos": [
-   "https://vidmoly.org/embed-hdfbn2qaa4tq.html"
+   {
+    "label": "Shiko",
+    "url": "https://vidmoly.org/embed-hdfbn2qaa4tq.html"
+   },
+   {
+    "label": "Episodi 1 — Ylli goditi, fat i keq",
+    "url": "https://abyssplayer.com/k_O2c_Re1"
+   },
+   {
+    "label": "Episodi 2 — Crystal Clear përsëri",
+    "url": "https://abyssplayer.com/9j-mL6Emi"
+   },
+   {
+    "label": "Episodi 3 — Ngasja e rrezikshme",
+    "url": "https://abyssplayer.com/9KZUvyNim"
+   },
+   {
+    "label": "Episodi 4 — Harmoni e keqe",
+    "url": "https://abyssplayer.com/cp2TM4qkv"
+   },
+   {
+    "label": "Episodi 5 — Përfshiu këmbët e saj",
+    "url": "https://abyssplayer.com/VM5orrguB"
+   },
+   {
+    "label": "Episodi 6 — I verbuar nga drita e dashurisë",
+    "url": "https://abyssplayer.com/1RPmyFb6e"
+   },
+   {
+    "label": "Episodi 7 — Lita huazon telashe",
+    "url": "https://abyssplayer.com/gaVKGIzZbg"
+   },
+   {
+    "label": "Episodi 8 — Shpirtmirë",
+    "url": "https://abyssplayer.com/LV8BBBgG3"
+   },
+   {
+    "label": "Episodi 9 — Armiqësorë",
+    "url": "https://abyssplayer.com/CSFJoNRWQ"
+   },
+   {
+    "label": "Episodi 10 — Mirësia e një njeriu!",
+    "url": "https://abyssplayer.com/q2DPhlM4i"
+   },
+   {
+    "label": "Episodi 11 — Lumturi individuale",
+    "url": "https://abyssplayer.com/8VzGlNbv_"
+   },
+   {
+    "label": "Episodi 12 — Blues i Ditëlindjes (1)",
+    "url": "https://abyssplayer.com/G7TP_i1yfE"
+   },
+   {
+    "label": "Episodi 13 — Blues i Ditëlindjes (2)",
+    "url": "https://abyssplayer.com/gUNLCCB2EO"
+   },
+   {
+    "label": "Episodi 14 — Përshëndetje, Sailor Mini Hëna",
+    "url": "https://abyssplayer.com/qPg75-EWm"
+   },
+   {
+    "label": "Episodi 19 — Gjithçka po vjen Rosey",
+    "url": "https://abyssplayer.com/nYkPHm39_j"
+   },
+   {
+    "label": "Episodi 20 — Pa kthim mbrapa",
+    "url": "https://abyssplayer.com/kcuPgcLE6"
+   },
+   {
+    "label": "Episodi 21 — Ardhja e Fatit",
+    "url": "https://abyssplayer.com/cIjbJ0aZo"
+   },
+   {
+    "label": "Episodi 22 — Shali i pastërtisë",
+    "url": "https://abyssplayer.com/fmW41mOS-"
+   },
+   {
+    "label": "Episodi 23 — Shfaq ndaluesit",
+    "url": "https://abyssplayer.com/TaA-TWFe0"
+   },
+   {
+    "label": "Episodi 24 — Miqësia e rrezikshme e Rini",
+    "url": "https://abyssplayer.com/IsqVbMYil_"
+   },
+   {
+    "label": "Episodi 25 — Rrëmujë e Mimet",
+    "url": "https://abyssplayer.com/5ab8RWPrO"
+   },
+   {
+    "label": "Episodi 26 — Hija e heshtjes",
+    "url": "https://abyssplayer.com/Divl4U3eL"
+   },
+   {
+    "label": "Episodi 27 — Moti me gjemba",
+    "url": "https://abyssplayer.com/ozua0L9Nl"
+   },
+   {
+    "label": "Episodi 28 — Rrezik i ngritur",
+    "url": "https://abyssplayer.com/GZawb0J0s"
+   },
+   {
+    "label": "Episodi 29 — Është në kartat",
+    "url": "https://abyssplayer.com/dPhuGbPhm"
+   },
+   {
+    "label": "Episodi 30 — Mirësia e eklipsuar",
+    "url": "https://abyssplayer.com/FcqkVL_me"
+   },
+   {
+    "label": "Episodi 31 — Tjetra në linjë",
+    "url": "https://abyssplayer.com/hUf2EuVVs"
+   },
+   {
+    "label": "Episodi 32 — Ferns miqësore",
+    "url": "https://abyssplayer.com/rNxJKzhWF"
+   },
+   {
+    "label": "Episodi 33 — Shkenca e Dashurisë",
+    "url": "https://abyssplayer.com/xRoY-Vr0C"
+   },
+   {
+    "label": "Episodi 34 — Telefonata e zgjuar",
+    "url": "https://abyssplayer.com/gwH1_Cz56"
+   },
+   {
+    "label": "Episodi 35 — Kush është me të vërtetë kush?",
+    "url": "https://abyssplayer.com/5BWQ9KmGy"
+   },
+   {
+    "label": "Episodi 36 — Errësira, shoku im i vjetër",
+    "url": "https://abyssplayer.com/GzXrZ8pBI"
+   },
+   {
+    "label": "Episodi 37 — Shansi i dytë",
+    "url": "https://abyssplayer.com/2zX4Toq-S"
+   },
+   {
+    "label": "Episodi 38 — Mirësi",
+    "url": "https://abyssplayer.com/JEUDYH5z-"
+   }
   ],
   "type": "serial"
  },
@@ -3253,7 +3482,122 @@
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "videos": [
-   "https://vidmoly.org/embed-m7rikhl7hsdc.html"
+   {
+    "label": "Shiko",
+    "url": "https://vidmoly.org/embed-m7rikhl7hsdc.html"
+   },
+   {
+    "label": "Episodi 1 — Little Ida's flowers",
+    "url": "https://player.abyssplayer.com/unbfgz0GX"
+   },
+   {
+    "label": "Episodi 2 — Jack The Fool",
+    "url": "https://player.abyssplayer.com/3D5yg95w9"
+   },
+   {
+    "label": "Episodi 3 — The Emperor's New Clothes",
+    "url": "https://player.abyssplayer.com/_N53O6CJn"
+   },
+   {
+    "label": "Episodi 4 — The Little Mermaid",
+    "url": "https://player.abyssplayer.com/ByN_7Fip-"
+   },
+   {
+    "label": "Episodi 5 — The Nightingale",
+    "url": "https://player.abyssplayer.com/j3zRCafzJ"
+   },
+   {
+    "label": "Episodi 6 — The Tinderbox",
+    "url": "https://player.abyssplayer.com/Z9P4cVASm"
+   },
+   {
+    "label": "Episodi 7 — The Fir Tree",
+    "url": "https://player.abyssplayer.com/mTWEbJPrM"
+   },
+   {
+    "label": "Episodi 8 — The Ugly Duckling",
+    "url": "https://player.abyssplayer.com/9mYq9gB7G"
+   },
+   {
+    "label": "Episodi 9 — The Galoshes of Fortune",
+    "url": "https://player.abyssplayer.com/kdSLXT2Bs"
+   },
+   {
+    "label": "Episodi 10 — The Gardner and The Family",
+    "url": "https://player.abyssplayer.com/GWtl5tXVo"
+   },
+   {
+    "label": "Episodi 11 — The Golden Treasure",
+    "url": "https://player.abyssplayer.com/WPuWThBGW"
+   },
+   {
+    "label": "Episodi 12 — The Gardener and the Family",
+    "url": "https://player.abyssplayer.com/GLQXuz-Ih"
+   },
+   {
+    "label": "Episodi 13 — Sausage Peg Soup",
+    "url": "https://player.abyssplayer.com/rMZv3auTf"
+   },
+   {
+    "label": "Episodi 14 — The Lovers",
+    "url": "https://player.abyssplayer.com/WwG5Eao4N"
+   },
+   {
+    "label": "Episodi 15 — The Nightingale",
+    "url": "https://player.abyssplayer.com/Na6Cowj7y"
+   },
+   {
+    "label": "Episodi 16 — The Hardy Tin Soldier",
+    "url": "https://player.abyssplayer.com/IMrgLwQwk"
+   },
+   {
+    "label": "Episodi 17 — The Snow Queen (1)",
+    "url": "https://player.abyssplayer.com/lGg8lpAQ6"
+   },
+   {
+    "label": "Episodi 18 — The Snow Queen (2)",
+    "url": "https://player.abyssplayer.com/EwJLYxttb"
+   },
+   {
+    "label": "Episodi 19 — The Snowman",
+    "url": "https://player.abyssplayer.com/kcRXt6LVj"
+   },
+   {
+    "label": "Episodi 20 — The Swineherd",
+    "url": "https://player.abyssplayer.com/7D2-nLQFe"
+   },
+   {
+    "label": "Episodi 21 — The Tinderbox",
+    "url": "https://player.abyssplayer.com/xAUPoJQlt"
+   },
+   {
+    "label": "Episodi 22 — The Travelling Companion",
+    "url": "https://player.abyssplayer.com/zdHZ-bl2b"
+   },
+   {
+    "label": "Episodi 23 — The Ugly Duckling",
+    "url": "https://player.abyssplayer.com/IqYoPuSoe"
+   },
+   {
+    "label": "Episodi 24 — The Wild Swans",
+    "url": "https://player.abyssplayer.com/HV2kXsDQT"
+   },
+   {
+    "label": "Episodi 25 — Thumbelina",
+    "url": "https://player.abyssplayer.com/QCKbF411h"
+   },
+   {
+    "label": "Episodi 26 — What the Old Man Does Is Right",
+    "url": "https://player.abyssplayer.com/wHiT3ylPI"
+   },
+   {
+    "label": "Episodi 27 — The Fir-Tree",
+    "url": "https://player.abyssplayer.com/_Kz0HQ7VI"
+   },
+   {
+    "label": "Episodi 28 — Soup on a Sausage Pack",
+    "url": "https://player.abyssplayer.com/u8pZUBfq2"
+   }
   ],
   "type": "serial"
  },
@@ -3274,7 +3618,534 @@
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "videos": [
-   "https://vidmoly.org/embed-wpj1nxfc69mn.html"
+   {
+    "label": "Shiko",
+    "url": "https://vidmoly.org/embed-wpj1nxfc69mn.html"
+   },
+   {
+    "label": "Episodi 1 — A Peacetime Reward; Who Gets the 100,000,000 Zeni!?",
+    "url": "https://abyssplayer.com/vyFJ3GvaE"
+   },
+   {
+    "label": "Episodi 2 — To the Promised Resort! Vegeta Takes a Family Trip!?",
+    "url": "https://abyssplayer.com/iMHm1PhpL"
+   },
+   {
+    "label": "Episodi 3 — Where Does the Dream Pick Up!? Find the Super Saiyan God!",
+    "url": "https://abyssplayer.com/omSR0uEJK"
+   },
+   {
+    "label": "Episodi 4",
+    "url": "https://abyssplayer.com/f6t9KNMdF"
+   },
+   {
+    "label": "Episodi 5",
+    "url": "https://abyssplayer.com/AS0JW97vJ"
+   },
+   {
+    "label": "Episodi 6 — Don't Anger the Destroyer! A Heart-Pounding Birthday Party",
+    "url": "https://abyssplayer.com/Z7SS1n5TV"
+   },
+   {
+    "label": "Episodi 7",
+    "url": "https://abyssplayer.com/W_eyJpccQ"
+   },
+   {
+    "label": "Episodi 8 — Goku Makes an Entrance! A Last Chance from Lord Beerus?",
+    "url": "https://abyssplayer.com/kt3TNLLW6"
+   },
+   {
+    "label": "Episodi 9",
+    "url": "https://abyssplayer.com/2cnLki0u4"
+   },
+   {
+    "label": "Episodi 10 — Show Us, Goku! The Power of a Super Saiyan God!",
+    "url": "https://abyssplayer.com/lUxV4Us1s"
+   },
+   {
+    "label": "Episodi 11 — Let's Keep Going, Lord Beerus! The Battle of Gods!",
+    "url": "https://abyssplayer.com/zeJvAP8uP"
+   },
+   {
+    "label": "Episodi 12",
+    "url": "https://abyssplayer.com/nJ_JLLBFM"
+   },
+   {
+    "label": "Episodi 13 — Goku, Surpass Super Saiyan God!",
+    "url": "https://abyssplayer.com/Y04bTBpYJ"
+   },
+   {
+    "label": "Episodi 14 — This is All the Power I've Got! A Settlement Between Gods",
+    "url": "https://abyssplayer.com/J58Xr090J"
+   },
+   {
+    "label": "Episodi 15",
+    "url": "https://abyssplayer.com/Y_cwrJXCQ"
+   },
+   {
+    "label": "Episodi 16 — Vegeta Becomes a Student?! Win Over Whis!",
+    "url": "https://abyssplayer.com/Vqsk_O-b-6"
+   },
+   {
+    "label": "Episodi 17 — Pan is Born! And Goku Goes on a Training Journey?!",
+    "url": "https://abyssplayer.com/_GgvpfQrJ"
+   },
+   {
+    "label": "Episodi 18 — I'm Here, Too! Training Commences on Beerus' World",
+    "url": "https://abyssplayer.com/87lxgU707"
+   },
+   {
+    "label": "Episodi 19 — Despair Redux! The Return of the Evil Emperor, Frieza!",
+    "url": "https://abyssplayer.com/W3NxdKgPf"
+   },
+   {
+    "label": "Episodi 20 — A Warning from Jaco! Frieza and 1,000 Soldiers Close In",
+    "url": "https://abyssplayer.com/kkkL6-kXt"
+   },
+   {
+    "label": "Episodi 21",
+    "url": "https://abyssplayer.com/wVHqvn3MC"
+   },
+   {
+    "label": "Episodi 22 — Change! An Unexpected Return! His Name is Ginyu!!",
+    "url": "https://abyssplayer.com/M8LyFgz0A"
+   },
+   {
+    "label": "Episodi 23 — Earth! Gohan! Both on the Ropes! Hurry and Get Here, Goku!!",
+    "url": "https://abyssplayer.com/81Vxij_jI"
+   },
+   {
+    "label": "Episodi 24 — Clash! Frieza vs. Goku! This is the Result of My Training!",
+    "url": "https://abyssplayer.com/2Xi1Af5vp"
+   },
+   {
+    "label": "Episodi 25 — A Full-Throttle Battle! The Vengeful Golden Frieza",
+    "url": "https://abyssplayer.com/K3Hjb1gVf"
+   },
+   {
+    "label": "Episodi 26",
+    "url": "https://abyssplayer.com/3EseiLBai"
+   },
+   {
+    "label": "Episodi 27 — The Earth Explodes? A Decisive Kamehameha!",
+    "url": "https://abyssplayer.com/npOXeRTmsO"
+   },
+   {
+    "label": "Episodi 28 — The 6th Universe's Destroyer! His Name is Champa!",
+    "url": "https://abyssplayer.com/ba4Le8ogi"
+   },
+   {
+    "label": "Episodi 29",
+    "url": "https://abyssplayer.com/aS0RPfNYU"
+   },
+   {
+    "label": "Episodi 30",
+    "url": "https://abyssplayer.com/sgb99f3Qg"
+   },
+   {
+    "label": "Episodi 31",
+    "url": "https://abyssplayer.com/bRSgW4ary"
+   },
+   {
+    "label": "Episodi 32",
+    "url": "https://abyssplayer.com/75BrKj32b"
+   },
+   {
+    "label": "Episodi 33 — Surprise, 6th Universe! This is Super Saiyan Goku!",
+    "url": "https://abyssplayer.com/M64-aqr1F"
+   },
+   {
+    "label": "Episodi 34 — Piccolo vs Frost! Stake it All on the Special Beam Cannon!",
+    "url": "https://abyssplayer.com/nVBtpFz-a"
+   },
+   {
+    "label": "Episodi 35 — Turn Your Anger into Strength! Vegeta's Full-Bore Battle",
+    "url": "https://abyssplayer.com/0Fprm-4Br"
+   },
+   {
+    "label": "Episodi 36",
+    "url": "https://abyssplayer.com/sGdIacXf-"
+   },
+   {
+    "label": "Episodi 37",
+    "url": "https://abyssplayer.com/71Yop7tus"
+   },
+   {
+    "label": "Episodi 38",
+    "url": "https://abyssplayer.com/QQZ5eAShD"
+   },
+   {
+    "label": "Episodi 39 — A Developed",
+    "url": "https://abyssplayer.com/_ITxOWEep"
+   },
+   {
+    "label": "Episodi 40 — A Decision at Last! Is the Winner Beerus? Or is it Champa?",
+    "url": "https://abyssplayer.com/5aMVeQPp9"
+   },
+   {
+    "label": "Episodi 41",
+    "url": "https://abyssplayer.com/aDH48Gtf4"
+   },
+   {
+    "label": "Episodi 42 — A Chaotic Victory Party! Showdown at Last? Monaka vs. Goku!",
+    "url": "https://abyssplayer.com/KKY7NgcGN"
+   },
+   {
+    "label": "Episodi 43",
+    "url": "https://abyssplayer.com/4_5WpqYUh"
+   },
+   {
+    "label": "Episodi 44",
+    "url": "https://abyssplayer.com/eXEIGXtGz"
+   },
+   {
+    "label": "Episodi 45 — Vegeta Disappears?! Menace of the Duplicate Vegeta!",
+    "url": "https://abyssplayer.com/vr7nCzG5E"
+   },
+   {
+    "label": "Episodi 46 — Goku vs. the Duplicate Vegeta! Which One is Going to Win?",
+    "url": "https://abyssplayer.com/JfJyQ2pSd"
+   },
+   {
+    "label": "Episodi 47 — SOS from the Future: A Dark New Enemy Appears!",
+    "url": "https://abyssplayer.com/3cwy3qivU"
+   },
+   {
+    "label": "Episodi 48 — HOPE!! Redux: Awaken in the Present, Trunks",
+    "url": "https://abyssplayer.com/EjJuZUJxA"
+   },
+   {
+    "label": "Episodi 49 — A Message From the Future - The Incursion of Goku Black!",
+    "url": "https://abyssplayer.com/FzZOwi0in"
+   },
+   {
+    "label": "Episodi 50 — Goku vs. Black! A Closed-Off Road to the Future",
+    "url": "https://abyssplayer.com/lWq5Xvfjg"
+   },
+   {
+    "label": "Episodi 51 — Feelings That Transcend Time: Trunks and Mai",
+    "url": "https://abyssplayer.com/k4zhK3I9_"
+   },
+   {
+    "label": "Episodi 52 — Master and Pupil Reunited! Gohan and Future Trunks!",
+    "url": "https://abyssplayer.com/jkRpCON6r"
+   },
+   {
+    "label": "Episodi 53",
+    "url": "https://abyssplayer.com/zfSEvZKQ-"
+   },
+   {
+    "label": "Episodi 54 — He Who is of Saiyan Blood: Trunks's Resolve",
+    "url": "https://abyssplayer.com/yDOxpx8fM"
+   },
+   {
+    "label": "Episodi 55 — I'd Like to See Goku, You See! A Summons From Grand Zeno!",
+    "url": "https://abyssplayer.com/VXC5l6lh5"
+   },
+   {
+    "label": "Episodi 56 — Rematch with Goku Black! Enter Super Saiyan Rosé",
+    "url": "https://abyssplayer.com/vNTKd9qt3"
+   },
+   {
+    "label": "Episodi 57 — A God with an Invincible Body - The Advent of Zamasu",
+    "url": "https://abyssplayer.com/5E_wRwqg6"
+   },
+   {
+    "label": "Episodi 58 — Zamasu and Black - The Duo's Mystery Deepens",
+    "url": "https://abyssplayer.com/Qdi2R1SG2"
+   },
+   {
+    "label": "Episodi 59 — Protect The Supreme Kai Gowasu - Destroy Zamasu!",
+    "url": "https://abyssplayer.com/LAoOfzJmk"
+   },
+   {
+    "label": "Episodi 60",
+    "url": "https://abyssplayer.com/6h5ADGW00"
+   },
+   {
+    "label": "Episodi 61 — Zamasu's Ambition – The Storied",
+    "url": "https://abyssplayer.com/Xp8XAsusN"
+   },
+   {
+    "label": "Episodi 62",
+    "url": "https://abyssplayer.com/v5XnB3NE6"
+   },
+   {
+    "label": "Episodi 63",
+    "url": "https://abyssplayer.com/F5RcYPQtp"
+   },
+   {
+    "label": "Episodi 64",
+    "url": "https://abyssplayer.com/w_QcKEpE_"
+   },
+   {
+    "label": "Episodi 65 — Final Judgement? The Ultimate Power of an Absolute God",
+    "url": "https://abyssplayer.com/sPp-726BY"
+   },
+   {
+    "label": "Episodi 66 — Showdown! The Miraculous Power of Unyielding Warriors",
+    "url": "https://abyssplayer.com/eB1vgXh6n"
+   },
+   {
+    "label": "Episodi 67 — With New Hope in His Heart - Farewell, Trunks",
+    "url": "https://abyssplayer.com/x4p34qlLh"
+   },
+   {
+    "label": "Episodi 68 — Come Forth, Shenron! Whose Wish Will Be Granted?",
+    "url": "https://abyssplayer.com/ykvLDj8aP"
+   },
+   {
+    "label": "Episodi 69",
+    "url": "https://abyssplayer.com/uBatckvg9"
+   },
+   {
+    "label": "Episodi 70 — A Challenge From Champa! This Time, a Baseball Game!",
+    "url": "https://abyssplayer.com/5XkQsypfC"
+   },
+   {
+    "label": "Episodi 71 — Goku Dies! An Assassination That Must Be Executed!",
+    "url": "https://abyssplayer.com/SwnXOlh9A"
+   },
+   {
+    "label": "Episodi 72 — Will He Strike Back? The Unseen Killing Technique!",
+    "url": "https://abyssplayer.com/zSZ8rNIdz"
+   },
+   {
+    "label": "Episodi 73",
+    "url": "https://abyssplayer.com/M631dZEh7"
+   },
+   {
+    "label": "Episodi 74 — For My Beloved Ones! The Indomitable Great Saiyaman!",
+    "url": "https://abyssplayer.com/N8KhiK9PI"
+   },
+   {
+    "label": "Episodi 75 — Goku and Krillin! Back to the Old Familiar Training Ground!",
+    "url": "https://abyssplayer.com/dt7EmyTrZE"
+   },
+   {
+    "label": "Episodi 76",
+    "url": "https://abyssplayer.com/RA-s5e361"
+   },
+   {
+    "label": "Episodi 77 — Let's Do It, Grand Zeno! The Universes' Best Tournament!!",
+    "url": "https://abyssplayer.com/6zNL7lJqO"
+   },
+   {
+    "label": "Episodi 78",
+    "url": "https://abyssplayer.com/_Y8C9fNro"
+   },
+   {
+    "label": "Episodi 79",
+    "url": "https://abyssplayer.com/etyvVPI_m"
+   },
+   {
+    "label": "Episodi 80 — Awaken Your Dormant Fighting Spirit! Gohan's Fight!",
+    "url": "https://abyssplayer.com/onQQxd_Jr"
+   },
+   {
+    "label": "Episodi 81",
+    "url": "https://abyssplayer.com/xq20qdb1TX"
+   },
+   {
+    "label": "Episodi 82 — Goku Must Pay! The Warrior of Justice Top Barges In!",
+    "url": "https://abyssplayer.com/L0JSoTqCe"
+   },
+   {
+    "label": "Episodi 83 — Field the All-7th-Universe Team! Who are the Mighty Ten?",
+    "url": "https://abyssplayer.com/UGTdABaJ1"
+   },
+   {
+    "label": "Episodi 84 — Goku the Talent Scout! Recruit Krillin and Android 18",
+    "url": "https://abyssplayer.com/4nEvZfJNf"
+   },
+   {
+    "label": "Episodi 85 — The Universes Go Into Action - Each With Their Own Motives",
+    "url": "https://abyssplayer.com/cXwV9HjLF"
+   },
+   {
+    "label": "Episodi 86 — First Time Exchanging Blows! Android 17 vs. Goku!!",
+    "url": "https://abyssplayer.com/b9QOMa4Ev"
+   },
+   {
+    "label": "Episodi 87",
+    "url": "https://abyssplayer.com/SHyJUfLJa"
+   },
+   {
+    "label": "Episodi 88 — Gohan and Piccolo Master and Pupil Clash in Max Training!",
+    "url": "https://abyssplayer.com/e82gSY5g8"
+   },
+   {
+    "label": "Episodi 89",
+    "url": "https://abyssplayer.com/qQNZLuSni"
+   },
+   {
+    "label": "Episodi 90 — Staring Down the Wall to be Overcome! Goku vs. Gohan",
+    "url": "https://abyssplayer.com/rGYWl_qTm"
+   },
+   {
+    "label": "Episodi 91",
+    "url": "https://abyssplayer.com/QXMo2SBq--"
+   },
+   {
+    "label": "Episodi 92 — A State of Emergency! Failure to Reach Ten Members!!",
+    "url": "https://abyssplayer.com/P6KqE8V1d"
+   },
+   {
+    "label": "Episodi 93 — You're Our Tenth Warrior! Goku Approaches Frieza!!",
+    "url": "https://abyssplayer.com/qS5FV88d7"
+   },
+   {
+    "label": "Episodi 94",
+    "url": "https://abyssplayer.com/HbLPurv0s"
+   },
+   {
+    "label": "Episodi 95 — Most Heinous! Most Evil! Frieza's Rampage!",
+    "url": "https://abyssplayer.com/DiAFjjBQ_"
+   },
+   {
+    "label": "Episodi 96",
+    "url": "https://abyssplayer.com/lS1mdCIfo"
+   },
+   {
+    "label": "Episodi 97 — Survive! The",
+    "url": "https://abyssplayer.com/a35nPAUQM"
+   },
+   {
+    "label": "Episodi 98 — Ah, the Uncertainty! A Universe Despairs!",
+    "url": "https://abyssplayer.com/7pJqO8ua6"
+   },
+   {
+    "label": "Episodi 99 — Show Them! Krillin's Underlying Strength!",
+    "url": "https://abyssplayer.com/k-CS9qODe"
+   },
+   {
+    "label": "Episodi 100 — Rampage! A Crazed Warrior's Savagery Awakens!",
+    "url": "https://abyssplayer.com/a5Unj9B2G6"
+   },
+   {
+    "label": "Episodi 101 — Warriors of Justice Close In! The Pride Troopers!",
+    "url": "https://abyssplayer.com/TOjepN_N8"
+   },
+   {
+    "label": "Episodi 102",
+    "url": "https://abyssplayer.com/aUchqrYiW"
+   },
+   {
+    "label": "Episodi 103 — Gohan, Get Ruthless! Showdown with the 10th Universe!",
+    "url": "https://abyssplayer.com/6uOTyK3C6"
+   },
+   {
+    "label": "Episodi 104",
+    "url": "https://abyssplayer.com/eqE2UWpZC"
+   },
+   {
+    "label": "Episodi 105 — A Valiant Fight! Master Roshi's Blaze of Glory!",
+    "url": "https://abyssplayer.com/6e8m09ZFG"
+   },
+   {
+    "label": "Episodi 106 — Find them Out! Deathmatch with a Furtive Attacker!",
+    "url": "https://abyssplayer.com/lvK5eexfP"
+   },
+   {
+    "label": "Episodi 107 — Revenge 'F'! A Cunning Trap is Set?",
+    "url": "https://abyssplayer.com/kkhMw0sdKB"
+   },
+   {
+    "label": "Episodi 108 — Frieza and Frost! A Mutual Malevolence?",
+    "url": "https://abyssplayer.com/4zAKaI6gy"
+   },
+   {
+    "label": "Episodi 109",
+    "url": "https://abyssplayer.com/miWueO1Q6"
+   },
+   {
+    "label": "Episodi 110 — Goku Enkindled! The Awakened One's New Ultra Instinct!",
+    "url": "https://abyssplayer.com/oteSLfpsp"
+   },
+   {
+    "label": "Episodi 111 — An Extra-Dimensional Ultimate Battle! Hit vs. Jiren!",
+    "url": "https://abyssplayer.com/R-Lmgipg7"
+   },
+   {
+    "label": "Episodi 112 — A Saiyan Oath! Vegeta's Resolve!",
+    "url": "https://abyssplayer.com/qZovWbFvq"
+   },
+   {
+    "label": "Episodi 113",
+    "url": "https://abyssplayer.com/f79jfQq-7"
+   },
+   {
+    "label": "Episodi 114 — Bloodcurdling! The Explosive Birth of a New Super Warrior!",
+    "url": "https://abyssplayer.com/oFb_kwpgh"
+   },
+   {
+    "label": "Episodi 115 — Goku vs. Kefla! Super Saiyan Blue Beaten?",
+    "url": "https://abyssplayer.com/GRgXbiJna"
+   },
+   {
+    "label": "Episodi 116 — Signs of a Turnabout! The Autonomous Ultra Instinct Erupts!",
+    "url": "https://abyssplayer.com/dmjs6e_7c"
+   },
+   {
+    "label": "Episodi 117 — Showdown of Love! The Androids vs the 2nd Universe!",
+    "url": "https://abyssplayer.com/AQbIIrySg"
+   },
+   {
+    "label": "Episodi 118 — Accelerating Tragedy - Vanishing Universes",
+    "url": "https://abyssplayer.com/JeYKtGsks"
+   },
+   {
+    "label": "Episodi 119 — Unavoidable? The Ferocity of a Stealth Attack!",
+    "url": "https://abyssplayer.com/4zeWLtBe6"
+   },
+   {
+    "label": "Episodi 120",
+    "url": "https://abyssplayer.com/ZYOK7yjdI"
+   },
+   {
+    "label": "Episodi 121",
+    "url": "https://abyssplayer.com/rDJCLuY4A"
+   },
+   {
+    "label": "Episodi 122",
+    "url": "https://abyssplayer.com/B4EZLiEp1"
+   },
+   {
+    "label": "Episodi 123 — Body, Soul and Power Unleashed! Goku and Vegeta!",
+    "url": "https://abyssplayer.com/AN0aginja"
+   },
+   {
+    "label": "Episodi 124 — A Storm-and-Stress Assault! Gohan's Last Stand!",
+    "url": "https://abyssplayer.com/BcKdCIlrz"
+   },
+   {
+    "label": "Episodi 125 — A Commanding Presence! The Advent of Top the Destroyer!",
+    "url": "https://abyssplayer.com/jXQHicEnQ"
+   },
+   {
+    "label": "Episodi 126 — Surpass Even a God! Vegeta's Sacrifice Strike!",
+    "url": "https://abyssplayer.com/4wVzRrvEG"
+   },
+   {
+    "label": "Episodi 127 — The Approaching Wall! A Hopeful Final Barrier!",
+    "url": "https://abyssplayer.com/S50Pwusrv"
+   },
+   {
+    "label": "Episodi 128 — With Noble Pride to the End! Vegeta Falls!",
+    "url": "https://abyssplayer.com/yNAld-EKA"
+   },
+   {
+    "label": "Episodi 129",
+    "url": "https://abyssplayer.com/c9U4QUhja"
+   },
+   {
+    "label": "Episodi 130",
+    "url": "https://abyssplayer.com/5JDK9oXwPN"
+   },
+   {
+    "label": "Episodi 131",
+    "url": "https://abyssplayer.com/M_bNIEYrMC"
+   }
   ],
   "type": "serial"
  },
@@ -3548,7 +4419,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/uRepr2EU9"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/uRepr2EU9"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/5aalsfuu6g9s/"
+   }
   ]
  },
  {
@@ -3569,7 +4447,18 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/sqr3HQ2dl"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/sqr3HQ2dl"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/xKAHfNK2J"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/to2sxgge48u5/"
+   }
   ]
  },
  {
@@ -3584,13 +4473,24 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Shpata dhe Skubi në perëndim.",
+  "desc": "Skubi Du në perëndimin e egër.",
   "poster": "img/posters/m158.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/ZIxGCFPFY"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/ZIxGCFPFY"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/H9NTHpWKC"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/gvnas8l00mo8/"
+   }
   ]
  },
  {
@@ -3626,13 +4526,28 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Skubi Du dhe çmenduria e përbindëshit të hënës.",
+  "desc": "Skubi-Du dhe miqtë hetojnë mistere në Hënë në një aventurë kozmike.",
   "poster": "img/posters/m160.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/gpbyKR8Fx"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/gpbyKR8Fx"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/1e9wxv4ep5yp/"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ok.ru/videoembed/31704812195"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/31704812195"
+   }
   ]
  },
  {
@@ -3689,13 +4604,20 @@
    "Aventurë",
    "Fantazi"
   ],
-  "desc": "Skubi Du dhe mbreti Goblin.",
+  "desc": "Skubi Du dhe banda përballen me Mbretin e Goblinëve në natën e Halloween.",
   "poster": "img/posters/m163.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/_vTCqFUOM"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/_vTCqFUOM"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/38031329839"
+   }
   ]
  },
  {
@@ -3737,7 +4659,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/4ncq_aTWZD"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/4ncq_aTWZD"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/oib19sv1enx9/"
+   }
   ]
  },
  {
@@ -3752,13 +4681,28 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Skubi Du kërkon mumjen.",
+  "desc": "Skubi Du dhe Shaggy udhëtojnë në Egjipt për të zgjidhur misterin e mumies.",
   "poster": "img/posters/m166.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/DCVMbfEOx"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/DCVMbfEOx"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/yt2lo5uqcga9/"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ok.ru/videoembed/24276109945"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/24809573039"
+   }
   ]
  },
  {
@@ -3779,7 +4723,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/5259322ys"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/5259322ys"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/w2wpijdmqgzy/"
+   }
   ]
  },
  {
@@ -3800,7 +4751,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/U7QBXv4tj"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/U7QBXv4tj"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/xlkk1lle5hc5/"
+   }
   ]
  },
  {
@@ -3842,7 +4800,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/HYNa0DXr1"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/HYNa0DXr1"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/7ji0l0y66ue7/"
+   }
   ]
  },
  {
@@ -3867,27 +4832,6 @@
   ]
  },
  {
-  "id": "m172",
-  "title_al": "Skubi Du Aventurë në perëndim e egër",
-  "title_orig": "Scooby-Doo! Shaggy's Showdown",
-  "year": "2017",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Skubi Du në perëndimin e egër.",
-  "poster": "img/posters/m172.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://abyssplayer.com/H9NTHpWKC"
-  ]
- },
- {
   "id": "m173",
   "title_al": "Skubi du dhe Perbindeshi i meksike",
   "title_orig": "Scooby-Doo! and the Monster of Mexico",
@@ -3905,7 +4849,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/N5fsIOoPmP"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/N5fsIOoPmP"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/3ycfrixqty41/"
+   }
   ]
  },
  {
@@ -3926,7 +4877,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/v_WcQeV24"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/v_WcQeV24"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/ixuu5ldy37yz/"
+   }
   ]
  },
  {
@@ -3941,13 +4899,24 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Skubi Du dhe shpata e samurait.",
+  "desc": "Skubi-Du dhe banda udhëtojnë në Japoni ku përballen me shpatën legjendare të samurait.",
   "poster": "img/posters/m175.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/i5uI2U2ts"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/i5uI2U2ts"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/c3i7w2okg64o/"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ok.ru/videoembed/38513609263"
+   }
   ]
  },
  {
@@ -3983,13 +4952,20 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Qetësohu Skubi Du.",
+  "desc": "Aventurë në dëborë.",
   "poster": "img/posters/m177.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/4YQ5a7LFB"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/4YQ5a7LFB"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/4dm2co1adkk4/"
+   }
   ]
  },
  {
@@ -4004,13 +4980,20 @@
    "Aventurë",
    "Fantazi"
   ],
-  "desc": "Skubi Du dhe magjia.",
+  "desc": "Skubi-Du dhe banda vizitojnë akademinë e magjisë ku ndodhin çudira.",
   "poster": "img/posters/m178.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/caLTKvDTw"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/caLTKvDTw"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ok.ru/videoembed/24266803833"
+   }
   ]
  },
  {
@@ -4073,7 +5056,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/cjF9eejqN"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/cjF9eejqN"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/gnte2jjv89y8/"
+   }
   ]
  },
  {
@@ -4094,7 +5084,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/9nrU9PlJ8"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/9nrU9PlJ8"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/3bw1i6o03m4r/"
+   }
   ]
  },
  {
@@ -4109,13 +5106,20 @@
    "Aventurë",
    "Muzikor"
   ],
-  "desc": "Skubi Du dhe Kiss.",
+  "desc": "Skubi Du me grupin Kiss.",
   "poster": "img/posters/m183.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/Jc-4tDz00"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/Jc-4tDz00"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/akpeqvayyozj/"
+   }
   ]
  },
  {
@@ -4130,13 +5134,24 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Skubi Du dhe mallkimi i fantazmës së 13-të.",
+  "desc": "Një fantazmë e kuqe tmerron qytetin dhe vetëm banda mund ta ndalojë.",
   "poster": "img/posters/m184.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/SPSjJIyjk"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/SPSjJIyjk"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/y24ugfwundi3/"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://archive.org/download/buqetaefilmave2/skubi%20du%20-%20fantazma%20e%20kuqe.mp4"
+   }
   ]
  },
  {
@@ -4157,7 +5172,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/S8IY3DMDD"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/S8IY3DMDD"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/xindtg5c9ys1/"
+   }
   ]
  },
  {
@@ -4178,7 +5200,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/zgmDqu7Uc"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/zgmDqu7Uc"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/aecex353tswz/"
+   }
   ]
  },
  {
@@ -4199,28 +5228,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/Xcl4F1yCT"
-  ]
- },
- {
-  "id": "m188",
-  "title_al": "Skubi du legjenda e Fantosaurit",
-  "title_orig": "Scooby-Doo! Legend of the Phantosaur",
-  "year": "2011",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Skubi Du dhe legjenda e Fantosaurit.",
-  "poster": "img/posters/m188.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://abyssplayer.com/xKAHfNK2J"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/Xcl4F1yCT"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/3e7s1gro8x7j/"
+   }
   ]
  },
  {
@@ -4235,13 +5250,20 @@
    "Aventurë",
    "Fantazi"
   ],
-  "desc": "Skubi Du në netët arabe.",
+  "desc": "Përralla arabe me Skubi Du.",
   "poster": "img/posters/m189.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/C6AC8aGq2"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/C6AC8aGq2"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/2ir5aqbceebc/"
+   }
   ]
  },
  {
@@ -4467,13 +5489,20 @@
    "Aksion",
    "Fantashkence"
   ],
-  "desc": "Titan A.E. në hapësirë.",
+  "desc": "Njerëzimi kërkon Titanin.",
   "poster": "img/posters/m200.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/0tDzLzaha"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/0tDzLzaha"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/r137s8c4zcu8/"
+   }
   ]
  },
  {
@@ -4740,13 +5769,20 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Bob Sfungjeri në film.",
+  "desc": "Bob dhe Patrick shpëtojnë kurorën.",
   "poster": "img/posters/m213.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/YqVzciwX5"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/YqVzciwX5"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/xepw58vpy65h/"
+   }
   ]
  },
  {
@@ -4845,13 +5881,20 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Super Mario në film.",
+  "desc": "Mario shpëton Luigin.",
   "poster": "img/posters/m218.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/eCOOstYd5"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/eCOOstYd5"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/776xklrj25na/"
+   }
   ]
  },
  {
@@ -5034,13 +6077,20 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Unë Shpirtkeqi 4.",
+  "desc": "Gru dhe Minionët kthehen në një aventurë të re.",
   "poster": "img/posters/m227.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/_5Rrpkh0j"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/_5Rrpkh0j"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/i33s6uccyu8m/"
+   }
   ]
  },
  {
@@ -5055,13 +6105,20 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Mbreti Tuiti.",
+  "desc": "Tweety bëhet mbret.",
   "poster": "img/posters/m228.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/sSmegp88N"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/sSmegp88N"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/z2yb8ibkwzmy/"
+   }
   ]
  },
  {
@@ -5118,13 +6175,20 @@
    "Fantazi",
    "Muzikor"
   ],
-  "desc": "Përrallat magjike.",
+  "desc": "Barbi udhëton në botën magjike të Fairytopia për të shpëtuar zanat.",
   "poster": "img/posters/m231.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/J-6rkir2K"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/J-6rkir2K"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/29217458938"
+   }
   ]
  },
  {
@@ -5145,7 +6209,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/NfqbovUFX"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/NfqbovUFX"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/l725dhhhrjgn/"
+   }
   ]
  },
  {
@@ -5181,13 +6252,20 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Biskota me kafshë.",
+  "desc": "Një aventurë e ëmbël plot humor për fëmijë, e dubluar në shqip.",
   "poster": "img/posters/m234.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/BSRfdhucD"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/BSRfdhucD"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://archive.org/download/buqetaefilmave2/biskota%20per%20kafshe.mp4"
+   }
   ]
  },
  {
@@ -5292,7 +6370,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/G3MWwU9iY"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/G3MWwU9iY"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/c7ub6orhn9mk/"
+   }
   ]
  },
  {
@@ -5370,13 +6455,20 @@
    "Dramë",
    "Muzikor"
   ],
-  "desc": "Kurrizoja i Notre Dame 2.",
+  "desc": "Kuazimodo kthehet në një aventurë të re në Paris.",
   "poster": "img/posters/m243.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/9R_7bqLbh"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/9R_7bqLbh"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/24433265314"
+   }
   ]
  },
  {
@@ -5439,7 +6531,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/GweR2xE1c"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/GweR2xE1c"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/filh232hb8zv/"
+   }
   ]
  },
  {
@@ -5670,7 +6769,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/C6JFGKKn5"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/C6JFGKKn5"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/o55i76mzudzm/"
+   }
   ]
  },
  {
@@ -5774,7 +6880,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/3L3e5peob"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/3L3e5peob"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/3jl15pqy4mwp/"
+   }
   ]
  },
  {
@@ -5789,13 +6902,24 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Ted eksploruesi i humbur.",
+  "desc": "Tedi, një ndërtues ëndërrimtar, ngatërrohet në një aventurë arkeologjike në Peru.",
   "poster": "img/posters/m263.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/0phFiy0rg"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/0phFiy0rg"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/fxkd19k5hw3e/"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://vk.com/video_ext.php?oid=241368450&id=168005481&"
+   }
   ]
  },
  {
@@ -5957,13 +7081,20 @@
    "Aksion",
    "Fantazi"
   ],
-  "desc": "Avatar Aang.",
+  "desc": "Aang mëson të kontrollojë 4 elementet.",
   "poster": "img/posters/m271.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "serial",
   "videos": [
-   "https://abyssplayer.com/20EVB78bA"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/20EVB78bA"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/mn96gqt4g4fi/"
+   }
   ]
  },
  {
@@ -6229,13 +7360,20 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Hajdutët e lajthive.",
+  "desc": "Ketri Surli planifikon grabitjen e dyqanit të arrave për dimër në komedinë e animuar.",
   "poster": "img/posters/m284.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/PVXas5nY0"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/PVXas5nY0"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ok.ru/videoembed/29579741858"
+   }
   ]
  },
  {
@@ -6354,13 +7492,20 @@
    "Animuar",
    "Aksion"
   ],
-  "desc": "Djali i Batmanit.",
+  "desc": "Damian, djali i Batmanit.",
   "poster": "img/posters/m290.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/ThDmGU43t"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/ThDmGU43t"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/3tnlxkpo0tkg/"
+   }
   ]
  },
  {
@@ -6464,7 +7609,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/aNwd-A8kJ"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/aNwd-A8kJ"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/dudhrvxvfwpl/"
+   }
   ]
  },
  {
@@ -6668,13 +7820,20 @@
    "Muzikor",
    "Komedi"
   ],
-  "desc": "Pinguini këmbëlumtur.",
+  "desc": "Pinguini Mumble që nuk di të këndojë, kërcen në vend të kësaj.",
   "poster": "img/posters/m305.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/Ho2CI50E3"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/Ho2CI50E3"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/30397958906"
+   }
   ]
  },
  {
@@ -7023,13 +8182,24 @@
    "Fantazi",
    "Muzikor"
   ],
-  "desc": "Borëbardha dhe shtatë xhuxhat.",
+  "desc": "Borëbardha strehohet te shtatë xhuxhët në klasikun e parë të Disney-t.",
   "poster": "img/posters/m322.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/fhDacebpr"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/fhDacebpr"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/vrcedt8nplc9/"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/26268600994"
+   }
   ]
  },
  {
@@ -7349,27 +8519,6 @@
   ]
  },
  {
-  "id": "m338",
-  "title_al": "Krishtlindjet e Mikit",
-  "title_orig": "Mickey's Once Upon a Christmas",
-  "year": "1999",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Krishtlindje"
-  ],
-  "desc": "Krishtlindjet e Mikit.",
-  "poster": "img/posters/m338.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://abyssplayer.com/EfNF4m47X"
-  ]
- },
- {
   "id": "m339",
   "title_al": "Ekspresi polar",
   "title_orig": "The Polar Express",
@@ -7492,7 +8641,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/b5Klf0UQS"
+   {
+    "label": "Shiko",
+    "url": "https://abyssplayer.com/b5Klf0UQS"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/5dcpqk1aki4y/"
+   }
   ]
  },
  {
@@ -7554,7 +8710,534 @@
   "dub": "Dubluar në shqip",
   "type": "serial",
   "videos": [
-   "https://filemoon.to/e/d7ywol8d5wgq/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/d7ywol8d5wgq/"
+   },
+   {
+    "label": "Episodi 1 — Tkurrja e madhe",
+    "url": "https://abyssplayer.com/ZBJyaV43m"
+   },
+   {
+    "label": "Episodi 2 — Debutanti i rrëmbyer",
+    "url": "https://abyssplayer.com/eiFUhvW2A"
+   },
+   {
+    "label": "Episodi 3 — Kujdes nga idhujt",
+    "url": "https://abyssplayer.com/JW2jbTFM_"
+   },
+   {
+    "label": "Episodi 4 — Peshku shënon vendin",
+    "url": "https://abyssplayer.com/1q2r-pJ1g"
+   },
+   {
+    "label": "Episodi 5 — Time Bomb Express",
+    "url": "https://abyssplayer.com/0xClxDilhp"
+   },
+   {
+    "label": "Episodi 6 — Shën Valentin tragjik",
+    "url": "https://abyssplayer.com/93LfCMHxt"
+   },
+   {
+    "label": "Episodi 7 — Rasti i dhuratave misterioze",
+    "url": "https://abyssplayer.com/523C9ZuX2"
+   },
+   {
+    "label": "Episodi 8 — Çështja e vrasjes së muzeut të artit",
+    "url": "https://abyssplayer.com/IVG4YqRhL"
+   },
+   {
+    "label": "Episodi 9 — Fiasko e festivalit",
+    "url": "https://abyssplayer.com/6cnBDvQ25"
+   },
+   {
+    "label": "Episodi 10 — Lojë vdekjeprurëse",
+    "url": "https://abyssplayer.com/9xO8EyDYo"
+   },
+   {
+    "label": "Episodi 11 — Rasti i Vrasjes Sonata të Moonlight (1/2)",
+    "url": "https://abyssplayer.com/spvn-JRd_"
+   },
+   {
+    "label": "Episodi 12 — Rrëmbyer: ayumi",
+    "url": "https://abyssplayer.com/a5GhSS9O1"
+   },
+   {
+    "label": "Episodi 13 — Misteri MasterMind",
+    "url": "https://abyssplayer.com/DTfog-_wd"
+   },
+   {
+    "label": "Episodi 14 — Revole",
+    "url": "https://abyssplayer.com/fbpUtypUk"
+   },
+   {
+    "label": "Episodi 15 — Të dy vëllai i përballur",
+    "url": "https://abyssplayer.com/StTdJECQc"
+   },
+   {
+    "label": "Episodi 16 — Një hua e paguar",
+    "url": "https://abyssplayer.com/xuN5YroPQ"
+   },
+   {
+    "label": "Episodi 17 — Rasti i dyqanit të departamentit hi-xhaketë",
+    "url": "https://abyssplayer.com/nN5XIaCdO"
+   },
+   {
+    "label": "Episodi 18 — Dita e Dasmës Blues",
+    "url": "https://abyssplayer.com/kkWPA-u4n5"
+   },
+   {
+    "label": "Episodi 19 — Sens i modës",
+    "url": "https://abyssplayer.com/SN-THqq51"
+   },
+   {
+    "label": "Episodi 20 — Akti që zhduket",
+    "url": "https://abyssplayer.com/DY_g7T4PLO"
+   },
+   {
+    "label": "Episodi 21 — Dritat, Kamera ... Vrasje",
+    "url": "https://abyssplayer.com/tX47mhyP5"
+   },
+   {
+    "label": "Episodi 22 — Lundrimi i qetë (1)",
+    "url": "https://abyssplayer.com/Z0frtWKh9"
+   },
+   {
+    "label": "Episodi 23 — Lundrimi i qetë (2)",
+    "url": "https://abyssplayer.com/pUdz6G6J_"
+   },
+   {
+    "label": "Episodi 24 — Më mirë të harrohet",
+    "url": "https://abyssplayer.com/V-iPOPdtV"
+   },
+   {
+    "label": "Episodi 25 — Rrëmbimi i faljes së falsifikuar",
+    "url": "https://abyssplayer.com/YGt59C1NZ"
+   },
+   {
+    "label": "Episodi 26 — Sulmet Jack!",
+    "url": "https://abyssplayer.com/l5nFBwoSU_"
+   },
+   {
+    "label": "Episodi 27 — Ribashkimi i klasës së Richard (1)",
+    "url": "https://abyssplayer.com/5oQVLHFT7"
+   },
+   {
+    "label": "Episodi 28 — Ribashkimi i klasës së Richard (2)",
+    "url": "https://abyssplayer.com/ey9QyDjdq"
+   },
+   {
+    "label": "Episodi 29 — Vrasja në kompjuter",
+    "url": "https://abyssplayer.com/cVDljjQTi"
+   },
+   {
+    "label": "Episodi 30 — Melodia e humbur",
+    "url": "https://abyssplayer.com/KXgGE3OPD"
+   },
+   {
+    "label": "Episodi 31 — Vrasje në studion e televizionit",
+    "url": "https://abyssplayer.com/kd56Fi5lT"
+   },
+   {
+    "label": "Episodi 32 — Vrasje në darkën lokale",
+    "url": "https://abyssplayer.com/Z5IfWfiDh"
+   },
+   {
+    "label": "Episodi 33 — Një gjueti do të shkojmë",
+    "url": "https://abyssplayer.com/62iOsXJOM"
+   },
+   {
+    "label": "Episodi 37 — E kaluara me gjemba",
+    "url": "https://abyssplayer.com/ZEcMtRbTG"
+   },
+   {
+    "label": "Episodi 38 — Flakët e konfuzionit",
+    "url": "https://abyssplayer.com/QAXlNY0Dm"
+   },
+   {
+    "label": "Episodi 39 — Miliarderi Blues i Ditëlindjes (1)",
+    "url": "https://abyssplayer.com/H37sevHAJ"
+   },
+   {
+    "label": "Episodi 40 — Miliarderi Blues i Ditëlindjes (2)",
+    "url": "https://abyssplayer.com/bWDodlKbc"
+   },
+   {
+    "label": "Episodi 41 — Lihet në tatuazhe",
+    "url": "https://abyssplayer.com/Jiso2eCeY"
+   },
+   {
+    "label": "Episodi 42 — Karaoke Vrasja",
+    "url": "https://abyssplayer.com/0Be4FLNCG"
+   },
+   {
+    "label": "Episodi 44 — Ditëlindja e pakënaqur",
+    "url": "https://abyssplayer.com/F9cAm8n50"
+   },
+   {
+    "label": "Episodi 45 — Vizitorët e papritur",
+    "url": "https://abyssplayer.com/CLlPyQO3Th"
+   },
+   {
+    "label": "Episodi 64 — Tre gjurmët e gishtërinjve",
+    "url": "https://abyssplayer.com/JAo9HsfvFw"
+   },
+   {
+    "label": "Episodi 65 — Gaforret dhe balena",
+    "url": "https://abyssplayer.com/_z7kG9z00"
+   },
+   {
+    "label": "Episodi 66 — Vrasje pa hënë",
+    "url": "https://abyssplayer.com/w5T-89GhQlV"
+   },
+   {
+    "label": "Episodi 67 — Rasti i aktores së vrarë",
+    "url": "https://abyssplayer.com/x0BW2f0jH"
+   },
+   {
+    "label": "Episodi 68 — Misteri Knight Baron (1)",
+    "url": "https://abyssplayer.com/pve1YKEzk"
+   },
+   {
+    "label": "Episodi 69 — Misteri Knight Baron (2)",
+    "url": "https://abyssplayer.com/c7fb4k38J"
+   },
+   {
+    "label": "Episodi 70 — Misteri Knight Baron (3)",
+    "url": "https://abyssplayer.com/-4fv17fFk"
+   },
+   {
+    "label": "Episodi 71 — Stalker",
+    "url": "https://abyssplayer.com/z28FuMjkZ"
+   },
+   {
+    "label": "Episodi 72 — Terror i trefishtë",
+    "url": "https://abyssplayer.com/-AkPB9TWR"
+   },
+   {
+    "label": "Episodi 73 — Vrasja e rrënojave të anijes",
+    "url": "https://abyssplayer.com/pDBxpAN6Fi"
+   },
+   {
+    "label": "Episodi 74 — Jinnai, Mbreti i Vdekjes",
+    "url": "https://abyssplayer.com/fZ5fBQHtb"
+   },
+   {
+    "label": "Episodi 75 — Vrasje dhe Mahjong",
+    "url": "https://abyssplayer.com/-52aNuHxu"
+   },
+   {
+    "label": "Episodi 76 — Thief Phantom 1412 (1/2)",
+    "url": "https://abyssplayer.com/GtExlveqA"
+   },
+   {
+    "label": "Episodi 77 — Vrasje misterioze e maskuar (1)",
+    "url": "https://abyssplayer.com/Kjx50xy7Q"
+   },
+   {
+    "label": "Episodi 78 — Vrasje misterioze e maskuar (2)",
+    "url": "https://abyssplayer.com/wq6PXXdk0"
+   },
+   {
+    "label": "Episodi 79 — Grabitësi hakmarrës",
+    "url": "https://abyssplayer.com/MzODYjsMw"
+   },
+   {
+    "label": "Episodi 80 — Endacak",
+    "url": "https://abyssplayer.com/HFrOR7fOj"
+   },
+   {
+    "label": "Episodi 81 — Dy herë telashe (1)",
+    "url": "https://abyssplayer.com/BaQiD5gC7"
+   },
+   {
+    "label": "Episodi 82 — Dy herë telashe (2)",
+    "url": "https://abyssplayer.com/HC6fZLyhRo"
+   },
+   {
+    "label": "Episodi 83 — Vendosja",
+    "url": "https://abyssplayer.com/vuC1djJUE"
+   },
+   {
+    "label": "Episodi 84 — Nata e Masakrës (1)",
+    "url": "https://abyssplayer.com/R_ctHfD4z"
+   },
+   {
+    "label": "Episodi 85 — Nata e Masakrës (2)",
+    "url": "https://abyssplayer.com/M8O481q7Z"
+   },
+   {
+    "label": "Episodi 86 — Gjeni sitin e rrëmbimit",
+    "url": "https://abyssplayer.com/9iC1AL26e"
+   },
+   {
+    "label": "Episodi 87 — Për zogjtë",
+    "url": "https://abyssplayer.com/00-xzFnFa"
+   },
+   {
+    "label": "Episodi 88 — Vampire Villa (1)",
+    "url": "https://abyssplayer.com/ZlkGFhRrp"
+   },
+   {
+    "label": "Episodi 89 — Vampire Villa (2)",
+    "url": "https://abyssplayer.com/EliM72lnk"
+   },
+   {
+    "label": "Episodi 90 — Art vdekjeprurës",
+    "url": "https://abyssplayer.com/H3u9_baey"
+   },
+   {
+    "label": "Episodi 91 — Vrasje spitalore",
+    "url": "https://abyssplayer.com/BoKA6mGxr"
+   },
+   {
+    "label": "Episodi 92 — Dhelpra malore (1)",
+    "url": "https://abyssplayer.com/gEJkeFeNH"
+   },
+   {
+    "label": "Episodi 93 — Dhelpra malore (2)",
+    "url": "https://abyssplayer.com/nDSiBgNE-"
+   },
+   {
+    "label": "Episodi 94 — Vajza tjetër",
+    "url": "https://abyssplayer.com/9PAugmoGf"
+   },
+   {
+    "label": "Episodi 95 — Data vdekjeprurëse e Richard",
+    "url": "https://abyssplayer.com/mmCLmpugS"
+   },
+   {
+    "label": "Episodi 96 — Zbuluar Jimmy Kudo (1-4)",
+    "url": "https://bysedikamoum.com/e/8zuqj8jyruui"
+   },
+   {
+    "label": "Episodi 97 — Rasti i vrasjes së verës së lamtumirës",
+    "url": "https://abyssplayer.com/XyJFdgsBl"
+   },
+   {
+    "label": "Episodi 98 — Gambit i Potter (1)",
+    "url": "https://abyssplayer.com/j3C_QdzMJ"
+   },
+   {
+    "label": "Episodi 99 — Gambit i Potter (2)",
+    "url": "https://abyssplayer.com/FrK2TEUWY"
+   },
+   {
+    "label": "Episodi 100 — Kujtimet e dashurisë së parë (1)",
+    "url": "https://abyssplayer.com/2EztzEWb3"
+   },
+   {
+    "label": "Episodi 101 — Kujtimet e dashurisë së parë (2)",
+    "url": "https://abyssplayer.com/krlicfpmx"
+   },
+   {
+    "label": "Episodi 102 — Famë dhe fatkeqësi (1)",
+    "url": "https://abyssplayer.com/XMnnglxt7"
+   },
+   {
+    "label": "Episodi 103 — Famë dhe fatkeqësi (2)",
+    "url": "https://abyssplayer.com/TZteSl0Gv"
+   },
+   {
+    "label": "Episodi 104 — Misteri i Bludcraven Manor (1)",
+    "url": "https://abyssplayer.com/xN8IJLqn8k"
+   },
+   {
+    "label": "Episodi 105 — Misteri i Bludcraven Manor (2)",
+    "url": "https://abyssplayer.com/QwVnb2PW9"
+   },
+   {
+    "label": "Episodi 106 — Fotografitë e vdekjes",
+    "url": "https://abyssplayer.com/FGDifsKAa"
+   },
+   {
+    "label": "Episodi 107 — Misteri Moletian Case (1)",
+    "url": "https://abyssplayer.com/BkCWABkgf"
+   },
+   {
+    "label": "Episodi 108 — Misteri Moletian Case (2)",
+    "url": "https://abyssplayer.com/8ksw5rzOQ"
+   },
+   {
+    "label": "Episodi 109 — Godit dhe vrapoj",
+    "url": "https://abyssplayer.com/BJv-e8y8I"
+   },
+   {
+    "label": "Episodi 110 — Recetë për vrasje (1)",
+    "url": "https://abyssplayer.com/3bUzbPXoB"
+   },
+   {
+    "label": "Episodi 111 — Recetë për vrasje (2)",
+    "url": "https://abyssplayer.com/4gSldl1Qu"
+   },
+   {
+    "label": "Episodi 112 — Shkolla e Ghouls",
+    "url": "https://abyssplayer.com/yjSD7qp9v"
+   },
+   {
+    "label": "Episodi 113 — Recetë për vrasje",
+    "url": "https://abyssplayer.com/gWC7UGAh1"
+   },
+   {
+    "label": "Episodi 114 — Scuba Vdes (1)",
+    "url": "https://abyssplayer.com/1Gt9WJLxR"
+   },
+   {
+    "label": "Episodi 115 — Scuba Vdes (2)",
+    "url": "https://abyssplayer.com/LdhPmeuhS"
+   },
+   {
+    "label": "Episodi 116 — Zhdukja e shkrimtarit të misterit (1)",
+    "url": "https://abyssplayer.com/td1O9KqL1"
+   },
+   {
+    "label": "Episodi 117 — Zhdukja e shkrimtarit të misterit (2)",
+    "url": "https://abyssplayer.com/fr6-OE7nrV"
+   },
+   {
+    "label": "Episodi 118 — Licencë për të vdekur (1/2)",
+    "url": "https://abyssplayer.com/PgzSoi9L-"
+   },
+   {
+    "label": "Episodi 119 — Misteri i vrasjes Yaiba i maskuar",
+    "url": "https://abyssplayer.com/m8jfY9Nxg"
+   },
+   {
+    "label": "Episodi 120 — Goditja e madhe",
+    "url": "https://abyssplayer.com/1kcF7J3eSJ"
+   },
+   {
+    "label": "Episodi 121 — Lidhja e harruar (1)",
+    "url": "https://abyssplayer.com/crihSu7sL"
+   },
+   {
+    "label": "Episodi 122 — Lidhja e harruar (2)",
+    "url": "https://abyssplayer.com/PCLj0XrejM"
+   },
+   {
+    "label": "Episodi 123 — Vajza e motit që zhduket",
+    "url": "https://abyssplayer.com/iGNLZ8mNl"
+   },
+   {
+    "label": "Episodi 124 — Një rast misterioz i vrasjes snajper (1)",
+    "url": "https://abyssplayer.com/pqh8WV2aZ"
+   },
+   {
+    "label": "Episodi 125 — Një rast misterioz i vrasjes snajper (2)",
+    "url": "https://abyssplayer.com/PxXvQqLzi"
+   },
+   {
+    "label": "Episodi 126 — Rasti i vrasjes së Trupës së Dramës Udhëtuese (1)",
+    "url": "https://abyssplayer.com/n_BO6Ksn_"
+   },
+   {
+    "label": "Episodi 133 — Rasti i vrasjes së Lover Magic (dyshimi)",
+    "url": "https://abyssplayer.com/LrHKTXFGD"
+   },
+   {
+    "label": "Episodi 134 — Rasti i vrasjes së Lover Magic (Rezoluta)",
+    "url": "https://abyssplayer.com/CEib8EDi8"
+   },
+   {
+    "label": "Episodi 135 — Çështja e armëve që zhduket",
+    "url": "https://abyssplayer.com/511041jRG"
+   },
+   {
+    "label": "Episodi 136 — Rasti i Old Blue Castle Hetimi (1)",
+    "url": "https://abyssplayer.com/nhC3gK3XE"
+   },
+   {
+    "label": "Episodi 137 — Rasti i Hetimit të Kalasë së Vjetër Blu (2)",
+    "url": "https://abyssplayer.com/jy-c32g1k"
+   },
+   {
+    "label": "Episodi 138 — Rasti i Vrasjes së Fundit të Shfaqjes (1)",
+    "url": "https://abyssplayer.com/6q2sUPLL9"
+   },
+   {
+    "label": "Episodi 139 — Rasti i Vrasjes së Fundit të Shqyrtimit (2)",
+    "url": "https://abyssplayer.com/3uNtpKGWm"
+   },
+   {
+    "label": "Episodi 140 — SOS!",
+    "url": "https://abyssplayer.com/Lkhd2j3gE"
+   },
+   {
+    "label": "Episodi 141 — Natën para se të mbyllet dasma rasti i dhomës (1)",
+    "url": "https://abyssplayer.com/1GKK9TdlC"
+   },
+   {
+    "label": "Episodi 142 — Natën para se të mbyllet dasma rasti i dhomës (2)",
+    "url": "https://abyssplayer.com/qkcNd3DcyA"
+   },
+   {
+    "label": "Episodi 143 — Vëzhgimi i dyshimtë astronomik",
+    "url": "https://abyssplayer.com/3ITDbeQ4k"
+   },
+   {
+    "label": "Episodi 144 — Ylli i Veriut Nr. 3 Express duke lënë Ueno (1)",
+    "url": "https://abyssplayer.com/u-ILwJ9XQ"
+   },
+   {
+    "label": "Episodi 145 — Ylli i Veriut Nr. 3 Express duke lënë Ueno (2)",
+    "url": "https://abyssplayer.com/na1mewPdJ"
+   },
+   {
+    "label": "Episodi 146",
+    "url": "https://abyssplayer.com/rCUxetHw-"
+   },
+   {
+    "label": "Episodi 147",
+    "url": "https://abyssplayer.com/lDuCGQbta"
+   },
+   {
+    "label": "Episodi 149 — Rasti i kërcimit të parkut të dëfrimit",
+    "url": "https://abyssplayer.com/h_wd8zCqn"
+   },
+   {
+    "label": "Episodi 150 — E vërteta e çështjes së makinës shpërthyese (1)",
+    "url": "https://abyssplayer.com/-ul8QdTE7"
+   },
+   {
+    "label": "Episodi 151 — E vërteta e çështjes së makinës shpërthyese (2)",
+    "url": "https://abyssplayer.com/knC_Sa3od"
+   },
+   {
+    "label": "Episodi 152 — Çështja misterioze e zhdukjes së plakut",
+    "url": "https://abyssplayer.com/ej8FJ4YLO"
+   },
+   {
+    "label": "Episodi 153 — Historia e rrezikshme e verës së Sonoko (1)",
+    "url": "https://abyssplayer.com/gSsUcPwGR"
+   },
+   {
+    "label": "Episodi 154 — Historia e rrezikshme e verës së Sonoko (2)",
+    "url": "https://abyssplayer.com/BqjiXzoDx"
+   },
+   {
+    "label": "Episodi 155 — Çelësi në rastin e dhomës së mbyllur",
+    "url": "https://abyssplayer.com/QUPykwGbV"
+   },
+   {
+    "label": "Episodi 157",
+    "url": "https://abyssplayer.com/O5-iK2B-9"
+   },
+   {
+    "label": "Episodi 158 — Linja e Unazës së Heshtur",
+    "url": "https://abyssplayer.com/VxU5pPpyy"
+   },
+   {
+    "label": "Episodi 159 — Legjenda e çuditshme e pesë Pagodës së Storied (1)",
+    "url": "https://abyssplayer.com/pvLuMICdM"
+   },
+   {
+    "label": "Episodi 160 — Legjenda e çuditshme e pesë Pagodës së Storied (2)",
+    "url": "https://abyssplayer.com/wHa48EdyD"
+   },
+   {
+    "label": "Episodi 162 — Dhoma e mbyllur në qiell!",
+    "url": "https://abyssplayer.com/QiLQ8FhvV"
+   }
   ]
  },
  {
@@ -7576,69 +9259,6 @@
   "type": "serial",
   "videos": [
    "https://filemoon.to/e/razuaan5d8qh/"
-  ]
- },
- {
-  "id": "m379",
-  "title_al": "Skubi Du dhe Përbindëshi i Hënës",
-  "title_orig": "Scooby-Doo! Moon Monster Madness",
-  "year": "2015",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "desc": "Skubi Du dhe shokët hetojnë misterin në Hënë.",
-  "poster": "img/posters/m379.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/1e9wxv4ep5yp/"
-  ]
- },
- {
-  "id": "m380",
-  "title_al": "Skubi Du dhe Fajkoi Blu",
-  "title_orig": "Scooby-Doo! Mask of the Blue Falcon",
-  "year": "2013",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aksion"
-  ],
-  "desc": "Skubi Du takon heroin Fajkoi Blu.",
-  "poster": "img/posters/m380.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/3e7s1gro8x7j/"
-  ]
- },
- {
-  "id": "m382",
-  "title_al": "Gru 4: Unë Shpirtkeqi",
-  "title_orig": "Despicable Me 4",
-  "year": "2024",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aksion"
-  ],
-  "desc": "Gru dhe Minionët kthehen në një aventurë të re.",
-  "poster": "img/posters/m382.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/i33s6uccyu8m/"
   ]
  },
  {
@@ -7801,7 +9421,210 @@
   "dub": "Dubluar në shqip",
   "type": "serial",
   "videos": [
-   "https://filemoon.to/e/0bvyrjly8mq5/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/0bvyrjly8mq5/"
+   },
+   {
+    "label": "Episodi 1 — Miqtë më të mirë",
+    "url": "https://abyssplayer.com/a8p7W8D5K"
+   },
+   {
+    "label": "Episodi 1 — Bobcats në tre",
+    "url": "https://abyssplayer.com/irifPQW9R"
+   },
+   {
+    "label": "Episodi 2 — Vetëm anëtarët",
+    "url": "https://abyssplayer.com/uHEQjl__q"
+   },
+   {
+    "label": "Episodi 2 — Ju keni postë urrejtjeje",
+    "url": "https://abyssplayer.com/reaCIlIac"
+   },
+   {
+    "label": "Episodi 3 — Jailbird ... dhe burgbunny",
+    "url": "https://abyssplayer.com/OZyGfMLVn"
+   },
+   {
+    "label": "Episodi 3 — ITSY BITSY GOPHER",
+    "url": "https://abyssplayer.com/6D9UZAW2p"
+   },
+   {
+    "label": "Episodi 4 — Peshku dhe Vizitorët",
+    "url": "https://abyssplayer.com/uJtgOG1Th"
+   },
+   {
+    "label": "Episodi 4 — Rebel pa një dorezë",
+    "url": "https://abyssplayer.com/4Bbf0E1qd"
+   },
+   {
+    "label": "Episodi 5 — Talent përbindësh",
+    "url": "https://abyssplayer.com/xPGY9PV28"
+   },
+   {
+    "label": "Episodi 5 — Semper gënjeshtër",
+    "url": "https://abyssplayer.com/QPgowCyaM"
+   },
+   {
+    "label": "Episodi 6 — Ribashkim",
+    "url": "https://abyssplayer.com/64MxS05fP"
+   },
+   {
+    "label": "Episodi 6 — Figurë e babait",
+    "url": "https://abyssplayer.com/G7FYIm1Z0"
+   },
+   {
+    "label": "Episodi 7 — Casa de Calma",
+    "url": "https://abyssplayer.com/gINMXsd-X"
+   },
+   {
+    "label": "Episodi 7 — Shërbim ndaj klientit",
+    "url": "https://abyssplayer.com/2OniwRlTC"
+   },
+   {
+    "label": "Episodi 8 — Qen djall",
+    "url": "https://abyssplayer.com/6pmGu5U2p"
+   },
+   {
+    "label": "Episodi 8 — Stud, nerd, Joe mesatar dhe shenjtor",
+    "url": "https://abyssplayer.com/4i0nECJI7"
+   },
+   {
+    "label": "Episodi 9 — Historia e Foghorn Leghorn",
+    "url": "https://abyssplayer.com/-MAGP6KVH"
+   },
+   {
+    "label": "Episodi 9 — Ashtë një çantë dore",
+    "url": "https://abyssplayer.com/YUa-81iZb"
+   },
+   {
+    "label": "Episodi 10 — Bachelor të pranueshëm",
+    "url": "https://abyssplayer.com/2Dx2HO5Sb"
+   },
+   {
+    "label": "Episodi 10 — Një Carol Christmas",
+    "url": "https://abyssplayer.com/BkLeIahRk"
+   },
+   {
+    "label": "Episodi 11 — Lëvozhgë",
+    "url": "https://abyssplayer.com/u-zASGgXh"
+   },
+   {
+    "label": "Episodi 11 — Ne jemi në truffle të mëdha",
+    "url": "https://abyssplayer.com/jQlX6c5qZ"
+   },
+   {
+    "label": "Episodi 12 — Datë e dyfishtë",
+    "url": "https://abyssplayer.com/j33OysKY1"
+   },
+   {
+    "label": "Episodi 12 — I dashur Gjon",
+    "url": "https://abyssplayer.com/SU87wrWkR"
+   },
+   {
+    "label": "Episodi 13 — Për të tas ose jo për të tasur",
+    "url": "https://abyssplayer.com/NmT6WwyVS"
+   },
+   {
+    "label": "Episodi 14 — Hajdut i gazetës",
+    "url": "https://abyssplayer.com/7yJxhHIdo"
+   },
+   {
+    "label": "Episodi 15 — Bugs dhe Daffy marrin një punë",
+    "url": "https://abyssplayer.com/SZVSMF-mf"
+   },
+   {
+    "label": "Episodi 15 — E veja e zezë",
+    "url": "https://abyssplayer.com/SKH1SxG4Q"
+   },
+   {
+    "label": "Episodi 16 — Kjo është fëmija im",
+    "url": "https://abyssplayer.com/XbfP0edeS"
+   },
+   {
+    "label": "Episodi 16 — Zonja Porkbunny's",
+    "url": "https://abyssplayer.com/rZAlpErhJ"
+   },
+   {
+    "label": "Episodi 17 — Fetë e natës së së dielës",
+    "url": "https://abyssplayer.com/aNmwBCroI"
+   },
+   {
+    "label": "Episodi 17 — Kërkimi i Gribbler",
+    "url": "https://abyssplayer.com/Kmelf9jL7"
+   },
+   {
+    "label": "Episodi 18 — DMV",
+    "url": "https://abyssplayer.com/0lvdv7aVl"
+   },
+   {
+    "label": "Episodi 18 — Duck i madh i vjetër i Jorkut",
+    "url": "https://abyssplayer.com/tlxnhi0H3"
+   },
+   {
+    "label": "Episodi 19 — COP i jashtëm",
+    "url": "https://abyssplayer.com/VZtLrXxzP"
+   },
+   {
+    "label": "Episodi 19 — Udhëtim qesharak",
+    "url": "https://abyssplayer.com/AIC2pw0p8"
+   },
+   {
+    "label": "Episodi 20 — Rosë pune",
+    "url": "https://abyssplayer.com/XXUkoq3T8"
+   },
+   {
+    "label": "Episodi 20 — Lojë Shell",
+    "url": "https://abyssplayer.com/xmD3bIE06"
+   },
+   {
+    "label": "Episodi 21 — I skuqur i skuqur",
+    "url": "https://abyssplayer.com/Uysobh_5q"
+   },
+   {
+    "label": "Episodi 21 — Viti i Duck",
+    "url": "https://abyssplayer.com/b7EsA0-RM"
+   },
+   {
+    "label": "Episodi 22 — Shkollë e bukurisë",
+    "url": "https://abyssplayer.com/1XG3WBl0h"
+   },
+   {
+    "label": "Episodi 22 — Gossamer është awesomer",
+    "url": "https://abyssplayer.com/pPzInLbaz"
+   },
+   {
+    "label": "Episodi 23 — Notimi",
+    "url": "https://abyssplayer.com/VwtkRqN92"
+   },
+   {
+    "label": "Episodi 23 — Këtu vjen derri",
+    "url": "https://abyssplayer.com/BxzgeBDKr"
+   },
+   {
+    "label": "Episodi 24 — Raft",
+    "url": "https://abyssplayer.com/tKMKOcXEa"
+   },
+   {
+    "label": "Episodi 24 — Z. Weiner",
+    "url": "https://abyssplayer.com/qMH20iRzn"
+   },
+   {
+    "label": "Episodi 25 — Vrasje muh-muh-muh",
+    "url": "https://abyssplayer.com/Wz0kxUbPU"
+   },
+   {
+    "label": "Episodi 25 — Miqtë më të mirë redux",
+    "url": "https://abyssplayer.com/ZiwbRw6_z"
+   },
+   {
+    "label": "Episodi 26 — Pikë, pikë lazer",
+    "url": "https://abyssplayer.com/DK7wIOr1R"
+   },
+   {
+    "label": "Episodi 26 — Superrabbit",
+    "url": "https://abyssplayer.com/Nu1YzJbg1X"
+   }
   ]
  },
  {
@@ -7898,13 +9721,20 @@
    "Animuar",
    "Aksion"
   ],
-  "desc": "Supermeni përballet me fundin e tij.",
+  "desc": "Supermeni përballet me vdekshmërinë e tij në këtë film të animuar të DC.",
   "poster": "img/posters/m396.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://filemoon.to/e/8c7brbw9wcj9/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/8c7brbw9wcj9/"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://vk.com/video_ext.php?oid=224422917&id=166605843&"
+   }
   ]
  },
  {
@@ -7959,13 +9789,20 @@
    "Animuar",
    "Aksion"
   ],
-  "desc": "Batman përballet me Drakulën në Gotham.",
+  "desc": "Batmani përballet me Kontin Drakula në Gotham.",
   "poster": "img/posters/m399.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://filemoon.to/e/xcqa9hp5z3px/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/xcqa9hp5z3px/"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://vk.com/video_ext.php?oid=241368450&id=168735597&"
+   }
   ]
  },
  {
@@ -8047,7 +9884,214 @@
   "dub": "Dubluar në shqip",
   "type": "serial",
   "videos": [
-   "https://filemoon.to/e/atjexux7cmmg/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/atjexux7cmmg/"
+   },
+   {
+    "label": "Episodi 1 — The Dark Hand",
+    "url": "https://abyssplayer.com/WIMDgt07x"
+   },
+   {
+    "label": "Episodi 1 — Through the Rabbit Hole",
+    "url": "https://abyssplayer.com/xrvJRRyp1"
+   },
+   {
+    "label": "Episodi 2 — The Power Within",
+    "url": "https://abyssplayer.com/QzUs3dSOc"
+   },
+   {
+    "label": "Episodi 2 — The Warrior Incarnate",
+    "url": "https://abyssplayer.com/jFUmrwUtf"
+   },
+   {
+    "label": "Episodi 3 — The Mask of El Toro Fuerte",
+    "url": "https://abyssplayer.com/65DBPRYBU"
+   },
+   {
+    "label": "Episodi 3 — Snake Hunt",
+    "url": "https://abyssplayer.com/vq-PJp6KTC"
+   },
+   {
+    "label": "Episodi 4 — Enter the Viper",
+    "url": "https://abyssplayer.com/L3uB4gF43"
+   },
+   {
+    "label": "Episodi 4 — Mother of All Battles",
+    "url": "https://abyssplayer.com/ETK8fqZbW"
+   },
+   {
+    "label": "Episodi 5 — Shell Game",
+    "url": "https://abyssplayer.com/eQerKw3ph"
+   },
+   {
+    "label": "Episodi 5 — The Stronger Evil",
+    "url": "https://abyssplayer.com/KnAO7-CAc"
+   },
+   {
+    "label": "Episodi 6 — Project A, for Astral",
+    "url": "https://abyssplayer.com/uPSswHzxL"
+   },
+   {
+    "label": "Episodi 6 — The J-Team",
+    "url": "https://abyssplayer.com/Jp36DMa6r"
+   },
+   {
+    "label": "Episodi 7 — Bullies",
+    "url": "https://abyssplayer.com/m_q0NKbyp"
+   },
+   {
+    "label": "Episodi 7 — Jade Times Jade",
+    "url": "https://abyssplayer.com/nSXz1Ubrv"
+   },
+   {
+    "label": "Episodi 8 — Tough Break",
+    "url": "https://abyssplayer.com/o3Lmd_Chx"
+   },
+   {
+    "label": "Episodi 8 — The Curse of El Chupacabra",
+    "url": "https://abyssplayer.com/ZnU2WOJSO"
+   },
+   {
+    "label": "Episodi 9 — The Rock",
+    "url": "https://abyssplayer.com/mVJEyA7T6"
+   },
+   {
+    "label": "Episodi 9 — Rumble in the Big House",
+    "url": "https://abyssplayer.com/cS4qH9Mc-p"
+   },
+   {
+    "label": "Episodi 10 — The Dog and Piggy Show",
+    "url": "https://abyssplayer.com/PGBKt9NVS"
+   },
+   {
+    "label": "Episodi 10 — Lost City of the Muntabs",
+    "url": "https://abyssplayer.com/Nw0mJ0B4k"
+   },
+   {
+    "label": "Episodi 11 — The Jade Monkey",
+    "url": "https://abyssplayer.com/vaLrEecdh"
+   },
+   {
+    "label": "Episodi 11 — And He Does His Own Stunts",
+    "url": "https://abyssplayer.com/7HJ6Q29WBO"
+   },
+   {
+    "label": "Episodi 12 — The Tiger and the Pussycat",
+    "url": "https://abyssplayer.com/_RiYd55TZ"
+   },
+   {
+    "label": "Episodi 12 — Showdown in the Old West",
+    "url": "https://abyssplayer.com/AuVKM79fI"
+   },
+   {
+    "label": "Episodi 13 — Day of the Dragon",
+    "url": "https://abyssplayer.com/Ezu-a_cZv"
+   },
+   {
+    "label": "Episodi 13 — Queen of the Shadowkhan",
+    "url": "https://abyssplayer.com/dt8xior-d"
+   },
+   {
+    "label": "Episodi 14 — Origami",
+    "url": "https://abyssplayer.com/3fVjHrVaK"
+   },
+   {
+    "label": "Episodi 15 — Shanghai Moon",
+    "url": "https://abyssplayer.com/L87axukqC"
+   },
+   {
+    "label": "Episodi 16 — The Lotus Temple",
+    "url": "https://abyssplayer.com/-78l2a8im"
+   },
+   {
+    "label": "Episodi 17 — Armor of the Gods",
+    "url": "https://abyssplayer.com/c9JGxLqWN"
+   },
+   {
+    "label": "Episodi 18 — Agent Tag",
+    "url": "https://abyssplayer.com/VdztACLUrw"
+   },
+   {
+    "label": "Episodi 19 — Demon in Di-Skies (Tale of the Demon Tail)",
+    "url": "https://abyssplayer.com/l-K5zHmO9"
+   },
+   {
+    "label": "Episodi 20 — The Return of the Pussycat",
+    "url": "https://abyssplayer.com/R4FNQGEEf"
+   },
+   {
+    "label": "Episodi 21 — Scouts Honor",
+    "url": "https://abyssplayer.com/wJ97aolzv"
+   },
+   {
+    "label": "Episodi 22 — Danger in the Deep Freeze",
+    "url": "https://abyssplayer.com/jw7YHGdHu"
+   },
+   {
+    "label": "Episodi 23 — Into the Mouth of Evil",
+    "url": "https://abyssplayer.com/3d8iWZgc5"
+   },
+   {
+    "label": "Episodi 24 — The King and Jade",
+    "url": "https://abyssplayer.com/snGr66Kss"
+   },
+   {
+    "label": "Episodi 25 — The New Atlantis",
+    "url": "https://abyssplayer.com/d4kBuotRz"
+   },
+   {
+    "label": "Episodi 26 — The Eighth Door",
+    "url": "https://abyssplayer.com/w_VkAcSD-"
+   },
+   {
+    "label": "Episodi 27 — Demon World (1)",
+    "url": "https://abyssplayer.com/PDcWLydN6"
+   },
+   {
+    "label": "Episodi 28 — Demon World (2)",
+    "url": "https://abyssplayer.com/8ELxmbPrq"
+   },
+   {
+    "label": "Episodi 29 — Enter the Cat",
+    "url": "https://abyssplayer.com/dC2KOOIYv"
+   },
+   {
+    "label": "Episodi 30 — Pleasure Cruise",
+    "url": "https://abyssplayer.com/gO8EIFEci"
+   },
+   {
+    "label": "Episodi 31 — Tough Luck",
+    "url": "https://abyssplayer.com/oRlhVPuh_"
+   },
+   {
+    "label": "Episodi 32 — The Chosen One",
+    "url": "https://abyssplayer.com/aYBPl95U5"
+   },
+   {
+    "label": "Episodi 33 — Glove Story",
+    "url": "https://abyssplayer.com/i-tMFfJBY"
+   },
+   {
+    "label": "Episodi 34 — The Chan Who Knew Too Much",
+    "url": "https://abyssplayer.com/q0Hls8L45"
+   },
+   {
+    "label": "Episodi 35 — Chi of the Vampire",
+    "url": "https://abyssplayer.com/a3UbER1Uj"
+   },
+   {
+    "label": "Episodi 36 — The Good, the Bad, the Blind, the Deaf and the Mute",
+    "url": "https://abyssplayer.com/vCCsSGg7p"
+   },
+   {
+    "label": "Episodi 37 — Shrink Rap",
+    "url": "https://abyssplayer.com/61tI1W1Uh"
+   },
+   {
+    "label": "Episodi 38 — I'll Be a Monkey's Puppet",
+    "url": "https://abyssplayer.com/U7WEDH8UU"
+   }
   ]
  },
  {
@@ -8149,28 +10193,306 @@
   "dub": "Dubluar në shqip",
   "type": "serial",
   "videos": [
-   "https://filemoon.to/e/c2vcmb74q7jf/"
-  ]
- },
- {
-  "id": "m411",
-  "title_al": "Avatar: Mjeshtri i Fundit i Ajrit",
-  "title_orig": "Avatar: The Last Airbender",
-  "year": "2005",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aksion",
-   "Fantazi"
-  ],
-  "desc": "Aang mëson të kontrollojë 4 elementet.",
-  "poster": "img/posters/m411.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "serial",
-  "videos": [
-   "https://filemoon.to/e/mn96gqt4g4fi/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/c2vcmb74q7jf/"
+   },
+   {
+    "label": "Episodi 1 — I Am Kuroko",
+    "url": "https://abyssplayer.com/85J8g_Eot"
+   },
+   {
+    "label": "Episodi 1 — I Never Thought We'd Meet Here",
+    "url": "https://abyssplayer.com/VnUYu-ay0"
+   },
+   {
+    "label": "Episodi 1 — I'm Just Going at Full Strength",
+    "url": "https://abyssplayer.com/LT_M9bhEr"
+   },
+   {
+    "label": "Episodi 2 — I'm Serious",
+    "url": "https://abyssplayer.com/nXtEj6uIm"
+   },
+   {
+    "label": "Episodi 2 — At The Winter Cup",
+    "url": "https://abyssplayer.com/9kBLgWoa_L"
+   },
+   {
+    "label": "Episodi 2 — This Is Mine",
+    "url": "https://abyssplayer.com/4XugfbVR0"
+   },
+   {
+    "label": "Episodi 3 — It's Better If I Can't Win",
+    "url": "https://abyssplayer.com/IUYSj50eM"
+   },
+   {
+    "label": "Episodi 3 — Start!!!",
+    "url": "https://abyssplayer.com/kKDkpLm9y"
+   },
+   {
+    "label": "Episodi 3 — Don't You Get In My Way",
+    "url": "https://abyssplayer.com/EI3Fp1C55"
+   },
+   {
+    "label": "Episodi 4 — Take Care of the Counter Attack!",
+    "url": "https://abyssplayer.com/b8_DD27Jz"
+   },
+   {
+    "label": "Episodi 4 — There is Only One Answer",
+    "url": "https://abyssplayer.com/hDcwDJ7PP"
+   },
+   {
+    "label": "Episodi 4 — I'll Take This For Now",
+    "url": "https://abyssplayer.com/mY7mddZX1"
+   },
+   {
+    "label": "Episodi 5 — Your Basketball",
+    "url": "https://abyssplayer.com/r1nt4L0ng"
+   },
+   {
+    "label": "Episodi 5 — I've Been Waiting For This",
+    "url": "https://abyssplayer.com/rD07gAMKf"
+   },
+   {
+    "label": "Episodi 5 — I Know None of That",
+    "url": "https://abyssplayer.com/LTEyFMWPi"
+   },
+   {
+    "label": "Episodi 6 — Let Me Tell You Two Things",
+    "url": "https://abyssplayer.com/bjguxVvba"
+   },
+   {
+    "label": "Episodi 6 — I Surpassed You Long Ago",
+    "url": "https://abyssplayer.com/0KODHfO0B3"
+   },
+   {
+    "label": "Episodi 6 — I Will Offer Them",
+    "url": "https://abyssplayer.com/QoRNqdkYr"
+   },
+   {
+    "label": "Episodi 7 — You'll See Something Amazing",
+    "url": "https://abyssplayer.com/YFVuDL1BQ"
+   },
+   {
+    "label": "Episodi 7 — Give Up",
+    "url": "https://abyssplayer.com/MSo9fGU4W"
+   },
+   {
+    "label": "Episodi 7 — It Makes Me Laugh",
+    "url": "https://abyssplayer.com/7asow-pll"
+   },
+   {
+    "label": "Episodi 8 — Now That I Think About It",
+    "url": "https://abyssplayer.com/r7_1ZamCM"
+   },
+   {
+    "label": "Episodi 8 — We're the Seirin High School Basketball Team!",
+    "url": "https://abyssplayer.com/JB5JZj7eq"
+   },
+   {
+    "label": "Episodi 8 — True Light",
+    "url": "https://abyssplayer.com/s0CpdL8iJ"
+   },
+   {
+    "label": "Episodi 9 — To Win",
+    "url": "https://abyssplayer.com/NI4lhnL3f"
+   },
+   {
+    "label": "Episodi 9 — I Will Defeat You!",
+    "url": "https://abyssplayer.com/diMOfaKOD"
+   },
+   {
+    "label": "Episodi 9 — Don't Underestimate Us!",
+    "url": "https://abyssplayer.com/DEtHx-uaH"
+   },
+   {
+    "label": "Episodi 10 — I Can't Have That",
+    "url": "https://abyssplayer.com/jPdWIoZi0"
+   },
+   {
+    "label": "Episodi 10 — It's Trust",
+    "url": "https://abyssplayer.com/-9uTRzWmT"
+   },
+   {
+    "label": "Episodi 10 — In Order to Win",
+    "url": "https://abyssplayer.com/-ZDnVzxvG"
+   },
+   {
+    "label": "Episodi 11 — That's Not It",
+    "url": "https://abyssplayer.com/fGtz-lqwC"
+   },
+   {
+    "label": "Episodi 11 — Don't Be Ridiculous",
+    "url": "https://abyssplayer.com/DpC5a0mUp"
+   },
+   {
+    "label": "Episodi 11 — This Time, For Sure",
+    "url": "https://abyssplayer.com/35NoIEDzU"
+   },
+   {
+    "label": "Episodi 12 — What Is",
+    "url": "https://abyssplayer.com/GVkSqHnamD"
+   },
+   {
+    "label": "Episodi 12 — I Look Forward to It",
+    "url": "https://abyssplayer.com/fVYviDyBQ"
+   },
+   {
+    "label": "Episodi 12 — He is the Best Player",
+    "url": "https://abyssplayer.com/JC05Xso2i"
+   },
+   {
+    "label": "Episodi 13 — I Believed in You",
+    "url": "https://abyssplayer.com/AbVyG91xD"
+   },
+   {
+    "label": "Episodi 13 — Definitely This Time",
+    "url": "https://abyssplayer.com/4DVGIOjt0"
+   },
+   {
+    "label": "Episodi 13 — A Day With Blue Skies",
+    "url": "https://abyssplayer.com/_al4CQa2l"
+   },
+   {
+    "label": "Episodi 14 — You Look Just Like Him",
+    "url": "https://abyssplayer.com/IJEgjHTwt"
+   },
+   {
+    "label": "Episodi 14 — Useless Effort",
+    "url": "https://abyssplayer.com/MOChURBic"
+   },
+   {
+    "label": "Episodi 14 — ...Sorry",
+    "url": "https://abyssplayer.com/Fp3mniz1S"
+   },
+   {
+    "label": "Episodi 15 — Don't Make Me Laugh",
+    "url": "https://abyssplayer.com/5-CoMbCh5"
+   },
+   {
+    "label": "Episodi 15 — I Think He's Extremely Happy",
+    "url": "https://abyssplayer.com/OX1AFPtD4"
+   },
+   {
+    "label": "Episodi 15 — We Already",
+    "url": "https://abyssplayer.com/LTm6sPKy-"
+   },
+   {
+    "label": "Episodi 16 — Let's Go",
+    "url": "https://abyssplayer.com/shvNwFKu9"
+   },
+   {
+    "label": "Episodi 16 — We Win Now!",
+    "url": "https://abyssplayer.com/Qb1xuRsWX"
+   },
+   {
+    "label": "Episodi 16 — What is Victory?",
+    "url": "https://abyssplayer.com/pmk8iFwMg"
+   },
+   {
+    "label": "Episodi 17 — You're All Ridiculous",
+    "url": "https://abyssplayer.com/lKibOgYHn"
+   },
+   {
+    "label": "Episodi 17 — I Believe in Him",
+    "url": "https://abyssplayer.com/FzAR-6lUL"
+   },
+   {
+    "label": "Episodi 17 — Final Tip Off",
+    "url": "https://abyssplayer.com/ny_1yOnw6"
+   },
+   {
+    "label": "Episodi 18 — No!!",
+    "url": "https://abyssplayer.com/K7WqU-SAl"
+   },
+   {
+    "label": "Episodi 18 — I Won't Lose",
+    "url": "https://abyssplayer.com/RdB8fpvy0"
+   },
+   {
+    "label": "Episodi 18 — Isn't It the Best?",
+    "url": "https://abyssplayer.com/6q1-24gvl"
+   },
+   {
+    "label": "Episodi 19 — On to a New Challenge",
+    "url": "https://abyssplayer.com/cd1GBaD_h"
+   },
+   {
+    "label": "Episodi 19 — A Miracle Will Not Happen",
+    "url": "https://abyssplayer.com/OHuxxAVUv"
+   },
+   {
+    "label": "Episodi 20 — I Don't Want to Be",
+    "url": "https://abyssplayer.com/BBhty3mM7"
+   },
+   {
+    "label": "Episodi 20 — Of Course It's Not Easy",
+    "url": "https://abyssplayer.com/Jm4DcdMoz"
+   },
+   {
+    "label": "Episodi 20 — Weight of Resolve",
+    "url": "https://abyssplayer.com/-_F-d6WCb"
+   },
+   {
+    "label": "Episodi 21 — Let's Get Started",
+    "url": "https://abyssplayer.com/GGiINH42f"
+   },
+   {
+    "label": "Episodi 21 — First Basket!!",
+    "url": "https://abyssplayer.com/-wI1jVnOA"
+   },
+   {
+    "label": "Episodi 21 — In My Own Way, I'm Desperate",
+    "url": "https://abyssplayer.com/slvvSIz43"
+   },
+   {
+    "label": "Episodi 22 — I'll Win Even If It Kills Me",
+    "url": "https://abyssplayer.com/pEeEP32dM"
+   },
+   {
+    "label": "Episodi 22 — It's Obvious",
+    "url": "https://abyssplayer.com/ddk_jrqXl"
+   },
+   {
+    "label": "Episodi 22 — A Warning",
+    "url": "https://abyssplayer.com/Vw1R593fi"
+   },
+   {
+    "label": "Episodi 23 — I'm Not Mature!",
+    "url": "https://abyssplayer.com/G4RwBqLYr"
+   },
+   {
+    "label": "Episodi 23 — I Don't Want to Lose",
+    "url": "https://abyssplayer.com/-hJdsOnIE"
+   },
+   {
+    "label": "Episodi 23 — Why Don't We Give Up?",
+    "url": "https://abyssplayer.com/WQdnHszZj"
+   },
+   {
+    "label": "Episodi 24 — Don't Get the Wrong Idea",
+    "url": "https://abyssplayer.com/nARfqHczG"
+   },
+   {
+    "label": "Episodi 24 — Enough",
+    "url": "https://abyssplayer.com/XPoEJfQgL"
+   },
+   {
+    "label": "Episodi 24 — So It Was You",
+    "url": "https://abyssplayer.com/oqQt7_G1d"
+   },
+   {
+    "label": "Episodi 25 — Our Basketball",
+    "url": "https://abyssplayer.com/AcDDY01Opt"
+   },
+   {
+    "label": "Episodi 25 — Win",
+    "url": "https://abyssplayer.com/KeWWjukZZ"
+   },
+   {
+    "label": "Episodi 25 — Many Times Over",
+    "url": "https://abyssplayer.com/uHvuCwrea"
+   }
   ]
  },
  {
@@ -8211,27 +10533,6 @@
   "type": "film",
   "videos": [
    "https://filemoon.to/e/dnxewz3if3vk/"
-  ]
- },
- {
-  "id": "m414",
-  "title_al": "Trollhunters: Zgjimi i Titanëve",
-  "title_orig": "Trollhunters: Rise of the Titans",
-  "year": "2021",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Fantazi",
-   "Aksion"
-  ],
-  "desc": "Jim dhe miqtë shpëtojnë botën.",
-  "poster": "img/posters/m414.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/filh232hb8zv/"
   ]
  },
  {
@@ -8337,27 +10638,6 @@
   ]
  },
  {
-  "id": "m422",
-  "title_al": "Ted Eksploruesi",
-  "title_orig": "Tad, the Lost Explorer",
-  "year": "2012",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Ted kërkon qytetin e humbur.",
-  "poster": "img/posters/m422.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/fxkd19k5hw3e/"
-  ]
- },
- {
   "id": "m423",
   "title_al": "Pokemon: Sekreti i Xhunglës",
   "title_orig": "Pokémon: Secrets of the Jungle",
@@ -8459,47 +10739,6 @@
   ]
  },
  {
-  "id": "m429",
-  "title_al": "Bob Sfungjeri: Filmi",
-  "title_orig": "The SpongeBob SquarePants Movie",
-  "year": "2004",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "desc": "Bob dhe Patrick shpëtojnë kurorën.",
-  "poster": "img/posters/m429.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/xepw58vpy65h/"
-  ]
- },
- {
-  "id": "m430",
-  "title_al": "Iron Man dhe Hulk",
-  "title_orig": "Iron Man & Hulk: Heroes United",
-  "year": "2013",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aksion"
-  ],
-  "desc": "Dy heronjtë bashkohen.",
-  "poster": "img/posters/m430.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/l725dhhhrjgn/"
-  ]
- },
- {
   "id": "m431",
   "title_al": "Iron Man i Pathyeshmi",
   "title_orig": "The Invincible Iron Man",
@@ -8530,53 +10769,20 @@
    "Animuar",
    "Aksion"
   ],
-  "desc": "Batman heton Batwoman.",
+  "desc": "Batmani heton misterin e Batwoman në Gotham.",
   "poster": "img/posters/m432.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://filemoon.to/e/4tm8cugofrqt/"
-  ]
- },
- {
-  "id": "m433",
-  "title_al": "Djali i Batmanit",
-  "title_orig": "Son of Batman",
-  "year": "2014",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aksion"
-  ],
-  "desc": "Damian, djali i Batmanit.",
-  "poster": "img/posters/m433.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/3tnlxkpo0tkg/"
-  ]
- },
- {
-  "id": "m434",
-  "title_al": "Batman: Kalorësi i Gotham",
-  "title_orig": "Batman: Gotham Knight",
-  "year": "2008",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aksion"
-  ],
-  "desc": "Gjashtë histori Batman.",
-  "poster": "img/posters/m434.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/dudhrvxvfwpl/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/4tm8cugofrqt/"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://vk.com/video_ext.php?oid=224422917&id=166037796"
+   }
   ]
  },
  {
@@ -8622,68 +10828,6 @@
   ]
  },
  {
-  "id": "m437",
-  "title_al": "Skubi Du dhe Batman: Trimi dhe Guximtari",
-  "title_orig": "Scooby-Doo! & Batman: The Brave and the Bold",
-  "year": "2018",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aksion"
-  ],
-  "desc": "Skubi Du me Batman.",
-  "poster": "img/posters/m437.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/gnte2jjv89y8/"
-  ]
- },
- {
-  "id": "m438",
-  "title_al": "Skubi Du: Trick or Treat",
-  "title_orig": "Trick or Treat Scooby-Doo!",
-  "year": "2022",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Misteri i Halloween-it.",
-  "poster": "img/posters/m438.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/5aalsfuu6g9s/"
-  ]
- },
- {
-  "id": "m439",
-  "title_al": "Skubi Du: Netët Arabe",
-  "title_orig": "Scooby-Doo! in Arabian Nights",
-  "year": "1994",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "desc": "Përralla arabe me Skubi Du.",
-  "poster": "img/posters/m439.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/2ir5aqbceebc/"
-  ]
- },
- {
   "id": "m440",
   "title_al": "Skubi Du dhe Njeriu Ujk",
   "title_orig": "Scooby-Doo! and the Reluctant Werewolf",
@@ -8701,335 +10845,6 @@
   "type": "film",
   "videos": [
    "https://filemoon.to/e/720uf652dp8u/"
-  ]
- },
- {
-  "id": "m441",
-  "title_al": "Skubi Du: Aloha",
-  "title_orig": "Aloha, Scooby-Doo!",
-  "year": "2005",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "desc": "Misteri në Hawaii.",
-  "poster": "img/posters/m441.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/w2wpijdmqgzy/"
-  ]
- },
- {
-  "id": "m442",
-  "title_al": "Skubi Du dhe Kiss",
-  "title_orig": "Scooby-Doo! and Kiss: Rock and Roll Mystery",
-  "year": "2015",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Muzikor"
-  ],
-  "desc": "Skubi Du me grupin Kiss.",
-  "poster": "img/posters/m442.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/akpeqvayyozj/"
-  ]
- },
- {
-  "id": "m443",
-  "title_al": "Skubi Du: Gëzuar Halloween-in",
-  "title_orig": "Happy Halloween, Scooby-Doo!",
-  "year": "2020",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Halloween me Skubi Du.",
-  "poster": "img/posters/m443.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/xlkk1lle5hc5/"
-  ]
- },
- {
-  "id": "m444",
-  "title_al": "Skubi Du: Kampi i Frikës",
-  "title_orig": "Scooby-Doo! Camp Scare",
-  "year": "2010",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Misteri në kamp.",
-  "poster": "img/posters/m444.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/oib19sv1enx9/"
-  ]
- },
- {
-  "id": "m445",
-  "title_al": "Skubi Du: Shpata e Samurait",
-  "title_orig": "Scooby-Doo! and the Samurai Sword",
-  "year": "2009",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "desc": "Aventurë në Japoni.",
-  "poster": "img/posters/m445.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/c3i7w2okg64o/"
-  ]
- },
- {
-  "id": "m446",
-  "title_al": "Skubi Du dhe Mumja",
-  "title_orig": "Scooby-Doo! in Where's My Mummy?",
-  "year": "2005",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "desc": "Misteri në Egjipt.",
-  "poster": "img/posters/m446.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/yt2lo5uqcga9/"
-  ]
- },
- {
-  "id": "m447",
-  "title_al": "Skubi Du dhe Përbindëshi i Meksikës",
-  "title_orig": "Scooby-Doo! and the Monster of Mexico",
-  "year": "2003",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Misteri në Meksikë.",
-  "poster": "img/posters/m447.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/3ycfrixqty41/"
-  ]
- },
- {
-  "id": "m448",
-  "title_al": "Skubi Du dhe Përbindëshi i Loch Ness",
-  "title_orig": "Scooby-Doo! and the Loch Ness Monster",
-  "year": "2004",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "desc": "Misteri në Skoci.",
-  "poster": "img/posters/m448.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/xindtg5c9ys1/"
-  ]
- },
- {
-  "id": "m449",
-  "title_al": "Skubi Du: Ngrica",
-  "title_orig": "Chill Out, Scooby-Doo!",
-  "year": "2007",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "desc": "Aventurë në dëborë.",
-  "poster": "img/posters/m449.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/4dm2co1adkk4/"
-  ]
- },
- {
-  "id": "m450",
-  "title_al": "Skubi Du: Frika nga Skena",
-  "title_orig": "Scooby-Doo! Stage Fright",
-  "year": "2013",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Muzikor"
-  ],
-  "desc": "Misteri në teatër.",
-  "poster": "img/posters/m450.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/aecex353tswz/"
-  ]
- },
- {
-  "id": "m451",
-  "title_al": "Skubi Du: Legjenda e Fantozaurit",
-  "title_orig": "Scooby-Doo! Legend of the Phantosaur",
-  "year": "2011",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Dinozauri fantazmë.",
-  "poster": "img/posters/m451.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/to2sxgge48u5/"
-  ]
- },
- {
-  "id": "m452",
-  "title_al": "Skubi Du në Transilvani",
-  "title_orig": "Scooby-Doo! Frankencreepy",
-  "year": "2014",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Misteri i Frankenstein.",
-  "poster": "img/posters/m452.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/3bw1i6o03m4r/"
-  ]
- },
- {
-  "id": "m454",
-  "title_al": "Skubi Du dhe WWE: Mallkimi i Demoni",
-  "title_orig": "Scooby-Doo! and WWE: Curse of the Speed Demon",
-  "year": "2016",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aksion"
-  ],
-  "desc": "Gara me WWE.",
-  "poster": "img/posters/m454.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/7ji0l0y66ue7/"
-  ]
- },
- {
-  "id": "m455",
-  "title_al": "Skubi Du: Misteri i WrestleMania",
-  "title_orig": "Scooby-Doo! WrestleMania Mystery",
-  "year": "2014",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aksion"
-  ],
-  "desc": "Skubi Du me WWE.",
-  "poster": "img/posters/m455.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/ixuu5ldy37yz/"
-  ]
- },
- {
-  "id": "m456",
-  "title_al": "Skubi Du dhe Mallkimi i Fantazmës së 13-të",
-  "title_orig": "Scooby-Doo! and the Curse of the 13th Ghost",
-  "year": "2019",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Fantazma e 13-të kthehet.",
-  "poster": "img/posters/m456.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/y24ugfwundi3/"
-  ]
- },
- {
-  "id": "m457",
-  "title_al": "Skubi Du: Perëndimi i Egër",
-  "title_orig": "Scooby-Doo! Shaggy's Showdown",
-  "year": "2017",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Aventurë western.",
-  "poster": "img/posters/m457.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/gvnas8l00mo8/"
   ]
  },
  {
@@ -9106,13 +10921,20 @@
    "Komedi",
    "Aventurë"
   ],
-  "desc": "Familja Crood takon Bettermans.",
+  "desc": "Familja Krok kthehet në një aventurë të re në botën parahistorike.",
   "poster": "img/posters/m462.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://filemoon.to/e/blxtvtiy9mpe/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/blxtvtiy9mpe/"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/22311930530"
+   }
   ]
  },
  {
@@ -9157,27 +10979,6 @@
   ]
  },
  {
-  "id": "m465",
-  "title_al": "Përbindëshat kundër Alienëve",
-  "title_orig": "Monsters vs. Aliens",
-  "year": "2009",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aksion"
-  ],
-  "desc": "Përbindëshat shpëtojnë Tokën.",
-  "poster": "img/posters/m465.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/3jl15pqy4mwp/"
-  ]
- },
- {
   "id": "m466",
   "title_al": "Djali Delfin",
   "title_orig": "Dolphin Boy",
@@ -9195,27 +10996,6 @@
   "type": "film",
   "videos": [
    "https://filemoon.to/e/3y4xgihigbbv/"
-  ]
- },
- {
-  "id": "m467",
-  "title_al": "Borëbardha dhe 7 Xhuxhat",
-  "title_orig": "Snow White and the Seven Dwarfs",
-  "year": "1937",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Fantazi",
-   "Muzikor"
-  ],
-  "desc": "Klasiku i Disney-t.",
-  "poster": "img/posters/m467.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/vrcedt8nplc9/"
   ]
  },
  {
@@ -9417,13 +11197,20 @@
    "Animuar",
    "Komedi"
   ],
-  "desc": "Miu kuzhinier në Paris.",
+  "desc": "Miu Remy ëndërron të bëhet kuzhinier në Paris.",
   "poster": "img/posters/m477.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://filemoon.to/e/gk5rzsexetyq/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/gk5rzsexetyq/"
+   },
+   {
+    "label": "Shiko",
+    "url": "http://ok.ru/videoembed/28746058490"
+   }
   ]
  },
  {
@@ -9552,27 +11339,6 @@
   ]
  },
  {
-  "id": "m486",
-  "title_al": "Titan A.E.",
-  "title_orig": "Titan A.E.",
-  "year": "2000",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aksion",
-   "Fantazi"
-  ],
-  "desc": "Njerëzimi kërkon Titanin.",
-  "poster": "img/posters/m486.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/r137s8c4zcu8/"
-  ]
- },
- {
   "id": "m487",
   "title_al": "Jozefi: Mbreti i Ëndrrave",
   "title_orig": "Joseph: King of Dreams",
@@ -9651,7 +11417,90 @@
   "dub": "Dubluar në shqip",
   "type": "serial",
   "videos": [
-   "https://filemoon.to/e/wicqfwnjvrx0/"
+   {
+    "label": "Shiko",
+    "url": "https://filemoon.to/e/wicqfwnjvrx0/"
+   },
+   {
+    "label": "Episodi 1 — Mystic Mayhem",
+    "url": "https://abyssplayer.com/sM_OVgjO7"
+   },
+   {
+    "label": "Episodi 2 — Donnie's Gifts",
+    "url": "https://abyssplayer.com/qeTD6Q3L7"
+   },
+   {
+    "label": "Episodi 3 — War and Pizza",
+    "url": "https://abyssplayer.com/mIg4tVw4W"
+   },
+   {
+    "label": "Episodi 4 — Down with the Sickness",
+    "url": "https://abyssplayer.com/i6MLhoMUO"
+   },
+   {
+    "label": "Episodi 5 — Shell in a Cell",
+    "url": "https://abyssplayer.com/Oj3315WZ-"
+   },
+   {
+    "label": "Episodi 6 — Repo Mantis",
+    "url": "https://abyssplayer.com/qVhJmVs2V"
+   },
+   {
+    "label": "Episodi 7 — The Fast and the Furriest",
+    "url": "https://abyssplayer.com/NeckXkHOn"
+   },
+   {
+    "label": "Episodi 8 — Origami Tsunami",
+    "url": "https://abyssplayer.com/RJBxv1uGD"
+   },
+   {
+    "label": "Episodi 9 — Mascot Melee",
+    "url": "https://abyssplayer.com/_JRtnqHjo"
+   },
+   {
+    "label": "Episodi 10 — Newsworthy",
+    "url": "https://abyssplayer.com/vPxIiwZmK"
+   },
+   {
+    "label": "Episodi 11 — Minotaur Maze",
+    "url": "https://abyssplayer.com/KuUhBHkIa"
+   },
+   {
+    "label": "Episodi 12 — The Longest Fight",
+    "url": "https://abyssplayer.com/_eyeldChD"
+   },
+   {
+    "label": "Episodi 13 — The Gumbus",
+    "url": "https://abyssplayer.com/lh8fcCTmGB"
+   },
+   {
+    "label": "Episodi 14 — Mrs. Cuddles",
+    "url": "https://abyssplayer.com/PPi3xqOuS"
+   },
+   {
+    "label": "Episodi 15 — Hypno! Part Deux",
+    "url": "https://abyssplayer.com/TtOqYC9jB"
+   },
+   {
+    "label": "Episodi 16 — Stuck on You",
+    "url": "https://abyssplayer.com/YKEptsdSN"
+   },
+   {
+    "label": "Episodi 17 — Bug Busters",
+    "url": "https://abyssplayer.com/cKwLbfdPCp"
+   },
+   {
+    "label": "Episodi 18 — Al Be Back",
+    "url": "https://abyssplayer.com/yRYxs8ACg"
+   },
+   {
+    "label": "Episodi 19 — The Evil League of Mutants",
+    "url": "https://abyssplayer.com/q65t8smxz"
+   },
+   {
+    "label": "Episodi 20 — The Purple Jacket",
+    "url": "https://abyssplayer.com/xV8l4hvYN"
+   }
   ]
  },
  {
@@ -9673,46 +11522,6 @@
   "type": "film",
   "videos": [
    "https://filemoon.to/e/av1h3hh1dg6l/"
-  ]
- },
- {
-  "id": "m492",
-  "title_al": "Mbreti Tweety",
-  "title_orig": "King Tweety",
-  "year": "2022",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Tweety bëhet mbret.",
-  "poster": "img/posters/m492.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/z2yb8ibkwzmy/"
-  ]
- },
- {
-  "id": "m494",
-  "title_al": "Minions: Ngritja e Gru",
-  "title_orig": "Minions: The Rise of Gru",
-  "year": "2022",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi"
-  ],
-  "desc": "Gru i ri dhe Minionët.",
-  "poster": "img/posters/m494.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/c7ub6orhn9mk/"
   ]
  },
  {
@@ -9861,69 +11670,6 @@
   ]
  },
  {
-  "id": "m503",
-  "title_al": "Kënga e Krishtlindjes",
-  "title_orig": "Bah, Humduck! A Looney Tunes Christmas",
-  "year": "2006",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Krishtlindje",
-   "Komedi"
-  ],
-  "desc": "Daffy mëson Krishtlindjen.",
-  "poster": "img/posters/m503.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/5dcpqk1aki4y/"
-  ]
- },
- {
-  "id": "m504",
-  "title_al": "One Piece: Red",
-  "title_orig": "One Piece Film: Red",
-  "year": "2022",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aksion",
-   "Muzikor"
-  ],
-  "desc": "Uta dhe ekuipazhi.",
-  "poster": "img/posters/m504.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/o55i76mzudzm/"
-  ]
- },
- {
-  "id": "m505",
-  "title_al": "Super Mario Bros",
-  "title_orig": "The Super Mario Bros. Movie",
-  "year": "2023",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Mario shpëton Luigin.",
-  "poster": "img/posters/m505.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://filemoon.to/e/776xklrj25na/"
-  ]
- },
- {
   "id": "m506",
   "title_al": "Anastasia",
   "title_orig": "Anastasia",
@@ -9986,48 +11732,6 @@
   ]
  },
  {
-  "id": "m528",
-  "title_al": "Skubi-Du dhe Shpata e Samurait",
-  "title_orig": "Scooby-Doo and the Samurai Sword",
-  "year": "2009",
-  "duration": "",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Skubi-Du dhe banda udhëtojnë në Japoni ku përballen me shpatën legjendare të samurait.",
-  "poster": "img/posters/m528.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://ok.ru/videoembed/38513609263"
-  ]
- },
- {
-  "id": "m529",
-  "title_al": "Skubi-Du: Përbindëshi i Hënës",
-  "title_orig": "Scooby-Doo! Moon Monster Madness",
-  "year": "2015",
-  "duration": "",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Skubi-Du dhe miqtë hetojnë mistere në Hënë në një aventurë kozmike.",
-  "poster": "img/posters/m529.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://ok.ru/videoembed/31704812195"
-  ]
- },
- {
   "id": "m531",
   "title_al": "4 Guximtarët",
   "title_orig": "The Fearless Four",
@@ -10061,34 +11765,20 @@
    "Aventurë",
    "Komedi"
   ],
-  "desc": "Asteriksi dhe Obeliksi përballen me dymbëdhjetë sprova të Jul Cezarit në klasikun francez.",
+  "desc": "Asteriksi dhe Obeliksi kryejnë 12 detyra të pamundura për të provuar se galët janë perëndi.",
   "poster": "img/posters/m533.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://ok.ru/videoembed/27435207330"
-  ]
- },
- {
-  "id": "m534",
-  "title_al": "Hajduti i Lajthive",
-  "title_orig": "The Nut Job",
-  "year": "2014",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Ketri Surli planifikon grabitjen e dyqanit të arrave për dimër në komedinë e animuar.",
-  "poster": "img/posters/m534.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://ok.ru/videoembed/29579741858"
+   {
+    "label": "Shiko",
+    "url": "https://ok.ru/videoembed/27435207330"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://vk.com/video_ext.php?oid=241368450&id=168054741"
+   }
   ]
  },
  {
@@ -10191,48 +11881,6 @@
   "type": "film",
   "videos": [
    "https://ok.ru/videoembed/25698896548"
-  ]
- },
- {
-  "id": "m541",
-  "title_al": "Skubi-Du: Abrakadabra-Du",
-  "title_orig": "Scooby-Doo! Abracadabra-Doo",
-  "year": "2010",
-  "duration": "",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Skubi-Du dhe banda vizitojnë akademinë e magjisë ku ndodhin çudira.",
-  "poster": "img/posters/m541.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://ok.ru/videoembed/24266803833"
-  ]
- },
- {
-  "id": "m542",
-  "title_al": "Skubi-Du: Ku Është Mumja Ime",
-  "title_orig": "Scooby-Doo! in Where's My Mummy?",
-  "year": "2005",
-  "duration": "",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Banda udhëton në Egjipt ku Velma takon mumjen e mallkuar.",
-  "poster": "img/posters/m542.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://ok.ru/videoembed/24276109945"
   ]
  },
  {
@@ -10406,27 +12054,6 @@
   ]
  },
  {
-  "id": "m555",
-  "title_al": "12 Detyrat e Asteriksit",
-  "title_orig": "The Twelve Tasks of Asterix",
-  "year": "1976",
-  "duration": "82 min",
-  "studio": "Dargaud",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Asteriksi dhe Obeliksi kryejnë 12 detyra të pamundura për të provuar se galët janë perëndi.",
-  "poster": "img/posters/m555.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://vk.com/video_ext.php?oid=241368450&id=168054741"
-  ]
- },
- {
   "id": "m557",
   "title_al": "Trili dhe Shpëtimi i Madh",
   "title_orig": "Tinker Bell and the Great Fairy Rescue",
@@ -10466,69 +12093,6 @@
   "type": "film",
   "videos": [
    "https://ok.ru/videoembed/20702759586"
-  ]
- },
- {
-  "id": "m559",
-  "title_al": "Skubi Du: Përbindëshi i Hënës",
-  "title_orig": "Scooby-Doo! Moon Monster Madness",
-  "year": "2015",
-  "duration": "79 min",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Skubi Du dhe banda hetojnë një përbindësh misterioz në Hënë.",
-  "poster": "img/posters/m559.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/31704812195"
-  ]
- },
- {
-  "id": "m560",
-  "title_al": "Skubi Du: Ku Është Mumja Ime",
-  "title_orig": "Scooby-Doo! in Where's My Mummy?",
-  "year": "2005",
-  "duration": "75 min",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Skubi Du dhe Shaggy udhëtojnë në Egjipt për të zgjidhur misterin e mumies.",
-  "poster": "img/posters/m560.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/24809573039"
-  ]
- },
- {
-  "id": "m561",
-  "title_al": "Skubi Du: Mbreti i Goblinëve",
-  "title_orig": "Scooby-Doo! and the Goblin King",
-  "year": "2008",
-  "duration": "75 min",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Fantazi",
-   "Komedi"
-  ],
-  "desc": "Skubi Du dhe banda përballen me Mbretin e Goblinëve në natën e Halloween.",
-  "poster": "img/posters/m561.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/38031329839"
   ]
  },
  {
@@ -10591,48 +12155,6 @@
   "type": "film",
   "videos": [
    "http://vk.com/video_ext.php?oid=321218349&id=172234783&"
-  ]
- },
- {
-  "id": "m565",
-  "title_al": "All-Star Superman",
-  "title_orig": "All-Star Superman",
-  "year": "2011",
-  "duration": "76 min",
-  "studio": "DC",
-  "genres": [
-   "Animuar",
-   "Aksion",
-   "Aventurë"
-  ],
-  "desc": "Supermeni përballet me vdekshmërinë e tij në këtë film të animuar të DC.",
-  "poster": "img/posters/m565.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://vk.com/video_ext.php?oid=224422917&id=166605843&"
-  ]
- },
- {
-  "id": "m566",
-  "title_al": "Ted Eksploratori i Humbur",
-  "title_orig": "Tad, the Lost Explorer",
-  "year": "2012",
-  "duration": "92 min",
-  "studio": "Telecinco",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Tedi, një ndërtues ëndërrimtar, ngatërrohet në një aventurë arkeologjike në Peru.",
-  "poster": "img/posters/m566.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://vk.com/video_ext.php?oid=241368450&id=168005481&"
   ]
  },
  {
@@ -10824,27 +12346,6 @@
   ]
  },
  {
-  "id": "m576",
-  "title_al": "Barbi në Fairytopia",
-  "title_orig": "Barbie: Fairytopia",
-  "year": "2005",
-  "duration": "70 min",
-  "studio": "Mattel",
-  "genres": [
-   "Animuar",
-   "Fantazi",
-   "Aventurë"
-  ],
-  "desc": "Barbi udhëton në botën magjike të Fairytopia për të shpëtuar zanat.",
-  "poster": "img/posters/m576.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/29217458938"
-  ]
- },
- {
   "id": "m577",
   "title_al": "Princesha dhe Bretkosa",
   "title_orig": "The Princess and the Frog",
@@ -10992,27 +12493,6 @@
   ]
  },
  {
-  "id": "m587",
-  "title_al": "Këmbët e Lumtura",
-  "title_orig": "Happy Feet",
-  "year": "2006",
-  "duration": "108 min",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Muzikor"
-  ],
-  "desc": "Pinguini Mumble që nuk di të këndojë, kërcen në vend të kësaj.",
-  "poster": "img/posters/m587.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/30397958906"
-  ]
- },
- {
   "id": "m588",
   "title_al": "Barbi dhe Magjia e Pegasusit",
   "title_orig": "Barbie and the Magic of Pegasus",
@@ -11031,27 +12511,6 @@
   "type": "film",
   "videos": [
    "http://ok.ru/videoembed/29509028514"
-  ]
- },
- {
-  "id": "m589",
-  "title_al": "Krokët: Epoka e Re",
-  "title_orig": "The Croods: A New Age",
-  "year": "2020",
-  "duration": "96 min",
-  "studio": "DreamWorks",
-  "genres": [
-   "Animuar",
-   "Aventurë",
-   "Komedi"
-  ],
-  "desc": "Familja Krok kthehet në një aventurë të re në botën parahistorike.",
-  "poster": "img/posters/m589.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/22311930530"
   ]
  },
  {
@@ -11283,27 +12742,6 @@
   ]
  },
  {
-  "id": "m601",
-  "title_al": "Batman: Misteri i Batwoman",
-  "title_orig": "Batman: Mystery of the Batwoman",
-  "year": "2003",
-  "duration": "75 min",
-  "studio": "DC",
-  "genres": [
-   "Animuar",
-   "Aksion",
-   "Aventurë"
-  ],
-  "desc": "Batmani heton misterin e Batwoman në Gotham.",
-  "poster": "img/posters/m601.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "https://vk.com/video_ext.php?oid=224422917&id=166037796"
-  ]
- },
- {
   "id": "m602",
   "title_al": "Arratisja e Bebes",
   "title_orig": "",
@@ -11450,27 +12888,6 @@
   ]
  },
  {
-  "id": "m611",
-  "title_al": "Batman kundër Drakulës",
-  "title_orig": "The Batman vs. Dracula",
-  "year": "2005",
-  "duration": "83 min",
-  "studio": "DC",
-  "genres": [
-   "Animuar",
-   "Aksion",
-   "Fantazi"
-  ],
-  "desc": "Batmani përballet me Kontin Drakula në Gotham.",
-  "poster": "img/posters/m611.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://vk.com/video_ext.php?oid=241368450&id=168735597&"
-  ]
- },
- {
   "id": "m612",
   "title_al": "Fajkonjtë e Stuhisë",
   "title_orig": "",
@@ -11509,27 +12926,6 @@
   "type": "film",
   "videos": [
    "http://vk.com/video_ext.php?oid=224422917&id=166612843&"
-  ]
- },
- {
-  "id": "m615",
-  "title_al": "Kurrizi i Notër-Damit 2",
-  "title_orig": "The Hunchback of Notre Dame II",
-  "year": "2002",
-  "duration": "66 min",
-  "studio": "Disney",
-  "genres": [
-   "Animuar",
-   "Muzikor",
-   "Romancë"
-  ],
-  "desc": "Kuazimodo kthehet në një aventurë të re në Paris.",
-  "poster": "img/posters/m615.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/24433265314"
   ]
  },
  {
@@ -11678,27 +13074,6 @@
   ]
  },
  {
-  "id": "m623",
-  "title_al": "Ratatouille",
-  "title_orig": "Ratatouille",
-  "year": "2007",
-  "duration": "111 min",
-  "studio": "Pixar",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Familjar"
-  ],
-  "desc": "Miu Remy ëndërron të bëhet kuzhinier në Paris.",
-  "poster": "img/posters/m623.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/28746058490"
-  ]
- },
- {
   "id": "m624",
   "title_al": "Rio",
   "title_orig": "Rio",
@@ -11825,27 +13200,6 @@
   ]
  },
  {
-  "id": "m630",
-  "title_al": "Borëbardha dhe Shtatë Xhuxhët",
-  "title_orig": "Snow White and the Seven Dwarfs",
-  "year": "1937",
-  "duration": "83 min",
-  "studio": "Disney",
-  "genres": [
-   "Animuar",
-   "Fantazi",
-   "Muzikor"
-  ],
-  "desc": "Borëbardha strehohet te shtatë xhuxhët në klasikun e parë të Disney-t.",
-  "poster": "img/posters/m630.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://ok.ru/videoembed/26268600994"
-  ]
- },
- {
   "id": "m632",
   "title_al": "Lilo dhe Stitch 2",
   "title_orig": "Lilo & Stitch 2: Stitch Has a Glitch",
@@ -11864,136 +13218,6 @@
   "type": "film",
   "videos": [
    "http://vk.com/video_ext.php?oid=241368450&id=168005378&"
-  ]
- },
- {
-  "id": "m633",
-  "title_al": "The Fairytaler",
-  "title_orig": "The Fairytaler",
-  "year": 2004,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Fantazi",
-   "Familjar"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m633.jpg",
-  "description": "Përralla klasike të Hans Christian Andersen-it tregohen në animim magjik për fëmijë. Serial i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — Little Ida's flowers",
-    "url": "https://player.abyssplayer.com/unbfgz0GX"
-   },
-   {
-    "label": "Episodi 2 — Jack The Fool",
-    "url": "https://player.abyssplayer.com/3D5yg95w9"
-   },
-   {
-    "label": "Episodi 3 — The Emperor's New Clothes",
-    "url": "https://player.abyssplayer.com/_N53O6CJn"
-   },
-   {
-    "label": "Episodi 4 — The Little Mermaid",
-    "url": "https://player.abyssplayer.com/ByN_7Fip-"
-   },
-   {
-    "label": "Episodi 5 — The Nightingale",
-    "url": "https://player.abyssplayer.com/j3zRCafzJ"
-   },
-   {
-    "label": "Episodi 6 — The Tinderbox",
-    "url": "https://player.abyssplayer.com/Z9P4cVASm"
-   },
-   {
-    "label": "Episodi 7 — The Fir Tree",
-    "url": "https://player.abyssplayer.com/mTWEbJPrM"
-   },
-   {
-    "label": "Episodi 8 — The Ugly Duckling",
-    "url": "https://player.abyssplayer.com/9mYq9gB7G"
-   },
-   {
-    "label": "Episodi 9 — The Galoshes of Fortune",
-    "url": "https://player.abyssplayer.com/kdSLXT2Bs"
-   },
-   {
-    "label": "Episodi 10 — The Gardner and The Family",
-    "url": "https://player.abyssplayer.com/GWtl5tXVo"
-   },
-   {
-    "label": "Episodi 11 — The Golden Treasure",
-    "url": "https://player.abyssplayer.com/WPuWThBGW"
-   },
-   {
-    "label": "Episodi 12 — The Gardener and the Family",
-    "url": "https://player.abyssplayer.com/GLQXuz-Ih"
-   },
-   {
-    "label": "Episodi 13 — Sausage Peg Soup",
-    "url": "https://player.abyssplayer.com/rMZv3auTf"
-   },
-   {
-    "label": "Episodi 14 — The Lovers",
-    "url": "https://player.abyssplayer.com/WwG5Eao4N"
-   },
-   {
-    "label": "Episodi 15 — The Nightingale",
-    "url": "https://player.abyssplayer.com/Na6Cowj7y"
-   },
-   {
-    "label": "Episodi 16 — The Hardy Tin Soldier",
-    "url": "https://player.abyssplayer.com/IMrgLwQwk"
-   },
-   {
-    "label": "Episodi 17 — The Snow Queen (1)",
-    "url": "https://player.abyssplayer.com/lGg8lpAQ6"
-   },
-   {
-    "label": "Episodi 18 — The Snow Queen (2)",
-    "url": "https://player.abyssplayer.com/EwJLYxttb"
-   },
-   {
-    "label": "Episodi 19 — The Snowman",
-    "url": "https://player.abyssplayer.com/kcRXt6LVj"
-   },
-   {
-    "label": "Episodi 20 — The Swineherd",
-    "url": "https://player.abyssplayer.com/7D2-nLQFe"
-   },
-   {
-    "label": "Episodi 21 — The Tinderbox",
-    "url": "https://player.abyssplayer.com/xAUPoJQlt"
-   },
-   {
-    "label": "Episodi 22 — The Travelling Companion",
-    "url": "https://player.abyssplayer.com/zdHZ-bl2b"
-   },
-   {
-    "label": "Episodi 23 — The Ugly Duckling",
-    "url": "https://player.abyssplayer.com/IqYoPuSoe"
-   },
-   {
-    "label": "Episodi 24 — The Wild Swans",
-    "url": "https://player.abyssplayer.com/HV2kXsDQT"
-   },
-   {
-    "label": "Episodi 25 — Thumbelina",
-    "url": "https://player.abyssplayer.com/QCKbF411h"
-   },
-   {
-    "label": "Episodi 26 — What the Old Man Does Is Right",
-    "url": "https://player.abyssplayer.com/wHiT3ylPI"
-   },
-   {
-    "label": "Episodi 27 — The Fir-Tree",
-    "url": "https://player.abyssplayer.com/_Kz0HQ7VI"
-   },
-   {
-    "label": "Episodi 28 — Soup on a Sausage Pack",
-    "url": "https://player.abyssplayer.com/u8pZUBfq2"
-   }
   ]
  },
  {
@@ -12597,548 +13821,6 @@
    {
     "label": "Episodi 52 — -52-Shandanët e Argjendtë",
     "url": "https://www.dropbox.com/scl/fi/02obby40r2b6hrg1ak9mb/S01E52-Il-senso-di-una-vita.mp4?rlkey=pepbwgzj39cy7psct2c98lqkw&st=nmh7rq3c&dl=0"
-   }
-  ]
- },
- {
-  "id": "m637",
-  "title_al": "Detective Conan",
-  "title_orig": "Detective Conan",
-  "year": 1996,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Mister",
-   "Aksion"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m637.jpg",
-  "description": "Shinichi Kudo, detektivi i ri gjeni, shndërrohet në fëmijë dhe zgjidh mistere si Conan Edogawa. Serial mister i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — Tkurrja e madhe",
-    "url": "https://abyssplayer.com/ZBJyaV43m"
-   },
-   {
-    "label": "Episodi 2 — Debutanti i rrëmbyer",
-    "url": "https://abyssplayer.com/eiFUhvW2A"
-   },
-   {
-    "label": "Episodi 3 — Kujdes nga idhujt",
-    "url": "https://abyssplayer.com/JW2jbTFM_"
-   },
-   {
-    "label": "Episodi 4 — Peshku shënon vendin",
-    "url": "https://abyssplayer.com/1q2r-pJ1g"
-   },
-   {
-    "label": "Episodi 5 — Time Bomb Express",
-    "url": "https://abyssplayer.com/0xClxDilhp"
-   },
-   {
-    "label": "Episodi 6 — Shën Valentin tragjik",
-    "url": "https://abyssplayer.com/93LfCMHxt"
-   },
-   {
-    "label": "Episodi 7 — Rasti i dhuratave misterioze",
-    "url": "https://abyssplayer.com/523C9ZuX2"
-   },
-   {
-    "label": "Episodi 8 — Çështja e vrasjes së muzeut të artit",
-    "url": "https://abyssplayer.com/IVG4YqRhL"
-   },
-   {
-    "label": "Episodi 9 — Fiasko e festivalit",
-    "url": "https://abyssplayer.com/6cnBDvQ25"
-   },
-   {
-    "label": "Episodi 10 — Lojë vdekjeprurëse",
-    "url": "https://abyssplayer.com/9xO8EyDYo"
-   },
-   {
-    "label": "Episodi 11 — Rasti i Vrasjes Sonata të Moonlight (1/2)",
-    "url": "https://abyssplayer.com/spvn-JRd_"
-   },
-   {
-    "label": "Episodi 12 — Rrëmbyer: ayumi",
-    "url": "https://abyssplayer.com/a5GhSS9O1"
-   },
-   {
-    "label": "Episodi 13 — Misteri MasterMind",
-    "url": "https://abyssplayer.com/DTfog-_wd"
-   },
-   {
-    "label": "Episodi 14 — Revole",
-    "url": "https://abyssplayer.com/fbpUtypUk"
-   },
-   {
-    "label": "Episodi 15 — Të dy vëllai i përballur",
-    "url": "https://abyssplayer.com/StTdJECQc"
-   },
-   {
-    "label": "Episodi 16 — Një hua e paguar",
-    "url": "https://abyssplayer.com/xuN5YroPQ"
-   },
-   {
-    "label": "Episodi 17 — Rasti i dyqanit të departamentit hi-xhaketë",
-    "url": "https://abyssplayer.com/nN5XIaCdO"
-   },
-   {
-    "label": "Episodi 18 — Dita e Dasmës Blues",
-    "url": "https://abyssplayer.com/kkWPA-u4n5"
-   },
-   {
-    "label": "Episodi 19 — Sens i modës",
-    "url": "https://abyssplayer.com/SN-THqq51"
-   },
-   {
-    "label": "Episodi 20 — Akti që zhduket",
-    "url": "https://abyssplayer.com/DY_g7T4PLO"
-   },
-   {
-    "label": "Episodi 21 — Dritat, Kamera ... Vrasje",
-    "url": "https://abyssplayer.com/tX47mhyP5"
-   },
-   {
-    "label": "Episodi 22 — Lundrimi i qetë (1)",
-    "url": "https://abyssplayer.com/Z0frtWKh9"
-   },
-   {
-    "label": "Episodi 23 — Lundrimi i qetë (2)",
-    "url": "https://abyssplayer.com/pUdz6G6J_"
-   },
-   {
-    "label": "Episodi 24 — Më mirë të harrohet",
-    "url": "https://abyssplayer.com/V-iPOPdtV"
-   },
-   {
-    "label": "Episodi 25 — Rrëmbimi i faljes së falsifikuar",
-    "url": "https://abyssplayer.com/YGt59C1NZ"
-   },
-   {
-    "label": "Episodi 26 — Sulmet Jack!",
-    "url": "https://abyssplayer.com/l5nFBwoSU_"
-   },
-   {
-    "label": "Episodi 27 — Ribashkimi i klasës së Richard (1)",
-    "url": "https://abyssplayer.com/5oQVLHFT7"
-   },
-   {
-    "label": "Episodi 28 — Ribashkimi i klasës së Richard (2)",
-    "url": "https://abyssplayer.com/ey9QyDjdq"
-   },
-   {
-    "label": "Episodi 29 — Vrasja në kompjuter",
-    "url": "https://abyssplayer.com/cVDljjQTi"
-   },
-   {
-    "label": "Episodi 30 — Melodia e humbur",
-    "url": "https://abyssplayer.com/KXgGE3OPD"
-   },
-   {
-    "label": "Episodi 31 — Vrasje në studion e televizionit",
-    "url": "https://abyssplayer.com/kd56Fi5lT"
-   },
-   {
-    "label": "Episodi 32 — Vrasje në darkën lokale",
-    "url": "https://abyssplayer.com/Z5IfWfiDh"
-   },
-   {
-    "label": "Episodi 33 — Një gjueti do të shkojmë",
-    "url": "https://abyssplayer.com/62iOsXJOM"
-   },
-   {
-    "label": "Episodi 37 — E kaluara me gjemba",
-    "url": "https://abyssplayer.com/ZEcMtRbTG"
-   },
-   {
-    "label": "Episodi 38 — Flakët e konfuzionit",
-    "url": "https://abyssplayer.com/QAXlNY0Dm"
-   },
-   {
-    "label": "Episodi 39 — Miliarderi Blues i Ditëlindjes (1)",
-    "url": "https://abyssplayer.com/H37sevHAJ"
-   },
-   {
-    "label": "Episodi 40 — Miliarderi Blues i Ditëlindjes (2)",
-    "url": "https://abyssplayer.com/bWDodlKbc"
-   },
-   {
-    "label": "Episodi 41 — Lihet në tatuazhe",
-    "url": "https://abyssplayer.com/Jiso2eCeY"
-   },
-   {
-    "label": "Episodi 42 — Karaoke Vrasja",
-    "url": "https://abyssplayer.com/0Be4FLNCG"
-   },
-   {
-    "label": "Episodi 44 — Ditëlindja e pakënaqur",
-    "url": "https://abyssplayer.com/F9cAm8n50"
-   },
-   {
-    "label": "Episodi 45 — Vizitorët e papritur",
-    "url": "https://abyssplayer.com/CLlPyQO3Th"
-   },
-   {
-    "label": "Episodi 64 — Tre gjurmët e gishtërinjve",
-    "url": "https://abyssplayer.com/JAo9HsfvFw"
-   },
-   {
-    "label": "Episodi 65 — Gaforret dhe balena",
-    "url": "https://abyssplayer.com/_z7kG9z00"
-   },
-   {
-    "label": "Episodi 66 — Vrasje pa hënë",
-    "url": "https://abyssplayer.com/w5T-89GhQlV"
-   },
-   {
-    "label": "Episodi 67 — Rasti i aktores së vrarë",
-    "url": "https://abyssplayer.com/x0BW2f0jH"
-   },
-   {
-    "label": "Episodi 68 — Misteri Knight Baron (1)",
-    "url": "https://abyssplayer.com/pve1YKEzk"
-   },
-   {
-    "label": "Episodi 69 — Misteri Knight Baron (2)",
-    "url": "https://abyssplayer.com/c7fb4k38J"
-   },
-   {
-    "label": "Episodi 70 — Misteri Knight Baron (3)",
-    "url": "https://abyssplayer.com/-4fv17fFk"
-   },
-   {
-    "label": "Episodi 71 — Stalker",
-    "url": "https://abyssplayer.com/z28FuMjkZ"
-   },
-   {
-    "label": "Episodi 72 — Terror i trefishtë",
-    "url": "https://abyssplayer.com/-AkPB9TWR"
-   },
-   {
-    "label": "Episodi 73 — Vrasja e rrënojave të anijes",
-    "url": "https://abyssplayer.com/pDBxpAN6Fi"
-   },
-   {
-    "label": "Episodi 74 — Jinnai, Mbreti i Vdekjes",
-    "url": "https://abyssplayer.com/fZ5fBQHtb"
-   },
-   {
-    "label": "Episodi 75 — Vrasje dhe Mahjong",
-    "url": "https://abyssplayer.com/-52aNuHxu"
-   },
-   {
-    "label": "Episodi 76 — Thief Phantom 1412 (1/2)",
-    "url": "https://abyssplayer.com/GtExlveqA"
-   },
-   {
-    "label": "Episodi 77 — Vrasje misterioze e maskuar (1)",
-    "url": "https://abyssplayer.com/Kjx50xy7Q"
-   },
-   {
-    "label": "Episodi 78 — Vrasje misterioze e maskuar (2)",
-    "url": "https://abyssplayer.com/wq6PXXdk0"
-   },
-   {
-    "label": "Episodi 79 — Grabitësi hakmarrës",
-    "url": "https://abyssplayer.com/MzODYjsMw"
-   },
-   {
-    "label": "Episodi 80 — Endacak",
-    "url": "https://abyssplayer.com/HFrOR7fOj"
-   },
-   {
-    "label": "Episodi 81 — Dy herë telashe (1)",
-    "url": "https://abyssplayer.com/BaQiD5gC7"
-   },
-   {
-    "label": "Episodi 82 — Dy herë telashe (2)",
-    "url": "https://abyssplayer.com/HC6fZLyhRo"
-   },
-   {
-    "label": "Episodi 83 — Vendosja",
-    "url": "https://abyssplayer.com/vuC1djJUE"
-   },
-   {
-    "label": "Episodi 84 — Nata e Masakrës (1)",
-    "url": "https://abyssplayer.com/R_ctHfD4z"
-   },
-   {
-    "label": "Episodi 85 — Nata e Masakrës (2)",
-    "url": "https://abyssplayer.com/M8O481q7Z"
-   },
-   {
-    "label": "Episodi 86 — Gjeni sitin e rrëmbimit",
-    "url": "https://abyssplayer.com/9iC1AL26e"
-   },
-   {
-    "label": "Episodi 87 — Për zogjtë",
-    "url": "https://abyssplayer.com/00-xzFnFa"
-   },
-   {
-    "label": "Episodi 88 — Vampire Villa (1)",
-    "url": "https://abyssplayer.com/ZlkGFhRrp"
-   },
-   {
-    "label": "Episodi 89 — Vampire Villa (2)",
-    "url": "https://abyssplayer.com/EliM72lnk"
-   },
-   {
-    "label": "Episodi 90 — Art vdekjeprurës",
-    "url": "https://abyssplayer.com/H3u9_baey"
-   },
-   {
-    "label": "Episodi 91 — Vrasje spitalore",
-    "url": "https://abyssplayer.com/BoKA6mGxr"
-   },
-   {
-    "label": "Episodi 92 — Dhelpra malore (1)",
-    "url": "https://abyssplayer.com/gEJkeFeNH"
-   },
-   {
-    "label": "Episodi 93 — Dhelpra malore (2)",
-    "url": "https://abyssplayer.com/nDSiBgNE-"
-   },
-   {
-    "label": "Episodi 94 — Vajza tjetër",
-    "url": "https://abyssplayer.com/9PAugmoGf"
-   },
-   {
-    "label": "Episodi 95 — Data vdekjeprurëse e Richard",
-    "url": "https://abyssplayer.com/mmCLmpugS"
-   },
-   {
-    "label": "Episodi 96 — Zbuluar Jimmy Kudo (1-4)",
-    "url": "https://bysedikamoum.com/e/8zuqj8jyruui"
-   },
-   {
-    "label": "Episodi 97 — Rasti i vrasjes së verës së lamtumirës",
-    "url": "https://abyssplayer.com/XyJFdgsBl"
-   },
-   {
-    "label": "Episodi 98 — Gambit i Potter (1)",
-    "url": "https://abyssplayer.com/j3C_QdzMJ"
-   },
-   {
-    "label": "Episodi 99 — Gambit i Potter (2)",
-    "url": "https://abyssplayer.com/FrK2TEUWY"
-   },
-   {
-    "label": "Episodi 100 — Kujtimet e dashurisë së parë (1)",
-    "url": "https://abyssplayer.com/2EztzEWb3"
-   },
-   {
-    "label": "Episodi 101 — Kujtimet e dashurisë së parë (2)",
-    "url": "https://abyssplayer.com/krlicfpmx"
-   },
-   {
-    "label": "Episodi 102 — Famë dhe fatkeqësi (1)",
-    "url": "https://abyssplayer.com/XMnnglxt7"
-   },
-   {
-    "label": "Episodi 103 — Famë dhe fatkeqësi (2)",
-    "url": "https://abyssplayer.com/TZteSl0Gv"
-   },
-   {
-    "label": "Episodi 104 — Misteri i Bludcraven Manor (1)",
-    "url": "https://abyssplayer.com/xN8IJLqn8k"
-   },
-   {
-    "label": "Episodi 105 — Misteri i Bludcraven Manor (2)",
-    "url": "https://abyssplayer.com/QwVnb2PW9"
-   },
-   {
-    "label": "Episodi 106 — Fotografitë e vdekjes",
-    "url": "https://abyssplayer.com/FGDifsKAa"
-   },
-   {
-    "label": "Episodi 107 — Misteri Moletian Case (1)",
-    "url": "https://abyssplayer.com/BkCWABkgf"
-   },
-   {
-    "label": "Episodi 108 — Misteri Moletian Case (2)",
-    "url": "https://abyssplayer.com/8ksw5rzOQ"
-   },
-   {
-    "label": "Episodi 109 — Godit dhe vrapoj",
-    "url": "https://abyssplayer.com/BJv-e8y8I"
-   },
-   {
-    "label": "Episodi 110 — Recetë për vrasje (1)",
-    "url": "https://abyssplayer.com/3bUzbPXoB"
-   },
-   {
-    "label": "Episodi 111 — Recetë për vrasje (2)",
-    "url": "https://abyssplayer.com/4gSldl1Qu"
-   },
-   {
-    "label": "Episodi 112 — Shkolla e Ghouls",
-    "url": "https://abyssplayer.com/yjSD7qp9v"
-   },
-   {
-    "label": "Episodi 113 — Recetë për vrasje",
-    "url": "https://abyssplayer.com/gWC7UGAh1"
-   },
-   {
-    "label": "Episodi 114 — Scuba Vdes (1)",
-    "url": "https://abyssplayer.com/1Gt9WJLxR"
-   },
-   {
-    "label": "Episodi 115 — Scuba Vdes (2)",
-    "url": "https://abyssplayer.com/LdhPmeuhS"
-   },
-   {
-    "label": "Episodi 116 — Zhdukja e shkrimtarit të misterit (1)",
-    "url": "https://abyssplayer.com/td1O9KqL1"
-   },
-   {
-    "label": "Episodi 117 — Zhdukja e shkrimtarit të misterit (2)",
-    "url": "https://abyssplayer.com/fr6-OE7nrV"
-   },
-   {
-    "label": "Episodi 118 — Licencë për të vdekur (1/2)",
-    "url": "https://abyssplayer.com/PgzSoi9L-"
-   },
-   {
-    "label": "Episodi 119 — Misteri i vrasjes Yaiba i maskuar",
-    "url": "https://abyssplayer.com/m8jfY9Nxg"
-   },
-   {
-    "label": "Episodi 120 — Goditja e madhe",
-    "url": "https://abyssplayer.com/1kcF7J3eSJ"
-   },
-   {
-    "label": "Episodi 121 — Lidhja e harruar (1)",
-    "url": "https://abyssplayer.com/crihSu7sL"
-   },
-   {
-    "label": "Episodi 122 — Lidhja e harruar (2)",
-    "url": "https://abyssplayer.com/PCLj0XrejM"
-   },
-   {
-    "label": "Episodi 123 — Vajza e motit që zhduket",
-    "url": "https://abyssplayer.com/iGNLZ8mNl"
-   },
-   {
-    "label": "Episodi 124 — Një rast misterioz i vrasjes snajper (1)",
-    "url": "https://abyssplayer.com/pqh8WV2aZ"
-   },
-   {
-    "label": "Episodi 125 — Një rast misterioz i vrasjes snajper (2)",
-    "url": "https://abyssplayer.com/PxXvQqLzi"
-   },
-   {
-    "label": "Episodi 126 — Rasti i vrasjes së Trupës së Dramës Udhëtuese (1)",
-    "url": "https://abyssplayer.com/n_BO6Ksn_"
-   },
-   {
-    "label": "Episodi 133 — Rasti i vrasjes së Lover Magic (dyshimi)",
-    "url": "https://abyssplayer.com/LrHKTXFGD"
-   },
-   {
-    "label": "Episodi 134 — Rasti i vrasjes së Lover Magic (Rezoluta)",
-    "url": "https://abyssplayer.com/CEib8EDi8"
-   },
-   {
-    "label": "Episodi 135 — Çështja e armëve që zhduket",
-    "url": "https://abyssplayer.com/511041jRG"
-   },
-   {
-    "label": "Episodi 136 — Rasti i Old Blue Castle Hetimi (1)",
-    "url": "https://abyssplayer.com/nhC3gK3XE"
-   },
-   {
-    "label": "Episodi 137 — Rasti i Hetimit të Kalasë së Vjetër Blu (2)",
-    "url": "https://abyssplayer.com/jy-c32g1k"
-   },
-   {
-    "label": "Episodi 138 — Rasti i Vrasjes së Fundit të Shfaqjes (1)",
-    "url": "https://abyssplayer.com/6q2sUPLL9"
-   },
-   {
-    "label": "Episodi 139 — Rasti i Vrasjes së Fundit të Shqyrtimit (2)",
-    "url": "https://abyssplayer.com/3uNtpKGWm"
-   },
-   {
-    "label": "Episodi 140 — SOS!",
-    "url": "https://abyssplayer.com/Lkhd2j3gE"
-   },
-   {
-    "label": "Episodi 141 — Natën para se të mbyllet dasma rasti i dhomës (1)",
-    "url": "https://abyssplayer.com/1GKK9TdlC"
-   },
-   {
-    "label": "Episodi 142 — Natën para se të mbyllet dasma rasti i dhomës (2)",
-    "url": "https://abyssplayer.com/qkcNd3DcyA"
-   },
-   {
-    "label": "Episodi 143 — Vëzhgimi i dyshimtë astronomik",
-    "url": "https://abyssplayer.com/3ITDbeQ4k"
-   },
-   {
-    "label": "Episodi 144 — Ylli i Veriut Nr. 3 Express duke lënë Ueno (1)",
-    "url": "https://abyssplayer.com/u-ILwJ9XQ"
-   },
-   {
-    "label": "Episodi 145 — Ylli i Veriut Nr. 3 Express duke lënë Ueno (2)",
-    "url": "https://abyssplayer.com/na1mewPdJ"
-   },
-   {
-    "label": "Episodi 146",
-    "url": "https://abyssplayer.com/rCUxetHw-"
-   },
-   {
-    "label": "Episodi 147",
-    "url": "https://abyssplayer.com/lDuCGQbta"
-   },
-   {
-    "label": "Episodi 149 — Rasti i kërcimit të parkut të dëfrimit",
-    "url": "https://abyssplayer.com/h_wd8zCqn"
-   },
-   {
-    "label": "Episodi 150 — E vërteta e çështjes së makinës shpërthyese (1)",
-    "url": "https://abyssplayer.com/-ul8QdTE7"
-   },
-   {
-    "label": "Episodi 151 — E vërteta e çështjes së makinës shpërthyese (2)",
-    "url": "https://abyssplayer.com/knC_Sa3od"
-   },
-   {
-    "label": "Episodi 152 — Çështja misterioze e zhdukjes së plakut",
-    "url": "https://abyssplayer.com/ej8FJ4YLO"
-   },
-   {
-    "label": "Episodi 153 — Historia e rrezikshme e verës së Sonoko (1)",
-    "url": "https://abyssplayer.com/gSsUcPwGR"
-   },
-   {
-    "label": "Episodi 154 — Historia e rrezikshme e verës së Sonoko (2)",
-    "url": "https://abyssplayer.com/BqjiXzoDx"
-   },
-   {
-    "label": "Episodi 155 — Çelësi në rastin e dhomës së mbyllur",
-    "url": "https://abyssplayer.com/QUPykwGbV"
-   },
-   {
-    "label": "Episodi 157",
-    "url": "https://abyssplayer.com/O5-iK2B-9"
-   },
-   {
-    "label": "Episodi 158 — Linja e Unazës së Heshtur",
-    "url": "https://abyssplayer.com/VxU5pPpyy"
-   },
-   {
-    "label": "Episodi 159 — Legjenda e çuditshme e pesë Pagodës së Storied (1)",
-    "url": "https://abyssplayer.com/pvLuMICdM"
-   },
-   {
-    "label": "Episodi 160 — Legjenda e çuditshme e pesë Pagodës së Storied (2)",
-    "url": "https://abyssplayer.com/wHa48EdyD"
-   },
-   {
-    "label": "Episodi 162 — Dhoma e mbyllur në qiell!",
-    "url": "https://abyssplayer.com/QiLQ8FhvV"
    }
   ]
  },
@@ -14293,104 +14975,6 @@
   ]
  },
  {
-  "id": "m641",
-  "title_al": "Dragon Ball DAIMA",
-  "title_orig": "Dragon Ball DAIMA",
-  "year": 2024,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Aksion",
-   "Aventurë"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m641.jpg",
-  "description": "Goku dhe miqtë shndërrohen në fëmijë nga një magji dhe nisen në një aventurë të re në Mbretërinë e Demonëve. Serial i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — Konspir",
-    "url": "https://abyssplayer.com/2xFc1IkJo"
-   },
-   {
-    "label": "Episodi 2 — Gllorio",
-    "url": "https://abyssplayer.com/J_FquEASG"
-   },
-   {
-    "label": "Episodi 3 — Daima",
-    "url": "https://abyssplayer.com/kZP3zP0NW"
-   },
-   {
-    "label": "Episodi 4 — I ngathët",
-    "url": "https://abyssplayer.com/4ktLyybmQ"
-   },
-   {
-    "label": "Episodi 5 — Trill",
-    "url": "https://abyssplayer.com/PhXNBu5ry"
-   },
-   {
-    "label": "Episodi 6 — Rrufe",
-    "url": "https://abyssplayer.com/zch1z-oQd"
-   },
-   {
-    "label": "Episodi 7 — Jakë",
-    "url": "https://abyssplayer.com/V2om_tEM8"
-   },
-   {
-    "label": "Episodi 8 — Tamagami",
-    "url": "https://abyssplayer.com/xKXXTZWO6"
-   },
-   {
-    "label": "Episodi 9 — Hajdutë",
-    "url": "https://abyssplayer.com/pJbNQfIwk"
-   },
-   {
-    "label": "Episodi 10 — Oqean",
-    "url": "https://abyssplayer.com/sWUZ2oNpOu"
-   },
-   {
-    "label": "Episodi 11 — Legjendë",
-    "url": "https://abyssplayer.com/Bu1Rqp89r"
-   },
-   {
-    "label": "Episodi 12 — Forcë e vërtetë",
-    "url": "https://abyssplayer.com/6H7OS2zHm"
-   },
-   {
-    "label": "Episodi 13 — Befasoj",
-    "url": "https://abyssplayer.com/ZvGFHUyjI"
-   },
-   {
-    "label": "Episodi 14 — Tabu",
-    "url": "https://abyssplayer.com/k3FsTWj5w"
-   },
-   {
-    "label": "Episodi 15 — Syri i tretë",
-    "url": "https://abyssplayer.com/dFWKnz3Xk"
-   },
-   {
-    "label": "Episodi 16 — Degëzim",
-    "url": "https://abyssplayer.com/8k__tODsI"
-   },
-   {
-    "label": "Episodi 17 — Goma",
-    "url": "https://abyssplayer.com/Q4qBjhlY8"
-   },
-   {
-    "label": "Episodi 18 — Zgjim",
-    "url": "https://abyssplayer.com/-V-hjTssb"
-   },
-   {
-    "label": "Episodi 19 — Tradhti",
-    "url": "https://abyssplayer.com/VEYgi01VR"
-   },
-   {
-    "label": "Episodi 20 — Maksimum",
-    "url": "https://abyssplayer.com/26OjmdcRb"
-   }
-  ]
- },
- {
   "id": "m642",
   "title_al": "Dr. STONE",
   "title_orig": "Dr. STONE",
@@ -14729,160 +15313,6 @@
   ]
  },
  {
-  "id": "m643",
-  "title_al": "Sailor Moon",
-  "title_orig": "Sailor Moon",
-  "year": 1992,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Aksion",
-   "Fantazi"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m643.jpg",
-  "description": "Usagi Tsukino bëhet Sailor Moon, luftëtarja e hënës që mbron Tokën nga e keqja. Klasik i animuar, i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — Ylli goditi, fat i keq",
-    "url": "https://abyssplayer.com/k_O2c_Re1"
-   },
-   {
-    "label": "Episodi 2 — Crystal Clear përsëri",
-    "url": "https://abyssplayer.com/9j-mL6Emi"
-   },
-   {
-    "label": "Episodi 3 — Ngasja e rrezikshme",
-    "url": "https://abyssplayer.com/9KZUvyNim"
-   },
-   {
-    "label": "Episodi 4 — Harmoni e keqe",
-    "url": "https://abyssplayer.com/cp2TM4qkv"
-   },
-   {
-    "label": "Episodi 5 — Përfshiu këmbët e saj",
-    "url": "https://abyssplayer.com/VM5orrguB"
-   },
-   {
-    "label": "Episodi 6 — I verbuar nga drita e dashurisë",
-    "url": "https://abyssplayer.com/1RPmyFb6e"
-   },
-   {
-    "label": "Episodi 7 — Lita huazon telashe",
-    "url": "https://abyssplayer.com/gaVKGIzZbg"
-   },
-   {
-    "label": "Episodi 8 — Shpirtmirë",
-    "url": "https://abyssplayer.com/LV8BBBgG3"
-   },
-   {
-    "label": "Episodi 9 — Armiqësorë",
-    "url": "https://abyssplayer.com/CSFJoNRWQ"
-   },
-   {
-    "label": "Episodi 10 — Mirësia e një njeriu!",
-    "url": "https://abyssplayer.com/q2DPhlM4i"
-   },
-   {
-    "label": "Episodi 11 — Lumturi individuale",
-    "url": "https://abyssplayer.com/8VzGlNbv_"
-   },
-   {
-    "label": "Episodi 12 — Blues i Ditëlindjes (1)",
-    "url": "https://abyssplayer.com/G7TP_i1yfE"
-   },
-   {
-    "label": "Episodi 13 — Blues i Ditëlindjes (2)",
-    "url": "https://abyssplayer.com/gUNLCCB2EO"
-   },
-   {
-    "label": "Episodi 14 — Përshëndetje, Sailor Mini Hëna",
-    "url": "https://abyssplayer.com/qPg75-EWm"
-   },
-   {
-    "label": "Episodi 19 — Gjithçka po vjen Rosey",
-    "url": "https://abyssplayer.com/nYkPHm39_j"
-   },
-   {
-    "label": "Episodi 20 — Pa kthim mbrapa",
-    "url": "https://abyssplayer.com/kcuPgcLE6"
-   },
-   {
-    "label": "Episodi 21 — Ardhja e Fatit",
-    "url": "https://abyssplayer.com/cIjbJ0aZo"
-   },
-   {
-    "label": "Episodi 22 — Shali i pastërtisë",
-    "url": "https://abyssplayer.com/fmW41mOS-"
-   },
-   {
-    "label": "Episodi 23 — Shfaq ndaluesit",
-    "url": "https://abyssplayer.com/TaA-TWFe0"
-   },
-   {
-    "label": "Episodi 24 — Miqësia e rrezikshme e Rini",
-    "url": "https://abyssplayer.com/IsqVbMYil_"
-   },
-   {
-    "label": "Episodi 25 — Rrëmujë e Mimet",
-    "url": "https://abyssplayer.com/5ab8RWPrO"
-   },
-   {
-    "label": "Episodi 26 — Hija e heshtjes",
-    "url": "https://abyssplayer.com/Divl4U3eL"
-   },
-   {
-    "label": "Episodi 27 — Moti me gjemba",
-    "url": "https://abyssplayer.com/ozua0L9Nl"
-   },
-   {
-    "label": "Episodi 28 — Rrezik i ngritur",
-    "url": "https://abyssplayer.com/GZawb0J0s"
-   },
-   {
-    "label": "Episodi 29 — Është në kartat",
-    "url": "https://abyssplayer.com/dPhuGbPhm"
-   },
-   {
-    "label": "Episodi 30 — Mirësia e eklipsuar",
-    "url": "https://abyssplayer.com/FcqkVL_me"
-   },
-   {
-    "label": "Episodi 31 — Tjetra në linjë",
-    "url": "https://abyssplayer.com/hUf2EuVVs"
-   },
-   {
-    "label": "Episodi 32 — Ferns miqësore",
-    "url": "https://abyssplayer.com/rNxJKzhWF"
-   },
-   {
-    "label": "Episodi 33 — Shkenca e Dashurisë",
-    "url": "https://abyssplayer.com/xRoY-Vr0C"
-   },
-   {
-    "label": "Episodi 34 — Telefonata e zgjuar",
-    "url": "https://abyssplayer.com/gwH1_Cz56"
-   },
-   {
-    "label": "Episodi 35 — Kush është me të vërtetë kush?",
-    "url": "https://abyssplayer.com/5BWQ9KmGy"
-   },
-   {
-    "label": "Episodi 36 — Errësira, shoku im i vjetër",
-    "url": "https://abyssplayer.com/GzXrZ8pBI"
-   },
-   {
-    "label": "Episodi 37 — Shansi i dytë",
-    "url": "https://abyssplayer.com/2zX4Toq-S"
-   },
-   {
-    "label": "Episodi 38 — Mirësi",
-    "url": "https://abyssplayer.com/JEUDYH5z-"
-   }
-  ]
- },
- {
   "id": "m644",
   "title_al": "Kung Fu Panda: Legends of Awesomeness",
   "title_orig": "Kung Fu Panda: Legends of Awesomeness",
@@ -14969,224 +15399,6 @@
    {
     "label": "Episodi 20 — Yao ime e preferuar",
     "url": "https://abyssplayer.com/boy2cwqWE"
-   }
-  ]
- },
- {
-  "id": "m645",
-  "title_al": "The Looney Tunes Show",
-  "title_orig": "The Looney Tunes Show",
-  "year": 2011,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Komedi",
-   "Familjar"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m645.jpg",
-  "description": "Bugs Bunny, Daffy Duck dhe banda kthehen në një sitcom modern plot humor. Serial i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — Miqtë më të mirë",
-    "url": "https://abyssplayer.com/a8p7W8D5K"
-   },
-   {
-    "label": "Episodi 1 — Bobcats në tre",
-    "url": "https://abyssplayer.com/irifPQW9R"
-   },
-   {
-    "label": "Episodi 2 — Vetëm anëtarët",
-    "url": "https://abyssplayer.com/uHEQjl__q"
-   },
-   {
-    "label": "Episodi 2 — Ju keni postë urrejtjeje",
-    "url": "https://abyssplayer.com/reaCIlIac"
-   },
-   {
-    "label": "Episodi 3 — Jailbird ... dhe burgbunny",
-    "url": "https://abyssplayer.com/OZyGfMLVn"
-   },
-   {
-    "label": "Episodi 3 — ITSY BITSY GOPHER",
-    "url": "https://abyssplayer.com/6D9UZAW2p"
-   },
-   {
-    "label": "Episodi 4 — Peshku dhe Vizitorët",
-    "url": "https://abyssplayer.com/uJtgOG1Th"
-   },
-   {
-    "label": "Episodi 4 — Rebel pa një dorezë",
-    "url": "https://abyssplayer.com/4Bbf0E1qd"
-   },
-   {
-    "label": "Episodi 5 — Talent përbindësh",
-    "url": "https://abyssplayer.com/xPGY9PV28"
-   },
-   {
-    "label": "Episodi 5 — Semper gënjeshtër",
-    "url": "https://abyssplayer.com/QPgowCyaM"
-   },
-   {
-    "label": "Episodi 6 — Ribashkim",
-    "url": "https://abyssplayer.com/64MxS05fP"
-   },
-   {
-    "label": "Episodi 6 — Figurë e babait",
-    "url": "https://abyssplayer.com/G7FYIm1Z0"
-   },
-   {
-    "label": "Episodi 7 — Casa de Calma",
-    "url": "https://abyssplayer.com/gINMXsd-X"
-   },
-   {
-    "label": "Episodi 7 — Shërbim ndaj klientit",
-    "url": "https://abyssplayer.com/2OniwRlTC"
-   },
-   {
-    "label": "Episodi 8 — Qen djall",
-    "url": "https://abyssplayer.com/6pmGu5U2p"
-   },
-   {
-    "label": "Episodi 8 — Stud, nerd, Joe mesatar dhe shenjtor",
-    "url": "https://abyssplayer.com/4i0nECJI7"
-   },
-   {
-    "label": "Episodi 9 — Historia e Foghorn Leghorn",
-    "url": "https://abyssplayer.com/-MAGP6KVH"
-   },
-   {
-    "label": "Episodi 9 — Ashtë një çantë dore",
-    "url": "https://abyssplayer.com/YUa-81iZb"
-   },
-   {
-    "label": "Episodi 10 — Bachelor të pranueshëm",
-    "url": "https://abyssplayer.com/2Dx2HO5Sb"
-   },
-   {
-    "label": "Episodi 10 — Një Carol Christmas",
-    "url": "https://abyssplayer.com/BkLeIahRk"
-   },
-   {
-    "label": "Episodi 11 — Lëvozhgë",
-    "url": "https://abyssplayer.com/u-zASGgXh"
-   },
-   {
-    "label": "Episodi 11 — Ne jemi në truffle të mëdha",
-    "url": "https://abyssplayer.com/jQlX6c5qZ"
-   },
-   {
-    "label": "Episodi 12 — Datë e dyfishtë",
-    "url": "https://abyssplayer.com/j33OysKY1"
-   },
-   {
-    "label": "Episodi 12 — I dashur Gjon",
-    "url": "https://abyssplayer.com/SU87wrWkR"
-   },
-   {
-    "label": "Episodi 13 — Për të tas ose jo për të tasur",
-    "url": "https://abyssplayer.com/NmT6WwyVS"
-   },
-   {
-    "label": "Episodi 14 — Hajdut i gazetës",
-    "url": "https://abyssplayer.com/7yJxhHIdo"
-   },
-   {
-    "label": "Episodi 15 — Bugs dhe Daffy marrin një punë",
-    "url": "https://abyssplayer.com/SZVSMF-mf"
-   },
-   {
-    "label": "Episodi 15 — E veja e zezë",
-    "url": "https://abyssplayer.com/SKH1SxG4Q"
-   },
-   {
-    "label": "Episodi 16 — Kjo është fëmija im",
-    "url": "https://abyssplayer.com/XbfP0edeS"
-   },
-   {
-    "label": "Episodi 16 — Zonja Porkbunny's",
-    "url": "https://abyssplayer.com/rZAlpErhJ"
-   },
-   {
-    "label": "Episodi 17 — Fetë e natës së së dielës",
-    "url": "https://abyssplayer.com/aNmwBCroI"
-   },
-   {
-    "label": "Episodi 17 — Kërkimi i Gribbler",
-    "url": "https://abyssplayer.com/Kmelf9jL7"
-   },
-   {
-    "label": "Episodi 18 — DMV",
-    "url": "https://abyssplayer.com/0lvdv7aVl"
-   },
-   {
-    "label": "Episodi 18 — Duck i madh i vjetër i Jorkut",
-    "url": "https://abyssplayer.com/tlxnhi0H3"
-   },
-   {
-    "label": "Episodi 19 — COP i jashtëm",
-    "url": "https://abyssplayer.com/VZtLrXxzP"
-   },
-   {
-    "label": "Episodi 19 — Udhëtim qesharak",
-    "url": "https://abyssplayer.com/AIC2pw0p8"
-   },
-   {
-    "label": "Episodi 20 — Rosë pune",
-    "url": "https://abyssplayer.com/XXUkoq3T8"
-   },
-   {
-    "label": "Episodi 20 — Lojë Shell",
-    "url": "https://abyssplayer.com/xmD3bIE06"
-   },
-   {
-    "label": "Episodi 21 — I skuqur i skuqur",
-    "url": "https://abyssplayer.com/Uysobh_5q"
-   },
-   {
-    "label": "Episodi 21 — Viti i Duck",
-    "url": "https://abyssplayer.com/b7EsA0-RM"
-   },
-   {
-    "label": "Episodi 22 — Shkollë e bukurisë",
-    "url": "https://abyssplayer.com/1XG3WBl0h"
-   },
-   {
-    "label": "Episodi 22 — Gossamer është awesomer",
-    "url": "https://abyssplayer.com/pPzInLbaz"
-   },
-   {
-    "label": "Episodi 23 — Notimi",
-    "url": "https://abyssplayer.com/VwtkRqN92"
-   },
-   {
-    "label": "Episodi 23 — Këtu vjen derri",
-    "url": "https://abyssplayer.com/BxzgeBDKr"
-   },
-   {
-    "label": "Episodi 24 — Raft",
-    "url": "https://abyssplayer.com/tKMKOcXEa"
-   },
-   {
-    "label": "Episodi 24 — Z. Weiner",
-    "url": "https://abyssplayer.com/qMH20iRzn"
-   },
-   {
-    "label": "Episodi 25 — Vrasje muh-muh-muh",
-    "url": "https://abyssplayer.com/Wz0kxUbPU"
-   },
-   {
-    "label": "Episodi 25 — Miqtë më të mirë redux",
-    "url": "https://abyssplayer.com/ZiwbRw6_z"
-   },
-   {
-    "label": "Episodi 26 — Pikë, pikë lazer",
-    "url": "https://abyssplayer.com/DK7wIOr1R"
-   },
-   {
-    "label": "Episodi 26 — Superrabbit",
-    "url": "https://abyssplayer.com/Nu1YzJbg1X"
    }
   ]
  },
@@ -16882,103 +17094,6 @@
   ]
  },
  {
-  "id": "m657",
-  "title_al": "Teenage Mutant Ninja Turtles",
-  "title_orig": "Teenage Mutant Ninja Turtles",
-  "year": 2012,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Aksion"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m657.jpg",
-  "description": "Katër breshkat ninja — Leonardo, Michelangelo, Donatello dhe Raphael — luftojnë krimin në Nju Jork. Serial i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — Mystic Mayhem",
-    "url": "https://abyssplayer.com/sM_OVgjO7"
-   },
-   {
-    "label": "Episodi 2 — Donnie's Gifts",
-    "url": "https://abyssplayer.com/qeTD6Q3L7"
-   },
-   {
-    "label": "Episodi 3 — War and Pizza",
-    "url": "https://abyssplayer.com/mIg4tVw4W"
-   },
-   {
-    "label": "Episodi 4 — Down with the Sickness",
-    "url": "https://abyssplayer.com/i6MLhoMUO"
-   },
-   {
-    "label": "Episodi 5 — Shell in a Cell",
-    "url": "https://abyssplayer.com/Oj3315WZ-"
-   },
-   {
-    "label": "Episodi 6 — Repo Mantis",
-    "url": "https://abyssplayer.com/qVhJmVs2V"
-   },
-   {
-    "label": "Episodi 7 — The Fast and the Furriest",
-    "url": "https://abyssplayer.com/NeckXkHOn"
-   },
-   {
-    "label": "Episodi 8 — Origami Tsunami",
-    "url": "https://abyssplayer.com/RJBxv1uGD"
-   },
-   {
-    "label": "Episodi 9 — Mascot Melee",
-    "url": "https://abyssplayer.com/_JRtnqHjo"
-   },
-   {
-    "label": "Episodi 10 — Newsworthy",
-    "url": "https://abyssplayer.com/vPxIiwZmK"
-   },
-   {
-    "label": "Episodi 11 — Minotaur Maze",
-    "url": "https://abyssplayer.com/KuUhBHkIa"
-   },
-   {
-    "label": "Episodi 12 — The Longest Fight",
-    "url": "https://abyssplayer.com/_eyeldChD"
-   },
-   {
-    "label": "Episodi 13 — The Gumbus",
-    "url": "https://abyssplayer.com/lh8fcCTmGB"
-   },
-   {
-    "label": "Episodi 14 — Mrs. Cuddles",
-    "url": "https://abyssplayer.com/PPi3xqOuS"
-   },
-   {
-    "label": "Episodi 15 — Hypno! Part Deux",
-    "url": "https://abyssplayer.com/TtOqYC9jB"
-   },
-   {
-    "label": "Episodi 16 — Stuck on You",
-    "url": "https://abyssplayer.com/YKEptsdSN"
-   },
-   {
-    "label": "Episodi 17 — Bug Busters",
-    "url": "https://abyssplayer.com/cKwLbfdPCp"
-   },
-   {
-    "label": "Episodi 18 — Al Be Back",
-    "url": "https://abyssplayer.com/yRYxs8ACg"
-   },
-   {
-    "label": "Episodi 19 — The Evil League of Mutants",
-    "url": "https://abyssplayer.com/q65t8smxz"
-   },
-   {
-    "label": "Episodi 20 — The Purple Jacket",
-    "url": "https://abyssplayer.com/xV8l4hvYN"
-   }
-  ]
- },
- {
   "id": "m658",
   "title_al": "101 Dalmatians Series",
   "title_orig": "101 Dalmatians Series",
@@ -18405,541 +18520,6 @@
    {
     "label": "Episodi 153 — The End, the Beginning",
     "url": "https://abyssplayer.com/AXZQ9Xxpg"
-   }
-  ]
- },
- {
-  "id": "m665",
-  "title_al": "Jackie Chan Adventures",
-  "title_orig": "Jackie Chan Adventures",
-  "year": 2000,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Aksion",
-   "Aventurë"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m665.jpg",
-  "description": "Jackie Chan, arkeologu dhe mjeshtri i arteve marciale, gjurmon 12 talismanët magjikë. Serial i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — The Dark Hand",
-    "url": "https://abyssplayer.com/WIMDgt07x"
-   },
-   {
-    "label": "Episodi 1 — Through the Rabbit Hole",
-    "url": "https://abyssplayer.com/xrvJRRyp1"
-   },
-   {
-    "label": "Episodi 2 — The Power Within",
-    "url": "https://abyssplayer.com/QzUs3dSOc"
-   },
-   {
-    "label": "Episodi 2 — The Warrior Incarnate",
-    "url": "https://abyssplayer.com/jFUmrwUtf"
-   },
-   {
-    "label": "Episodi 3 — The Mask of El Toro Fuerte",
-    "url": "https://abyssplayer.com/65DBPRYBU"
-   },
-   {
-    "label": "Episodi 3 — Snake Hunt",
-    "url": "https://abyssplayer.com/vq-PJp6KTC"
-   },
-   {
-    "label": "Episodi 4 — Enter the Viper",
-    "url": "https://abyssplayer.com/L3uB4gF43"
-   },
-   {
-    "label": "Episodi 4 — Mother of All Battles",
-    "url": "https://abyssplayer.com/ETK8fqZbW"
-   },
-   {
-    "label": "Episodi 5 — Shell Game",
-    "url": "https://abyssplayer.com/eQerKw3ph"
-   },
-   {
-    "label": "Episodi 5 — The Stronger Evil",
-    "url": "https://abyssplayer.com/KnAO7-CAc"
-   },
-   {
-    "label": "Episodi 6 — Project A, for Astral",
-    "url": "https://abyssplayer.com/uPSswHzxL"
-   },
-   {
-    "label": "Episodi 6 — The J-Team",
-    "url": "https://abyssplayer.com/Jp36DMa6r"
-   },
-   {
-    "label": "Episodi 7 — Bullies",
-    "url": "https://abyssplayer.com/m_q0NKbyp"
-   },
-   {
-    "label": "Episodi 7 — Jade Times Jade",
-    "url": "https://abyssplayer.com/nSXz1Ubrv"
-   },
-   {
-    "label": "Episodi 8 — Tough Break",
-    "url": "https://abyssplayer.com/o3Lmd_Chx"
-   },
-   {
-    "label": "Episodi 8 — The Curse of El Chupacabra",
-    "url": "https://abyssplayer.com/ZnU2WOJSO"
-   },
-   {
-    "label": "Episodi 9 — The Rock",
-    "url": "https://abyssplayer.com/mVJEyA7T6"
-   },
-   {
-    "label": "Episodi 9 — Rumble in the Big House",
-    "url": "https://abyssplayer.com/cS4qH9Mc-p"
-   },
-   {
-    "label": "Episodi 10 — The Dog and Piggy Show",
-    "url": "https://abyssplayer.com/PGBKt9NVS"
-   },
-   {
-    "label": "Episodi 10 — Lost City of the Muntabs",
-    "url": "https://abyssplayer.com/Nw0mJ0B4k"
-   },
-   {
-    "label": "Episodi 11 — The Jade Monkey",
-    "url": "https://abyssplayer.com/vaLrEecdh"
-   },
-   {
-    "label": "Episodi 11 — And He Does His Own Stunts",
-    "url": "https://abyssplayer.com/7HJ6Q29WBO"
-   },
-   {
-    "label": "Episodi 12 — The Tiger and the Pussycat",
-    "url": "https://abyssplayer.com/_RiYd55TZ"
-   },
-   {
-    "label": "Episodi 12 — Showdown in the Old West",
-    "url": "https://abyssplayer.com/AuVKM79fI"
-   },
-   {
-    "label": "Episodi 13 — Day of the Dragon",
-    "url": "https://abyssplayer.com/Ezu-a_cZv"
-   },
-   {
-    "label": "Episodi 13 — Queen of the Shadowkhan",
-    "url": "https://abyssplayer.com/dt8xior-d"
-   },
-   {
-    "label": "Episodi 14 — Origami",
-    "url": "https://abyssplayer.com/3fVjHrVaK"
-   },
-   {
-    "label": "Episodi 15 — Shanghai Moon",
-    "url": "https://abyssplayer.com/L87axukqC"
-   },
-   {
-    "label": "Episodi 16 — The Lotus Temple",
-    "url": "https://abyssplayer.com/-78l2a8im"
-   },
-   {
-    "label": "Episodi 17 — Armor of the Gods",
-    "url": "https://abyssplayer.com/c9JGxLqWN"
-   },
-   {
-    "label": "Episodi 18 — Agent Tag",
-    "url": "https://abyssplayer.com/VdztACLUrw"
-   },
-   {
-    "label": "Episodi 19 — Demon in Di-Skies (Tale of the Demon Tail)",
-    "url": "https://abyssplayer.com/l-K5zHmO9"
-   },
-   {
-    "label": "Episodi 20 — The Return of the Pussycat",
-    "url": "https://abyssplayer.com/R4FNQGEEf"
-   },
-   {
-    "label": "Episodi 21 — Scouts Honor",
-    "url": "https://abyssplayer.com/wJ97aolzv"
-   },
-   {
-    "label": "Episodi 22 — Danger in the Deep Freeze",
-    "url": "https://abyssplayer.com/jw7YHGdHu"
-   },
-   {
-    "label": "Episodi 23 — Into the Mouth of Evil",
-    "url": "https://abyssplayer.com/3d8iWZgc5"
-   },
-   {
-    "label": "Episodi 24 — The King and Jade",
-    "url": "https://abyssplayer.com/snGr66Kss"
-   },
-   {
-    "label": "Episodi 25 — The New Atlantis",
-    "url": "https://abyssplayer.com/d4kBuotRz"
-   },
-   {
-    "label": "Episodi 26 — The Eighth Door",
-    "url": "https://abyssplayer.com/w_VkAcSD-"
-   },
-   {
-    "label": "Episodi 27 — Demon World (1)",
-    "url": "https://abyssplayer.com/PDcWLydN6"
-   },
-   {
-    "label": "Episodi 28 — Demon World (2)",
-    "url": "https://abyssplayer.com/8ELxmbPrq"
-   },
-   {
-    "label": "Episodi 29 — Enter the Cat",
-    "url": "https://abyssplayer.com/dC2KOOIYv"
-   },
-   {
-    "label": "Episodi 30 — Pleasure Cruise",
-    "url": "https://abyssplayer.com/gO8EIFEci"
-   },
-   {
-    "label": "Episodi 31 — Tough Luck",
-    "url": "https://abyssplayer.com/oRlhVPuh_"
-   },
-   {
-    "label": "Episodi 32 — The Chosen One",
-    "url": "https://abyssplayer.com/aYBPl95U5"
-   },
-   {
-    "label": "Episodi 33 — Glove Story",
-    "url": "https://abyssplayer.com/i-tMFfJBY"
-   },
-   {
-    "label": "Episodi 34 — The Chan Who Knew Too Much",
-    "url": "https://abyssplayer.com/q0Hls8L45"
-   },
-   {
-    "label": "Episodi 35 — Chi of the Vampire",
-    "url": "https://abyssplayer.com/a3UbER1Uj"
-   },
-   {
-    "label": "Episodi 36 — The Good, the Bad, the Blind, the Deaf and the Mute",
-    "url": "https://abyssplayer.com/vCCsSGg7p"
-   },
-   {
-    "label": "Episodi 37 — Shrink Rap",
-    "url": "https://abyssplayer.com/61tI1W1Uh"
-   },
-   {
-    "label": "Episodi 38 — I'll Be a Monkey's Puppet",
-    "url": "https://abyssplayer.com/U7WEDH8UU"
-   }
-  ]
- },
- {
-  "id": "m666",
-  "title_al": "Kuroko's Basketball",
-  "title_orig": "Kuroko's Basketball",
-  "year": 2012,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Sport"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m666.jpg",
-  "description": "Kuroko, \"lojtari fantazmë\", bashkohet me Kagamin për ta çuar ekipin Seirin në majë. Serial sportiv i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — I Am Kuroko",
-    "url": "https://abyssplayer.com/85J8g_Eot"
-   },
-   {
-    "label": "Episodi 1 — I Never Thought We'd Meet Here",
-    "url": "https://abyssplayer.com/VnUYu-ay0"
-   },
-   {
-    "label": "Episodi 1 — I'm Just Going at Full Strength",
-    "url": "https://abyssplayer.com/LT_M9bhEr"
-   },
-   {
-    "label": "Episodi 2 — I'm Serious",
-    "url": "https://abyssplayer.com/nXtEj6uIm"
-   },
-   {
-    "label": "Episodi 2 — At The Winter Cup",
-    "url": "https://abyssplayer.com/9kBLgWoa_L"
-   },
-   {
-    "label": "Episodi 2 — This Is Mine",
-    "url": "https://abyssplayer.com/4XugfbVR0"
-   },
-   {
-    "label": "Episodi 3 — It's Better If I Can't Win",
-    "url": "https://abyssplayer.com/IUYSj50eM"
-   },
-   {
-    "label": "Episodi 3 — Start!!!",
-    "url": "https://abyssplayer.com/kKDkpLm9y"
-   },
-   {
-    "label": "Episodi 3 — Don't You Get In My Way",
-    "url": "https://abyssplayer.com/EI3Fp1C55"
-   },
-   {
-    "label": "Episodi 4 — Take Care of the Counter Attack!",
-    "url": "https://abyssplayer.com/b8_DD27Jz"
-   },
-   {
-    "label": "Episodi 4 — There is Only One Answer",
-    "url": "https://abyssplayer.com/hDcwDJ7PP"
-   },
-   {
-    "label": "Episodi 4 — I'll Take This For Now",
-    "url": "https://abyssplayer.com/mY7mddZX1"
-   },
-   {
-    "label": "Episodi 5 — Your Basketball",
-    "url": "https://abyssplayer.com/r1nt4L0ng"
-   },
-   {
-    "label": "Episodi 5 — I've Been Waiting For This",
-    "url": "https://abyssplayer.com/rD07gAMKf"
-   },
-   {
-    "label": "Episodi 5 — I Know None of That",
-    "url": "https://abyssplayer.com/LTEyFMWPi"
-   },
-   {
-    "label": "Episodi 6 — Let Me Tell You Two Things",
-    "url": "https://abyssplayer.com/bjguxVvba"
-   },
-   {
-    "label": "Episodi 6 — I Surpassed You Long Ago",
-    "url": "https://abyssplayer.com/0KODHfO0B3"
-   },
-   {
-    "label": "Episodi 6 — I Will Offer Them",
-    "url": "https://abyssplayer.com/QoRNqdkYr"
-   },
-   {
-    "label": "Episodi 7 — You'll See Something Amazing",
-    "url": "https://abyssplayer.com/YFVuDL1BQ"
-   },
-   {
-    "label": "Episodi 7 — Give Up",
-    "url": "https://abyssplayer.com/MSo9fGU4W"
-   },
-   {
-    "label": "Episodi 7 — It Makes Me Laugh",
-    "url": "https://abyssplayer.com/7asow-pll"
-   },
-   {
-    "label": "Episodi 8 — Now That I Think About It",
-    "url": "https://abyssplayer.com/r7_1ZamCM"
-   },
-   {
-    "label": "Episodi 8 — We're the Seirin High School Basketball Team!",
-    "url": "https://abyssplayer.com/JB5JZj7eq"
-   },
-   {
-    "label": "Episodi 8 — True Light",
-    "url": "https://abyssplayer.com/s0CpdL8iJ"
-   },
-   {
-    "label": "Episodi 9 — To Win",
-    "url": "https://abyssplayer.com/NI4lhnL3f"
-   },
-   {
-    "label": "Episodi 9 — I Will Defeat You!",
-    "url": "https://abyssplayer.com/diMOfaKOD"
-   },
-   {
-    "label": "Episodi 9 — Don't Underestimate Us!",
-    "url": "https://abyssplayer.com/DEtHx-uaH"
-   },
-   {
-    "label": "Episodi 10 — I Can't Have That",
-    "url": "https://abyssplayer.com/jPdWIoZi0"
-   },
-   {
-    "label": "Episodi 10 — It's Trust",
-    "url": "https://abyssplayer.com/-9uTRzWmT"
-   },
-   {
-    "label": "Episodi 10 — In Order to Win",
-    "url": "https://abyssplayer.com/-ZDnVzxvG"
-   },
-   {
-    "label": "Episodi 11 — That's Not It",
-    "url": "https://abyssplayer.com/fGtz-lqwC"
-   },
-   {
-    "label": "Episodi 11 — Don't Be Ridiculous",
-    "url": "https://abyssplayer.com/DpC5a0mUp"
-   },
-   {
-    "label": "Episodi 11 — This Time, For Sure",
-    "url": "https://abyssplayer.com/35NoIEDzU"
-   },
-   {
-    "label": "Episodi 12 — What Is",
-    "url": "https://abyssplayer.com/GVkSqHnamD"
-   },
-   {
-    "label": "Episodi 12 — I Look Forward to It",
-    "url": "https://abyssplayer.com/fVYviDyBQ"
-   },
-   {
-    "label": "Episodi 12 — He is the Best Player",
-    "url": "https://abyssplayer.com/JC05Xso2i"
-   },
-   {
-    "label": "Episodi 13 — I Believed in You",
-    "url": "https://abyssplayer.com/AbVyG91xD"
-   },
-   {
-    "label": "Episodi 13 — Definitely This Time",
-    "url": "https://abyssplayer.com/4DVGIOjt0"
-   },
-   {
-    "label": "Episodi 13 — A Day With Blue Skies",
-    "url": "https://abyssplayer.com/_al4CQa2l"
-   },
-   {
-    "label": "Episodi 14 — You Look Just Like Him",
-    "url": "https://abyssplayer.com/IJEgjHTwt"
-   },
-   {
-    "label": "Episodi 14 — Useless Effort",
-    "url": "https://abyssplayer.com/MOChURBic"
-   },
-   {
-    "label": "Episodi 14 — ...Sorry",
-    "url": "https://abyssplayer.com/Fp3mniz1S"
-   },
-   {
-    "label": "Episodi 15 — Don't Make Me Laugh",
-    "url": "https://abyssplayer.com/5-CoMbCh5"
-   },
-   {
-    "label": "Episodi 15 — I Think He's Extremely Happy",
-    "url": "https://abyssplayer.com/OX1AFPtD4"
-   },
-   {
-    "label": "Episodi 15 — We Already",
-    "url": "https://abyssplayer.com/LTm6sPKy-"
-   },
-   {
-    "label": "Episodi 16 — Let's Go",
-    "url": "https://abyssplayer.com/shvNwFKu9"
-   },
-   {
-    "label": "Episodi 16 — We Win Now!",
-    "url": "https://abyssplayer.com/Qb1xuRsWX"
-   },
-   {
-    "label": "Episodi 16 — What is Victory?",
-    "url": "https://abyssplayer.com/pmk8iFwMg"
-   },
-   {
-    "label": "Episodi 17 — You're All Ridiculous",
-    "url": "https://abyssplayer.com/lKibOgYHn"
-   },
-   {
-    "label": "Episodi 17 — I Believe in Him",
-    "url": "https://abyssplayer.com/FzAR-6lUL"
-   },
-   {
-    "label": "Episodi 17 — Final Tip Off",
-    "url": "https://abyssplayer.com/ny_1yOnw6"
-   },
-   {
-    "label": "Episodi 18 — No!!",
-    "url": "https://abyssplayer.com/K7WqU-SAl"
-   },
-   {
-    "label": "Episodi 18 — I Won't Lose",
-    "url": "https://abyssplayer.com/RdB8fpvy0"
-   },
-   {
-    "label": "Episodi 18 — Isn't It the Best?",
-    "url": "https://abyssplayer.com/6q1-24gvl"
-   },
-   {
-    "label": "Episodi 19 — On to a New Challenge",
-    "url": "https://abyssplayer.com/cd1GBaD_h"
-   },
-   {
-    "label": "Episodi 19 — A Miracle Will Not Happen",
-    "url": "https://abyssplayer.com/OHuxxAVUv"
-   },
-   {
-    "label": "Episodi 20 — I Don't Want to Be",
-    "url": "https://abyssplayer.com/BBhty3mM7"
-   },
-   {
-    "label": "Episodi 20 — Of Course It's Not Easy",
-    "url": "https://abyssplayer.com/Jm4DcdMoz"
-   },
-   {
-    "label": "Episodi 20 — Weight of Resolve",
-    "url": "https://abyssplayer.com/-_F-d6WCb"
-   },
-   {
-    "label": "Episodi 21 — Let's Get Started",
-    "url": "https://abyssplayer.com/GGiINH42f"
-   },
-   {
-    "label": "Episodi 21 — First Basket!!",
-    "url": "https://abyssplayer.com/-wI1jVnOA"
-   },
-   {
-    "label": "Episodi 21 — In My Own Way, I'm Desperate",
-    "url": "https://abyssplayer.com/slvvSIz43"
-   },
-   {
-    "label": "Episodi 22 — I'll Win Even If It Kills Me",
-    "url": "https://abyssplayer.com/pEeEP32dM"
-   },
-   {
-    "label": "Episodi 22 — It's Obvious",
-    "url": "https://abyssplayer.com/ddk_jrqXl"
-   },
-   {
-    "label": "Episodi 22 — A Warning",
-    "url": "https://abyssplayer.com/Vw1R593fi"
-   },
-   {
-    "label": "Episodi 23 — I'm Not Mature!",
-    "url": "https://abyssplayer.com/G4RwBqLYr"
-   },
-   {
-    "label": "Episodi 23 — I Don't Want to Lose",
-    "url": "https://abyssplayer.com/-hJdsOnIE"
-   },
-   {
-    "label": "Episodi 23 — Why Don't We Give Up?",
-    "url": "https://abyssplayer.com/WQdnHszZj"
-   },
-   {
-    "label": "Episodi 24 — Don't Get the Wrong Idea",
-    "url": "https://abyssplayer.com/nARfqHczG"
-   },
-   {
-    "label": "Episodi 24 — Enough",
-    "url": "https://abyssplayer.com/XPoEJfQgL"
-   },
-   {
-    "label": "Episodi 24 — So It Was You",
-    "url": "https://abyssplayer.com/oqQt7_G1d"
-   },
-   {
-    "label": "Episodi 25 — Our Basketball",
-    "url": "https://abyssplayer.com/AcDDY01Opt"
-   },
-   {
-    "label": "Episodi 25 — Win",
-    "url": "https://abyssplayer.com/KeWWjukZZ"
-   },
-   {
-    "label": "Episodi 25 — Many Times Over",
-    "url": "https://abyssplayer.com/uHvuCwrea"
    }
   ]
  },
@@ -22286,548 +21866,6 @@
   ]
  },
  {
-  "id": "m670",
-  "title_al": "Dragon Ball Super",
-  "title_orig": "Dragon Ball Super",
-  "year": 2015,
-  "duration": null,
-  "studio": "ShqipKinema",
-  "genres": [
-   "Animim",
-   "Aksion",
-   "Aventurë"
-  ],
-  "type": "serial",
-  "poster": "img/posters/m670.jpg",
-  "description": "Goku dhe Vegeta përballen me perëndi dhe universë paralele në turneun e fuqisë. Serial i dubluar në shqip.",
-  "videos": [
-   {
-    "label": "Episodi 1 — A Peacetime Reward; Who Gets the 100,000,000 Zeni!?",
-    "url": "https://abyssplayer.com/vyFJ3GvaE"
-   },
-   {
-    "label": "Episodi 2 — To the Promised Resort! Vegeta Takes a Family Trip!?",
-    "url": "https://abyssplayer.com/iMHm1PhpL"
-   },
-   {
-    "label": "Episodi 3 — Where Does the Dream Pick Up!? Find the Super Saiyan God!",
-    "url": "https://abyssplayer.com/omSR0uEJK"
-   },
-   {
-    "label": "Episodi 4",
-    "url": "https://abyssplayer.com/f6t9KNMdF"
-   },
-   {
-    "label": "Episodi 5",
-    "url": "https://abyssplayer.com/AS0JW97vJ"
-   },
-   {
-    "label": "Episodi 6 — Don't Anger the Destroyer! A Heart-Pounding Birthday Party",
-    "url": "https://abyssplayer.com/Z7SS1n5TV"
-   },
-   {
-    "label": "Episodi 7",
-    "url": "https://abyssplayer.com/W_eyJpccQ"
-   },
-   {
-    "label": "Episodi 8 — Goku Makes an Entrance! A Last Chance from Lord Beerus?",
-    "url": "https://abyssplayer.com/kt3TNLLW6"
-   },
-   {
-    "label": "Episodi 9",
-    "url": "https://abyssplayer.com/2cnLki0u4"
-   },
-   {
-    "label": "Episodi 10 — Show Us, Goku! The Power of a Super Saiyan God!",
-    "url": "https://abyssplayer.com/lUxV4Us1s"
-   },
-   {
-    "label": "Episodi 11 — Let's Keep Going, Lord Beerus! The Battle of Gods!",
-    "url": "https://abyssplayer.com/zeJvAP8uP"
-   },
-   {
-    "label": "Episodi 12",
-    "url": "https://abyssplayer.com/nJ_JLLBFM"
-   },
-   {
-    "label": "Episodi 13 — Goku, Surpass Super Saiyan God!",
-    "url": "https://abyssplayer.com/Y04bTBpYJ"
-   },
-   {
-    "label": "Episodi 14 — This is All the Power I've Got! A Settlement Between Gods",
-    "url": "https://abyssplayer.com/J58Xr090J"
-   },
-   {
-    "label": "Episodi 15",
-    "url": "https://abyssplayer.com/Y_cwrJXCQ"
-   },
-   {
-    "label": "Episodi 16 — Vegeta Becomes a Student?! Win Over Whis!",
-    "url": "https://abyssplayer.com/Vqsk_O-b-6"
-   },
-   {
-    "label": "Episodi 17 — Pan is Born! And Goku Goes on a Training Journey?!",
-    "url": "https://abyssplayer.com/_GgvpfQrJ"
-   },
-   {
-    "label": "Episodi 18 — I'm Here, Too! Training Commences on Beerus' World",
-    "url": "https://abyssplayer.com/87lxgU707"
-   },
-   {
-    "label": "Episodi 19 — Despair Redux! The Return of the Evil Emperor, Frieza!",
-    "url": "https://abyssplayer.com/W3NxdKgPf"
-   },
-   {
-    "label": "Episodi 20 — A Warning from Jaco! Frieza and 1,000 Soldiers Close In",
-    "url": "https://abyssplayer.com/kkkL6-kXt"
-   },
-   {
-    "label": "Episodi 21",
-    "url": "https://abyssplayer.com/wVHqvn3MC"
-   },
-   {
-    "label": "Episodi 22 — Change! An Unexpected Return! His Name is Ginyu!!",
-    "url": "https://abyssplayer.com/M8LyFgz0A"
-   },
-   {
-    "label": "Episodi 23 — Earth! Gohan! Both on the Ropes! Hurry and Get Here, Goku!!",
-    "url": "https://abyssplayer.com/81Vxij_jI"
-   },
-   {
-    "label": "Episodi 24 — Clash! Frieza vs. Goku! This is the Result of My Training!",
-    "url": "https://abyssplayer.com/2Xi1Af5vp"
-   },
-   {
-    "label": "Episodi 25 — A Full-Throttle Battle! The Vengeful Golden Frieza",
-    "url": "https://abyssplayer.com/K3Hjb1gVf"
-   },
-   {
-    "label": "Episodi 26",
-    "url": "https://abyssplayer.com/3EseiLBai"
-   },
-   {
-    "label": "Episodi 27 — The Earth Explodes? A Decisive Kamehameha!",
-    "url": "https://abyssplayer.com/npOXeRTmsO"
-   },
-   {
-    "label": "Episodi 28 — The 6th Universe's Destroyer! His Name is Champa!",
-    "url": "https://abyssplayer.com/ba4Le8ogi"
-   },
-   {
-    "label": "Episodi 29",
-    "url": "https://abyssplayer.com/aS0RPfNYU"
-   },
-   {
-    "label": "Episodi 30",
-    "url": "https://abyssplayer.com/sgb99f3Qg"
-   },
-   {
-    "label": "Episodi 31",
-    "url": "https://abyssplayer.com/bRSgW4ary"
-   },
-   {
-    "label": "Episodi 32",
-    "url": "https://abyssplayer.com/75BrKj32b"
-   },
-   {
-    "label": "Episodi 33 — Surprise, 6th Universe! This is Super Saiyan Goku!",
-    "url": "https://abyssplayer.com/M64-aqr1F"
-   },
-   {
-    "label": "Episodi 34 — Piccolo vs Frost! Stake it All on the Special Beam Cannon!",
-    "url": "https://abyssplayer.com/nVBtpFz-a"
-   },
-   {
-    "label": "Episodi 35 — Turn Your Anger into Strength! Vegeta's Full-Bore Battle",
-    "url": "https://abyssplayer.com/0Fprm-4Br"
-   },
-   {
-    "label": "Episodi 36",
-    "url": "https://abyssplayer.com/sGdIacXf-"
-   },
-   {
-    "label": "Episodi 37",
-    "url": "https://abyssplayer.com/71Yop7tus"
-   },
-   {
-    "label": "Episodi 38",
-    "url": "https://abyssplayer.com/QQZ5eAShD"
-   },
-   {
-    "label": "Episodi 39 — A Developed",
-    "url": "https://abyssplayer.com/_ITxOWEep"
-   },
-   {
-    "label": "Episodi 40 — A Decision at Last! Is the Winner Beerus? Or is it Champa?",
-    "url": "https://abyssplayer.com/5aMVeQPp9"
-   },
-   {
-    "label": "Episodi 41",
-    "url": "https://abyssplayer.com/aDH48Gtf4"
-   },
-   {
-    "label": "Episodi 42 — A Chaotic Victory Party! Showdown at Last? Monaka vs. Goku!",
-    "url": "https://abyssplayer.com/KKY7NgcGN"
-   },
-   {
-    "label": "Episodi 43",
-    "url": "https://abyssplayer.com/4_5WpqYUh"
-   },
-   {
-    "label": "Episodi 44",
-    "url": "https://abyssplayer.com/eXEIGXtGz"
-   },
-   {
-    "label": "Episodi 45 — Vegeta Disappears?! Menace of the Duplicate Vegeta!",
-    "url": "https://abyssplayer.com/vr7nCzG5E"
-   },
-   {
-    "label": "Episodi 46 — Goku vs. the Duplicate Vegeta! Which One is Going to Win?",
-    "url": "https://abyssplayer.com/JfJyQ2pSd"
-   },
-   {
-    "label": "Episodi 47 — SOS from the Future: A Dark New Enemy Appears!",
-    "url": "https://abyssplayer.com/3cwy3qivU"
-   },
-   {
-    "label": "Episodi 48 — HOPE!! Redux: Awaken in the Present, Trunks",
-    "url": "https://abyssplayer.com/EjJuZUJxA"
-   },
-   {
-    "label": "Episodi 49 — A Message From the Future - The Incursion of Goku Black!",
-    "url": "https://abyssplayer.com/FzZOwi0in"
-   },
-   {
-    "label": "Episodi 50 — Goku vs. Black! A Closed-Off Road to the Future",
-    "url": "https://abyssplayer.com/lWq5Xvfjg"
-   },
-   {
-    "label": "Episodi 51 — Feelings That Transcend Time: Trunks and Mai",
-    "url": "https://abyssplayer.com/k4zhK3I9_"
-   },
-   {
-    "label": "Episodi 52 — Master and Pupil Reunited! Gohan and Future Trunks!",
-    "url": "https://abyssplayer.com/jkRpCON6r"
-   },
-   {
-    "label": "Episodi 53",
-    "url": "https://abyssplayer.com/zfSEvZKQ-"
-   },
-   {
-    "label": "Episodi 54 — He Who is of Saiyan Blood: Trunks's Resolve",
-    "url": "https://abyssplayer.com/yDOxpx8fM"
-   },
-   {
-    "label": "Episodi 55 — I'd Like to See Goku, You See! A Summons From Grand Zeno!",
-    "url": "https://abyssplayer.com/VXC5l6lh5"
-   },
-   {
-    "label": "Episodi 56 — Rematch with Goku Black! Enter Super Saiyan Rosé",
-    "url": "https://abyssplayer.com/vNTKd9qt3"
-   },
-   {
-    "label": "Episodi 57 — A God with an Invincible Body - The Advent of Zamasu",
-    "url": "https://abyssplayer.com/5E_wRwqg6"
-   },
-   {
-    "label": "Episodi 58 — Zamasu and Black - The Duo's Mystery Deepens",
-    "url": "https://abyssplayer.com/Qdi2R1SG2"
-   },
-   {
-    "label": "Episodi 59 — Protect The Supreme Kai Gowasu - Destroy Zamasu!",
-    "url": "https://abyssplayer.com/LAoOfzJmk"
-   },
-   {
-    "label": "Episodi 60",
-    "url": "https://abyssplayer.com/6h5ADGW00"
-   },
-   {
-    "label": "Episodi 61 — Zamasu's Ambition – The Storied",
-    "url": "https://abyssplayer.com/Xp8XAsusN"
-   },
-   {
-    "label": "Episodi 62",
-    "url": "https://abyssplayer.com/v5XnB3NE6"
-   },
-   {
-    "label": "Episodi 63",
-    "url": "https://abyssplayer.com/F5RcYPQtp"
-   },
-   {
-    "label": "Episodi 64",
-    "url": "https://abyssplayer.com/w_QcKEpE_"
-   },
-   {
-    "label": "Episodi 65 — Final Judgement? The Ultimate Power of an Absolute God",
-    "url": "https://abyssplayer.com/sPp-726BY"
-   },
-   {
-    "label": "Episodi 66 — Showdown! The Miraculous Power of Unyielding Warriors",
-    "url": "https://abyssplayer.com/eB1vgXh6n"
-   },
-   {
-    "label": "Episodi 67 — With New Hope in His Heart - Farewell, Trunks",
-    "url": "https://abyssplayer.com/x4p34qlLh"
-   },
-   {
-    "label": "Episodi 68 — Come Forth, Shenron! Whose Wish Will Be Granted?",
-    "url": "https://abyssplayer.com/ykvLDj8aP"
-   },
-   {
-    "label": "Episodi 69",
-    "url": "https://abyssplayer.com/uBatckvg9"
-   },
-   {
-    "label": "Episodi 70 — A Challenge From Champa! This Time, a Baseball Game!",
-    "url": "https://abyssplayer.com/5XkQsypfC"
-   },
-   {
-    "label": "Episodi 71 — Goku Dies! An Assassination That Must Be Executed!",
-    "url": "https://abyssplayer.com/SwnXOlh9A"
-   },
-   {
-    "label": "Episodi 72 — Will He Strike Back? The Unseen Killing Technique!",
-    "url": "https://abyssplayer.com/zSZ8rNIdz"
-   },
-   {
-    "label": "Episodi 73",
-    "url": "https://abyssplayer.com/M631dZEh7"
-   },
-   {
-    "label": "Episodi 74 — For My Beloved Ones! The Indomitable Great Saiyaman!",
-    "url": "https://abyssplayer.com/N8KhiK9PI"
-   },
-   {
-    "label": "Episodi 75 — Goku and Krillin! Back to the Old Familiar Training Ground!",
-    "url": "https://abyssplayer.com/dt7EmyTrZE"
-   },
-   {
-    "label": "Episodi 76",
-    "url": "https://abyssplayer.com/RA-s5e361"
-   },
-   {
-    "label": "Episodi 77 — Let's Do It, Grand Zeno! The Universes' Best Tournament!!",
-    "url": "https://abyssplayer.com/6zNL7lJqO"
-   },
-   {
-    "label": "Episodi 78",
-    "url": "https://abyssplayer.com/_Y8C9fNro"
-   },
-   {
-    "label": "Episodi 79",
-    "url": "https://abyssplayer.com/etyvVPI_m"
-   },
-   {
-    "label": "Episodi 80 — Awaken Your Dormant Fighting Spirit! Gohan's Fight!",
-    "url": "https://abyssplayer.com/onQQxd_Jr"
-   },
-   {
-    "label": "Episodi 81",
-    "url": "https://abyssplayer.com/xq20qdb1TX"
-   },
-   {
-    "label": "Episodi 82 — Goku Must Pay! The Warrior of Justice Top Barges In!",
-    "url": "https://abyssplayer.com/L0JSoTqCe"
-   },
-   {
-    "label": "Episodi 83 — Field the All-7th-Universe Team! Who are the Mighty Ten?",
-    "url": "https://abyssplayer.com/UGTdABaJ1"
-   },
-   {
-    "label": "Episodi 84 — Goku the Talent Scout! Recruit Krillin and Android 18",
-    "url": "https://abyssplayer.com/4nEvZfJNf"
-   },
-   {
-    "label": "Episodi 85 — The Universes Go Into Action - Each With Their Own Motives",
-    "url": "https://abyssplayer.com/cXwV9HjLF"
-   },
-   {
-    "label": "Episodi 86 — First Time Exchanging Blows! Android 17 vs. Goku!!",
-    "url": "https://abyssplayer.com/b9QOMa4Ev"
-   },
-   {
-    "label": "Episodi 87",
-    "url": "https://abyssplayer.com/SHyJUfLJa"
-   },
-   {
-    "label": "Episodi 88 — Gohan and Piccolo Master and Pupil Clash in Max Training!",
-    "url": "https://abyssplayer.com/e82gSY5g8"
-   },
-   {
-    "label": "Episodi 89",
-    "url": "https://abyssplayer.com/qQNZLuSni"
-   },
-   {
-    "label": "Episodi 90 — Staring Down the Wall to be Overcome! Goku vs. Gohan",
-    "url": "https://abyssplayer.com/rGYWl_qTm"
-   },
-   {
-    "label": "Episodi 91",
-    "url": "https://abyssplayer.com/QXMo2SBq--"
-   },
-   {
-    "label": "Episodi 92 — A State of Emergency! Failure to Reach Ten Members!!",
-    "url": "https://abyssplayer.com/P6KqE8V1d"
-   },
-   {
-    "label": "Episodi 93 — You're Our Tenth Warrior! Goku Approaches Frieza!!",
-    "url": "https://abyssplayer.com/qS5FV88d7"
-   },
-   {
-    "label": "Episodi 94",
-    "url": "https://abyssplayer.com/HbLPurv0s"
-   },
-   {
-    "label": "Episodi 95 — Most Heinous! Most Evil! Frieza's Rampage!",
-    "url": "https://abyssplayer.com/DiAFjjBQ_"
-   },
-   {
-    "label": "Episodi 96",
-    "url": "https://abyssplayer.com/lS1mdCIfo"
-   },
-   {
-    "label": "Episodi 97 — Survive! The",
-    "url": "https://abyssplayer.com/a35nPAUQM"
-   },
-   {
-    "label": "Episodi 98 — Ah, the Uncertainty! A Universe Despairs!",
-    "url": "https://abyssplayer.com/7pJqO8ua6"
-   },
-   {
-    "label": "Episodi 99 — Show Them! Krillin's Underlying Strength!",
-    "url": "https://abyssplayer.com/k-CS9qODe"
-   },
-   {
-    "label": "Episodi 100 — Rampage! A Crazed Warrior's Savagery Awakens!",
-    "url": "https://abyssplayer.com/a5Unj9B2G6"
-   },
-   {
-    "label": "Episodi 101 — Warriors of Justice Close In! The Pride Troopers!",
-    "url": "https://abyssplayer.com/TOjepN_N8"
-   },
-   {
-    "label": "Episodi 102",
-    "url": "https://abyssplayer.com/aUchqrYiW"
-   },
-   {
-    "label": "Episodi 103 — Gohan, Get Ruthless! Showdown with the 10th Universe!",
-    "url": "https://abyssplayer.com/6uOTyK3C6"
-   },
-   {
-    "label": "Episodi 104",
-    "url": "https://abyssplayer.com/eqE2UWpZC"
-   },
-   {
-    "label": "Episodi 105 — A Valiant Fight! Master Roshi's Blaze of Glory!",
-    "url": "https://abyssplayer.com/6e8m09ZFG"
-   },
-   {
-    "label": "Episodi 106 — Find them Out! Deathmatch with a Furtive Attacker!",
-    "url": "https://abyssplayer.com/lvK5eexfP"
-   },
-   {
-    "label": "Episodi 107 — Revenge 'F'! A Cunning Trap is Set?",
-    "url": "https://abyssplayer.com/kkhMw0sdKB"
-   },
-   {
-    "label": "Episodi 108 — Frieza and Frost! A Mutual Malevolence?",
-    "url": "https://abyssplayer.com/4zAKaI6gy"
-   },
-   {
-    "label": "Episodi 109",
-    "url": "https://abyssplayer.com/miWueO1Q6"
-   },
-   {
-    "label": "Episodi 110 — Goku Enkindled! The Awakened One's New Ultra Instinct!",
-    "url": "https://abyssplayer.com/oteSLfpsp"
-   },
-   {
-    "label": "Episodi 111 — An Extra-Dimensional Ultimate Battle! Hit vs. Jiren!",
-    "url": "https://abyssplayer.com/R-Lmgipg7"
-   },
-   {
-    "label": "Episodi 112 — A Saiyan Oath! Vegeta's Resolve!",
-    "url": "https://abyssplayer.com/qZovWbFvq"
-   },
-   {
-    "label": "Episodi 113",
-    "url": "https://abyssplayer.com/f79jfQq-7"
-   },
-   {
-    "label": "Episodi 114 — Bloodcurdling! The Explosive Birth of a New Super Warrior!",
-    "url": "https://abyssplayer.com/oFb_kwpgh"
-   },
-   {
-    "label": "Episodi 115 — Goku vs. Kefla! Super Saiyan Blue Beaten?",
-    "url": "https://abyssplayer.com/GRgXbiJna"
-   },
-   {
-    "label": "Episodi 116 — Signs of a Turnabout! The Autonomous Ultra Instinct Erupts!",
-    "url": "https://abyssplayer.com/dmjs6e_7c"
-   },
-   {
-    "label": "Episodi 117 — Showdown of Love! The Androids vs the 2nd Universe!",
-    "url": "https://abyssplayer.com/AQbIIrySg"
-   },
-   {
-    "label": "Episodi 118 — Accelerating Tragedy - Vanishing Universes",
-    "url": "https://abyssplayer.com/JeYKtGsks"
-   },
-   {
-    "label": "Episodi 119 — Unavoidable? The Ferocity of a Stealth Attack!",
-    "url": "https://abyssplayer.com/4zeWLtBe6"
-   },
-   {
-    "label": "Episodi 120",
-    "url": "https://abyssplayer.com/ZYOK7yjdI"
-   },
-   {
-    "label": "Episodi 121",
-    "url": "https://abyssplayer.com/rDJCLuY4A"
-   },
-   {
-    "label": "Episodi 122",
-    "url": "https://abyssplayer.com/B4EZLiEp1"
-   },
-   {
-    "label": "Episodi 123 — Body, Soul and Power Unleashed! Goku and Vegeta!",
-    "url": "https://abyssplayer.com/AN0aginja"
-   },
-   {
-    "label": "Episodi 124 — A Storm-and-Stress Assault! Gohan's Last Stand!",
-    "url": "https://abyssplayer.com/BcKdCIlrz"
-   },
-   {
-    "label": "Episodi 125 — A Commanding Presence! The Advent of Top the Destroyer!",
-    "url": "https://abyssplayer.com/jXQHicEnQ"
-   },
-   {
-    "label": "Episodi 126 — Surpass Even a God! Vegeta's Sacrifice Strike!",
-    "url": "https://abyssplayer.com/4wVzRrvEG"
-   },
-   {
-    "label": "Episodi 127 — The Approaching Wall! A Hopeful Final Barrier!",
-    "url": "https://abyssplayer.com/S50Pwusrv"
-   },
-   {
-    "label": "Episodi 128 — With Noble Pride to the End! Vegeta Falls!",
-    "url": "https://abyssplayer.com/yNAld-EKA"
-   },
-   {
-    "label": "Episodi 129",
-    "url": "https://abyssplayer.com/c9U4QUhja"
-   },
-   {
-    "label": "Episodi 130",
-    "url": "https://abyssplayer.com/5JDK9oXwPN"
-   },
-   {
-    "label": "Episodi 131",
-    "url": "https://abyssplayer.com/M_bNIEYrMC"
-   }
-  ]
- },
- {
   "id": "m671",
   "title_al": "Barbi në Kampin Muzikor",
   "title_orig": "Barbie in Rock 'N Royals",
@@ -22918,52 +21956,6 @@
    "https://archive.org/download/buqetaefilmave2/barbi-qytet%20i%20madh%20endrra%20te%20medha.mp4"
   ],
   "desc": "Barbi ndjek ëndrrën e muzikës në qytetin e madh, mes miqsh të rinj.",
-  "published": "2026-10-10",
-  "source_url": "https://archive.org/details/buqetaefilmave2"
- },
- {
-  "id": "m675",
-  "title_al": "Biskota për Kafshë",
-  "title_orig": "Animal Crackers",
-  "year": "2020",
-  "duration": "80 min",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Familjar"
-  ],
-  "type": "film",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "poster": "img/posters/m675.jpg",
-  "videos": [
-   "https://archive.org/download/buqetaefilmave2/biskota%20per%20kafshe.mp4"
-  ],
-  "desc": "Një aventurë e ëmbël plot humor për fëmijë, e dubluar në shqip.",
-  "published": "2026-10-10",
-  "source_url": "https://archive.org/details/buqetaefilmave2"
- },
- {
-  "id": "m676",
-  "title_al": "Skubi-Du: Fantazma e Kuqe",
-  "title_orig": "Scooby-Doo! and the Curse of the 13th Ghost",
-  "year": "2019",
-  "duration": "75 min",
-  "studio": "Warner Bros",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Mister"
-  ],
-  "type": "film",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "poster": "img/posters/m676.jpg",
-  "videos": [
-   "https://archive.org/download/buqetaefilmave2/skubi%20du%20-%20fantazma%20e%20kuqe.mp4"
-  ],
-  "desc": "Një fantazmë e kuqe tmerron qytetin dhe vetëm banda mund ta ndalojë.",
   "published": "2026-10-10",
   "source_url": "https://archive.org/details/buqetaefilmave2"
  },
