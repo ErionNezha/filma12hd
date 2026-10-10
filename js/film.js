@@ -45,7 +45,7 @@ function render(m,all){
   (m.genres||[]).forEach(g=>meta+=`<span class="meta-pill ghost">${esc(g)}</span>`);
   $('#fMeta').innerHTML=meta;
 
-  $('#coverImg').src=m.poster;
+  const ci=$('#coverImg');if(ci)ci.src=m.poster;
   $('#iPoster').src=m.poster;$('#iPoster').alt=fullTitle(m);
   $('#iMeta').innerHTML=meta;
   $('#iDesc').innerHTML='<div class="desc-head"><span class="desc-line"></span><span class="desc-title">PËRSHKRIMI</span><span class="desc-line"></span></div><p>'+esc(m.desc||'Përshkrim së shpejti.')+'</p>';
@@ -82,11 +82,8 @@ function render(m,all){
       loadVideo(b.dataset.v,true);
     });
   }
-  // player open
-  $('#stageCover').addEventListener('click',()=>{
-    $('#cinema').classList.add('open');
-    if(vids.length)loadVideo(vurl(vids[0]),false);
-  });
+  // player — ngarkohet direkt, pa perde
+  if(vids.length)loadVideo(vurl(vids[0]),false);
 
   // related
   const rel=all.filter(x=>x.id!==m.id&&(x.genres||[]).some(g=>(m.genres||[]).includes(g))).slice(0,6);
