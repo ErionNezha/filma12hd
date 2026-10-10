@@ -186,8 +186,10 @@ nav.top a.l:hover,nav.top a.l.on{color:var(--text)}
 }
 .bb>*{position:relative;z-index:2}
 @property --h{syntax:'<number>';inherits:true;initial-value:20}
-.bb-bg{position:absolute;inset:0;z-index:0}
-.bb-bg img{width:100%;height:100%;object-fit:cover;object-position:center 20%}
+.bb-bg{position:absolute;inset:0;z-index:0;overflow:hidden}
+.bb-bg img{width:100%;height:100%;object-fit:cover;object-position:center 20%;animation:kb 26s ease-in-out infinite alternate}
+@keyframes kb{from{transform:scale(1)}to{transform:scale(1.14) translate(-1.5%,1%)}}
+@media (prefers-reduced-motion:reduce){.bb-bg img{animation:none}.th::after{animation:none}}
 .bb-bg::after{
   content:"";position:absolute;inset:0;
   background:linear-gradient(90deg,rgba(7,7,13,.94) 0%,rgba(7,7,13,.6) 40%,transparent 70%),
@@ -257,7 +259,14 @@ nav.top a.l:hover,nav.top a.l.on{color:var(--text)}
   border:1px solid transparent;transition:border-color .2s;
   background:#0a0a0a;
 }
-.th img{width:100%;height:100%;object-fit:cover;object-position:center 25%}
+.th img{width:100%;height:100%;object-fit:cover;object-position:center 25%;opacity:0;transition:opacity .6s}
+.th img.ld{opacity:1}
+/* shimmer ari derisa ngarkohet posteri */
+.th::after{content:"";position:absolute;inset:0;z-index:3;pointer-events:none;
+  background:linear-gradient(110deg,transparent 30%,rgba(230,176,74,.22) 50%,transparent 70%);
+  background-size:200% 100%;animation:shimmer 1.8s linear infinite}
+.th:has(img.ld)::after{display:none}
+@keyframes shimmer{to{background-position:-200% 0}}
 .th .shade{position:absolute;inset:0;background:linear-gradient(0deg,rgba(0,0,0,.75) 0%,transparent 55%)}
 .th .tt{position:absolute;left:12px;right:12px;bottom:10px;font:700 16px/1.15 var(--f);letter-spacing:-.01em;text-shadow:0 2px 8px #000}
 .th .qb{position:absolute;top:8px;left:8px;font:700 10.5px var(--f);background:rgba(0,0,0,.65);backdrop-filter:blur(4px);padding:2px 8px;border-radius:4px;letter-spacing:.08em;color:#fff}
@@ -483,6 +492,17 @@ dialog#dg::backdrop{background:rgba(0,0,0,.72);backdrop-filter:blur(4px);-webkit
 #ins{border:1px solid var(--gold);background:rgba(230,176,74,.1);color:var(--gold);border-radius:99px;padding:7px 18px;font-size:14px;font-weight:600;transition:.2s}
 #ins:hover{background:var(--gold);color:#241603}
 #ins[hidden]{display:none}
+
+/* ============================================================
+   TOAST — njoftime moderne
+   ============================================================ */
+#toast{position:fixed;left:50%;bottom:88px;transform:translate(-50%,20px);z-index:200;
+  background:rgba(21,19,29,.94);backdrop-filter:blur(12px);-webkit-backdrop-filter:blur(12px);
+  border:1px solid var(--gold);color:var(--text);padding:12px 26px;border-radius:99px;
+  font-size:14px;font-weight:600;opacity:0;pointer-events:none;transition:opacity .35s,transform .35s;
+  box-shadow:0 10px 34px rgba(0,0,0,.55);white-space:nowrap;max-width:92vw}
+#toast.show{opacity:1;transform:translate(-50%,0)}
+#toast b{color:var(--gold)}
 
 /* ============================================================
    RESPONSIVE
