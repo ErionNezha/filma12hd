@@ -468,7 +468,9 @@ nav.scrolled{background:rgba(7,7,13,.94);backdrop-filter:blur(14px);padding:10px
   box-shadow:0 30px 90px rgba(0,0,0,.65),0 0 60px rgba(232,182,76,.08);
   background:#000;aspect-ratio:16/9;
 }
-.cinema iframe,.cinema video{position:absolute;inset:0;width:100%;height:100%;border:none;background:#000}
+.cinema iframe,.cinema video{position:absolute;inset:0;width:100%;height:100%;border:none;background:#000;display:block}
+#playerSlot{position:absolute;inset:0;z-index:5}
+#playerSlot iframe,#playerSlot video{position:absolute;inset:0;width:100%;height:100%;border:none;background:#000;display:block}
 /* curtains */
 .curtain{position:absolute;top:0;bottom:0;width:52%;z-index:6;transition:transform 1.6s cubic-bezier(.7,0,.3,1);pointer-events:none}
 .curtain.left{left:0;transform-origin:left;
@@ -512,6 +514,10 @@ nav.scrolled{background:rgba(7,7,13,.94);backdrop-filter:blur(14px);padding:10px
   background:radial-gradient(ellipse,rgba(232,182,76,.35),transparent 70%);}
 /* episodes */
 .eps{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:12px;margin-top:22px}
+.eps-head{grid-column:1/-1;display:flex;align-items:center;gap:14px;margin:8px 0 6px}
+.eps-head .t{font-family:var(--font-d);font-size:22px;letter-spacing:4px;color:var(--gold)}
+.eps-head .l{flex:1;height:1px;background:linear-gradient(90deg,var(--line),transparent)}
+.ep-empty{grid-column:1/-1;text-align:center;color:var(--muted);padding:22px;font-size:15px}
 .ep{
   display:flex;align-items:center;gap:14px;text-align:left;
   background:var(--card);border:1px solid rgba(255,255,255,.08);border-radius:12px;
