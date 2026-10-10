@@ -23585,5 +23585,32 @@
   "desc": "Një pilot i mallkuar me kokë derri mbron anijet në detin Adriatik nga piratët e ajrit në Italinë e viteve '30.",
   "published": "2026-10-10",
   "source_url": "https://filma-dubluar.blogspot.com/2016/09/porco-rosso-1992-dubluar-ne-shqip.html"
+ },
+ {
+  "id": "m704",
+  "title_al": "Karmen Sandiago",
+  "title_orig": "Carmen Sandiego",
+  "year": 2019,
+  "duration": "~90 min",
+  "studio": "Netflix Animation",
+  "genres": [
+   "Animim",
+   "Aventurë",
+   "Mister",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m704.jpg",
+  "videos": [
+   {
+    "label": "Shiko filmin",
+    "url": "https://archive.org/download/karmen-sandiago-dubluar-shqip/karmen%20sandiago%20(dubluar%20shqip).mp4"
+   }
+  ],
+  "desc": "Hajdutja legjendare Karmen Sandiago udhëton nëpër botë në aventura plot mister, e dubluar në shqip.",
+  "published": "2026-10-10",
+  "source_url": "https://archive.org/details/karmen-sandiago-dubluar-shqip"
  }
 ]
