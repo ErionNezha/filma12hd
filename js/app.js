@@ -261,7 +261,7 @@ function bindCards(root){
   });
   root.querySelectorAll('.c,.tn').forEach(c=>{
     if(c.dataset.bound)return;c.dataset.bound='1';
-    const go=()=>location.href='film.html?id='+c.dataset.id;
+    const go=()=>openDialog(c.dataset.id);
     c.addEventListener('click',e=>{
       const f=e.target.closest('[data-fav]');
       if(f){e.stopPropagation();toggleFav(c.dataset.id);return;}
