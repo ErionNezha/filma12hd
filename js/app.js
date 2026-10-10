@@ -25,7 +25,7 @@ function cardHTML(m,prog){
   const pct=matchPct(m);
   return `<div class="c" tabindex="0" data-id="${m.id}" role="link" aria-label="${esc(fullTitle(m))}">
     <div class="th">
-      <img loading="lazy" decoding="async" src="${esc(m.poster)}" alt="" onerror="this.style.opacity=0">
+      <img loading="lazy" decoding="async" src="${esc(m.poster)}" alt="" onload="this.classList.add('ld')" onerror="this.classList.add('ld');this.style.opacity=0">
       <div class="shade"></div>
       <span class="qb">${esc(m.quality||'HD')}</span>
       ${m.type==='serial'?'<span class="sb">SERIAL</span>':''}
@@ -42,7 +42,7 @@ function cardHTML(m,prog){
 function top10HTML(m,i){
   return `<div class="tn" tabindex="0" data-id="${m.id}" role="link" aria-label="${esc(fullTitle(m))}">
     <b>${i+1}</b>
-    <div class="th"><img loading="lazy" decoding="async" src="${esc(m.poster)}" alt="${esc(fullTitle(m))}" onerror="this.style.opacity=0">
+    <div class="th"><img loading="lazy" decoding="async" src="${esc(m.poster)}" alt="${esc(fullTitle(m))}" onload="this.classList.add('ld')" onerror="this.classList.add('ld');this.style.opacity=0">
     <div class="shade"></div><div class="tt">${esc(m.title_al)}</div></div>
   </div>`;
 }
@@ -60,10 +60,18 @@ function getFav(){try{return JSON.parse(localStorage.getItem('f12h_fav')||'[]')}
 function isFav(id){return getFav().includes(id)}
 function toggleFav(id){
   let f=getFav();
-  f=f.includes(id)?f.filter(x=>x!==id):[...f,id];
+  const adding=!f.includes(id);
+  f=adding?[...f,id]:f.filter(x=>x!==id);
   try{localStorage.setItem('f12h_fav',JSON.stringify(f))}catch(e){}
   $$(`[data-fav="${id}"]`).forEach(s=>s.textContent=f.includes(id)?'✓':'＋');
   buildDynRows();
+  toast(adding?'U shtua në <b>Listën time</b> ✓':'U hoq nga <b>Lista ime</b>');
+}
+let toastT=null;
+function toast(msg){
+  const t=$('#toast');if(!t)return;
+  t.innerHTML=msg;t.classList.add('show');
+  clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove('show'),2200);
 }
 
 /* ---------- billboard ---------- */
