@@ -92,13 +92,88 @@ function setBb(i,manual){
   $('#bbDesc').textContent=m.desc||'Film i dubluar plotësisht në shqip, me cilësi Full HD.';
   $('#bbPlay').href='film.html?id='+m.id;
   $('#bbMore').href='film.html?id='+m.id;
+  $('#bbMore').dataset.id=m.id;
+  // bileta e artë — titulli me <br> pas fjalës së parë të shkurtër
+  const tw=m.title_al.split(' ');
+  $('#tkTitle').innerHTML=tw.length>1?esc(tw[0])+'<br>'+esc(tw.slice(1).join(' ')):esc(m.title_al);
+  $('#bb').style.setProperty('--h',20+(matchPct(m)%300));
+  // animim ndërrimi
+  ['bbIn','tkw'].forEach(k=>{const e=document.getElementById(k);if(!e)return;e.classList.remove('sw');void e.offsetWidth;e.classList.add('sw');});
   $$('#bbInd button').forEach((b,j)=>{
     b.classList.toggle('act',j===i);
     b.classList.toggle('done',j<i);
   });
 }
 
-/* ---------- rreshtat ---------- */
+/* ---------- bileta e artë — 3D tilt ---------- */
+(function(){
+  const bb=$('#bb'),tk=$('#tk');
+  if(!bb||!tk)return;
+  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
+  if(reduce)return;
+  bb.addEventListener('pointermove',e=>{
+    const r=tk.getBoundingClientRect();
+    const x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
+    tk.style.setProperty('--ry',(x*14)+'deg');
+    tk.style.setProperty('--rx',(-y*14)+'deg');
+    tk.querySelector('.m').style.setProperty('--sx',(50+x*100)+'%');
+  });
+  bb.addEventListener('pointerleave',()=>{
+    tk.style.setProperty('--ry','0deg');tk.style.setProperty('--rx','0deg');
+  });
+})();
+
+/* ---------- dialog — detaje ---------- */
+const dg=$('#dg');
+function openDialog(id){
+  const m=MOVIES.find(x=>x.id===id);if(!m||!dg)return;
+  $('#dgImg').src=m.poster;$('#dgImg').alt=fullTitle(m);
+  $('#dgHd').style.setProperty('--dh',20+(matchPct(m)%300));
+  $('#dgTitle').innerHTML=goldTitle(m);
+  $('#dgMeta').innerHTML=`<b>${matchPct(m)}% përputhje</b> · ${esc(m.year||'')} · ${esc((m.genres||[]).join(' · '))} · ${m.type==='serial'?'Serial':'Film'} · ${esc(m.quality||'HD')}`;
+  $('#dgDesc').textContent=m.desc||'Film i dubluar plotësisht në shqip, me cilësi Full HD.';
+  const extra=$('#dgExtra');
+  const vids=(m.videos||[]).filter(v=>v&&v.url);
+  if(m.type==='serial'&&vids.length){
+    extra.innerHTML='<h3 style="margin:18px 0 4px;font-size:18px">Episodet</h3>'+
+      vids.slice(0,12).map((v,i)=>`<div class="ep" data-ep="${i}"><b>${i+1}</b><span>${esc(v.label||('Episodi '+(i+1)))}</span></div>`).join('')+
+      (vids.length>12?`<p style="color:var(--muted);font-size:13px">+${vids.length-12} episode të tjera në faqen e serialit</p>`:'');
+  }else{
+    const sim=MOVIES.filter(x=>x.id!==m.id&&(x.genres||[]).some(g=>(m.genres||[]).includes(g))).slice(0,3);
+    extra.innerHTML='<h3 style="margin:18px 0 4px;font-size:18px">Të ngjashme</h3><div class="sim">'+sim.map(x=>cardHTML(x)).join('')+'</div>';
+    bindCards(extra);
+  }
+  $('#dgPlay').href='film.html?id='+m.id;
+  const favBtn=$('#dgFav');
+  favBtn.textContent=isFav(m.id)?'✓ Në listën time':'＋ Lista ime';
+  favBtn.onclick=()=>{toggleFav(m.id);favBtn.textContent=isFav(m.id)?'✓ Në listën time':'＋ Lista ime';};
+  extra.querySelectorAll('.ep').forEach(ep=>{
+    ep.addEventListener('click',()=>location.href='film.html?id='+m.id);
+  });
+  if(!dg.open)dg.showModal();
+}
+if(dg){
+  $('#dgX').onclick=()=>dg.close();
+  dg.addEventListener('click',e=>{if(e.target===dg)dg.close();});
+}
+// "Më shumë" hap dialogun në vend të navigimit direkt
+document.addEventListener('click',e=>{
+  const mb=e.target.closest('#bbMore');
+  if(mb&&mb.dataset.id){e.preventDefault();openDialog(mb.dataset.id);}
+});
+
+/* ---------- PWA — instalo ---------- */
+(function(){
+  let dp=null;
+  const btn=$('#ins');
+  addEventListener('beforeinstallprompt',e=>{
+    e.preventDefault();dp=e;
+    if(btn)btn.hidden=false;
+  });
+  if(btn)btn.addEventListener('click',()=>{
+    if(dp){dp.prompt();btn.hidden=true;dp=null;}
+  });
+})();
 function buildTop10(){
   const seed=new Date().toISOString().slice(0,10);
   let h=0;for(const c of seed)h=(h*31+c.charCodeAt(0))>>>0;
