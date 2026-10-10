@@ -245,7 +245,8 @@
   "dub": "Dubluar në shqip",
   "poster": "img/posters/m08.jpg",
   "videos": [
-   "https://abyssplayer.com/aE4CjchYY"
+   "https://abyssplayer.com/aE4CjchYY",
+   "https://archive.org/download/aventurat-e-stitch/Lilo%20dhe%20Stitch.mp4"
   ],
   "desc": "“Lilo & Stitch” sjell një histori emocionuese për miqësinë, familjen dhe një krijesë të çuditshme kozmike që ndryshon gjithçka. Një nga filmat më të dashur të Disney në versionin e tij të dubluar në shqip.",
   "published": "2025-11-09",
@@ -6715,13 +6716,14 @@
    "Dramë",
    "Fantazi"
   ],
-  "desc": "Fëmijët e shiut.",
+  "desc": "Film i animuar i dubluar në shqip.",
   "poster": "img/posters/m253.jpg",
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://abyssplayer.com/mD-TzR1xX"
+   "https://abyssplayer.com/mD-TzR1xX",
+   "http://vk.com/video_ext.php?oid=224422917&id=166612843&"
   ]
  },
  {
@@ -12949,26 +12951,6 @@
   "type": "film",
   "videos": [
    "http://vk.com/video_ext.php?oid=266593728&id=169904691&"
-  ]
- },
- {
-  "id": "m614",
-  "title_al": "Fëmijët e Shiut",
-  "title_orig": "",
-  "year": "",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Familjar"
-  ],
-  "desc": "Film i animuar i dubluar në shqip.",
-  "poster": "img/posters/m614.jpg",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "type": "film",
-  "videos": [
-   "http://vk.com/video_ext.php?oid=224422917&id=166612843&"
   ]
  },
  {
@@ -22159,29 +22141,6 @@
    "https://archive.org/download/aventurat-e-stitch/Gjenerata%20e%20re.mp4"
   ],
   "desc": "Një vajzë dhe roboti i saj luftojnë për të shpëtuar qytetin e së ardhmes.",
-  "published": "2026-10-10",
-  "source_url": "https://archive.org/details/aventurat-e-stitch"
- },
- {
-  "id": "m684",
-  "title_al": "Lilo dhe Stitch",
-  "title_orig": "Lilo & Stitch",
-  "year": "2002",
-  "duration": "85 min",
-  "studio": "Disney",
-  "genres": [
-   "Animuar",
-   "Komedi",
-   "Aventurë"
-  ],
-  "type": "film",
-  "quality": "Full HD",
-  "dub": "Dubluar në shqip",
-  "poster": "img/posters/m684.jpg",
-  "videos": [
-   "https://archive.org/download/aventurat-e-stitch/Lilo%20dhe%20Stitch.mp4"
-  ],
-  "desc": "Një vajzë nga Hawaii miqësohet me një krijesë aliene të çmendur.",
   "published": "2026-10-10",
   "source_url": "https://archive.org/details/aventurat-e-stitch"
  },
