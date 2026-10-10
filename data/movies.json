@@ -526,13 +526,34 @@
   "dub": "Dubluar në shqip",
   "poster": "img/posters/m20.jpg",
   "videos": [
-   "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%201/S01E01%20-%20Arriva%20Naruto%21.mp4",
-   "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%201/S01E02%20-%20Konohamaru.mp4",
-   "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%201/S01E03%20-%20Nemici%3F.mp4",
-   "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%201/S01E04%20-%20Esercitazione%20di%20sopravvivenza.mp4",
-   "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E01%20-%20Clone%20vs.%20Clone%3A%20Mine%20Are%20Better%20than%20Yours%21.mp4",
-   "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E02%20-%20Surviving%20the%20Cut%21%20The%20Rookie%20Nine%20Together%20Again%21.mp4",
-   "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E03%20-%20Narrowing%20the%20Field%3A%20Sudden%20Death%20Elimination%21.mp4"
+   {
+    "label": "Episodi 1 — Arriva Naruto!",
+    "url": "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%201/S01E01%20-%20Arriva%20Naruto%21.mp4"
+   },
+   {
+    "label": "Episodi 2 — Konohamaru",
+    "url": "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%201/S01E02%20-%20Konohamaru.mp4"
+   },
+   {
+    "label": "Episodi 3 — Nemici?",
+    "url": "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%201/S01E03%20-%20Nemici%3F.mp4"
+   },
+   {
+    "label": "Episodi 4 — Esercitazione di sopravvivenza",
+    "url": "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%201/S01E04%20-%20Esercitazione%20di%20sopravvivenza.mp4"
+   },
+   {
+    "label": "S2 Episodi 1 — Clone vs. Clone: Mine Are Better than Yours!",
+    "url": "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E01%20-%20Clone%20vs.%20Clone%3A%20Mine%20Are%20Better%20than%20Yours%21.mp4"
+   },
+   {
+    "label": "S2 Episodi 2 — Surviving the Cut! The Rookie Nine Together Again!",
+    "url": "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E02%20-%20Surviving%20the%20Cut%21%20The%20Rookie%20Nine%20Together%20Again%21.mp4"
+   },
+   {
+    "label": "S2 Episodi 3 — Narrowing the Field: Sudden Death Elimination!",
+    "url": "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E03%20-%20Narrowing%20the%20Field%3A%20Sudden%20Death%20Elimination%21.mp4"
+   }
   ],
   "desc": "Naruto Uzumaki, ninxha i ri plot energji, ndjek ëndrrën për t'u bërë Hokage — ninxha më i fortë i fshatit.",
   "published": "2025-11-09",
@@ -7126,11 +7147,11 @@
   "type": "serial",
   "videos": [
    {
-    "label": "Shiko",
+    "label": "Burimi 1",
     "url": "https://abyssplayer.com/20EVB78bA"
    },
    {
-    "label": "Shiko",
+    "label": "Burimi 2",
     "url": "https://filemoon.to/e/mn96gqt4g4fi/"
    }
   ]
@@ -16370,10 +16391,6 @@
     "url": "https://abyssplayer.com/De4kB3EwZ"
    },
    {
-    "label": "Episodi 2 — Issue 188",
-    "url": "https://abyssplayer.com/De4kB3EwZ"
-   },
-   {
     "label": "Episodi 3 — Big Roommates 2",
     "url": "https://abyssplayer.com/oSWM035OL"
    },
@@ -17139,23 +17156,11 @@
     "url": "https://abyssplayer.com/eVomekWC2"
    },
    {
-    "label": "Episodi 1 — You Slipped a Disk",
-    "url": "https://abyssplayer.com/eVomekWC2"
-   },
-   {
     "label": "Episodi 2 — He Followed Me Home",
     "url": "https://abyssplayer.com/GU_Tp1Ad5"
    },
    {
-    "label": "Episodi 2 — Chow About That?",
-    "url": "https://abyssplayer.com/GU_Tp1Ad5"
-   },
-   {
     "label": "Episodi 3 — Love 'Em and Flea 'Em",
-    "url": "https://abyssplayer.com/WBBXZJIVq"
-   },
-   {
-    "label": "Episodi 3 — Tic Track Toe",
     "url": "https://abyssplayer.com/WBBXZJIVq"
    },
    {
@@ -17167,23 +17172,11 @@
     "url": "https://abyssplayer.com/2eenY12gY"
    },
    {
-    "label": "Episodi 5 — Shake, Rattle, and Woof",
-    "url": "https://abyssplayer.com/2eenY12gY"
-   },
-   {
     "label": "Episodi 6 — Two for the Show",
     "url": "https://abyssplayer.com/CNVhwHID1"
    },
    {
-    "label": "Episodi 6 — Cadpig Behind Bars",
-    "url": "https://abyssplayer.com/CNVhwHID1"
-   },
-   {
     "label": "Episodi 7 — An Officer and a Gentledog",
-    "url": "https://abyssplayer.com/t_bMPcJsx"
-   },
-   {
-    "label": "Episodi 7 — Leisure Lawsuit",
     "url": "https://abyssplayer.com/t_bMPcJsx"
    },
    {
@@ -17195,15 +17188,7 @@
     "url": "https://abyssplayer.com/K0iQr39yK"
    },
    {
-    "label": "Episodi 9 — Our Own Digs",
-    "url": "https://abyssplayer.com/K0iQr39yK"
-   },
-   {
     "label": "Episodi 10 — Swine Song",
-    "url": "https://abyssplayer.com/wEuSL7Hf9"
-   },
-   {
-    "label": "Episodi 10 — Goose Pimples",
     "url": "https://abyssplayer.com/wEuSL7Hf9"
    },
    {
