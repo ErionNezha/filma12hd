@@ -58,13 +58,23 @@ function render(m,all){
   facts.push(['Zhanri',(m.genres||[]).join(', ')||'—']);
   $('#facts').innerHTML=facts.map(f=>`<div class="fact"><div class="k">${esc(f[0])}</div><div class="v">${esc(f[1])}</div></div>`).join('');
 
-  // episodes
+  // episodes — serialet tregojne GJITHMONE seksionin e episodeve
   const eps=$('#eps');
   const vurl=v=>typeof v==='string'?v:(v&&v.url||'');
   const vlabel=v=>typeof v==='string'?'Shiko':(v&&v.label||'Shiko');
-  if(m.videos.length>1){
+  const isSerial=m.type==='serial';
+  const vids=(m.videos||[]).filter(v=>vurl(v));
+  if(vids.length>1||isSerial){
     eps.hidden=false;
-    eps.innerHTML=m.videos.map((v,i)=>`<button class="ep${i===0?' on':''}" data-v="${esc(vurl(v))}"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="t">${esc(vlabel(v))}</span></button>`).join('');
+    let btns;
+    if(vids.length>1){
+      btns=vids.map((v,i)=>`<button class="ep${i===0?' on':''}" data-v="${esc(vurl(v))}"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="t">${esc(vlabel(v))}</span></button>`).join('');
+    }else if(vids.length===1){
+      btns=`<button class="ep on" data-v="${esc(vurl(vids[0]))}"><span class="n">▶</span><span class="t">Seriali i plotë — kliko për të parë</span></button>`;
+    }else{
+      btns=`<div class="ep-empty">Episodet po shtohen së shpejti.</div>`;
+    }
+    eps.innerHTML=(isSerial?'<div class="eps-head"><span class="t">EPISODET</span><div class="l"></div></div>':'')+btns;
     eps.addEventListener('click',e=>{
       const b=e.target.closest('.ep');if(!b)return;
       $$('#eps .ep').forEach(x=>x.classList.remove('on'));b.classList.add('on');
@@ -74,7 +84,7 @@ function render(m,all){
   // player open
   $('#stageCover').addEventListener('click',()=>{
     $('#cinema').classList.add('open');
-    loadVideo(vurl(m.videos[0]),false);
+    if(vids.length)loadVideo(vurl(vids[0]),false);
   });
 
   // related
