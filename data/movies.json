@@ -1811,7 +1811,14 @@
   "dub": "Dubluar në shqip",
   "poster": "img/posters/m73.jpg",
   "videos": [
-   "https://vidmoly.org/embed-n4n0rhnjhln8.html"
+   {
+    "label": "Shiko",
+    "url": "https://vidmoly.org/embed-n4n0rhnjhln8.html"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=j7hH2aU5A"
+   }
   ],
   "desc": "Panda Po zgjidhet si Luftëtari Dragon dhe duhet të mësojë kung fu për të mbrojtur luginën.",
   "published": "2026-10-09",
@@ -2126,7 +2133,14 @@
   "dub": "Dubluar në shqip",
   "poster": "img/posters/m86.jpg",
   "videos": [
-   "https://vidmoly.org/embed-7zskxfico1v1.html"
+   {
+    "label": "Shiko",
+    "url": "https://vidmoly.org/embed-7zskxfico1v1.html"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=DpiV0yhIm"
+   }
   ],
   "desc": "Detari Sinbad niset të vjedhë Librin e Paqes për të shpëtuar mikun e tij princin Proteus.",
   "published": "2026-10-09",
@@ -2734,7 +2748,14 @@
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "videos": [
-   "https://vidmoly.org/embed-fx51mstbp5cl.html"
+   {
+    "label": "Shiko",
+    "url": "https://vidmoly.org/embed-fx51mstbp5cl.html"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=v6EQgF_no"
+   }
   ],
   "type": "film"
  },
@@ -2860,7 +2881,14 @@
   "quality": "Full HD",
   "dub": "Dubluar në shqip",
   "videos": [
-   "https://vidmoly.org/embed-xrskicvlzyv2.html"
+   {
+    "label": "Shiko",
+    "url": "https://vidmoly.org/embed-xrskicvlzyv2.html"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/np296k7lf23c"
+   }
   ],
   "type": "film"
  },
@@ -4617,6 +4645,10 @@
    {
     "label": "Shiko",
     "url": "http://ok.ru/videoembed/38031329839"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=058MzVore"
    }
   ]
  },
@@ -6090,6 +6122,10 @@
    {
     "label": "Shiko",
     "url": "https://filemoon.to/e/i33s6uccyu8m/"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=GeSZgcOed"
    }
   ]
  },
@@ -11901,7 +11937,14 @@
   "dub": "Dubluar në shqip",
   "type": "film",
   "videos": [
-   "https://ok.ru/videoembed/24152967801"
+   {
+    "label": "Shiko",
+    "url": "https://ok.ru/videoembed/24152967801"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#6hexlr"
+   }
   ]
  },
  {
@@ -22433,7 +22476,14 @@
   "dub": "Dubluar në shqip",
   "poster": "img/posters/m697.jpg",
   "videos": [
-   "https://archive.org/download/buqetaere/une%20shpirtekeqi%201.mp4"
+   {
+    "label": "Shiko",
+    "url": "https://archive.org/download/buqetaere/une%20shpirtekeqi%201.mp4"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#c5tjaq"
+   }
   ],
   "desc": "Supervilani Gru adopton tre vajza dhe zbulon zemrën e tij.",
   "published": "2026-10-10",
@@ -22456,7 +22506,14 @@
   "dub": "Dubluar në shqip",
   "poster": "img/posters/m698.jpg",
   "videos": [
-   "https://archive.org/download/buqetaere/une%20shpirtkeqi%203.mp4"
+   {
+    "label": "Shiko",
+    "url": "https://archive.org/download/buqetaere/une%20shpirtkeqi%203.mp4"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#ishmkq"
+   }
   ],
   "desc": "Gru zbulon vëllain binjak dhe përballet me një yll të viteve '80.",
   "published": "2026-10-10",
@@ -22604,5 +22661,2734 @@
   "desc": "Hajdutja legjendare Karmen Sandiago udhëton nëpër botë në aventura plot mister, e dubluar në shqip.",
   "published": "2026-10-10",
   "source_url": "https://archive.org/details/karmen-sandiago-dubluar-shqip"
+ },
+ {
+  "id": "m705",
+  "title_al": "Dragon Ball Z: The Tree of Might",
+  "title_orig": "Dragon Ball Z The Tree Of Might",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m705.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://animeshqip.uns.bio/#3asodq"
+   }
+  ],
+  "desc": "Goku dhe miqtë përballen me Turles, një Saiyan që mbjell Pemën e Fuqisë në Tokë.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/dragon-ball-z-the-tree-of-might-1765"
+ },
+ {
+  "id": "m706",
+  "title_al": "Cip dhe Deil Luftetaret e Shpetimit",
+  "title_orig": "Cip Dhe Deil Luftetaret E Shpetimit",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Komedi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m706.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#oox1w"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Cip dhe Deil Luftetaret e Shpetimit.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/cip-dhe-deil-luftetaret-e-shpetimit-1855"
+ },
+ {
+  "id": "m707",
+  "title_al": "Dite te mrekulueshme (Qielli blu)",
+  "title_orig": "Dite Te Mrekulueshme Qielli Blu",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m707.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#559sr"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#ur3t89"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Dite te mrekulueshme (Qielli blu).",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/dite-te-mrekulueshme-qielli-blu-1859"
+ },
+ {
+  "id": "m708",
+  "title_al": "Sabrina Miq pergjithmon",
+  "title_orig": "Sabrina Miq Pergjithmon",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m708.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#eexgk"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Sabrina Miq pergjithmon.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/sabrina-miq-pergjithmon-1861"
+ },
+ {
+  "id": "m709",
+  "title_al": "Hotel Transilvania 4",
+  "title_orig": "Hotel Transilvania 4",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m709.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#hhgpj"
+   }
+  ],
+  "desc": "Një rreze misterioze i kthen përbindëshat në njerëz dhe Johnny-n në përbindësh.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/hotel-transilvania-4-1870"
+ },
+ {
+  "id": "m710",
+  "title_al": "Familja Uillobi",
+  "title_orig": "Familja Uillobi",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m710.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#eem9q"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Familja Uillobi.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/familja-uillobi-1876"
+ },
+ {
+  "id": "m711",
+  "title_al": "Hotel Transilvania 1",
+  "title_orig": "Hotel Transilvania 1",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m711.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#5wa855"
+   }
+  ],
+  "desc": "Drakula drejton një hotel luksoz për përbindësha, derisa një djalë njerëzor hyn fshehurazi.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/hotel-transilvania-1-1878"
+ },
+ {
+  "id": "m712",
+  "title_al": "Hotel Transilvania 2",
+  "title_orig": "Hotel Transilvania 2",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m712.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#bgm1mi"
+   }
+  ],
+  "desc": "Drakula bëhet gjysh dhe përpiqet të zgjojë anën vampir të nipit të tij gjysmë-njerëzor.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/hotel-transilvania-2-1879"
+ },
+ {
+  "id": "m713",
+  "title_al": "Hotel Transilvania 3: Pushimet Verore",
+  "title_orig": "Hotel Transilvania 3 Pushimet Verore",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Familjar"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m713.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#5wacwa"
+   }
+  ],
+  "desc": "Familja Drakula shkon me pushime në një kroçerë, ku Drakula dashurohet me kapitenen.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/hotel-transilvania-3-pushimet-verore-1880"
+ },
+ {
+  "id": "m714",
+  "title_al": "NeZha",
+  "title_orig": "Nezha",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m714.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#x6gfss"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: NeZha.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/nezha-1889"
+ },
+ {
+  "id": "m715",
+  "title_al": "Kthimi ne det",
+  "title_orig": "Kthimi Ne Det",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m715.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#hlrnlu"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Kthimi ne det.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/kthimi-ne-det-1890"
+ },
+ {
+  "id": "m716",
+  "title_al": "Niko dhe rruga drejt yjeve",
+  "title_orig": "Niko Dhe Rruga Drejt Yjeve",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m716.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#s9nj98"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Niko dhe rruga drejt yjeve.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/niko-dhe-rruga-drejt-yjeve-1891"
+ },
+ {
+  "id": "m717",
+  "title_al": "Shkolla e rruges Pushimet verore",
+  "title_orig": "Shkolla E Rruges Pushimet Verore",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m717.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#pkjquq"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Shkolla e rruges Pushimet verore.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/shkolla-e-rruges-pushimet-verore-1892"
+ },
+ {
+  "id": "m718",
+  "title_al": "Perralla e nje breshke 2",
+  "title_orig": "Perralla E Nje Breshke 2 Arratisja Nga Parajsa",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m718.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#hlrnkd"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Perralla e nje breshke 2.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/perralla-e-nje-breshke-2-arratisja-nga-parajsa-1894"
+ },
+ {
+  "id": "m719",
+  "title_al": "Borbardha dhe kafshata tjeter e molles",
+  "title_orig": "Borbardha Dhe Kafshata Tjeter E Molles",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m719.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#q3z15o"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Borbardha dhe kafshata tjeter e molles.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/borbardha-dhe-kafshata-tjeter-e-molles-1895"
+ },
+ {
+  "id": "m720",
+  "title_al": "Trol Perralla e Bishtit",
+  "title_orig": "Trol Perralla E Bishtit",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Fantazi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m720.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#epdrko"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Trol Perralla e Bishtit.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/trol-perralla-e-bishtit-1896"
+ },
+ {
+  "id": "m721",
+  "title_al": "Dragoi i akullt",
+  "title_orig": "Dragoi I Akullt Legjenda E Luleve Blu",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Fantazi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m721.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#8t1fw3"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Dragoi i akullt.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/dragoi-i-akullt-legjenda-e-luleve-blu-1897"
+ },
+ {
+  "id": "m722",
+  "title_al": "King Kong mbreti i Atlantis",
+  "title_orig": "King Kong Mbreti I Atlantis",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Fantazi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m722.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#epdrud"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: King Kong mbreti i Atlantis.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/king-kong-mbreti-i-atlantis-1898"
+ },
+ {
+  "id": "m723",
+  "title_al": "Alvin dhe ketrushet takojn njeriun ujk",
+  "title_orig": "Alvin Dhe Ketrushet Takojn Njeriun Ujk",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Komedi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m723.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#5wxx5j"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Alvin dhe ketrushet takojn njeriun ujk.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/alvin-dhe-ketrushet-takojn-njeriun-ujk-1900"
+ },
+ {
+  "id": "m724",
+  "title_al": "Lindja e nje ylli",
+  "title_orig": "Lindja E Nje Ylli",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m724.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#isoddr"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Lindja e nje ylli.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/lindja-e-nje-ylli-1903"
+ },
+ {
+  "id": "m725",
+  "title_al": "Mbreti majmun heroi u kthye",
+  "title_orig": "Mbreti Majmun Heroi U Kthye",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion",
+   "Fantazi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m725.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#s9njjw"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/3653egphfo8v"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Mbreti majmun heroi u kthye.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/mbreti-majmun-heroi-u-kthye-1904"
+ },
+ {
+  "id": "m726",
+  "title_al": "Princesha e rrembyer",
+  "title_orig": "Princesha E Rrembyer",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Fantazi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m726.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#isoduo"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Princesha e rrembyer.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/princesha-e-rrembyer-1905"
+ },
+ {
+  "id": "m727",
+  "title_al": "Atlantis 2 kthimi i Milos",
+  "title_orig": "Atlantis 2 Kthimi I Milos",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m727.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#kktgm"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Atlantis 2 kthimi i Milos.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/atlantis-2-kthimi-i-milos-11"
+ },
+ {
+  "id": "m728",
+  "title_al": "Gjuetarët e Trolëve Zgjimi i Titanëve",
+  "title_orig": "Gjuetar T E Trol Ve Zgjimi I Titan Ve",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Fantazi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m728.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=3t1ZxgK5rw"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Gjuetarët e Trolëve Zgjimi i Titanëve.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/gjuetar-t-e-trol-ve-zgjimi-i-titan-ve-30"
+ },
+ {
+  "id": "m729",
+  "title_al": "nezha Kthimi (Nezha: Reborn)",
+  "title_orig": "Nezha Kthimi Nezha Reborn",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m729.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#99hrx"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: nezha Kthimi (Nezha: Reborn).",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/nezha-kthimi-nezha-reborn-57"
+ },
+ {
+  "id": "m730",
+  "title_al": "Lupen i III-të Kundë Grupit Sytë e Maces",
+  "title_orig": "Lupen I Iii T Kund Grupit Syt E Maces Lupeni I 3te Kunder Syve Te Maces",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m730.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#ggoad"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Lupen i III-të Kundë Grupit Sytë e Maces.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/lupen-i-iii-t-kund-grupit-syt-e-maces-lupeni-i-3te-kunder-syve-te-maces-59"
+ },
+ {
+  "id": "m731",
+  "title_al": "Batman Misteri i Batwoman",
+  "title_orig": "Batman Misteri I Batwoman",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m731.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=14ZTCShLZ"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Batman Misteri i Batwoman.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/batman-misteri-i-batwoman-70"
+ },
+ {
+  "id": "m732",
+  "title_al": "Historia e Vërtetë e Bazit",
+  "title_orig": "Historia E V Rtet E Bazit",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m732.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=rscIJ4fVe"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Historia e Vërtetë e Bazit.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/historia-e-v-rtet-e-bazit-75"
+ },
+ {
+  "id": "m733",
+  "title_al": "Profecia e Kaenës",
+  "title_orig": "Profecia E Kaen S",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m733.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=lbmLwxnmG"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Profecia e Kaenës.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/profecia-e-kaen-s-76"
+ },
+ {
+  "id": "m734",
+  "title_al": "Batman pas kapucit te kuq",
+  "title_orig": "Batman Pas Kapucit Te Kuq",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m734.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/u1l51pvas7it"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Batman pas kapucit te kuq.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/batman-pas-kapucit-te-kuq-81"
+ },
+ {
+  "id": "m735",
+  "title_al": "Jujutsu Kaisen 0 Filmi",
+  "title_orig": "Jujutsu Kaisen 0 Filmi",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m735.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/0xt54cgnobsr"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Jujutsu Kaisen 0 Filmi.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/jujutsu-kaisen-0-filmi-84"
+ },
+ {
+  "id": "m736",
+  "title_al": "Njeriu i Hekurt - Lindja e Teknovorit",
+  "title_orig": "Njeriu I Hekurt Lindja E Teknovorit",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m736.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=XRyCGPHIS"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Njeriu i Hekurt - Lindja e Teknovorit.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/njeriu-i-hekurt-lindja-e-teknovorit-104"
+ },
+ {
+  "id": "m737",
+  "title_al": "Zoti Pibadi dhe Shermani",
+  "title_orig": "Zoti Pibadi Dhe Shermani",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m737.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=3pAo7aIPe"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Zoti Pibadi dhe Shermani.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/zoti-pibadi-dhe-shermani-113"
+ },
+ {
+  "id": "m738",
+  "title_al": "Sferat e Dragoit Super - Super Hero",
+  "title_orig": "Sferat E Dragoit Super Super Hero",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion",
+   "Fantazi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m738.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#5tuxe"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Sferat e Dragoit Super - Super Hero.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/sferat-e-dragoit-super-super-hero-132"
+ },
+ {
+  "id": "m739",
+  "title_al": "Shkolla e Superheronjve (Sky High)",
+  "title_orig": "Shkolla E Superheronjve Sky High",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m739.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/p3zmg0gkubex"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Shkolla e Superheronjve (Sky High).",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/shkolla-e-superheronjve-sky-high-139"
+ },
+ {
+  "id": "m740",
+  "title_al": "Skubi Du - Shen Valentini",
+  "title_orig": "Skubi Du Shen Valentini",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Komedi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m740.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/zgar9odiiuv7"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Skubi Du - Shen Valentini.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/skubi-du-shen-valentini-140"
+ },
+ {
+  "id": "m741",
+  "title_al": "Kevin i Veriut (Kevin of the North)",
+  "title_orig": "Kevin I Veriut Kevin Of The North",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m741.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/41kgwg9whf4g"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Kevin i Veriut (Kevin of the North).",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/kevin-i-veriut-kevin-of-the-north-141"
+ },
+ {
+  "id": "m742",
+  "title_al": "Piratet e Vegjel Mallkimi i shpates se shenjte",
+  "title_orig": "Piratet E Vegjel Mallkimi I Shpates Se Shenjte",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aventurë"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m742.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/p9hbbzmo6rvn"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Piratet e Vegjel Mallkimi i shpates se shenjte.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/piratet-e-vegjel-mallkimi-i-shpates-se-shenjte-142"
+ },
+ {
+  "id": "m743",
+  "title_al": "Legjenda e një dashurie (Ever After- A Cinderella Story)",
+  "title_orig": "Legjenda E Nj Dashurie Ever After A Cinderella Story",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Romancë"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m743.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/m29b89ecn2pj"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Legjenda e një dashurie (Ever After- A Cinderella Story).",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/legjenda-e-nj-dashurie-ever-after-a-cinderella-story-170"
+ },
+ {
+  "id": "m744",
+  "title_al": "Super Mario Bros",
+  "title_orig": "Super Mario Bros",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m744.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#kky5d"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Super Mario Bros.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/super-mario-bros-174"
+ },
+ {
+  "id": "m745",
+  "title_al": "Batman kunder Njeriu me dy fytyra",
+  "title_orig": "Batman Kunder Njeriu Me Dy Fytyra",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m745.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/peijjgfib5rc"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Batman kunder Njeriu me dy fytyra.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/batman-kunder-njeriu-me-dy-fytyra-175"
+ },
+ {
+  "id": "m746",
+  "title_al": "Batman Djali i Batman",
+  "title_orig": "Batman Djali I Batman",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m746.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/3ih9o20of6s9"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Batman Djali i Batman.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/batman-djali-i-batman-186"
+ },
+ {
+  "id": "m747",
+  "title_al": "Djali Astro",
+  "title_orig": "Djali Astro",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m747.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#xxz1f"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Djali Astro.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/djali-astro-193"
+ },
+ {
+  "id": "m748",
+  "title_al": "Migration - Shtegtimi",
+  "title_orig": "Migration Shtegtimi",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m748.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#iir5w"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Migration - Shtegtimi.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/migration-shtegtimi-226"
+ },
+ {
+  "id": "m749",
+  "title_al": "Fate/stay night: Heaven's Feel - I. Presage Flower",
+  "title_orig": "Fate Stay Night Heaven S Feel I Presage Flower",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m749.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/qllb1442ok6q"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Fate/stay night: Heaven's Feel - I. Presage Flower.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/fate-stay-night-heaven-s-feel-i-presage-flower-288"
+ },
+ {
+  "id": "m750",
+  "title_al": "Liga e Drejtësisë: Warworld",
+  "title_orig": "Liga E Drejt Sis Warworld",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m750.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=36F_L8Rn5"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Liga e Drejtësisë: Warworld.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/liga-e-drejt-sis-warworld-295"
+ },
+ {
+  "id": "m751",
+  "title_al": "Blue Giant",
+  "title_orig": "Blue Giant",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m751.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=Jcvpcrqg0"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Blue Giant.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/blue-giant-304"
+ },
+ {
+  "id": "m752",
+  "title_al": "A Silent Voice",
+  "title_orig": "A Silent Voice",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m752.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=Da5DcQ_GG"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: A Silent Voice.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/a-silent-voice-312"
+ },
+ {
+  "id": "m753",
+  "title_al": "Rojtaret e kodit te humbur",
+  "title_orig": "Rojtaret E Kodit Te Humbur",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m753.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=lwNPPWi0-L"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Rojtaret e kodit te humbur.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/rojtaret-e-kodit-te-humbur-351"
+ },
+ {
+  "id": "m754",
+  "title_al": "I Want To Eat Your Pancreas",
+  "title_orig": "I Want To Eat Your Pancreas",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m754.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=K-9nBniAR"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: I Want To Eat Your Pancreas.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/i-want-to-eat-your-pancreas-368"
+ },
+ {
+  "id": "m755",
+  "title_al": "Mbyllja e dyerve të Suzume",
+  "title_orig": "Mbyllja E Dyerve T Suzume Ne Shqip",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m755.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=w74fuaxyQ"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Mbyllja e dyerve të Suzume.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/mbyllja-e-dyerve-t-suzume-dubluar-ne-shqip-370"
+ },
+ {
+  "id": "m756",
+  "title_al": "When Marnie Was There",
+  "title_orig": "When Marnie Was There",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m756.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=sBYH2deGw"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: When Marnie Was There.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/when-marnie-was-there-381"
+ },
+ {
+  "id": "m757",
+  "title_al": "Rock Dog 2: Rock Around the Park",
+  "title_orig": "Rock Dog 2 Rock Around The Park",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m757.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=zZD9HtfGKB"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Rock Dog 2: Rock Around the Park.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/rock-dog-2-rock-around-the-park-384"
+ },
+ {
+  "id": "m758",
+  "title_al": "My Oni Girl",
+  "title_orig": "My Oni Girl",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m758.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=z20nwFlMr"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: My Oni Girl.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/my-oni-girl-403"
+ },
+ {
+  "id": "m759",
+  "title_al": "My Hero Academia: Two Heroes",
+  "title_orig": "My Hero Academia Two Heroes",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m759.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=B3MrZDJUIE"
+   },
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=hxysXYCuG"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: My Hero Academia: Two Heroes.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/my-hero-academia-two-heroes-424"
+ },
+ {
+  "id": "m760",
+  "title_al": "My Hero Academia: UA Heroes Battle",
+  "title_orig": "My Hero Academia Ua Heroes Battle",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m760.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=sSakqCYxo"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: My Hero Academia: UA Heroes Battle.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/my-hero-academia-ua-heroes-battle-425"
+ },
+ {
+  "id": "m761",
+  "title_al": "Kuramerukagari",
+  "title_orig": "Kuramerukagari",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m761.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=AMq33Gd0X"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Kuramerukagari.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/kuramerukagari-447"
+ },
+ {
+  "id": "m762",
+  "title_al": "Kurayukaba",
+  "title_orig": "Kurayukaba",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m762.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=pAi-sEluq"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Kurayukaba.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/kurayukaba-448"
+ },
+ {
+  "id": "m763",
+  "title_al": "Kuroko's Basketball the Movie: Last Game",
+  "title_orig": "Kuroko S Basketball The Movie Last Game",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m763.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=gqtxmVKP1"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Kuroko's Basketball the Movie: Last Game.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/kuroko-s-basketball-the-movie-last-game-460"
+ },
+ {
+  "id": "m764",
+  "title_al": "Liga e Drejtësisë Dark: Lufta e Apokolips",
+  "title_orig": "Liga E Drejt Sis Dark Lufta E Apokolips Justice League Dark Apokolips War",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m764.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=yIEZ6Kx0v"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Liga e Drejtësisë Dark: Lufta e Apokolips.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/liga-e-drejt-sis-dark-lufta-e-apokolips-justice-league-dark-apokolips-war-489"
+ },
+ {
+  "id": "m765",
+  "title_al": "Liga e Drejtësisë e errët - Justice League Dark",
+  "title_orig": "Liga E Drejt Sis E Err T Justice League Dark",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m765.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=MTnnYDw6H"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Liga e Drejtësisë e errët - Justice League Dark.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/liga-e-drejt-sis-e-err-t-justice-league-dark-490"
+ },
+ {
+  "id": "m766",
+  "title_al": "Qeni Rokstar 3",
+  "title_orig": "Qeni Rokstar 3",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m766.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#bbq9t"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Qeni Rokstar 3.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/qeni-rokstar-3-562"
+ },
+ {
+  "id": "m767",
+  "title_al": "One Piece - Coper në ishullin e kafshëve të çuditshme",
+  "title_orig": "One Piece Coper N Ishullin E Kafsh Ve T Cuditshme",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m767.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#9l5by"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: One Piece - Coper në ishullin e kafshëve të çuditshme.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/one-piece-coper-n-ishullin-e-kafsh-ve-t-cuditshme-569"
+ },
+ {
+  "id": "m768",
+  "title_al": "Piratet e Karaibeve - Mallkimi i Perles se Zeze",
+  "title_orig": "Piratet E Karaibeve Mallkimi I Perles Se Zeze",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aventurë"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m768.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=vi1AXLxEQ"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Piratet e Karaibeve - Mallkimi i Perles se Zeze.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/piratet-e-karaibeve-mallkimi-i-perles-se-zeze-572"
+ },
+ {
+  "id": "m769",
+  "title_al": "Aura: Koga Maryuin's Last War",
+  "title_orig": "Aura Koga Maryuin S Last War",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m769.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=nQzWY-c2B"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Aura: Koga Maryuin's Last War.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/aura-koga-maryuin-s-last-war-591"
+ },
+ {
+  "id": "m770",
+  "title_al": "Happy-Go-Lucky Days",
+  "title_orig": "Happy Go Lucky Days",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m770.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=KsHDZRlVD"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Happy-Go-Lucky Days.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/happy-go-lucky-days-592"
+ },
+ {
+  "id": "m771",
+  "title_al": "Fruits Basket Prelude",
+  "title_orig": "Fruits Basket Prelude",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m771.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=a0r187mfn"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Fruits Basket Prelude.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/fruits-basket-prelude-631"
+ },
+ {
+  "id": "m772",
+  "title_al": "Naruto Filmi 3: Guardians of the Crescent Moon Kingdom",
+  "title_orig": "Naruto Filmi 3 Guardians Of The Crescent Moon Kingdom",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m772.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=Xj09TpMgY"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Naruto Filmi 3: Guardians of the Crescent Moon Kingdom.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/naruto-filmi-3-guardians-of-the-crescent-moon-kingdom-637"
+ },
+ {
+  "id": "m773",
+  "title_al": "Naruto Filmi 1: Ninja Clash in the Land of Snow",
+  "title_orig": "Naruto Filmi 1 Ninja Clash In The Land Of Snow",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m773.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=_sIopx57J"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Naruto Filmi 1: Ninja Clash in the Land of Snow.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/naruto-filmi-1-ninja-clash-in-the-land-of-snow-641"
+ },
+ {
+  "id": "m774",
+  "title_al": "Naruto Filmi 2: Legend of the Stone of Gele",
+  "title_orig": "Naruto Filmi 2 Legend Of The Stone Of Gele",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m774.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=CXyDoiw4t"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Naruto Filmi 2: Legend of the Stone of Gele.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/naruto-filmi-2-legend-of-the-stone-of-gele-642"
+ },
+ {
+  "id": "m775",
+  "title_al": "My Hero Academia the Movie 2 Heroes Rising",
+  "title_orig": "My Hero Academia The Movie 2 Heroes Rising",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m775.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=kvESZ5IBr"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: My Hero Academia the Movie 2 Heroes Rising.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/my-hero-academia-the-movie-2-heroes-rising-769"
+ },
+ {
+  "id": "m776",
+  "title_al": "Naruto: Shippuuden Movie 6 Road to Ninja",
+  "title_orig": "Naruto Shippuuden Movie 6 Road To Ninja",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m776.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=LzapWLp7O3"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Naruto: Shippuuden Movie 6 Road to Ninja.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/naruto-shippuuden-movie-6-road-to-ninja-779"
+ },
+ {
+  "id": "m777",
+  "title_al": "Naruto: Shippuuden Movie 5 Blood Prison",
+  "title_orig": "Naruto Shippuuden Movie 5 Blood Prison",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m777.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=9EKoroUda"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Naruto: Shippuuden Movie 5 Blood Prison.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/naruto-shippuuden-movie-5-blood-prison-788"
+ },
+ {
+  "id": "m778",
+  "title_al": "Naruto: Shippuuden Movie 4 The Lost Tower",
+  "title_orig": "Naruto Shippuuden Movie 4 The Lost Tower",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m778.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=Gnta-LjDS"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Naruto: Shippuuden Movie 4 The Lost Tower.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/naruto-shippuuden-movie-4-the-lost-tower-789"
+ },
+ {
+  "id": "m779",
+  "title_al": "Dragon Ball Z Lord Slug",
+  "title_orig": "Dragon Ball Z Lord Slug",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m779.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=1bsV-eiiJm"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Dragon Ball Z Lord Slug.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/dragon-ball-z-lord-slug-791"
+ },
+ {
+  "id": "m780",
+  "title_al": "2 Gisht mjalt 2",
+  "title_orig": "2 Gisht Mjalt 2",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m780.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=dXPgKCMyo"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: 2 Gisht mjalt 2.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/2-gisht-mjalt-2-792"
+ },
+ {
+  "id": "m781",
+  "title_al": "Dragon Ball Z Cooler's Revenge",
+  "title_orig": "Dragon Ball Z Cooler S Revenge",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m781.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=fZjfZLPUns"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Dragon Ball Z Cooler's Revenge.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/dragon-ball-z-cooler-s-revenge-794"
+ },
+ {
+  "id": "m782",
+  "title_al": "Dragon Ball Z The Return of Cooler",
+  "title_orig": "Dragon Ball Z The Return Of Cooler",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m782.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=ILXVk8G5H"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Dragon Ball Z The Return of Cooler.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/dragon-ball-z-the-return-of-cooler-800"
+ },
+ {
+  "id": "m783",
+  "title_al": "Dragon Ball Z Super Android 13",
+  "title_orig": "Dragon Ball Z Super Android 13",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m783.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=gP_zDr0ey"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Dragon Ball Z Super Android 13.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/dragon-ball-z-super-android-13-801"
+ },
+ {
+  "id": "m784",
+  "title_al": "Dragon Ball Z The History of Trunks",
+  "title_orig": "Dragon Ball Z The History Of Trunks",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m784.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=AosGszPlN"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Dragon Ball Z The History of Trunks.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/dragon-ball-z-the-history-of-trunks-803"
+ },
+ {
+  "id": "m785",
+  "title_al": "Lupin III Touhou Kenbunroku Another Page",
+  "title_orig": "Lupin Iii Touhou Kenbunroku Another Page",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m785.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=NkshpP85t"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Lupin III Touhou Kenbunroku Another Page.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/lupin-iii-touhou-kenbunroku-another-page-808"
+ },
+ {
+  "id": "m786",
+  "title_al": "Ya Boy Kongming! Road to Summer Sonia",
+  "title_orig": "Ya Boy Kongming Road To Summer Sonia",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m786.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=YsglqB2uGW"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Ya Boy Kongming! Road to Summer Sonia.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/ya-boy-kongming-road-to-summer-sonia-831"
+ },
+ {
+  "id": "m787",
+  "title_al": "Mobile Suit Gundam SEED Freedom",
+  "title_orig": "Mobile Suit Gundam Seed Freedom",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m787.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=LijSPGzME"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Mobile Suit Gundam SEED Freedom.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/mobile-suit-gundam-seed-freedom-833"
+ },
+ {
+  "id": "m788",
+  "title_al": "Tsurune Movie Hajimari no Issha",
+  "title_orig": "Tsurune Movie Hajimari No Issha",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m788.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=-S9QNzo01o"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Tsurune Movie Hajimari no Issha.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/tsurune-movie-hajimari-no-issha-836"
+ },
+ {
+  "id": "m789",
+  "title_al": "Black Clover Sword of the Wizard King",
+  "title_orig": "Black Clover Sword Of The Wizard King",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m789.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=kK4M1yJxk"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Black Clover Sword of the Wizard King.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/black-clover-sword-of-the-wizard-king-909"
+ },
+ {
+  "id": "m790",
+  "title_al": "Inside Out 2 (Brenda Mendjes 2)",
+  "title_orig": "Inside Out 2 Brenda Mendjes 2",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m790.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#559ml"
+   }
+  ],
+  "desc": "Riley hyn në adoleshencë dhe emocione të reja marrin kontrollin e mendjes së saj.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/inside-out-2-brenda-mendjes-2-920"
+ },
+ {
+  "id": "m791",
+  "title_al": "Overlord The Sacred Kingdom (2024)",
+  "title_orig": "Overlord The Sacred Kingdom 2024",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m791.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=8wIVo4fs6"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Overlord The Sacred Kingdom (2024).",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/overlord-the-sacred-kingdom-2024-946"
+ },
+ {
+  "id": "m792",
+  "title_al": "Batman vs Dracula",
+  "title_orig": "Batman Vs Dracula",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m792.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://crypton.website/embed/An6N5dBJYgKW9ry"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Batman vs Dracula.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/batman-vs-dracula-981"
+ },
+ {
+  "id": "m793",
+  "title_al": "Krye Macoku",
+  "title_orig": "Krye Macoku",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m793.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=BfE0ny7NJ"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Krye Macoku.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/krye-macoku-995"
+ },
+ {
+  "id": "m794",
+  "title_al": "Johan Padan",
+  "title_orig": "Johan Padan",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m794.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=gUA4xWOnC"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Johan Padan.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/johan-padan-996"
+ },
+ {
+  "id": "m795",
+  "title_al": "The Big Wish fuqia e deshirave",
+  "title_orig": "The Big Wish Fuqia E Deshirave",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m795.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=xWBIr3qti"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: The Big Wish fuqia e deshirave.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/the-big-wish-fuqia-e-deshirave-997"
+ },
+ {
+  "id": "m796",
+  "title_al": "Black Butler Book of the Atlantic",
+  "title_orig": "Black Butler Book Of The Atlantic",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m796.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=htt_qK7W4"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Black Butler Book of the Atlantic.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/black-butler-book-of-the-atlantic-1010"
+ },
+ {
+  "id": "m797",
+  "title_al": "Hunter x Hunter Movie 2 The Last Mission",
+  "title_orig": "Hunter X Hunter Movie 2 The Last Mission",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m797.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/1ln9r649ucd9"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Hunter x Hunter Movie 2 The Last Mission.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/hunter-x-hunter-movie-2-the-last-mission-1063"
+ },
+ {
+  "id": "m798",
+  "title_al": "One Piece The Movie 12 - Film Z",
+  "title_orig": "One Piece The Movie 12 Film Z",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m798.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/dm2h1b0w8t5a"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: One Piece The Movie 12 - Film Z.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/one-piece-the-movie-12-film-z-1067"
+ },
+ {
+  "id": "m799",
+  "title_al": "Naruto The Lost Story",
+  "title_orig": "Naruto The Lost Story Mission Protect The Waterfall Village",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m799.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/b602qqb75t28/fab1"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Naruto The Lost Story.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/naruto-the-lost-story-mission-protect-the-waterfall-village-1103"
+ },
+ {
+  "id": "m800",
+  "title_al": "My Hero Academia You're Next",
+  "title_orig": "My Hero Academia You Re Next",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aksion"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m800.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/fllwi9cou4r0/f1"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: My Hero Academia You're Next.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/my-hero-academia-you-re-next-1209"
+ },
+ {
+  "id": "m801",
+  "title_al": "Rascal Does Not Dream of a Dreaming Girl",
+  "title_orig": "Rascal Does Not Dream Of A Dreaming Girl",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m801.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/poghvv2gl7eu"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Rascal Does Not Dream of a Dreaming Girl.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/rascal-does-not-dream-of-a-dreaming-girl-1421"
+ },
+ {
+  "id": "m802",
+  "title_al": "That Time I Got Reincarnated as a Slime the Movie Scarlet Bond",
+  "title_orig": "That Time I Got Reincarnated As A Slime The Movie Scarlet Bond",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m802.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/exc40jx4gj2v"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: That Time I Got Reincarnated as a Slime the Movie Scarlet Bond.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/that-time-i-got-reincarnated-as-a-slime-the-movie-scarlet-bond-1446"
+ },
+ {
+  "id": "m803",
+  "title_al": "Angel's Egg",
+  "title_orig": "Angel S Egg",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m803.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://bysevepoin.com/e/pqdk87gn9imp"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Angel's Egg.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/angel-s-egg-1453"
+ },
+ {
+  "id": "m804",
+  "title_al": "Bleta filmi",
+  "title_orig": "Bleta Filmi",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m804.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#tag8wd"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Bleta filmi.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/bleta-filmi-1906"
+ },
+ {
+  "id": "m805",
+  "title_al": "Legjenda e Desperos",
+  "title_orig": "Legjenda E Desperos",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m805.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#9otsdl"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Legjenda e Desperos.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/legjenda-e-desperos-1907"
+ },
+ {
+  "id": "m806",
+  "title_al": "Zambezia",
+  "title_orig": "Zambezia",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aventurë"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m806.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#lu3hdd"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Zambezia.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/zambezia-1908"
+ },
+ {
+  "id": "m807",
+  "title_al": "Jeta e eger",
+  "title_orig": "Jeta E Eger",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m807.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#n81o3a"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Jeta e eger.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/jeta-e-eger-1909"
+ },
+ {
+  "id": "m808",
+  "title_al": "Zathura Aventurat e Hapsires",
+  "title_orig": "Zathura Aventurat E Hapsires",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Aventurë"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m808.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#mioyhz"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Zathura Aventurat e Hapsires.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/zathura-aventurat-e-hapsires-1911"
+ },
+ {
+  "id": "m809",
+  "title_al": "E bukura dhe bisha krishtlindje te magjepsura",
+  "title_orig": "E Bukura Dhe Bisha Krishtlindje Te Magjepsura",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m809.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://dublimeshqipa.upns.ink/#kd5pnp"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: E bukura dhe bisha krishtlindje te magjepsura.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/e-bukura-dhe-bisha-krishtlindje-te-magjepsura-1912"
+ },
+ {
+  "id": "m810",
+  "title_al": "Stitch Filmi",
+  "title_orig": "Stitch Filmi",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m810.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=vKZ4ipKto"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Stitch Filmi.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/stitch-filmi-1916"
+ },
+ {
+  "id": "m811",
+  "title_al": "Lilo & Stitch 2",
+  "title_orig": "Lilo Stitch 2 Stitch Ka Nj Defekt",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m811.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://ashqiplayer.space?v=TL6O-ePpD"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Lilo & Stitch 2.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/lilo-stitch-2-stitch-ka-nj-defekt-1917"
+ },
+ {
+  "id": "m812",
+  "title_al": "Jozef - Mbreti i Edrrave",
+  "title_orig": "Jozef Mbreti I Edrrave",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim",
+   "Fantazi"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m812.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://animeshqip.uns.bio/#6svevx"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Jozef - Mbreti i Edrrave.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/jozef-mbreti-i-edrrave-1926"
+ },
+ {
+  "id": "m813",
+  "title_al": "Pufet 2",
+  "title_orig": "Pufet 2",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m813.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://animeshqip.uns.bio/#r8igkc"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Pufet 2.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/pufet-2-1928"
+ },
+ {
+  "id": "m814",
+  "title_al": "Pufet 3 Fshati i humbur",
+  "title_orig": "Pufet 3 Fshati I Humbur",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m814.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://animeshqip.uns.bio/#h9zaxe"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: Pufet 3 Fshati i humbur.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/pufet-3-fshati-i-humbur-1929"
+ },
+ {
+  "id": "m815",
+  "title_al": "The Seven Deadly Sins Prisoners of the Sky",
+  "title_orig": "The Seven Deadly Sins Prisoners Of The Sky",
+  "year": "",
+  "duration": "",
+  "studio": "",
+  "genres": [
+   "Animim"
+  ],
+  "type": "film",
+  "quality": "FULL HD",
+  "dub": "Dubluar në shqip",
+  "poster": "img/posters/m815.jpg",
+  "videos": [
+   {
+    "label": "Shiko",
+    "url": "https://animeshqip.uns.bio/#b6filb"
+   }
+  ],
+  "desc": "Film i animuar i dubluar në shqip: The Seven Deadly Sins Prisoners of the Sky.",
+  "published": "2026-10-10",
+  "source_url": "https://www.animeshqip.space/movie/the-seven-deadly-sins-prisoners-of-the-sky-2038"
  }
 ]
