@@ -3,24 +3,23 @@
 <html lang="sq">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Filma12HD — Filma të Dubluar në Shqip · Kinema në Shtëpinë Tuaj</title>
-<meta name="description" content="Filma12HD — kinema në shtëpinë tuaj. Shikoni filma dhe seriale të dubluar në shqip, me cilësi Full HD. Pa reklama bezdisëse.">
-<meta property="og:title" content="Filma12HD — Kinema në Shtëpinë Tuaj">
-<meta property="og:description" content="Filma të dubluar në shqip · Cilësi Full HD · Pa reklama">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+<title>Filma12HD — Filma të Dubluar në Shqip</title>
+<meta name="description" content="Filma12HD — kinema në shtëpinë tuaj. Shikoni filma dhe seriale të dubluar në shqip, me cilësi Full HD.">
+<meta property="og:title" content="Filma12HD — Filma të Dubluar në Shqip">
+<meta property="og:description" content="Filma të dubluar në shqip · Cilësi Full HD · 726 tituj">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#07070d">
+<meta name="theme-color" content="#141414">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
 
-<!-- PRELOADER · kinema premium -->
 <!-- PRELOADER · kamer-focus -->
 <div id="loader" role="status" aria-live="polite" aria-label="Po ngarkohet Filma12HD">
   <div class="beam" aria-hidden="true"></div>
@@ -56,105 +55,62 @@
 <div id="cursorRing" aria-hidden="true"></div>
 
 <!-- NAV -->
-<nav id="nav">
-  <a class="logo" href="index.html">FILMA<b>12</b>HD<small>✦</small></a>
-  <div class="nav-links">
-    <a href="index.html" class="active">Kreu</a>
-    <a href="#filma">Filma</a>
-    <a href="#seriale">Seriale</a>
-  </div>
-  <div class="nav-search">
-    <div class="search-box">
-      <svg viewBox="0 0 24 24" fill="none" stroke-width="2.4"><circle cx="11" cy="11" r="7"/><path d="M21 21l-4.3-4.3"/></svg>
-      <input id="search" type="search" placeholder="Kërko film…" autocomplete="off" aria-label="Kërko film" aria-expanded="false" role="combobox">
-      <div class="search-drop" id="searchDrop" hidden></div>
-    </div>
+<nav class="top" id="nv">
+  <a class="logo" href="index.html">FILMA<b>12</b>HD<sup>✦</sup></a>
+  <a class="l on" href="index.html" data-nav="home">Kreu</a>
+  <a class="l" href="#rows" data-nav="filma">Filma</a>
+  <a class="l" href="#rows" data-nav="seriale">Seriale</a>
+  <div class="nav-r">
+    <button class="ib" id="sb" aria-label="Kërko"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
   </div>
 </nav>
 
-<!-- HERO -->
-<header id="hero">
-  <div class="hero-bg"><img id="heroImg" src="" alt="" fetchpriority="high"></div>
-  <div class="hero-shade"></div>
-  <div class="hero-spot" id="heroSpot"></div>
-  <div class="hero-inner">
-    <div class="hero-kicker"><span class="dot"></span><span id="heroKick">Tani po luhet</span></div>
-    <h1 class="hero-title" id="heroTitle"></h1>
-    <div class="hero-orig" id="heroOrig"></div>
-    <div class="hero-meta" id="heroMeta"></div>
-    <p class="hero-desc" id="heroDesc"></p>
-    <div class="hero-cta">
-      <a class="btn btn-gold" id="heroPlay" href="#">
-        <svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>
-        Shiko tani
-      </a>
-      <a class="btn btn-ghost" id="heroMore" href="#">Më shumë</a>
+<!-- BILLBOARD -->
+<header class="bb" id="bb">
+  <div class="bb-bg"><img id="bbImg" src="" alt="" fetchpriority="high"></div>
+  <div class="bb-in">
+    <p class="bb-tag"><span class="dot"></span><span id="bbKick">Tani po luhet</span></p>
+    <h1 id="bbTitle"></h1>
+    <div class="bb-orig" id="bbOrig"></div>
+    <div class="bb-meta" id="bbMeta"></div>
+    <p class="bb-desc" id="bbDesc"></p>
+    <div class="bb-btns">
+      <a class="btn btn-play" id="bbPlay" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Shiko tani</a>
+      <a class="btn btn-more" id="bbMore" href="#">Më shumë</a>
     </div>
   </div>
-  <div class="hero-dots" id="heroDots"></div>
-  <div class="scroll-hint"><div class="mouse"></div><span>zbrit</span></div>
+  <div class="bb-ind" id="bbInd"></div>
+  <div class="bb-age">16+</div>
+  <div class="bb-fade"></div>
 </header>
 
-<!-- MARQUEE -->
-<div class="marquee" aria-hidden="true"><div class="marquee-track" id="mq"></div></div>
+<!-- ROWS -->
+<main id="rows"></main>
 
-<!-- TOP 10 -->
-<section class="section" id="top10">
-  <div class="sec-head rv">
-    <h2 class="sec-title">TOP <em>10</em> SOT</h2>
-    <span class="sec-count">më të shikuarat</span>
-    <div class="sec-line"></div>
-  </div>
-  <div class="top10-row" id="top10Row"></div>
-</section>
-
-<!-- VAZHDO SHIKIMIN -->
-<section class="section" id="continue" hidden>
-  <div class="sec-head rv">
-    <h2 class="sec-title">VAZHDO <em>SHIKIMIN</em></h2>
-    <div class="sec-line"></div>
-  </div>
-  <div class="grid" id="continueGrid"></div>
-</section>
-
-<!-- FILMA -->
-<section class="section" id="filma">
-  <div class="sec-head rv">
-    <h2 class="sec-title">FILMA <em>TË DUBLUAR</em></h2>
-    <span class="sec-count" id="filmCount"></span>
-    <div class="sec-line"></div>
-  </div>
-  <div class="chips rv" id="chips"></div>
-  <div class="grid" id="filmGrid"></div>
+<!-- BROWSE (grid i filtruar) -->
+<section id="browse" hidden>
+  <div class="sec-head"><h2 id="browseTitle">FILMA <em>TË DUBLUAR</em></h2><small id="browseCount"></small></div>
+  <div class="chips" id="chips"></div>
+  <div class="grid" id="browseGrid"></div>
   <div class="empty" id="noRes" hidden>
     <div class="big">S'KA REZULTAT</div>
     <p>Provo me një titull tjetër.</p>
   </div>
 </section>
 
-<!-- SERIALE -->
-<section class="section" id="seriale">
-  <div class="sec-head rv">
-    <h2 class="sec-title">SERIALE <em>NË SHQIP</em></h2>
-    <span class="sec-count" id="serCount"></span>
-    <div class="sec-line"></div>
-  </div>
-  <div class="grid" id="serGrid"></div>
-</section>
-
 <!-- FOOTER -->
 <footer>
   <div class="foot-inner">
-    <div class="foot-brand">
-      <div class="logo">FILMA<b>12</b>HD<small>✦</small></div>
-      <p class="foot-tag">Kinema në shtëpinë tuaj — filma dhe seriale të dubluar në shqip, me cilësi Full HD.</p>
+    <div>
+      <div class="logo">FILMA<b>12</b>HD<sup>✦</sup></div>
+      <p class="foot-tag">Kinema në shtëpinë tuaj. Filma dhe seriale të dubluar në shqip, me cilësi Full HD.</p>
     </div>
     <div>
       <div class="foot-h">NAVIGIM</div>
       <div class="foot-links">
         <a href="index.html">Kreu</a>
-        <a href="#filma">Filma</a>
-        <a href="#seriale">Seriale</a>
+        <a href="#rows" data-nav="filma">Filma</a>
+        <a href="#rows" data-nav="seriale">Seriale</a>
       </div>
     </div>
     <div>
@@ -171,6 +127,23 @@
     <span>Krijuar nga <b>Erion Nezha</b></span>
   </div>
 </footer>
+
+<!-- MOBILE BOTTOM NAV -->
+<nav class="bn" aria-label="Navigim">
+  <a href="index.html"><svg viewBox="0 0 24 24"><path d="M3 10.5 12 3l9 7.5"/><path d="M5 9.5V21h14V9.5"/></svg>Kreu</a>
+  <a href="#rows" data-nav="filma"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M10 9.5v5l4.5-2.5z" fill="currentColor"/></svg>Filma</a>
+  <a href="#rows" data-nav="seriale"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 5v14"/></svg>Seriale</a>
+  <button id="sb2"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>Kërko</button>
+</nav>
+
+<!-- SEARCH OVERLAY -->
+<div class="so" id="so" role="dialog" aria-label="Kërko">
+  <div class="so-top">
+    <input id="si" placeholder="Kërko filma dhe seriale…" autocomplete="off" aria-label="Kërko">
+    <button class="ib x" id="sx" aria-label="Mbyll"><svg viewBox="0 0 24 24"><path d="M5 5l14 14M19 5 5 19"/></svg></button>
+  </div>
+  <div class="so-grid" id="soGrid"></div>
+</div>
 
 <button id="toTop" aria-label="Kthehu lart">↑</button>
 
