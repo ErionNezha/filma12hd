@@ -2374,5 +2374,950 @@
   "desc": "Majllz Morales bëhet Njeriu-Merimangë dhe takon heronj nga universe paralele për të ndalur Kingpinin.",
   "published": "2026-10-09",
   "source_url": ""
+ },
+ {
+  "id": "m101",
+  "title_al": "Balto: Kërkimi i Ujkut",
+  "title_orig": "Balto II: Wolf Quest",
+  "year": "2002",
+  "duration": "76 min",
+  "studio": "Universal",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Familjar"
+  ],
+  "desc": "Balto niset në një udhëtim të rrezikshëm për të gjetur kuptimin e jetës dhe për të shpëtuar tufën e ujqërve.",
+  "poster": "img/posters/m101.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-fzlcp1ktglrj.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m102",
+  "title_al": "Bolt",
+  "title_orig": "Bolt",
+  "year": "2008",
+  "duration": "96 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Qeni superyll Bolt beson se ka vërtet superfuqi, derisa humbet në botën reale dhe mëson çfarë do të thotë të jesh hero i vërtetë.",
+  "poster": "img/posters/m102.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-j6q28ymwfgm1.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m103",
+  "title_al": "Filmi i Parë i Dagut",
+  "title_orig": "Doug's 1st Movie",
+  "year": "1999",
+  "duration": "77 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Familjar"
+  ],
+  "desc": "Dagu zbulon një përbindësh misterioz në liqen dhe duhet të vendosë mes famës dhe miqësisë.",
+  "poster": "img/posters/m103.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-ggkj3arj4q1u.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m104",
+  "title_al": "Tre Burrat e Mençur",
+  "title_orig": "Los Reyes Magos",
+  "year": "2003",
+  "duration": "76 min",
+  "studio": "Filmax",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Familjar"
+  ],
+  "desc": "Historia e Tre Mbretërve të mençur që udhëtojnë për të gjetur foshnjën Jezus.",
+  "poster": "img/posters/m104.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-ug2mbjtd0lcm.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m105",
+  "title_al": "Legjenda e Erës së Veriut",
+  "title_orig": "The Legend of the North Wind",
+  "year": "1992",
+  "duration": "75 min",
+  "studio": "Euskal Pictures",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Fantazi"
+  ],
+  "desc": "Një djalë i ri niset në veriun e largët për të gjetur Erën e Veriut dhe për të shpëtuar fshatin e tij.",
+  "poster": "img/posters/m105.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-cr92czh3ktl7.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m106",
+  "title_al": "Bebi Bos",
+  "title_orig": "The Boss Baby",
+  "year": "2017",
+  "duration": "97 min",
+  "studio": "DreamWorks",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Familjar"
+  ],
+  "desc": "Një bebe me kostum dhe qëllime sekrete ndryshon jetën e vëllait të tij të madh në një aventurë të çmendur.",
+  "poster": "img/posters/m106.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-rtcligku9nqb.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m107",
+  "title_al": "Kësulëkuqja",
+  "title_orig": "Red Riding Hood",
+  "year": "2006",
+  "duration": "80 min",
+  "studio": "Kanopy",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Një version gazmor i përrallës klasike, ku Kësulëkuqja hetohet për një mister në pyll.",
+  "poster": "img/posters/m107.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-rtpojn9qswpo.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m108",
+  "title_al": "Pinguinët e Madagaskarit",
+  "title_orig": "Penguins of Madagascar",
+  "year": "2014",
+  "duration": "92 min",
+  "studio": "DreamWorks",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Skipper, Kowalski, Rico dhe Private bëhen spiunë në një mision sekret për të shpëtuar botën.",
+  "poster": "img/posters/m108.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-63sw1mgclvqd.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m109",
+  "title_al": "Vëllai Ari 2",
+  "title_orig": "Brother Bear 2",
+  "year": "2006",
+  "duration": "73 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Familjar"
+  ],
+  "desc": "Kenai dhe Koda kthehen në një aventurë të re plot humor dhe mësime për miqësinë.",
+  "poster": "img/posters/m109.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-au97g1zc210m.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m110",
+  "title_al": "Bratz: Engjëjt e Rrokut",
+  "title_orig": "Bratz: Rock Angelz",
+  "year": "2005",
+  "duration": "72 min",
+  "studio": "MGA",
+  "genres": [
+   "Animuar",
+   "Muzikor",
+   "Aventurë"
+  ],
+  "desc": "Vajzat Bratz nisen në një aventurë muzikore për të fituar konkursin e rrokut.",
+  "poster": "img/posters/m110.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-1gigjc98nxuy.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m111",
+  "title_al": "ParaNorman",
+  "title_orig": "ParaNorman",
+  "year": "2012",
+  "duration": "92 min",
+  "studio": "Laika",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Fantazi"
+  ],
+  "desc": "Normani, djali që flet me të vdekurit, duhet të shpëtojë qytetin nga një mallkim i lashtë.",
+  "poster": "img/posters/m111.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-59vyagf6qblk.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m112",
+  "title_al": "Njëbrirëshi i Fundit",
+  "title_orig": "The Last Unicorn",
+  "year": "1982",
+  "duration": "92 min",
+  "studio": "Rankin/Bass",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Aventurë"
+  ],
+  "desc": "Njëbrirëshi i fundit niset në kërkim të të tjerëve si ajo, në një përrallë magjike klasike.",
+  "poster": "img/posters/m112.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-yl62225igi2n.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m113",
+  "title_al": "Gishtëza",
+  "title_orig": "Thumbelina",
+  "year": "1994",
+  "duration": "86 min",
+  "studio": "Don Bluth",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Muzikor"
+  ],
+  "desc": "Vajza e vogël sa gishti kalon aventura të mëdha për të gjetur dashurinë e vërtetë.",
+  "poster": "img/posters/m113.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-fx51mstbp5cl.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m114",
+  "title_al": "Kthimi i Maces",
+  "title_orig": "The Cat Returns",
+  "year": "2002",
+  "duration": "75 min",
+  "studio": "Studio Ghibli",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Aventurë"
+  ],
+  "desc": "Haru shpëton një mace dhe përfundon në Mbretërinë e Maceve në një aventurë magjike Ghibli.",
+  "poster": "img/posters/m114.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-r3lm3uduhavl.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m115",
+  "title_al": "Sirena e Vogël 3: Historia e Arielit",
+  "title_orig": "The Little Mermaid: Ariel's Beginning",
+  "year": "2008",
+  "duration": "77 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Muzikor"
+  ],
+  "desc": "Historia e fillimit të Arielit dhe si muzika u ndalua në mbretërinë nënujore.",
+  "poster": "img/posters/m115.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-ru6p7h9n6wua.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m116",
+  "title_al": "Aladini dhe Mbreti i Hajdutëve",
+  "title_orig": "Aladdin and the King of Thieves",
+  "year": "1996",
+  "duration": "81 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Fantazi"
+  ],
+  "desc": "Aladini zbulon se babai i tij është Mbreti i Hajdutëve në aventurën e tretë.",
+  "poster": "img/posters/m116.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-y9jpmgyaurom.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m117",
+  "title_al": "Epoka e Akullnajave 5: Kursi i Përplasjes",
+  "title_orig": "Ice Age: Collision Course",
+  "year": "2016",
+  "duration": "94 min",
+  "studio": "Blue Sky",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Manny, Sid dhe Diego përballen me një katastrofë kozmike në pjesën e pestë.",
+  "poster": "img/posters/m117.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-fssa0of8kkcu.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m118",
+  "title_al": "Epoka e Akullnajave 4: Lëvizja Kontinentale",
+  "title_orig": "Ice Age: Continental Drift",
+  "year": "2012",
+  "duration": "88 min",
+  "studio": "Blue Sky",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Tufa ndahet nga kontinenti dhe lundron në oqeane të panjohura plot rreziqe.",
+  "poster": "img/posters/m118.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-cvh0bwd2feex.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m119",
+  "title_al": "Njeriu-Merimangë: Përmes Multiversit",
+  "title_orig": "Spider-Man: Across the Spider-Verse",
+  "year": "2023",
+  "duration": "140 min",
+  "studio": "Sony",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Aventurë"
+  ],
+  "desc": "Miles Morales udhëton nëpër multivers dhe takon qindra Njerëz-Merimangë.",
+  "poster": "img/posters/m119.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-xrskicvlzyv2.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m120",
+  "title_al": "Hirushja 3: Loja e Fatit",
+  "title_orig": "Cinderella III: A Twist in Time",
+  "year": "2007",
+  "duration": "74 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Romancë"
+  ],
+  "desc": "Njerka e keqe kthen kohën pas dhe Hirushja duhet të rifitojë lumturinë e saj.",
+  "poster": "img/posters/m120.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-tkdywg9mbq23.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m121",
+  "title_al": "Alvini dhe Ketrushat Takojnë Frankenshtajnin",
+  "title_orig": "Alvin and the Chipmunks Meet Frankenstein",
+  "year": "1999",
+  "duration": "78 min",
+  "studio": "Universal",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Aventurë"
+  ],
+  "desc": "Ketrushat takojnë përbindëshin e famshëm në një aventurë gazmore plot muzikë.",
+  "poster": "img/posters/m121.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-1uxwd38ffe0o.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m122",
+  "title_al": "Bota e Lodrave 4",
+  "title_orig": "Toy Story 4",
+  "year": "2019",
+  "duration": "100 min",
+  "studio": "Pixar",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Woody dhe Buzz kthehen për një aventurë të re me lodrën e re Forky.",
+  "poster": "img/posters/m122.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-9k7e0e29itjr.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m123",
+  "title_al": "Barbi: Raperonzola",
+  "title_orig": "Barbie as Rapunzel",
+  "year": "2002",
+  "duration": "84 min",
+  "studio": "Mattel",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Muzikor"
+  ],
+  "desc": "Barbi tregon përrallën e Rapunzolës me flokët magjikë.",
+  "poster": "img/posters/m123.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-7gjt3538lfdh.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m124",
+  "title_al": "Barbi dhe Arrëthyesi",
+  "title_orig": "Barbie in the Nutcracker",
+  "year": "2001",
+  "duration": "82 min",
+  "studio": "Mattel",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Muzikor"
+  ],
+  "desc": "Barbi dhe Arrëthyesi luftojnë Mbretin e Minjve në një përrallë Krishtlindjesh.",
+  "poster": "img/posters/m124.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-0ae94nduiasp.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m125",
+  "title_al": "Barbi e Liqenit të Mjellmave",
+  "title_orig": "Barbie of Swan Lake",
+  "year": "2003",
+  "duration": "84 min",
+  "studio": "Mattel",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Muzikor"
+  ],
+  "desc": "Barbi bëhet Odette në përrallën e mjellmës magjike.",
+  "poster": "img/posters/m125.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-tu88nmjdyg2g.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m126",
+  "title_al": "Brenda Mendjes 2",
+  "title_orig": "Inside Out 2",
+  "year": "2024",
+  "duration": "96 min",
+  "studio": "Pixar",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Riley rritet dhe emocione të reja marrin kontrollin e mendjes së saj.",
+  "poster": "img/posters/m126.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-14zdi0t1opu4.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m127",
+  "title_al": "Lili dhe Endacaku II",
+  "title_orig": "Lady and the Tramp II",
+  "year": "2001",
+  "duration": "69 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Romancë"
+  ],
+  "desc": "Biri i Lilit dhe Endacakut dëshiron jetën e lirë të rrugës.",
+  "poster": "img/posters/m127.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-844v1bpnw7e4.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m128",
+  "title_al": "My Little Pony: Një Gjeneratë e Re",
+  "title_orig": "My Little Pony: A New Generation",
+  "year": "2021",
+  "duration": "91 min",
+  "studio": "Netflix",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Muzikor"
+  ],
+  "desc": "Një gjeneratë e re ponish ribashkon Equestria-n me magji dhe miqësi.",
+  "poster": "img/posters/m128.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-qlnuudadcgb2.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m129",
+  "title_al": "Djemtë e Këqinj",
+  "title_orig": "The Bad Guys",
+  "year": "2022",
+  "duration": "100 min",
+  "studio": "DreamWorks",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Komedi"
+  ],
+  "desc": "Një bandë kriminelësh përpiqet të bëhet e mirë në komedinë e DreamWorks.",
+  "poster": "img/posters/m129.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-ka84hjhus2p7.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m130",
+  "title_al": "Tarzani",
+  "title_orig": "Tarzan",
+  "year": "1999",
+  "duration": "88 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Dramë"
+  ],
+  "desc": "Djali i rritur nga gorillat zbulon botën e njerëzve në klasikun e Disney-t.",
+  "poster": "img/posters/m130.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-oniudj0ap0bu.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m131",
+  "title_al": "Elio",
+  "title_orig": "Elio",
+  "year": "2025",
+  "duration": "99 min",
+  "studio": "Pixar",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Fantazi"
+  ],
+  "desc": "Elio, djalë 11-vjeçar, gabimisht merret për ambasadorin e Tokës nga alienët.",
+  "poster": "img/posters/m131.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-o1t9ko21wfo0.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m132",
+  "title_al": "101 Dalmatët II",
+  "title_orig": "101 Dalmatians II: Patch's London Adventure",
+  "year": "2003",
+  "duration": "74 min",
+  "studio": "Disney",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Patch, njëri nga këlyshët, ëndërron të jetë si heroi i tij televiziv.",
+  "poster": "img/posters/m132.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-jgt2sp6a8xti.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m133",
+  "title_al": "Aventurat e Çipmankëve",
+  "title_orig": "The Chipmunk Adventure",
+  "year": "1987",
+  "duration": "76 min",
+  "studio": "Bagdasarian",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Muzikor"
+  ],
+  "desc": "Alvini, Simoni dhe Teodori garojnë rreth botës me tullumbace.",
+  "poster": "img/posters/m133.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-si1wjzwru3ts.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m134",
+  "title_al": "Alvini dhe Ketrushat Takojnë Njeriu-Ujk",
+  "title_orig": "Alvin and the Chipmunks Meet the Wolfman",
+  "year": "2000",
+  "duration": "77 min",
+  "studio": "Universal",
+  "genres": [
+   "Animuar",
+   "Komedi",
+   "Aventurë"
+  ],
+  "desc": "Ketrushat përballen me misterin e njeriut-ujk në lagjen e tyre.",
+  "poster": "img/posters/m134.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-1yymv0u9e9m3.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m135",
+  "title_al": "Maçoku me Çizme: Dëshira e Fundit",
+  "title_orig": "Puss in Boots: The Last Wish",
+  "year": "2022",
+  "duration": "102 min",
+  "studio": "DreamWorks",
+  "genres": [
+   "Animuar",
+   "Aventurë",
+   "Komedi"
+  ],
+  "desc": "Maçoku me Çizme kërkon Yllin e Dëshirave për të rifituar 9 jetët e tij.",
+  "poster": "img/posters/m135.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-ybmy1qmqodx6.html"
+  ],
+  "type": "film"
+ },
+ {
+  "id": "m136",
+  "title_al": "Naruto: Sezoni 2",
+  "title_orig": "Naruto Season 2",
+  "year": "2003",
+  "duration": "30 episode",
+  "studio": "Pierrot",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Aventurë"
+  ],
+  "desc": "Vazhdimi i aventurave të Naruto Uzumakit në sezonin e dytë.",
+  "poster": "img/posters/m136.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-vgln7x2kq567.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m137",
+  "title_al": "Zenki",
+  "title_orig": "Zenki",
+  "year": "1995",
+  "duration": "15 episode",
+  "studio": "Studio Deen",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Fantazi"
+  ],
+  "desc": "Çiko thërret Zenkin, demonin mbrojtës, për të luftuar të keqen.",
+  "poster": "img/posters/m137.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-k6sbhmvmjtk2.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m138",
+  "title_al": "Ben 10",
+  "title_orig": "Ben 10",
+  "year": "2005",
+  "duration": "49 episode",
+  "studio": "Cartoon Network",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Aventurë"
+  ],
+  "desc": "Beni 10-vjeçar gjen Omnitrix-in dhe shndërrohet në 10 alienë.",
+  "poster": "img/posters/m138.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-xluale2kek5p.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m139",
+  "title_al": "Oli dhe Benxhi: Sezoni 2",
+  "title_orig": "Captain Tsubasa Season 2",
+  "year": "2018",
+  "duration": "20 episode",
+  "studio": "David Production",
+  "genres": [
+   "Animuar",
+   "Sport",
+   "Aventurë"
+  ],
+  "desc": "Sezoni i dytë i aventurave të Tsubasës në futboll.",
+  "poster": "img/posters/m139.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-zed9bfh8haic.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m140",
+  "title_al": "Magjikët: Nusepashka dhe Maçoku i Zi",
+  "title_orig": "Miraculous Ladybug",
+  "year": "2015",
+  "duration": "25 episode",
+  "studio": "Zagtoon",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Aventurë"
+  ],
+  "desc": "Marinette dhe Adrien luftojnë të keqen si Nusepashka dhe Maçoku i Zi.",
+  "poster": "img/posters/m140.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-h8o1ymxt3zeo.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m141",
+  "title_al": "Luftëtarja e Hënës",
+  "title_orig": "Sailor Moon",
+  "year": "1992",
+  "duration": "4 episode",
+  "studio": "Toei",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Fantazi"
+  ],
+  "desc": "Usagi bëhet Sailor Moon për të mbrojtur Tokën.",
+  "poster": "img/posters/m141.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-hdfbn2qaa4tq.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m142",
+  "title_al": "Përrallat e Andersenit",
+  "title_orig": "The Fairytaler",
+  "year": "2002",
+  "duration": "26 episode",
+  "studio": "Egmont",
+  "genres": [
+   "Animuar",
+   "Fantazi",
+   "Familjar"
+  ],
+  "desc": "Përrallat e Hans Christian Andersen në version të animuar.",
+  "poster": "img/posters/m142.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-m7rikhl7hsdc.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m143",
+  "title_al": "Sferat e Dragoit Super",
+  "title_orig": "Dragon Ball Super",
+  "year": "2015",
+  "duration": "25 episode",
+  "studio": "Toei",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Aventurë"
+  ],
+  "desc": "Goku dhe Vegeta përballen me perëndi dhe universe të reja.",
+  "poster": "img/posters/m143.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-wpj1nxfc69mn.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m144",
+  "title_al": "Kapiten Tsubasa",
+  "title_orig": "Captain Tsubasa 2018",
+  "year": "2018",
+  "duration": "52 episode",
+  "studio": "David Production",
+  "genres": [
+   "Animuar",
+   "Sport",
+   "Aventurë"
+  ],
+  "desc": "Tsubasa ndjek ëndrrën për t'u bërë futbollisti më i mirë.",
+  "poster": "img/posters/m144.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-myzy39hdrq5s.html"
+  ],
+  "type": "serial"
+ },
+ {
+  "id": "m145",
+  "title_al": "Titanët e Rinj",
+  "title_orig": "Teen Titans",
+  "year": "2003",
+  "duration": "13 episode",
+  "studio": "Cartoon Network",
+  "genres": [
+   "Animuar",
+   "Aksion",
+   "Aventurë"
+  ],
+  "desc": "Robin, Starfire, Cyborg, Raven dhe Beast Boy mbrojnë qytetin.",
+  "poster": "img/posters/m145.jpg",
+  "quality": "Full HD",
+  "dub": "Dubluar në shqip",
+  "videos": [
+   "https://vidmoly.org/embed-ll2rtpi6ek9y.html"
+  ],
+  "type": "serial"
  }
 ]
