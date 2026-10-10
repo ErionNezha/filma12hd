@@ -60,9 +60,11 @@ function render(m,all){
 
   // episodes
   const eps=$('#eps');
+  const vurl=v=>typeof v==='string'?v:(v&&v.url||'');
+  const vlabel=v=>typeof v==='string'?'Shiko':(v&&v.label||'Shiko');
   if(m.videos.length>1){
     eps.hidden=false;
-    eps.innerHTML=m.videos.map((v,i)=>`<button class="ep${i===0?' on':''}" data-v="${esc(v)}"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="t">${esc(epName(v))}</span></button>`).join('');
+    eps.innerHTML=m.videos.map((v,i)=>`<button class="ep${i===0?' on':''}" data-v="${esc(vurl(v))}"><span class="n">${String(i+1).padStart(2,'0')}</span><span class="t">${esc(vlabel(v))}</span></button>`).join('');
     eps.addEventListener('click',e=>{
       const b=e.target.closest('.ep');if(!b)return;
       $$('#eps .ep').forEach(x=>x.classList.remove('on'));b.classList.add('on');
@@ -72,7 +74,7 @@ function render(m,all){
   // player open
   $('#stageCover').addEventListener('click',()=>{
     $('#cinema').classList.add('open');
-    loadVideo(m.videos[0],false);
+    loadVideo(vurl(m.videos[0]),false);
   });
 
   // related
