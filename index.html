@@ -9,10 +9,11 @@
 <meta property="og:title" content="Filma12HD — Filma të Dubluar në Shqip">
 <meta property="og:description" content="Filma të dubluar në shqip · Cilësi Full HD · 726 tituj">
 <meta property="og:type" content="website">
-<meta name="theme-color" content="#141414">
+<meta name="theme-color" content="#07070d">
 <link rel="icon" type="image/svg+xml" href="favicon.svg">
 <link rel="icon" type="image/png" sizes="32x32" href="favicon-32.png">
 <link rel="apple-touch-icon" href="apple-touch-icon.png">
+<link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
@@ -61,6 +62,7 @@
   <a class="l" href="#rows" data-nav="filma">Filma</a>
   <a class="l" href="#rows" data-nav="seriale">Seriale</a>
   <div class="nav-r">
+    <button id="ins" hidden>Instalo</button>
     <button class="ib" id="sb" aria-label="Kërko"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg></button>
   </div>
 </nav>
@@ -68,7 +70,7 @@
 <!-- BILLBOARD -->
 <header class="bb" id="bb">
   <div class="bb-bg"><img id="bbImg" src="" alt="" fetchpriority="high"></div>
-  <div class="bb-in">
+  <div class="bb-in" id="bbIn">
     <p class="bb-tag"><span class="dot"></span><span id="bbKick">Tani po luhet</span></p>
     <h1 id="bbTitle"></h1>
     <div class="bb-orig" id="bbOrig"></div>
@@ -79,6 +81,7 @@
       <a class="btn btn-more" id="bbMore" href="#">Më shumë</a>
     </div>
   </div>
+  <div class="tkw" id="tkw" aria-hidden="true"><div class="tk" id="tk"><div class="m"><b>BILETA E ARTË</b><strong id="tkTitle"></strong></div><div class="s"><span>Rreshti 12</span><span>Vendi 12</span></div></div></div>
   <div class="bb-ind" id="bbInd"></div>
   <div class="bb-age">16+</div>
   <div class="bb-fade"></div>
@@ -135,6 +138,24 @@
   <a href="#rows" data-nav="seriale"><svg viewBox="0 0 24 24"><rect x="3" y="5" width="18" height="14" rx="2"/><path d="M3 9h18M8 5v14"/></svg>Seriale</a>
   <button id="sb2"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="m20 20-4-4"/></svg>Kërko</button>
 </nav>
+
+<!-- DIALOG — detaje (dizajn i ri) -->
+<dialog id="dg" aria-label="Detaje">
+  <div class="hd" id="dgHd">
+    <img id="dgImg" src="" alt="">
+    <button class="x" id="dgX" aria-label="Mbyll">✕</button>
+    <h2 id="dgTitle"></h2>
+  </div>
+  <div class="bd">
+    <div class="bb-btns" style="margin-bottom:14px">
+      <a class="btn btn-play" id="dgPlay" href="#"><svg viewBox="0 0 24 24" fill="currentColor"><path d="M8 5v14l11-7z"/></svg>Shiko tani</a>
+      <button class="btn btn-more" id="dgFav">＋ Lista ime</button>
+    </div>
+    <p class="meta" id="dgMeta"></p>
+    <p class="desc" id="dgDesc"></p>
+    <div id="dgExtra"></div>
+  </div>
+</dialog>
 
 <!-- SEARCH OVERLAY -->
 <div class="so" id="so" role="dialog" aria-label="Kërko">
