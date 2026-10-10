@@ -1,0 +1,8 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.filma12hd.app",
+    "sha256_cert_fingerprints": ["38:08:F5:5F:6F:FD:4D:A9:37:04:3A:DB:D9:CD:14:C0:37:8E:FC:8E:0A:27:EC:8D:6A:D3:99:22:3B:5A:0A:6"]
+  }
+}]
