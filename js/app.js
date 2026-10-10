@@ -131,7 +131,7 @@ function buildMarquee(){
 /* ---------- chips + grids ---------- */
 function buildChips(){
   const set=new Set(); MOVIES.forEach(m=>(m.genres||[]).forEach(g=>set.add(g)));
-  const genres=['Të gjitha',...[...set].sort()];
+  const genres=['Të gjitha','Seriale',...[...set].sort()];
   $('#chips').innerHTML=genres.map(g=>`<button class="chip${g===activeGenre?' on':''}" data-g="${esc(g)}">${esc(g)}</button>`).join('');
   $('#chips').addEventListener('click',e=>{
     const b=e.target.closest('.chip'); if(!b)return;
@@ -146,12 +146,16 @@ function matches(m,q){
 }
 function renderFilms(){
   const q=($('#search').value||'').trim().toLowerCase();
-  const films=MOVIES.filter(m=>m.type==='film')
-    .filter(m=>activeGenre==='Të gjitha'||(m.genres||[]).includes(activeGenre))
+  const serialMode=activeGenre==='Seriale';
+  const list=MOVIES
+    .filter(m=>serialMode?m.type==='serial':m.type==='film')
+    .filter(m=>serialMode||activeGenre==='Të gjitha'||(m.genres||[]).includes(activeGenre))
     .filter(m=>!q||matches(m,q));
-  $('#filmCount').textContent=films.length+' tituj';
-  $('#filmGrid').innerHTML=films.map(cardHTML).join('');
-  $('#noRes').hidden=films.length>0;
+  $('#filmCount').textContent=list.length+(serialMode?' seriale':' tituj');
+  $('#filmGrid').innerHTML=list.map(cardHTML).join('');
+  $('#noRes').hidden=list.length>0;
+  $('#filma .sec-title').innerHTML=serialMode?'SERIALE <em>NË SHQIP</em>':'FILMA <em>TË DUBLUAR</em>';
+  $('#seriale').style.display=serialMode?'none':'';
   bindCards($('#filmGrid')); initReveal();
 }
 function renderGrids(){
