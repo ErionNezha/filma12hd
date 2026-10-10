@@ -78,6 +78,7 @@ function render(m,all){
     eps.addEventListener('click',e=>{
       const b=e.target.closest('.ep');if(!b)return;
       $$('#eps .ep').forEach(x=>x.classList.remove('on'));b.classList.add('on');
+      $('#cinema').classList.add('open');
       loadVideo(b.dataset.v,true);
     });
   }
