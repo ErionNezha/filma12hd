@@ -16,8 +16,10 @@
 <link rel="manifest" href="manifest.json">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" href="css/style.min.css" as="style">
+<link rel="preload" href="data/movies.json" as="fetch" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="css/style.css">
+<link rel="stylesheet" href="css/style.min.css">
 </head>
 <body>
 
@@ -169,7 +171,7 @@
 <button id="toTop" aria-label="Kthehu lart">↑</button>
 <div id="toast" role="status" aria-live="polite"></div>
 
-<script src="js/app.js"></script>
+<script src="js/app.min.js"></script>
 <script>
 if('serviceWorker' in navigator){
   addEventListener('load',()=>navigator.serviceWorker.register('sw.js').catch(()=>{}));

@@ -25,7 +25,7 @@ function cardHTML(m,prog){
   const pct=matchPct(m);
   return `<div class="c" tabindex="0" data-id="${m.id}" role="link" aria-label="${esc(fullTitle(m))}">
     <div class="th">
-      <img loading="lazy" decoding="async" src="${esc(m.poster)}" alt="" onload="this.classList.add('ld')" onerror="this.classList.add('ld');this.style.opacity=0">
+      <img loading="lazy" decoding="async" width="300" height="450" src="${esc(m.poster)}" alt="" onload="this.classList.add('ld')" onerror="this.classList.add('ld');this.style.opacity=0">
       <div class="shade"></div>
       <span class="qb">${esc(m.quality||'HD')}</span>
       ${m.type==='serial'?'<span class="sb">SERIAL</span>':''}
@@ -42,7 +42,7 @@ function cardHTML(m,prog){
 function top10HTML(m,i){
   return `<div class="tn" tabindex="0" data-id="${m.id}" role="link" aria-label="${esc(fullTitle(m))}">
     <b>${i+1}</b>
-    <div class="th"><img loading="lazy" decoding="async" src="${esc(m.poster)}" alt="${esc(fullTitle(m))}" onload="this.classList.add('ld')" onerror="this.classList.add('ld');this.style.opacity=0">
+    <div class="th"><img loading="lazy" decoding="async" width="300" height="450" src="${esc(m.poster)}" alt="${esc(fullTitle(m))}" onload="this.classList.add('ld')" onerror="this.classList.add('ld');this.style.opacity=0">
     <div class="shade"></div><div class="tt">${esc(m.title_al)}</div></div>
   </div>`;
 }
@@ -328,10 +328,12 @@ fetch('data/movies.json').then(r=>r.json()).then(data=>{
 function initCursor(){
   if(!matchMedia('(pointer:fine)').matches)return;
   const dot=$('#cursorDot'),ring=$('#cursorRing');
-  let mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my;
+  let mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my,running=true;
+  document.addEventListener('visibilitychange',()=>{running=!document.hidden;if(running)requestAnimationFrame(loop);});
   addEventListener('pointermove',e=>{mx=e.clientX;my=e.clientY;
     dot.style.left=mx+'px';dot.style.top=my+'px';},{passive:true});
   (function loop(){
+    if(!running)return;
     rx+=(mx-rx)*.16;ry+=(my-ry)*.16;
     ring.style.left=rx+'px';ring.style.top=ry+'px';
     requestAnimationFrame(loop);
@@ -404,7 +406,10 @@ function dustInit(){
   for(let i=0;i<nP;i++)P.push({x:Math.random()*cv.width,y:Math.random()*cv.height,
     r:Math.random()*2.2+.6,s:Math.random()*.35+.08,o:Math.random()*.5+.15,ph:Math.random()*6.28});
 }
+let dustRunning=true;
+document.addEventListener('visibilitychange',()=>{dustRunning=!document.hidden;if(dustRunning)requestAnimationFrame(dustTick);});
 function dustTick(t){
+  if(!dustRunning)return;
   ctx.clearRect(0,0,cv.width,cv.height);
   for(const p of P){
     p.y-=p.s;p.x+=Math.sin(t/1600+p.ph)*.18;

@@ -1,8 +1,8 @@
 /* Filma12HD — Service Worker · Krijuar nga Erion Nezha */
-const VER = 'f12hd-v1';
+const VER = 'f12hd-v2';
 const SHELL = [
   'index.html', 'film.html',
-  'css/style.css', 'js/app.js', 'js/film.js',
+  'css/style.min.css', 'js/app.min.js', 'js/film.min.js',
   'manifest.json', 'icon-192.png', 'icon-512.png', 'favicon-32.png'
 ];
 

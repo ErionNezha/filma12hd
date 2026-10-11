@@ -91,7 +91,7 @@ function render(m,all){
   $('#relGrid').innerHTML=fill.map((r,i)=>`
     <div class="c" data-id="${r.id}" tabindex="0" role="link" aria-label="${esc(fullTitle(r))}">
       <div class="th">
-        <img loading="lazy" src="${esc(r.poster)}" alt="${esc(fullTitle(r))}" onerror="this.style.opacity=0">
+        <img loading="lazy" decoding="async" width="300" height="450" src="${esc(r.poster)}" alt="${esc(fullTitle(r))}" onerror="this.style.opacity=0">
         <div class="shade"></div>
         <span class="qb">${esc(r.quality)}</span>
         <div class="tt">${esc(r.title_al)}</div>
@@ -124,9 +124,13 @@ function initFx(){
   const spot=$('#spot');
   addEventListener('pointermove',e=>{spot.style.left=e.clientX+'px';spot.style.top=e.clientY+'px';},{passive:true});
   const cv=$('#dust'),ctx=cv.getContext('2d');let P=[];
+  let dustRunning=true;
+  document.addEventListener('visibilitychange',()=>{dustRunning=!document.hidden;if(dustRunning)requestAnimationFrame(tick);});
   function init(){cv.width=innerWidth;cv.height=innerHeight;P=[];
-    for(let i=0;i<50;i++)P.push({x:Math.random()*cv.width,y:Math.random()*cv.height,r:Math.random()*2.2+.6,s:Math.random()*.35+.08,o:Math.random()*.5+.15,ph:Math.random()*6.28});}
+    const nP=Math.min(50,innerWidth/25);
+    for(let i=0;i<nP;i++)P.push({x:Math.random()*cv.width,y:Math.random()*cv.height,r:Math.random()*2.2+.6,s:Math.random()*.35+.08,o:Math.random()*.5+.15,ph:Math.random()*6.28});}
   (function tick(t){
+    if(!dustRunning)return;
     ctx.clearRect(0,0,cv.width,cv.height);
     for(const p of P){p.y-=p.s;if(p.y<-6){p.y=cv.height+6;p.x=Math.random()*cv.width;}
       ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,6.28);
