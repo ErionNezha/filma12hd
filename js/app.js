@@ -318,8 +318,11 @@ function initReveal(){
 }
 
 /* ---------- data ---------- */
-fetch('data/movies.json').then(r=>r.json()).then(data=>{
-  MOVIES=data;
+Promise.all([
+  fetch('data/filma.json').then(r=>r.json()),
+  fetch('data/seriale.json').then(r=>r.json())
+]).then(([filma,seriale])=>{
+  MOVIES=[...filma,...seriale];
   buildBillboard();buildRows();buildChips();
   initReveal();initCursor();hideLoader();
 }).catch(()=>{hideLoader();});

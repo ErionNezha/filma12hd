@@ -1,5 +1,5 @@
 /* Filma12HD — Service Worker · Krijuar nga Erion Nezha */
-const VER = 'f12hd-v2';
+const VER = 'f12hd-v3';
 const SHELL = [
   'index.html', 'film.html',
   'css/style.min.css', 'js/app.min.js', 'js/film.min.js',
@@ -28,7 +28,7 @@ self.addEventListener('fetch', e => {
       u.hostname.includes('filemoon') || u.hostname.includes('dropbox') ||
       u.hostname.includes('box.ca') || u.hostname.includes('bysedikamoum')) return;
   // Katalogu: rrjet i pari, cache si rezervë (të dhëna të freskëta)
-  if (u.pathname.endsWith('movies.json')) {
+  if (u.pathname.endsWith('filma.json') || u.pathname.endsWith('seriale.json')) {
     e.respondWith(
       fetch(e.request).then(r => {
         const cp = r.clone();

@@ -5,7 +5,11 @@ const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
 const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
 const id=new URLSearchParams(location.search).get('id');
 
-fetch('data/movies.json').then(r=>r.json()).then(all=>{
+Promise.all([
+  fetch('data/filma.json').then(r=>r.json()),
+  fetch('data/seriale.json').then(r=>r.json())
+]).then(([filma,seriale])=>{
+  const all=[...filma,...seriale];
   const m=all.find(x=>x.id===id)||all[0];
   if(!m){location.href='index.html';return;}
   // ruaj te "vazhdo shikimin"
