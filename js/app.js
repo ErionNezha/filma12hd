@@ -385,29 +385,9 @@
   }
   addEventListener('hashchange', render);
 
-  /* ================= Hyrja ================= */
+  /* ================= Hyrja (loading page u hoq me urdhër të përdoruesit) ================= */
   let introDone = () => {};
-  function intro() {
-    const el = $('#intro'), bar = $('#introBar');
-    let played = false;
-    try { played = sessionStorage.getItem('f12_intro') === '1'; sessionStorage.setItem('f12_intro', '1'); } catch (e) { /* pa ruajtje */ }
-    const end = () => { el.classList.add('gone'); document.body.classList.remove('is-intro'); };
-    if (played || matchMedia('(prefers-reduced-motion: reduce)').matches) { end(); return; }
-    const t0 = performance.now();
-    let closed = false;
-    setTimeout(() => { bar.style.width = '35%'; }, 950);
-    setTimeout(() => { bar.style.width = '62%'; }, 1300);
-    const close = () => {
-      if (closed) return; closed = true;
-      const wait = Math.max(0, 1900 - (performance.now() - t0));
-      setTimeout(() => {
-        bar.style.width = '100%';
-        setTimeout(() => { el.classList.add('out'); document.body.classList.remove('is-intro'); setTimeout(end, 1050); }, 420);
-      }, wait);
-    };
-    introDone = close;
-    setTimeout(close, 4500); // mos e mbaj përdoruesin në pritje
-  }
+  function intro() { document.body.classList.remove('is-intro'); }
 
   $('#year').textContent = new Date().getFullYear();
   intro();
