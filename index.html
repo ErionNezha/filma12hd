@@ -17,9 +17,37 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
-  <link rel="stylesheet" href="/css/style.css?v=4">
+  <link rel="stylesheet" href="/css/style.css?v=5">
 </head>
-<body>
+<body class="is-intro">
+  <!-- PRELOADER · kamer-focus (introja e hapjes nga dizajni te filma12hd-theta) -->
+  <div id="loader" role="status" aria-live="polite" aria-label="Po ngarkohet Filma12HD">
+    <div class="beam" aria-hidden="true"></div>
+    <div class="dust" id="ldDust" aria-hidden="true"></div>
+    <div class="strip l" aria-hidden="true"></div>
+    <div class="strip r" aria-hidden="true"></div>
+    <div class="vf" aria-hidden="true"><i></i><i></i><i></i><i></i></div>
+    <div class="tag l" aria-hidden="true"><span class="dot"></span>Shqip</div>
+    <div class="tag r" aria-hidden="true">Full HD</div>
+    <div class="center">
+      <div class="logo">FILMA<b>12</b>HD<u>✦</u></div>
+      <div class="streak" aria-hidden="true"></div>
+      <div class="line" id="ldLine">
+        <span class="on">Filma të dubluar në shqip</span>
+        <span>Cilësi Full HD</span>
+        <span>Pa reklama bezdisëse</span>
+        <span>Kinema në shtëpinë tuaj</span>
+      </div>
+      <div class="scale" aria-hidden="true">
+        <div class="mark"></div>
+        <div class="ticks" id="ldTicks"></div>
+        <div class="dist"><span>1 m</span><span>2</span><span>3</span><span>5</span><span>10</span><span>∞</span></div>
+      </div>
+      <div class="status"><span id="ldMsg">Po vendoset fokusi</span><span class="pct" id="ldPct">0%</span><em id="ldTc">00:00:00</em></div>
+    </div>
+    <div class="credit"><b>Mr.Erionxx</b></div>
+  </div>
+
   <a class="skip" href="#main">Kalo te përmbajtja</a>
 
   <header class="header" id="header">
@@ -99,6 +127,6 @@
   <div class="toast" id="toast" role="status" aria-live="polite"></div>
   <button class="totop" id="toTop" aria-label="Kthehu lart">↑</button>
 
-  <script src="/js/app.js?v=5"></script>
+  <script src="/js/app.js?v=6"></script>
 </body>
 </html>

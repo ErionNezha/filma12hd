@@ -385,9 +385,53 @@
   }
   addEventListener('hashchange', render);
 
-  /* ================= Hyrja (loading page u hoq me urdhër të përdoruesit) ================= */
+  /* ================= Hyrja — preloader kamer-focus (nga dizajni te filma12hd-theta) ================= */
   let introDone = () => {};
-  function intro() { document.body.classList.remove('is-intro'); }
+  function intro() {
+    const L = document.getElementById('loader');
+    if (!L) { document.body.classList.remove('is-intro'); return; }
+    const pct = document.getElementById('ldPct'), tc = document.getElementById('ldTc'), msg = document.getElementById('ldMsg');
+    let h = '', i;
+    for (i = 0; i <= 50; i++) h += '<span' + (i % 10 === 0 ? ' class="m"' : '') + '></span>';
+    document.getElementById('ldTicks').innerHTML = h;
+    let d = '';
+    for (i = 0; i < 16; i++) d += '<i style="left:' + (Math.random() * 100).toFixed(1) + '%;--dx:' + ((Math.random() * 80 - 40) | 0) + 'px;animation-delay:-' + (Math.random() * 7).toFixed(1) + 's;animation-duration:' + (5 + Math.random() * 5).toFixed(1) + 's"></i>';
+    document.getElementById('ldDust').innerHTML = d;
+    const lines = document.querySelectorAll('#ldLine span');
+    let li = 0;
+    const rot = setInterval(() => {
+      lines[li].classList.remove('on'); li = (li + 1) % lines.length; lines[li].classList.add('on');
+    }, 1100);
+    const DURATION = 6500;
+    let start = null, finished = false;
+    const reduce = window.matchMedia && matchMedia('(prefers-reduced-motion: reduce)').matches;
+    const ease = (t) => t < .5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2;
+    const pad = (n) => n < 10 ? '0' + n : '' + n;
+    function frame(ts) {
+      if (start === null) start = ts;
+      const t = Math.min((ts - start) / DURATION, 1), p = ease(t);
+      L.style.setProperty('--p', p.toFixed(4));
+      pct.textContent = Math.round(p * 100) + '%';
+      const f = Math.round(p * 24 * 24);
+      tc.textContent = '00:' + pad(Math.floor(f / 24)) + ':' + pad(f % 24);
+      if (t < 1) requestAnimationFrame(frame); else finish();
+    }
+    function finish() {
+      if (finished) return; finished = true; clearInterval(rot);
+      msg.textContent = 'Në fokus';
+      L.classList.add('flash');
+      setTimeout(() => {
+        L.classList.add('done');
+        document.body.classList.remove('is-intro');
+        document.dispatchEvent(new CustomEvent('loader:done'));
+        setTimeout(() => { if (L.parentNode) L.parentNode.removeChild(L); }, 1400);
+      }, 1200);
+    }
+    introDone = () => {};
+    setTimeout(() => { if (!finished) { L.classList.add('done'); document.body.classList.remove('is-intro'); setTimeout(() => { if (L.parentNode) L.parentNode.removeChild(L); }, 1400); } }, 10000); // siguri: mos e mbaj faqen të bllokuar
+    if (reduce) { L.style.setProperty('--p', 1); pct.textContent = '100%'; setTimeout(finish, 600); }
+    else requestAnimationFrame(frame);
+  }
 
   $('#year').textContent = new Date().getFullYear();
   intro();
