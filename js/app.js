@@ -7,7 +7,7 @@
   const titleOf = (it) => it.title || '';
   const typeOf = (it, fallback) => it.media_type || fallback || 'movie';
   const yearOf = (it) => it.year || '';
-  const fold = (s) => String(s || '').toLowerCase().replace(/ë/g, 'e').replace(/ç/g, 'c');
+  const fold = (s) => String(s || '').toLowerCase().normalize('NFD').replace(/[\u0300-\u036f]/g, '');
   const hue = (id) => { let h = 0; const s = String(id); for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360; return h; };
   const store = {
     get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
@@ -229,7 +229,7 @@
       const inList = isListed(type, id);
       const hb = d.poster ? `background-image:url(${esc(d.poster)})` : `background:radial-gradient(80% 90% at 70% 30%,hsla(${hue(id)},70%,45%,.55),transparent 70%),linear-gradient(140deg,hsl(${hue(id)},40%,14%),#0e0e15)`;
       const vids = d.videos || [];
-      const epSection = vids.length > 1 ? `<section class="d__sec"><h3>${type === 'tv' ? 'Episodet' : 'Burimet'}</h3><div style="display:flex;flex-wrap:wrap;gap:8px">${vids.map((v, i) => `<button class="chip" data-play="${type}:${id}:${i}" style="cursor:pointer">${esc(v.label || ('Pjesa ' + (i + 1)))}</button>`).join('')}</div></section>` : '';
+      const epSection = vids.length > 1 ? `<section class="d__sec"><h3>${type === 'tv' ? 'Episodet' : 'Burimet'}</h3><div style="display:flex;flex-wrap:wrap;gap:8px;max-height:308px;overflow-y:auto;padding:2px 6px 2px 2px">${vids.map((v, i) => `<button class="chip" data-play="${type}:${id}:${i}" style="cursor:pointer">${esc(v.label || ('Pjesa ' + (i + 1)))}</button>`).join('')}</div></section>` : '';
       panel.innerHTML = `
         <div class="d__hero" style="${hb}"><button class="icon-btn d__close" data-close aria-label="Mbyll">✕</button></div>
         <div class="d__head">
@@ -269,12 +269,21 @@
     const v = vids[Math.min(idx || 0, vids.length - 1)];
     player.hidden = false; lock(true);
     const label = esc(v.label || titleOf(d));
-    if (isDirect(v.url)) {
-      let src = v.url;
+    let url = v.url;
+    if (url.startsWith('http://')) url = 'https://' + url.slice(7); // https i detyrueshem (mixed content)
+    if (isDirect(url)) {
+      let src = url;
       if (/dropbox\.com/i.test(src)) src = src.replace('www.dropbox.com', 'dl.dropboxusercontent.com').replace(/[?&]dl=0/, '');
       frame.innerHTML = `<video src="${esc(src)}" controls autoplay playsinline style="position:absolute;inset:0;width:100%;height:100%;background:#000"></video>`;
+      const vid = frame.querySelector('video');
+      const fail = () => {
+        if (!document.body.contains(vid)) return;
+        frame.innerHTML = `<div class="player__msg"><div><p style="font-size:18px;color:var(--text);margin:0 0 8px">Ky burim nuk luhet në këtë shfletues</p><p style="margin:0 0 18px">Formati i videos nuk mbështetet këtu.${vids.length > 1 ? ' Provo një burim ose episod tjetër te detajet e titullit.' : ''}</p><a class="btn btn--gold" href="${esc(src)}" target="_blank" rel="noopener">Hap videon në skedë të re</a></div></div>`;
+      };
+      vid.addEventListener('error', fail);
+      setTimeout(() => { if (document.body.contains(vid) && vid.error) fail(); }, 6000);
     } else {
-      frame.innerHTML = `<iframe src="${esc(v.url)}" title="${label}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="origin"></iframe>`;
+      frame.innerHTML = `<iframe src="${esc(url)}" title="${label}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="origin"></iframe>`;
     }
   }
 
