@@ -7,6 +7,7 @@
   const titleOf = (it) => it.title || '';
   const typeOf = (it, fallback) => it.media_type || fallback || 'movie';
   const yearOf = (it) => it.year || '';
+  const fold = (s) => String(s || '').toLowerCase().replace(/ë/g, 'e').replace(/ç/g, 'c');
   const hue = (id) => { let h = 0; const s = String(id); for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360; return h; };
   const store = {
     get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
@@ -93,7 +94,7 @@
     return `<a class="card${row.wide ? ' card--wide' : ''}" href="#" data-id="${it.id}" data-type="${type}" aria-label="${esc(titleOf(it))}">
       ${poster(it, row.wide)}
       <span class="card__rate">${esc(it.quality || 'FULL HD')}</span>
-      <span class="card__info"><b>${esc(titleOf(it))}</b><span>${esc(yearOf(it))} · ${type === 'tv' ? 'Serial' : 'Film'}</span></span>
+      <span class="card__info"><b>${esc(titleOf(it))}</b><span>${yearOf(it) ? esc(yearOf(it)) + ' · ' : ''}${type === 'tv' ? 'Serial' : 'Film'}</span></span>
     </a>`;
   }
 
@@ -164,7 +165,7 @@
     $('#heroContent').innerHTML = `
       <span class="eyebrow">#${heroIdx + 1} ${type === 'tv' ? 'Serial' : 'Film'} në trend</span>
       <h1>${esc(titleOf(it))}</h1>
-      <div class="meta"><span class="star">${esc(it.quality || 'FULL HD')}</span><span>${esc(yearOf(it))}</span>${genres.map((g) => `<span class="chip">${esc(g)}</span>`).join('')}</div>
+      <div class="meta"><span class="star">${esc(it.quality || 'FULL HD')}</span>${yearOf(it) ? `<span>${esc(yearOf(it))}</span>` : ''}${genres.map((g) => `<span class="chip">${esc(g)}</span>`).join('')}</div>
       <p class="ov">${esc(it.overview || 'Film i dubluar plotësisht në shqip, me cilësi Full HD.')}</p>
       <div class="actions">
         <button class="btn btn--gold" data-play="${type}:${it.id}:0">${playIco}Shiko tani</button>
@@ -234,7 +235,7 @@
         <div class="d__head">
           <span class="eyebrow">${type === 'tv' ? 'Serial' : 'Film'} · Dubluar në shqip</span>
           <h2 id="dTitle">${esc(titleOf(d))}</h2>
-          <div class="meta"><span class="star">${esc(d.quality || 'FULL HD')}</span><span>${esc(yearOf(d))}</span>${fmtRuntime(d) ? `<span>${fmtRuntime(d)}</span>` : ''}${genres.slice(0, 3).map((g) => `<span class="chip">${esc(g)}</span>`).join('')}</div>
+          <div class="meta"><span class="star">${esc(d.quality || 'FULL HD')}</span>${yearOf(d) ? `<span>${esc(yearOf(d))}</span>` : ''}${fmtRuntime(d) ? `<span>${fmtRuntime(d)}</span>` : ''}${genres.slice(0, 3).map((g) => `<span class="chip">${esc(g)}</span>`).join('')}</div>
           <div class="actions" style="margin-top:20px">
             <button class="btn btn--gold" data-play="${type}:${id}:0">${playIco}Shiko tani</button>
             <button class="btn btn--glass${inList ? ' on' : ''}" data-list="${type}:${id}" aria-pressed="${inList}">${inList ? '✓ Në listë' : '＋ Lista ime'}</button>
@@ -288,7 +289,8 @@
     sHint.textContent = 'Po kërkoj…';
     sTimer = setTimeout(async () => {
       await loadData();
-      const list = ALL.filter((x) => (x.title + ' ' + (x.otitle || '')).toLowerCase().includes(q)).slice(0, 60);
+      const qf = fold(q);
+      const list = ALL.filter((x) => fold(x.title + ' ' + (x.otitle || '')).includes(qf)).slice(0, 60);
       remember(list);
       sHint.textContent = list.length ? `${list.length} rezultate për “${sInput.value.trim()}”` : `Asnjë rezultat për “${sInput.value.trim()}”`;
       sRes.innerHTML = list.map((it) => card(it)).join('');
