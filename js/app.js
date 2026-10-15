@@ -1,427 +1,415 @@
-/* Filma12HD — Versioni Netflix · logjika e ruajtur, DOM i ri
-   Krijuar nga Erion Nezha — © 2026 All rights reserved */
-(function(){
-'use strict';
-const $=s=>document.querySelector(s), $$=s=>[...document.querySelectorAll(s)];
-let MOVIES=[], bbIdx=0, bbTimer=null, activeGenre='Të gjitha';
+(function () {
+  'use strict';
 
-/* ---------- helpers ---------- */
-const esc=s=>String(s||'').replace(/[&<>"]/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]));
-const fullTitle=m=>m.title_orig?`${m.title_al} (${m.title_orig})`:m.title_al;
-function goldTitle(m){
-  const t=esc(m.title_al), w=t.split(' ');
-  if(w.length>1){const l=w.pop();return w.join(' ')+' <span class="gold">'+l+'</span>';}
-  return '<span class="gold">'+t+'</span>';
-}
-function matchPct(m){
-  // përqindje "përputhjeje" deterministe nga id
-  let h=0;const s=String(m.id);
-  for(const c of s)h=(h*31+c.charCodeAt(0))>>>0;
-  return 82+(h%16);
-}
+  /* ================= Të dhënat (katalogu real i dubluar) ================= */
+  const $ = (s, el = document) => el.querySelector(s);
+  const esc = (s) => String(s ?? '').replace(/[&<>"']/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[c]));
+  const titleOf = (it) => it.title || '';
+  const typeOf = (it, fallback) => it.media_type || fallback || 'movie';
+  const yearOf = (it) => it.year || '';
+  const hue = (id) => { let h = 0; const s = String(id); for (let i = 0; i < s.length; i++) h = (h * 31 + s.charCodeAt(i)) % 360; return h; };
+  const store = {
+    get(k, d) { try { const v = localStorage.getItem(k); return v ? JSON.parse(v) : d; } catch (e) { return d; } },
+    set(k, v) { try { localStorage.setItem(k, JSON.stringify(v)); } catch (e) { /* ruajtja mund të jetë e bllokuar */ } }
+  };
 
-/* ---------- karta Netflix ---------- */
-function cardHTML(m,prog){
-  const pct=matchPct(m);
-  return `<div class="c" tabindex="0" data-id="${m.id}" role="link" aria-label="${esc(fullTitle(m))}">
-    <div class="th">
-      <img loading="lazy" decoding="async" width="300" height="450" src="${esc(m.poster)}" alt="" onload="this.classList.add('ld')" onerror="this.classList.add('ld');this.style.opacity=0">
-      <div class="shade"></div>
-      <span class="qb">${esc(m.quality||'HD')}</span>
-      ${m.type==='serial'?'<span class="sb">SERIAL</span>':''}
-      <div class="tt">${esc(m.title_al)}</div>
-      ${prog!=null?`<div class="pr"><u style="width:${prog}%"></u></div>`:''}
-    </div>
-    <div class="c-info">
-      <div class="c-ic"><span>▶</span><span data-fav="${m.id}">${isFav(m.id)?'✓':'＋'}</span></div>
-      <b>${pct}% përputhje</b><em>${m.year||''}</em>${m.type==='serial'?'SERIAL':(m.duration||'')}
-      <div class="g">${esc((m.genres||[]).slice(0,3).join(' · '))}</div>
-    </div>
-  </div>`;
-}
-function top10HTML(m,i){
-  return `<div class="tn" tabindex="0" data-id="${m.id}" role="link" aria-label="${esc(fullTitle(m))}">
-    <b>${i+1}</b>
-    <div class="th"><img loading="lazy" decoding="async" width="300" height="450" src="${esc(m.poster)}" alt="${esc(fullTitle(m))}" onload="this.classList.add('ld')" onerror="this.classList.add('ld');this.style.opacity=0">
-    <div class="shade"></div><div class="tt">${esc(m.title_al)}</div></div>
-  </div>`;
-}
-function rowHTML(title,sub,items,fn,rowId){
-  return `<section class="sec"${rowId?` id="${rowId}"`:''}>
-    <div class="sec-head"><h2>${title}</h2>${sub?`<small>${sub}</small>`:''}</div>
-    <div class="sl"><button class="ar l" aria-label="Mbrapa">‹</button>
-    <div class="row">${items.map(fn).join('')}</div>
-    <button class="ar r" aria-label="Para">›</button></div>
-  </section>`;
-}
-
-/* ---------- favorites (Lista ime) ---------- */
-function getFav(){try{return JSON.parse(localStorage.getItem('f12h_fav')||'[]')}catch(e){return[]}}
-function isFav(id){return getFav().includes(id)}
-function toggleFav(id){
-  let f=getFav();
-  const adding=!f.includes(id);
-  f=adding?[...f,id]:f.filter(x=>x!==id);
-  try{localStorage.setItem('f12h_fav',JSON.stringify(f))}catch(e){}
-  $$(`[data-fav="${id}"]`).forEach(s=>s.textContent=f.includes(id)?'✓':'＋');
-  buildDynRows();
-  toast(adding?'U shtua në <b>Listën time</b> ✓':'U hoq nga <b>Lista ime</b>');
-}
-let toastT=null;
-function toast(msg){
-  const t=$('#toast');if(!t)return;
-  t.innerHTML=msg;t.classList.add('show');
-  clearTimeout(toastT);toastT=setTimeout(()=>t.classList.remove('show'),2200);
-}
-
-/* ---------- billboard ---------- */
-function featured(){return MOVIES.filter(m=>m.type==='film').slice(0,6)}
-function buildBillboard(){
-  const f=featured();if(!f.length)return;
-  $('#bbInd').innerHTML=f.map((_,i)=>`<button data-i="${i}" aria-label="Titulli ${i+1}"><u></u></button>`).join('');
-  $('#bbInd').addEventListener('click',e=>{
-    const b=e.target.closest('button');if(b)setBb(+b.dataset.i,true);
-  });
-  setBb(0);
-  bbTimer=setInterval(()=>setBb((bbIdx+1)%f.length),7000);
-}
-function setBb(i,manual){
-  const f=featured(),m=f[i];if(!m)return;bbIdx=i;
-  if(manual&&bbTimer){clearInterval(bbTimer);bbTimer=setInterval(()=>setBb((bbIdx+1)%f.length),7000);}
-  $('#bbImg').src=m.poster;$('#bbImg').alt=fullTitle(m);
-  $('#bbKick').textContent='Tani po luhet';
-  $('#bbTitle').innerHTML=goldTitle(m);
-  $('#bbOrig').textContent=m.title_orig||'';
-  const meta=[`${matchPct(m)}% përputhje`];
-  if(m.year)meta.push(m.year);
-  if(m.duration)meta.push(m.duration);
-  meta.push('Dublim në shqip','Full HD');
-  $('#bbMeta').innerHTML=meta.map((x,j)=>j===0?`<span>${esc(x)}</span>`:`<span class="pill">${esc(x)}</span>`).join('');
-  $('#bbDesc').textContent=m.desc||'Film i dubluar plotësisht në shqip, me cilësi Full HD.';
-  $('#bbPlay').href='film.html?id='+m.id;
-  $('#bbMore').href='film.html?id='+m.id;
-  $('#bbMore').dataset.id=m.id;
-  // bileta e artë — titulli me <br> pas fjalës së parë të shkurtër
-  const tw=m.title_al.split(' ');
-  $('#tkTitle').innerHTML=tw.length>1?esc(tw[0])+'<br>'+esc(tw.slice(1).join(' ')):esc(m.title_al);
-  $('#bb').style.setProperty('--h',20+(matchPct(m)%300));
-  // animim ndërrimi
-  ['bbIn','tkw'].forEach(k=>{const e=document.getElementById(k);if(!e)return;e.classList.remove('sw');void e.offsetWidth;e.classList.add('sw');});
-  $$('#bbInd button').forEach((b,j)=>{
-    b.classList.toggle('act',j===i);
-    b.classList.toggle('done',j<i);
-  });
-}
-
-/* ---------- bileta e artë — 3D tilt ---------- */
-(function(){
-  const bb=$('#bb'),tk=$('#tk');
-  if(!bb||!tk)return;
-  const reduce=matchMedia('(prefers-reduced-motion: reduce)').matches;
-  if(reduce)return;
-  bb.addEventListener('pointermove',e=>{
-    const r=tk.getBoundingClientRect();
-    const x=(e.clientX-r.left)/r.width-.5, y=(e.clientY-r.top)/r.height-.5;
-    tk.style.setProperty('--ry',(x*14)+'deg');
-    tk.style.setProperty('--rx',(-y*14)+'deg');
-    tk.querySelector('.m').style.setProperty('--sx',(50+x*100)+'%');
-  });
-  bb.addEventListener('pointerleave',()=>{
-    tk.style.setProperty('--ry','0deg');tk.style.setProperty('--rx','0deg');
-  });
-})();
-
-/* ---------- dialog — detaje ---------- */
-const dg=$('#dg');
-function openDialog(id){
-  const m=MOVIES.find(x=>x.id===id);if(!m||!dg)return;
-  $('#dgImg').src=m.poster;$('#dgImg').alt=fullTitle(m);
-  $('#dgHd').style.setProperty('--dh',20+(matchPct(m)%300));
-  $('#dgTitle').innerHTML=goldTitle(m);
-  $('#dgMeta').innerHTML=`<b>${matchPct(m)}% përputhje</b> · ${esc(m.year||'')} · ${esc((m.genres||[]).join(' · '))} · ${m.type==='serial'?'Serial':'Film'} · ${esc(m.quality||'HD')}`;
-  $('#dgDesc').textContent=m.desc||'Film i dubluar plotësisht në shqip, me cilësi Full HD.';
-  const extra=$('#dgExtra');
-  const vids=(m.videos||[]).filter(v=>v&&v.url);
-  if(m.type==='serial'&&vids.length){
-    extra.innerHTML='<h3 style="margin:18px 0 4px;font-size:18px">Episodet</h3>'+
-      vids.slice(0,12).map((v,i)=>`<div class="ep" data-ep="${i}"><b>${i+1}</b><span>${esc(v.label||('Episodi '+(i+1)))}</span></div>`).join('')+
-      (vids.length>12?`<p style="color:var(--muted);font-size:13px">+${vids.length-12} episode të tjera në faqen e serialit</p>`:'');
-  }else{
-    const sim=MOVIES.filter(x=>x.id!==m.id&&(x.genres||[]).some(g=>(m.genres||[]).includes(g))).slice(0,3);
-    extra.innerHTML='<h3 style="margin:18px 0 4px;font-size:18px">Të ngjashme</h3><div class="sim">'+sim.map(x=>cardHTML(x)).join('')+'</div>';
-    bindCards(extra);
-  }
-  $('#dgPlay').href='film.html?id='+m.id;
-  const favBtn=$('#dgFav');
-  favBtn.textContent=isFav(m.id)?'✓ Në listën time':'＋ Lista ime';
-  favBtn.onclick=()=>{toggleFav(m.id);favBtn.textContent=isFav(m.id)?'✓ Në listën time':'＋ Lista ime';};
-  extra.querySelectorAll('.ep').forEach(ep=>{
-    ep.addEventListener('click',()=>location.href='film.html?id='+m.id);
-  });
-  if(!dg.open)dg.showModal();
-}
-if(dg){
-  $('#dgX').onclick=()=>dg.close();
-  dg.addEventListener('click',e=>{if(e.target===dg)dg.close();});
-}
-// "Më shumë" hap dialogun në vend të navigimit direkt
-document.addEventListener('click',e=>{
-  const mb=e.target.closest('#bbMore');
-  if(mb&&mb.dataset.id){e.preventDefault();openDialog(mb.dataset.id);}
-});
-
-/* ---------- PWA — instalo ---------- */
-(function(){
-  let dp=null;
-  const btn=$('#ins');
-  addEventListener('beforeinstallprompt',e=>{
-    e.preventDefault();dp=e;
-    if(btn)btn.hidden=false;
-  });
-  if(btn)btn.addEventListener('click',()=>{
-    if(dp){dp.prompt();btn.hidden=true;dp=null;}
-  });
-})();
-function buildTop10(){
-  const seed=new Date().toISOString().slice(0,10);
-  let h=0;for(const c of seed)h=(h*31+c.charCodeAt(0))>>>0;
-  const pool=MOVIES.filter(m=>m.type==='film');
-  const picks=[],used=new Set();let s=h;
-  while(picks.length<10&&picks.length<pool.length){
-    s=(s*1103515245+12345)>>>0;
-    const i=s%pool.length;
-    if(!used.has(i)){used.add(i);picks.push(pool[i]);}
-  }
-  return rowHTML('Top 10 <em>sot</em>','më të shikuarat',picks,top10HTML);
-}
-function getContinue(){
-  let w=[];try{w=JSON.parse(localStorage.getItem('f12h_watch')||'[]')}catch(e){}
-  return w.map(x=>MOVIES.find(m=>m.id===x.id)).filter(Boolean).slice(0,10);
-}
-function buildDynRows(){
-  const host=$('#dynRows');if(!host)return;
-  const cont=getContinue();
-  const favs=getFav().map(id=>MOVIES.find(m=>m.id===id)).filter(Boolean);
-  let h='';
-  if(cont.length)h+=rowHTML('Vazhdo <em>të shikosh</em>','',cont,m=>cardHTML(m,35+((m.id.charCodeAt(0)*7)%55)));
-  if(favs.length)h+=rowHTML('Lista <em>ime</em>','',favs,m=>cardHTML(m));
-  host.innerHTML=h;
-  bindCards(host);initReveal();
-}
-function buildRows(){
-  const films=MOVIES.filter(m=>m.type==='film');
-  const sers=MOVIES.filter(m=>m.type==='serial');
-  const genres={};
-  films.forEach(m=>(m.genres||[]).forEach(g=>{genres[g]=genres[g]||[];genres[g].push(m);}));
-  const genreRows=Object.keys(genres).sort((a,b)=>genres[b].length-genres[a].length).slice(0,5)
-    .map(g=>rowHTML(`${esc(g)}`,films.length+' filma',genres[g].slice(0,20),m=>cardHTML(m))).join('');
-  $('#rows').innerHTML='<div id="dynRows"></div>'+
-    buildTop10()+
-    rowHTML('Filma <em>të dubluar</em>',films.length+' tituj',films.slice(0,20),m=>cardHTML(m),'rowFilma')+
-    rowHTML('Seriale <em>në shqip</em>',sers.length+' seriale',sers.slice(0,20),m=>cardHTML(m),'rowSeriale')+
-    genreRows;
-  buildDynRows();
-  bindCards($('#rows'));initReveal();
-}
-
-/* ---------- browse (grid i filtruar) ---------- */
-function buildChips(){
-  const set=new Set();MOVIES.forEach(m=>(m.genres||[]).forEach(g=>set.add(g)));
-  const genres=['Të gjitha','Seriale',...[...set].sort()];
-  $('#chips').innerHTML=genres.map(g=>`<button class="chip${g===activeGenre?' on':''}" data-g="${esc(g)}">${esc(g)}</button>`).join('');
-  $('#chips').addEventListener('click',e=>{
-    const b=e.target.closest('.chip');if(!b)return;
-    activeGenre=b.dataset.g;
-    $$('#chips .chip').forEach(c=>c.classList.toggle('on',c===b));
-    renderBrowse();
-  });
-}
-function matches(m,q){
-  const hay=(m.title_al+' '+(m.title_orig||'')+' '+(m.genres||[]).join(' ')).toLowerCase();
-  return hay.includes(q);
-}
-function showRows(){$('#rows').hidden=false;$('#browse').hidden=true;scrollTo({top:0,behavior:'smooth'});}
-function showBrowse(){
-  $('#rows').hidden=true;$('#browse').hidden=false;
-  renderBrowse();
-  $('#browse').scrollIntoView({behavior:'smooth'});
-}
-function renderBrowse(){
-  const serialMode=activeGenre==='Seriale';
-  const list=MOVIES
-    .filter(m=>serialMode?m.type==='serial':m.type==='film')
-    .filter(m=>serialMode||activeGenre==='Të gjitha'||(m.genres||[]).includes(activeGenre));
-  $('#browseTitle').innerHTML=serialMode?'SERIALE <em>NË SHQIP</em>':'FILMA <em>TË DUBLUAR</em>';
-  $('#browseCount').textContent=list.length+(serialMode?' seriale':' tituj');
-  $('#browseGrid').innerHTML=list.map(m=>cardHTML(m)).join('');
-  $('#noRes').hidden=list.length>0;
-  bindCards($('#browseGrid'));initReveal();
-}
-
-/* ---------- lidhja e kartave ---------- */
-function bindCards(root){
-  if(!root)return;
-  root.querySelectorAll('.ar').forEach(a=>{
-    a.onclick=()=>{
-      const r=a.parentNode.querySelector('.row');
-      r.scrollBy({left:(a.classList.contains('l')?-1:1)*r.clientWidth*.85,behavior:'smooth'});
+  const vurl = (v) => (typeof v === 'string' ? v : (v && v.url) || '');
+  const vlabel = (v, i) => (typeof v === 'string' ? 'Shiko' : (v && v.label) || ('Pjesa ' + (i + 1)));
+  function mapItem(m) {
+    const videos = (m.videos || []).map((v, i) => ({ label: vlabel(v, i), url: vurl(v) })).filter((v) => v.url);
+    return {
+      id: m.id,
+      media_type: m.type === 'serial' ? 'tv' : 'movie',
+      title: m.title_al || m.title_orig || '',
+      otitle: m.title_orig || '',
+      year: m.year || '',
+      poster: m.poster || '',
+      quality: String(m.quality || 'FULL HD').toUpperCase(),
+      genres: Array.isArray(m.genres) ? m.genres : [],
+      overview: m.desc || '',
+      duration: m.duration || '',
+      studio: m.studio || '',
+      videos
     };
-  });
-  root.querySelectorAll('.c,.tn').forEach(c=>{
-    if(c.dataset.bound)return;c.dataset.bound='1';
-    const go=()=>openDialog(c.dataset.id);
-    c.addEventListener('click',e=>{
-      const f=e.target.closest('[data-fav]');
-      if(f){e.stopPropagation();toggleFav(c.dataset.id);return;}
-      go();
+  }
+
+  let FILMA = [], SERIALE = [], ALL = [];
+  const byId = new Map();
+  async function loadData() {
+    if (ALL.length) return ALL;
+    const [f, s] = await Promise.all([
+      fetch('data/filma.json').then((r) => r.json()),
+      fetch('data/seriale.json').then((r) => r.json())
+    ]);
+    FILMA = f.map(mapItem);
+    SERIALE = s.map(mapItem);
+    ALL = FILMA.concat(SERIALE);
+    ALL.forEach((it) => { byId.set(it.media_type + ':' + it.id, it); seen.set(it.media_type + ':' + it.id, it); });
+    return ALL;
+  }
+
+  const byGenre = (list, g, n) => list.filter((m) => m.genres.includes(g)).slice(0, n || 30);
+  function buildRows(r) {
+    if (r === '/filma') return [
+      { title: 'Filmat më popullorë', hero: true, items: FILMA.slice(0, 30) },
+      { title: 'Animuar', wide: true, items: byGenre(FILMA, 'Animuar') },
+      { title: 'Aventurë', items: byGenre(FILMA, 'Aventurë') },
+      { title: 'Komedi', items: byGenre(FILMA, 'Komedi') },
+      { title: 'Aksion', items: byGenre(FILMA, 'Aksion') },
+      { title: 'Familjar', items: byGenre(FILMA, 'Familjar') },
+      { title: 'Dramë', items: byGenre(FILMA, 'Dramë') }
+    ];
+    if (r === '/seriale') return [
+      { title: 'Serialet më popullore', hero: true, top: true, items: SERIALE.slice(0, 30) },
+      { title: 'Aksion', wide: true, items: byGenre(SERIALE, 'Aksion') },
+      { title: 'Animuar', items: byGenre(SERIALE, 'Animuar') },
+      { title: 'Aventurë', items: byGenre(SERIALE, 'Aventurë') },
+      { title: 'Fantazi', items: byGenre(SERIALE, 'Fantazi') },
+      { title: 'Komedi', items: byGenre(SERIALE, 'Komedi') }
+    ];
+    return [
+      { title: 'Top 10 sot', tag: 'Në trend', top: true, hero: true, items: FILMA.slice(0, 10) },
+      { title: 'Filma të dubluar', items: FILMA.slice(10, 40) },
+      { title: 'Seriale në shqip', items: SERIALE.slice(0, 30) },
+      { title: 'Animuar', wide: true, items: byGenre(FILMA, 'Animuar') },
+      { title: 'Aventurë', items: byGenre(FILMA, 'Aventurë') },
+      { title: 'Komedi', items: byGenre(FILMA, 'Komedi') },
+      { title: 'Aksion', items: FILMA.filter((m) => m.genres.includes('Aksion')).concat(SERIALE.filter((m) => m.genres.includes('Aksion'))).slice(0, 30) },
+      { title: 'Fantazi', items: byGenre(FILMA, 'Fantazi') },
+      { title: 'Familjar', items: byGenre(FILMA, 'Familjar') }
+    ];
+  }
+
+  async function load(row) { return row.items || []; }
+
+  /* ================= Kartat ================= */
+  function poster(it, wide) {
+    if (!it.poster) return `<div class="ph" style="--h:${hue(it.id)}"><b>${esc(titleOf(it))}</b><span>${esc(yearOf(it))}${it.genres && it.genres[0] ? ' · ' + esc(it.genres[0]) : ''}</span></div>`;
+    return `<img src="${esc(it.poster)}" alt="" loading="lazy" decoding="async" onload="this.classList.add('ok')" onerror="this.remove()">`;
+  }
+
+  function card(it, row = {}) {
+    const type = typeOf(it, row.type);
+    return `<a class="card${row.wide ? ' card--wide' : ''}" href="#" data-id="${it.id}" data-type="${type}" aria-label="${esc(titleOf(it))}">
+      ${poster(it, row.wide)}
+      <span class="card__rate">${esc(it.quality || 'FULL HD')}</span>
+      <span class="card__info"><b>${esc(titleOf(it))}</b><span>${esc(yearOf(it))} · ${type === 'tv' ? 'Serial' : 'Film'}</span></span>
+    </a>`;
+  }
+
+  /* Ruaj artikujt që të hapen pa thirrje shtesë */
+  const seen = new Map();
+  const remember = (list, type) => list.forEach((it) => seen.set(typeOf(it, type) + ':' + it.id, { ...it, media_type: typeOf(it, type) }));
+
+  /* ================= Rreshtat ================= */
+  const rowsEl = $('#rows');
+  const io = 'IntersectionObserver' in window ? new IntersectionObserver((es) => es.forEach((e) => { if (e.isIntersecting) { e.target.classList.add('in'); io.unobserve(e.target); } }), { rootMargin: '0px 0px -8% 0px' }) : null;
+
+  function rowShell(row, i) {
+    const sec = document.createElement('section');
+    sec.className = 'row';
+    sec.innerHTML = `<div class="row__head"><h2>${esc(row.title)}${row.tag ? `<small>${esc(row.tag)}</small>` : ''}</h2>
+      <div class="row__nav"><button data-dir="-1" aria-label="Majtas">‹</button><button data-dir="1" aria-label="Djathtas">›</button></div></div>
+      <div class="track" role="list">${Array.from({ length: 8 }, () => `<div class="card sk${row.wide ? ' card--wide' : ''}"></div>`).join('')}</div>`;
+    sec.querySelectorAll('.row__nav button').forEach((b) => b.addEventListener('click', () => {
+      const t = sec.querySelector('.track'); t.scrollBy({ left: b.dataset.dir * t.clientWidth * 0.85, behavior: 'smooth' });
+    }));
+    if (io) io.observe(sec); else sec.classList.add('in');
+    if (i < 2) sec.classList.add('in');
+    return sec;
+  }
+
+  async function fillRow(sec, row) {
+    const track = sec.querySelector('.track');
+    try {
+      let list = await load(row);
+      remember(list, row.type);
+      if (!list.length) { sec.remove(); return []; }
+      if (row.top) {
+        list = list.slice(0, 10);
+        track.innerHTML = list.map((it, n) => `<div class="top" role="listitem"><span class="top__n" aria-hidden="true">${n + 1}</span>${card(it, row)}</div>`).join('');
+      } else {
+        track.innerHTML = list.map((it) => card(it, row)).join('');
+      }
+      return list;
+    } catch (e) {
+      track.innerHTML = `<p style="color:var(--muted);padding:0 4px">Nuk u ngarkua. <button class="chip" data-retry>Provo sërish</button></p>`;
+      track.querySelector('[data-retry]').onclick = () => fillRow(sec, row);
+      return [];
+    }
+  }
+
+  /* ================= Hero ================= */
+  let heroTimer = null, heroList = [], heroIdx = 0;
+
+  function setHero(list) {
+    const pool = list.filter((x) => x.poster);
+    heroList = pool.slice(0, 5);
+    if (!heroList.length) return;
+    const bg = $('#heroBg');
+    bg.innerHTML = heroList.map((it) => `<div class="slide" style="background-image:url(${esc(it.poster)})"></div>`).join('');
+    $('#heroDots').innerHTML = heroList.map((it, i) => `<button role="tab" aria-label="${esc(titleOf(it))}" data-i="${i}"><i></i></button>`).join('');
+    $('#heroDots').onclick = (e) => { const b = e.target.closest('button'); if (b) showHero(+b.dataset.i); };
+    showHero(0);
+  }
+
+  function showHero(i) {
+    heroIdx = (i + heroList.length) % heroList.length;
+    const it = heroList[heroIdx];
+    const type = typeOf(it);
+    document.querySelectorAll('#heroBg .slide').forEach((s, n) => s.classList.toggle('on', n === heroIdx));
+    document.querySelectorAll('#heroDots button').forEach((b, n) => { b.classList.toggle('on', n === heroIdx); b.classList.toggle('done', n < heroIdx); });
+    const genres = (it.genres || []).slice(0, 2);
+    const inList = isListed(type, it.id);
+    $('#heroContent').innerHTML = `
+      <span class="eyebrow">#${heroIdx + 1} ${type === 'tv' ? 'Serial' : 'Film'} në trend</span>
+      <h1>${esc(titleOf(it))}</h1>
+      <div class="meta"><span class="star">${esc(it.quality || 'FULL HD')}</span><span>${esc(yearOf(it))}</span>${genres.map((g) => `<span class="chip">${esc(g)}</span>`).join('')}</div>
+      <p class="ov">${esc(it.overview || 'Film i dubluar plotësisht në shqip, me cilësi Full HD.')}</p>
+      <div class="actions">
+        <button class="btn btn--gold" data-play="${type}:${it.id}:0">${playIco}Shiko tani</button>
+        <button class="btn btn--glass" data-open="${type}:${it.id}">${infoIco}Më shumë</button>
+        <button class="btn btn--glass${inList ? ' on' : ''}" data-list="${type}:${it.id}" aria-pressed="${inList}">${inList ? '✓ Në listë' : '＋ Lista ime'}</button>
+      </div>`;
+    clearTimeout(heroTimer);
+    heroTimer = setTimeout(() => showHero(heroIdx + 1), 8000);
+  }
+
+  const playIco = '<svg width="18" height="18" viewBox="0 0 24 24" fill="currentColor"><path d="M7 4.5v15a1 1 0 0 0 1.5.86l12.6-7.5a1 1 0 0 0 0-1.72L8.5 3.64A1 1 0 0 0 7 4.5z"/></svg>';
+  const infoIco = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"><circle cx="12" cy="12" r="9"/><path d="M12 11v6M12 7.5v.01"/></svg>';
+
+  /* ================= Lista ime ================= */
+  const LKEY = 'f12_list';
+  const getList = () => store.get(LKEY, []);
+  const isListed = (type, id) => getList().some((x) => x.media_type === type && String(x.id) === String(id));
+  function toggleList(type, id) {
+    let list = getList();
+    const it = seen.get(type + ':' + id) || byId.get(type + ':' + id);
+    if (isListed(type, id)) { list = list.filter((x) => !(x.media_type === type && String(x.id) === String(id))); toast('U hoq nga lista'); }
+    else if (it) {
+      list.unshift({ id: it.id, media_type: type, title: it.title, poster: it.poster, quality: it.quality, year: it.year, genres: it.genres, overview: it.overview });
+      toast('✓ U shtua te Lista ime');
+    }
+    store.set(LKEY, list);
+    document.querySelectorAll(`[data-list="${type}:${id}"]`).forEach((b) => {
+      const on = isListed(type, id); b.classList.toggle('on', on); b.setAttribute('aria-pressed', on); b.textContent = on ? '✓ Në listë' : '＋ Lista ime';
     });
-    c.addEventListener('keydown',e=>{if(e.key==='Enter')go();});
-  });
-}
-
-/* ---------- search overlay ---------- */
-const so=$('#so'),si=$('#si'),soGrid=$('#soGrid');
-function openSearch(){so.classList.add('on');document.body.style.overflow='hidden';setTimeout(()=>si.focus(),60);renderSearch('');}
-function closeSearch(){so.classList.remove('on');document.body.style.overflow='';si.value='';}
-function renderSearch(q){
-  q=q.trim().toLowerCase();
-  const res=(q.length<2?MOVIES.slice(0,18):MOVIES.filter(m=>matches(m,q)).slice(0,30));
-  soGrid.innerHTML=res.length?res.map(m=>cardHTML(m)).join(''):
-    '<div class="so-empty">Nuk u gjet asgjë. Provo një titull tjetër.</div>';
-  bindCards(soGrid);initReveal();
-}
-$('#sb').onclick=openSearch;$('#sb2').onclick=openSearch;
-$('#sx').onclick=closeSearch;
-si.addEventListener('input',()=>renderSearch(si.value));
-document.addEventListener('keydown',e=>{if(e.key==='Escape'&&so.classList.contains('on'))closeSearch();});
-
-/* ---------- nav links ---------- */
-$$('[data-nav]').forEach(a=>{
-  a.addEventListener('click',e=>{
-    e.preventDefault();
-    const mode=a.dataset.nav;
-    if(mode==='home'){activeGenre='Të gjitha';buildChipsActive();showRows();return;}
-    activeGenre=mode==='seriale'?'Seriale':'Të gjitha';
-    buildChipsActive();
-    showBrowse();
-  });
-});
-function buildChipsActive(){
-  $$('#chips .chip').forEach(c=>c.classList.toggle('on',c.dataset.g===activeGenre));
-}
-
-/* ---------- reveal ---------- */
-let io=null;
-function initReveal(){
-  if(!io)io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}}),{threshold:.06});
-  $$('.rv:not(.in),.sec:not(.in)').forEach(el=>io.observe(el));
-}
-
-/* ---------- data ---------- */
-Promise.all([
-  fetch('data/filma.json').then(r=>r.json()),
-  fetch('data/seriale.json').then(r=>r.json())
-]).then(([filma,seriale])=>{
-  MOVIES=[...filma,...seriale];
-  buildBillboard();buildRows();buildChips();
-  initReveal();initCursor();hideLoader();
-}).catch(()=>{hideLoader();});
-
-/* ---------- custom cursor (ruajtur) ---------- */
-function initCursor(){
-  if(!matchMedia('(pointer:fine)').matches)return;
-  const dot=$('#cursorDot'),ring=$('#cursorRing');
-  let mx=innerWidth/2,my=innerHeight/2,rx=mx,ry=my,running=true;
-  document.addEventListener('visibilitychange',()=>{running=!document.hidden;if(running)requestAnimationFrame(loop);});
-  addEventListener('pointermove',e=>{mx=e.clientX;my=e.clientY;
-    dot.style.left=mx+'px';dot.style.top=my+'px';},{passive:true});
-  (function loop(){
-    if(!running)return;
-    rx+=(mx-rx)*.16;ry+=(my-ry)*.16;
-    ring.style.left=rx+'px';ring.style.top=ry+'px';
-    requestAnimationFrame(loop);
-  })();
-  document.addEventListener('pointerover',e=>{
-    document.body.classList.toggle('cur-hover',!!e.target.closest('a,button,.c,.tn,.chip,.ep'));
-  });
-}
-
-/* ---------- loader ---------- */
-(function(){
-  var L=document.getElementById('loader');
-  if(!L)return;
-  var pct=document.getElementById('ldPct'),tc=document.getElementById('ldTc'),msg=document.getElementById('ldMsg');
-  var h='',i;
-  for(i=0;i<=50;i++)h+='<span'+(i%10===0?' class="m"':'')+'></span>';
-  document.getElementById('ldTicks').innerHTML=h;
-  var d='';
-  for(i=0;i<16;i++)d+='<i style="left:'+(Math.random()*100).toFixed(1)+'%;--dx:'+((Math.random()*80-40)|0)+'px;animation-delay:-'+(Math.random()*7).toFixed(1)+'s;animation-duration:'+(5+Math.random()*5).toFixed(1)+'s"></i>';
-  document.getElementById('ldDust').innerHTML=d;
-  var lines=document.querySelectorAll('#ldLine span'),li=0;
-  var rot=setInterval(function(){
-    lines[li].classList.remove('on');li=(li+1)%lines.length;lines[li].classList.add('on');
-  },1100);
-  var DURATION=6500,start=null,finished=false;
-  var reduce=window.matchMedia&&matchMedia('(prefers-reduced-motion: reduce)').matches;
-  function ease(t){return t<.5?4*t*t*t:1-Math.pow(-2*t+2,3)/2}
-  function pad(n){return n<10?'0'+n:''+n}
-  function frame(ts){
-    if(start===null)start=ts;
-    var t=Math.min((ts-start)/DURATION,1),p=ease(t);
-    L.style.setProperty('--p',p.toFixed(4));
-    pct.textContent=Math.round(p*100)+'%';
-    var f=Math.round(p*24*24);
-    tc.textContent='00:'+pad(Math.floor(f/24))+':'+pad(f%24);
-    if(t<1){requestAnimationFrame(frame)}else{finish()}
+    if (route() === '/lista') render();
   }
-  function finish(){
-    if(finished)return;finished=true;clearInterval(rot);
-    msg.textContent='Në fokus';
-    L.classList.add('flash');
-    setTimeout(function(){
-      L.classList.add('done');
-      document.dispatchEvent(new CustomEvent('loader:done'));
-      setTimeout(function(){if(L.parentNode)L.parentNode.removeChild(L)},1400);
-    },1200);
+
+  /* ================= Detajet ================= */
+  const detail = $('#detail'), panel = $('#detailPanel');
+
+  function fetchDetail(type, id) {
+    const d = byId.get(type + ':' + id) || seen.get(type + ':' + id);
+    if (!d) return null;
+    const similar = ALL.filter((x) => x.id !== d.id && x.media_type === type && (x.genres || []).some((g) => (d.genres || []).includes(g))).slice(0, 12);
+    return { ...d, similar };
   }
-  if(reduce){L.style.setProperty('--p',1);pct.textContent='100%';setTimeout(finish,600)}
-  else requestAnimationFrame(frame);
-})();
-function hideLoader(){var L=document.getElementById('loader');if(L)setTimeout(function(){L.classList.add('done')},6000);}
 
-/* ---------- nav / toTop / dust ---------- */
-const nav=$('#nv'),toTop=$('#toTop');
-addEventListener('scroll',()=>{
-  nav.classList.toggle('s',scrollY>40);
-  toTop.classList.toggle('show',scrollY>600);
-},{passive:true});
-toTop.addEventListener('click',()=>scrollTo({top:0,behavior:'smooth'}));
-
-const spot=$('#spot');
-addEventListener('pointermove',e=>{
-  if(spot){spot.style.left=e.clientX+'px';spot.style.top=e.clientY+'px';}
-},{passive:true});
-
-const cv=$('#dust'),ctx=cv.getContext('2d');let P=[];
-function dustInit(){
-  cv.width=innerWidth;cv.height=innerHeight;P=[];
-  const nP=Math.min(70,innerWidth/18);
-  for(let i=0;i<nP;i++)P.push({x:Math.random()*cv.width,y:Math.random()*cv.height,
-    r:Math.random()*2.2+.6,s:Math.random()*.35+.08,o:Math.random()*.5+.15,ph:Math.random()*6.28});
-}
-let dustRunning=true;
-document.addEventListener('visibilitychange',()=>{dustRunning=!document.hidden;if(dustRunning)requestAnimationFrame(dustTick);});
-function dustTick(t){
-  if(!dustRunning)return;
-  ctx.clearRect(0,0,cv.width,cv.height);
-  for(const p of P){
-    p.y-=p.s;p.x+=Math.sin(t/1600+p.ph)*.18;
-    if(p.y<-6){p.y=cv.height+6;p.x=Math.random()*cv.width;}
-    const tw=p.o*(0.6+0.4*Math.sin(t/700+p.ph));
-    ctx.beginPath();ctx.arc(p.x,p.y,p.r,0,6.28);
-    ctx.fillStyle=`rgba(232,182,76,${tw.toFixed(3)})`;ctx.fill();
+  function fmtRuntime(d) {
+    if (d.media_type === 'tv') return (d.videos || []).length + ((d.videos || []).length === 1 ? ' episod' : ' episode');
+    const dur = String(d.duration || '');
+    return /^[\d\sminh:]+$/.test(dur) && dur.length <= 10 ? dur : '';
   }
-  requestAnimationFrame(dustTick);
-}
-if(cv){dustInit();requestAnimationFrame(dustTick);addEventListener('resize',dustInit);}
+
+  let lastFocus = null;
+  async function openDetail(type, id) {
+    lastFocus = document.activeElement;
+    detail.hidden = false; lock(true);
+    panel.innerHTML = `<div class="d__hero sk" style="border-radius:0"></div><div class="d__body"><div><div class="sk sk--title"></div><div class="sk sk--line"></div><div class="sk sk--line"></div></div></div>`;
+    try {
+      await loadData();
+      const d = fetchDetail(type, id);
+      if (!d) throw new Error('not found');
+      const genres = d.genres || [];
+      const similar = d.similar || [];
+      remember(similar, type);
+      const inList = isListed(type, id);
+      const hb = d.poster ? `background-image:url(${esc(d.poster)})` : `background:radial-gradient(80% 90% at 70% 30%,hsla(${hue(id)},70%,45%,.55),transparent 70%),linear-gradient(140deg,hsl(${hue(id)},40%,14%),#0e0e15)`;
+      const vids = d.videos || [];
+      const epSection = vids.length > 1 ? `<section class="d__sec"><h3>${type === 'tv' ? 'Episodet' : 'Burimet'}</h3><div style="display:flex;flex-wrap:wrap;gap:8px">${vids.map((v, i) => `<button class="chip" data-play="${type}:${id}:${i}" style="cursor:pointer">${esc(v.label || ('Pjesa ' + (i + 1)))}</button>`).join('')}</div></section>` : '';
+      panel.innerHTML = `
+        <div class="d__hero" style="${hb}"><button class="icon-btn d__close" data-close aria-label="Mbyll">✕</button></div>
+        <div class="d__head">
+          <span class="eyebrow">${type === 'tv' ? 'Serial' : 'Film'} · Dubluar në shqip</span>
+          <h2 id="dTitle">${esc(titleOf(d))}</h2>
+          <div class="meta"><span class="star">${esc(d.quality || 'FULL HD')}</span><span>${esc(yearOf(d))}</span>${fmtRuntime(d) ? `<span>${fmtRuntime(d)}</span>` : ''}${genres.slice(0, 3).map((g) => `<span class="chip">${esc(g)}</span>`).join('')}</div>
+          <div class="actions" style="margin-top:20px">
+            <button class="btn btn--gold" data-play="${type}:${id}:0">${playIco}Shiko tani</button>
+            <button class="btn btn--glass${inList ? ' on' : ''}" data-list="${type}:${id}" aria-pressed="${inList}">${inList ? '✓ Në listë' : '＋ Lista ime'}</button>
+          </div>
+        </div>
+        <div class="d__body">
+          <div>${d.otitle && d.otitle !== d.title ? `<p style="color:var(--gold2);font-style:italic">“${esc(d.otitle)}”</p>` : ''}<p>${esc(d.overview || 'Përshkrimi nuk është i disponueshëm ende.')}</p></div>
+          <aside class="d__side"><dl>
+            ${d.studio ? `<div><dt>Studio</dt><dd>${esc(d.studio)}</dd></div>` : ''}
+            ${genres.length ? `<div><dt>Zhanret</dt><dd>${esc(genres.join(', '))}</dd></div>` : ''}
+            <div><dt>Dublimi</dt><dd>Shqip</dd></div>
+            <div><dt>Cilësia</dt><dd>${esc(d.quality || 'FULL HD')}</dd></div>
+          </dl></aside>
+        </div>
+        ${epSection}
+        ${similar.length ? `<section class="d__sec"><h3>Të ngjashëm</h3><div class="grid">${similar.map((s) => card(s, { type })).join('')}</div></section>` : ''}`;
+      panel.querySelector('.d__close').focus();
+      detail.scrollTop = 0;
+    } catch (e) {
+      panel.innerHTML = `<div class="d__body"><div><h2 style="font-family:var(--display);font-size:40px;margin:0">Ups!</h2><p>Detajet nuk u ngarkuan. Provo përsëri pas pak.</p><button class="btn btn--glass" data-close>Mbyll</button></div></div>`;
+    }
+  }
+
+  /* ================= Playeri (filmi i vërtetë) ================= */
+  const player = $('#player'), frame = $('#playerFrame');
+  function isDirect(url) { return /\.(mp4|webm|mov|mkv|m3u8)(\?|#|$)/i.test(url) || /dropbox\.com|dropboxusercontent\.com/i.test(url); }
+  function openPlayer(type, id, idx) {
+    const d = byId.get(type + ':' + id) || seen.get(type + ':' + id);
+    const vids = (d && d.videos) || [];
+    if (!vids.length) { toast('Ky titull nuk ka burim video'); return; }
+    const v = vids[Math.min(idx || 0, vids.length - 1)];
+    player.hidden = false; lock(true);
+    const label = esc(v.label || titleOf(d));
+    if (isDirect(v.url)) {
+      let src = v.url;
+      if (/dropbox\.com/i.test(src)) src = src.replace('www.dropbox.com', 'dl.dropboxusercontent.com').replace(/[?&]dl=0/, '');
+      frame.innerHTML = `<video src="${esc(src)}" controls autoplay playsinline style="position:absolute;inset:0;width:100%;height:100%;background:#000"></video>`;
+    } else {
+      frame.innerHTML = `<iframe src="${esc(v.url)}" title="${label}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="origin"></iframe>`;
+    }
+  }
+
+  /* ================= Kërkimi ================= */
+  const search = $('#search'), sInput = $('#searchInput'), sRes = $('#searchResults'), sHint = $('#searchHint');
+  let sTimer = null;
+  function openSearch() { lastFocus = document.activeElement; search.hidden = false; lock(true); setTimeout(() => sInput.focus(), 30); }
+  sInput.addEventListener('input', () => {
+    clearTimeout(sTimer);
+    const q = sInput.value.trim().toLowerCase();
+    if (q.length < 2) { sRes.innerHTML = ''; sHint.textContent = 'Shkruaj të paktën 2 shkronja'; return; }
+    sHint.textContent = 'Po kërkoj…';
+    sTimer = setTimeout(async () => {
+      await loadData();
+      const list = ALL.filter((x) => (x.title + ' ' + (x.otitle || '')).toLowerCase().includes(q)).slice(0, 60);
+      remember(list);
+      sHint.textContent = list.length ? `${list.length} rezultate për “${sInput.value.trim()}”` : `Asnjë rezultat për “${sInput.value.trim()}”`;
+      sRes.innerHTML = list.map((it) => card(it)).join('');
+    }, 250);
+  });
+
+  /* ================= Mbyllja / ngjarjet ================= */
+  function lock(on) { document.body.classList.toggle('lock', on || !detail.hidden || !player.hidden || !search.hidden); }
+  function closeTop() {
+    if (!player.hidden) { player.hidden = true; frame.innerHTML = ''; }
+    else if (!detail.hidden) { detail.hidden = true; panel.innerHTML = ''; }
+    else if (!search.hidden) { search.hidden = true; }
+    else return;
+    lock(false);
+    if (lastFocus && document.contains(lastFocus)) lastFocus.focus({ preventScroll: true });
+  }
+
+  document.addEventListener('click', (e) => {
+    const c = e.target.closest('[data-close]');
+    if (c) { e.preventDefault(); closeTop(); return; }
+    const cd = e.target.closest('.card[data-id]');
+    if (cd) {
+      e.preventDefault();
+      if (!search.hidden) { search.hidden = true; }
+      if (!detail.hidden) { panel.innerHTML = ''; }
+      openDetail(cd.dataset.type, cd.dataset.id);
+      return;
+    }
+    const pl = e.target.closest('[data-play]');
+    if (pl) { const [t, id, i] = pl.dataset.play.split(':'); openPlayer(t, id, +i || 0); return; }
+    const op = e.target.closest('[data-open]');
+    if (op) { const [t, id] = op.dataset.open.split(':'); openDetail(t, id); return; }
+    const ls = e.target.closest('[data-list]');
+    if (ls) { const [t, id] = ls.dataset.list.split(':'); toggleList(t, id); }
+  });
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'Escape') closeTop();
+    if (e.key === '/' && search.hidden && !/input|textarea/i.test(document.activeElement.tagName)) { e.preventDefault(); openSearch(); }
+  });
+  $('#openSearch').addEventListener('click', openSearch);
+
+  const header = $('#header'), toTop = $('#toTop');
+  addEventListener('scroll', () => {
+    const y = scrollY;
+    header.classList.toggle('solid', y > 40);
+    toTop.classList.toggle('on', y > 900);
+  }, { passive: true });
+  toTop.addEventListener('click', () => scrollTo({ top: 0, behavior: 'smooth' }));
+
+  let toastT;
+  function toast(msg) { const t = $('#toast'); t.textContent = msg; t.classList.add('on'); clearTimeout(toastT); toastT = setTimeout(() => t.classList.remove('on'), 2200); }
+
+  /* ================= Rrugëzimi ================= */
+  const route = () => { const r = (location.hash || '#/').slice(1) || '/'; return ['/', '/filma', '/seriale', '/lista'].includes(r) ? r : '/'; };
+  const TITLES = { '/': 'Filma12HD — Kinema në shtëpinë tuaj', '/filma': 'Filma — Filma12HD', '/seriale': 'Seriale — Filma12HD', '/lista': 'Lista ime — Filma12HD' };
+  let renderId = 0;
+
+  async function render() {
+    const r = route(), id = ++renderId;
+    document.title = TITLES[r];
+    document.querySelectorAll('.nav a').forEach((a) => a.classList.toggle('active', a.dataset.route === r));
+    clearTimeout(heroTimer);
+    rowsEl.innerHTML = '';
+    $('#emptyList').hidden = true;
+
+    try { await loadData(); } catch (e) { rowsEl.innerHTML = '<p style="color:var(--muted);padding:24px var(--pad)">Katalogu nuk u ngarkua. Kontrollo lidhjen dhe rifresko faqen.</p>'; introDone(); return; }
+    if (id !== renderId) return;
+
+    if (r === '/lista') {
+      document.body.classList.add('view-sub'); $('#hero').hidden = true;
+      const list = getList().map((x) => byId.get(x.media_type + ':' + x.id) || x);
+      remember(list);
+      introDone();
+      if (!list.length) { $('#emptyList').hidden = false; return; }
+      const sec = document.createElement('section');
+      sec.className = 'row in';
+      sec.innerHTML = `<div class="row__head"><h2>Lista ime<small>${list.length} tituj</small></h2></div><div class="grid" style="padding:14px var(--pad)">${list.map((it) => card(it)).join('')}</div>`;
+      rowsEl.appendChild(sec);
+      return;
+    }
+
+    document.body.classList.remove('view-sub'); $('#hero').hidden = false;
+    const rows = buildRows(r);
+    const shells = rows.map((row, i) => { const s = rowShell(row, i); rowsEl.appendChild(s); return s; });
+    const first = await fillRow(shells[0], rows[0]);
+    if (id !== renderId) return;
+    introDone();
+    const heroRow = rows.findIndex((x) => x.hero);
+    if (!first.length) { $('#hero').hidden = true; document.body.classList.add('view-sub'); }
+    else if (heroRow === 0) setHero(first.map((it) => ({ ...it, media_type: typeOf(it, rows[0].type) })));
+    else if (heroRow > 0) { const hl = await fillRow(shells[heroRow], rows[heroRow]); if (hl.length) setHero(hl); }
+    rows.slice(1).forEach((row, i) => { if (i + 1 !== heroRow) fillRow(shells[i + 1], row); });
+    if (r === '/' || r === '/filma' || r === '/seriale') scrollTo({ top: 0 });
+  }
+  addEventListener('hashchange', render);
+
+  /* ================= Hyrja ================= */
+  let introDone = () => {};
+  function intro() {
+    const el = $('#intro'), bar = $('#introBar');
+    let played = false;
+    try { played = sessionStorage.getItem('f12_intro') === '1'; sessionStorage.setItem('f12_intro', '1'); } catch (e) { /* pa ruajtje */ }
+    const end = () => { el.classList.add('gone'); document.body.classList.remove('is-intro'); };
+    if (played || matchMedia('(prefers-reduced-motion: reduce)').matches) { end(); return; }
+    const t0 = performance.now();
+    let closed = false;
+    setTimeout(() => { bar.style.width = '35%'; }, 950);
+    setTimeout(() => { bar.style.width = '62%'; }, 1300);
+    const close = () => {
+      if (closed) return; closed = true;
+      const wait = Math.max(0, 1900 - (performance.now() - t0));
+      setTimeout(() => {
+        bar.style.width = '100%';
+        setTimeout(() => { el.classList.add('out'); document.body.classList.remove('is-intro'); setTimeout(end, 1050); }, 420);
+      }, wait);
+    };
+    introDone = close;
+    setTimeout(close, 4500); // mos e mbaj përdoruesin në pritje
+  }
+
+  $('#year').textContent = new Date().getFullYear();
+  intro();
+  render();
 })();
