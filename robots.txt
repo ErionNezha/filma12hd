@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://filma12hd.vercel.app/sitemap.xml
