@@ -1171,26 +1171,6 @@
   ]
  },
  {
-  "id": "m376",
-  "title_al": "Zemra e Kozetës",
-  "title_orig": "Les Misérables: Shoujo Cosette",
-  "year": "2007",
-  "duration": "",
-  "studio": "",
-  "genres": [
-   "Animuar",
-   "Dramë"
-  ],
-  "desc": "Në Francën e varfër të shekullit XIX, Kozeta e vogël punon e vuan te familja Thenardier, ndërsa ish i dënuari Zhan Valzhan vendos ta marrë nën mbrojtjen e tij.",
-  "poster": "img/posters-webp/m376.webp",
-  "quality": "FULL HD",
-  "dub": "Dubluar në shqip",
-  "type": "serial",
-  "videos": [
-   "https://filemoon.sx/e/1psaj4ercra3/"
-  ]
- },
- {
   "id": "m377",
   "title_al": "Detektivi Konan",
   "title_orig": "Detective Conan",
@@ -2889,7 +2869,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m634.webp",
-  "description": "Johnny Bravo është një djalë me biceps të fryrë që beson se është dhuratë për gratë e tokës. Aventurat e tij komike plot keqkuptime e bëjnë një nga serialet më qesharake të dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Johnny Bravo",
@@ -2976,7 +2955,7 @@
     "url": "https://abyssplayer.com/EN-3_3FDV"
    }
   ],
-  "desc": "Johnny Bravo, djaloshi muskuloz e mendjemadh nga Aron City, përpiqet pa sukses të fitojë zemrat e vajzave — dhe çdo përpjekje përfundon me humor.",
+  "desc": "Johnny Bravo është një djalë me biceps të fryrë që beson se është dhuratë për gratë e tokës. Aventurat e tij komike plot keqkuptime e bëjnë një nga serialet më qesharake të dubluar në shqip.",
   "quality": "FULL HD"
  },
  {
@@ -2992,7 +2971,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m635.webp",
-  "description": "Piter Parker kafshohet nga një merimangë dhe bëhet Njeriu-Merimangë, duke luftuar krimin në Nju Jork. Seriali klasik i animuar, i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Night of the Lizard",
@@ -3260,7 +3238,7 @@
  },
  {
   "id": "m636",
-  "title_al": "Les Misérables: Little Girl Cosette",
+  "title_al": "Zemra e Kozetës",
   "title_orig": "Les Misérables: Little Girl Cosette",
   "year": "2007",
   "duration": null,
@@ -3272,7 +3250,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m636.webp",
-  "description": "Historia prekëse e Cosette-s së vogël në Francën e shekullit XIX, bazuar në kryeveprën e Hygosë. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — -1-Fantina dhe Kozeta",
@@ -3483,7 +3460,7 @@
     "url": "https://www.dropbox.com/scl/fi/02obby40r2b6hrg1ak9mb/S01E52-Il-senso-di-una-vita.mp4?rlkey=pepbwgzj39cy7psct2c98lqkw&st=nmh7rq3c&dl=0"
    }
   ],
-  "desc": "Kozeta, vajza e varfër e Fantinës, rritet nën kujdesin e Zhan Valzhanit në Francën e shekullit XIX — përshtatja anime e romanit të Viktor Hygosë 'Të mjerët'.",
+  "desc": "Në Francën e varfër të shekullit XIX, Kozeta e vogël punon e vuan te familja Thenardier, ndërsa ish i dënuari Zhan Valzhan vendos ta marrë nën mbrojtjen e tij.",
   "quality": "FULL HD"
  },
  {
@@ -3500,7 +3477,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m638.webp",
-  "description": "Princeshat sirena Lucia dhe mikeshat e saj luftojnë të keqen me fuqinë e këngës. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Lot Perlash",
@@ -3880,7 +3856,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m639.webp",
-  "description": "Gon Freecss niset në një udhëtim të rrezikshëm për t’u bërë Hunter dhe për të gjetur babanë e tij. Aventurë epike e dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Nisja X dhe X Miqtë",
@@ -4492,7 +4467,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m640.webp",
-  "description": "Një spiun, një vrasëse dhe një vajzë telepate formojnë një familje fallco për misionin e paqes. Komedi familjare e dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Operacioni Strix",
@@ -4656,7 +4630,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m642.webp",
-  "description": "Pas një drite misterioze që i ngriu njerëzit në gur, Senku zgjohet dhe përdor shkencën për të rindërtuar qytetërimin. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Bota e gurëve",
@@ -4979,7 +4952,7 @@
     "url": "https://abyssplayer.com/Xbgo8r5TZ"
    }
   ],
-  "desc": "Mijëra vjet pasi njerëzimi u kthye në gur, gjeniu Senku zgjohet dhe, me fuqinë e shkencës, niset të rindërtojë qytetërimin nga e para.",
+  "desc": "Pas një drite misterioze që i ngriu njerëzit në gur, Senku zgjohet dhe përdor shkencën për të rindërtuar qytetërimin. Serial i dubluar në shqip.",
   "quality": "FULL HD"
  },
  {
@@ -4996,7 +4969,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m644.webp",
-  "description": "Po, Luftëtari Dragon, vazhdon aventurat e tij qesharake duke mbrojtur Luginën e Paqes. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Sting i Akrepit",
@@ -5088,7 +5060,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m646.webp",
-  "description": "Goku mbron Tokën nga armiq gjithnjë e më të fortë, nga Vegeta te Cell e Majin Buu. Legjenda vazhdon, e dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — The New Threat",
@@ -5432,7 +5403,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m647.webp",
-  "description": "Hiccup dhe Toothless eksplorojnë botë të reja me dragonjtë e Berk-ut. Aventurë e dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Dragon Eye of the Beholder (1)",
@@ -5492,7 +5462,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m648.webp",
-  "description": "Po bashkohet me një kalorëse angleze për të shpëtuar katër armët legjendare. Aventurë e re e dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — A Cause for the Paws",
@@ -5556,7 +5525,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m649.webp",
-  "description": "Mikey dhe miqtë bashkohen me Digimon për të shpëtuar Botën Digjitale nga forcat e errëta. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Mikey Goes to Another World",
@@ -5892,7 +5860,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m650.webp",
-  "description": "Yugi Muto zgjidh enigmën e Mijëvjeçarit dhe duel me karta magjike për të shpëtuar botën. Klasik i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — The Heart of the Cards",
@@ -6021,7 +5988,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m651.webp",
-  "description": "Hiro dhe Baymax me ekipin e tyre mbrojnë San Fransokyo-n me teknologji. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Baymax Returns",
@@ -6125,7 +6091,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m652.webp",
-  "description": "Princesha Elena mëson të sundojë mbretërinë e Avalor-it me magji dhe kurajë. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — First Day of Rule",
@@ -6236,7 +6201,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m653.webp",
-  "description": "Andy Larkin është mbreti i shakave në qytetin e tij, gjithmonë një hap para. Komedi e dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Just Stuffing",
@@ -6359,7 +6323,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m654.webp",
-  "description": "Ben Tennyson, tani adoleshent, kthehet me Omnitrix-in për të luftuar alienë të rinj. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Ben 10 Returns (1)",
@@ -6555,7 +6518,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m655.webp",
-  "description": "Mark Evans mbledh një ekip futbolli për të shpëtuar klubin e shkollës. Sport dhe miqësi, i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Lets Play Soccer!",
@@ -6678,7 +6640,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m656.webp",
-  "description": "Spider-Man stërvitet me SHIELD-in dhe lufton armiq të rinj krahas heronjve të tjerë. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Great Power",
@@ -6798,7 +6759,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m658.webp",
-  "description": "Aventurat e këlyshëve dalmat me Pongo-n dhe Perditën kundër Cruella de Vil. Serial familjar i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Home is Where the Bark Is",
@@ -6954,7 +6914,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m659.webp",
-  "description": "Katër vajza bëhen Mysticons, luftëtare legjendare që mbrojnë mbretërinë Drake City. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Sisters in Ams",
@@ -7054,7 +7013,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m660.webp",
-  "description": "Alvin, Simon dhe Theodore vazhdojnë jetën e tyre muzikore plot humor me Dave-in. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Talkin' Teddy",
@@ -7178,7 +7136,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m661.webp",
-  "description": "Barbie dhe miqtë e saj jetojnë aventura qesharake në Shtëpinë e Ëndrrave. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Akt balancimi",
@@ -7230,7 +7187,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m662.webp",
-  "description": "Dy gjysmë-vëllezër ndërtojnë shpikje të çmendura çdo ditë vere, ndërsa Perry lufton Dr. Doofenshmirtz. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Rollercoaster",
@@ -7354,7 +7310,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m663.webp",
-  "description": "Ichigo dhe vajzat Mew Mew luftojnë alienët për të shpëtuar Tokën. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Turning into a Cat – Justice Lies in a Girl in Love ~Nya!",
@@ -7582,7 +7537,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m664.webp",
-  "description": "Goku i vogël niset të mbledhë 7 Topat e Dragoit në aventurën që nisi legjendën. Klasik i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — The Secret of the Dragon Balls",
@@ -8210,7 +8164,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m667.webp",
-  "description": "Goku kthehet fëmijë dhe udhëton nëpër galaktikë për Topat e Dragoit me Yje të Zinj. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — A Devastating Wish",
@@ -8486,7 +8439,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m668.webp",
-  "description": "Boruto, djali i Naruto-s, shkruan historinë e tij si ninja e brezit të ri. Serial i dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Boruto Uzumaki!",
@@ -9538,7 +9490,6 @@
   ],
   "type": "serial",
   "poster": "img/posters-webp/m669.webp",
-  "description": "Naruto kthehet pas dy vitesh stërvitje për të shpëtuar Sasuke-n dhe për t’u bërë Hokage. Saga vazhdon, e dubluar në shqip.",
   "videos": [
    {
     "label": "Episodi 1 — Homecoming",
