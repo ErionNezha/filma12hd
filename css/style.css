@@ -265,3 +265,13 @@ button{font:inherit;color:inherit;cursor:pointer;border:0;background:none}
 @media (prefers-reduced-motion:reduce){
   *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
 }
+
+/* Gjendjet e ngarkimit (shtuar 2026-10-17) */
+.loadwait{min-height:40vh;display:grid;place-content:center;justify-items:center;gap:14px;color:var(--muted);padding:48px var(--pad);text-align:center}
+.loadwait i{width:44px;height:44px;border-radius:50%;border:3px solid rgba(232,182,90,.25);border-top-color:var(--gold);animation:spin .9s linear infinite}
+.loaderr{min-height:52vh;display:grid;place-content:center;justify-items:center;gap:10px;text-align:center;padding:48px var(--pad)}
+.loaderr__mark{color:var(--gold);font-size:32px;line-height:1}
+.loaderr h2{margin:0;font-size:clamp(24px,4vw,34px)}
+.loaderr p{color:var(--muted);margin:0 0 10px}
+.player__spin{position:absolute;inset:0;display:grid;place-items:center;background:#000;z-index:3}
+.player__spin i{width:52px;height:52px;border-radius:50%;border:3px solid rgba(232,182,90,.25);border-top-color:var(--gold);animation:spin .9s linear infinite}

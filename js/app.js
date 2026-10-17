@@ -275,8 +275,9 @@
     if (isDirect(url)) {
       let src = url;
       if (/dropbox\.com/i.test(src)) src = src.replace('www.dropbox.com', 'dl.dropboxusercontent.com').replace(/[?&]dl=0/, '');
-      frame.innerHTML = `<video src="${esc(src)}" controls autoplay playsinline style="position:absolute;inset:0;width:100%;height:100%;background:#000"></video>`;
+      frame.innerHTML = `<div class="player__spin" id="pSpin"><i></i></div><video src="${esc(src)}" controls autoplay playsinline style="position:absolute;inset:0;width:100%;height:100%;background:#000"></video>`;
       const vid = frame.querySelector('video');
+      vid.addEventListener('canplay', () => { const s = document.getElementById('pSpin'); if (s) s.remove(); });
       const fail = () => {
         if (!document.body.contains(vid)) return;
         frame.innerHTML = `<div class="player__msg"><div><p style="font-size:18px;color:var(--text);margin:0 0 8px">Ky burim nuk luhet në këtë shfletues</p><p style="margin:0 0 18px">Formati i videos nuk mbështetet këtu.${vids.length > 1 ? ' Provo një burim ose episod tjetër te detajet e titullit.' : ''}</p><a class="btn btn--gold" href="${esc(src)}" target="_blank" rel="noopener">Hap videon në skedë të re</a></div></div>`;
@@ -284,7 +285,11 @@
       vid.addEventListener('error', fail);
       setTimeout(() => { if (document.body.contains(vid) && vid.error) fail(); }, 6000);
     } else {
-      frame.innerHTML = `<iframe src="${esc(url)}" title="${label}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="origin"></iframe>`;
+      frame.innerHTML = `<div class="player__spin" id="pSpin"><i></i></div><iframe src="${esc(url)}" title="${label}" allow="autoplay; encrypted-media; picture-in-picture; fullscreen" allowfullscreen referrerpolicy="origin"></iframe>`;
+      const ifr = frame.querySelector('iframe');
+      const killSpin = () => { const s = document.getElementById('pSpin'); if (s) s.remove(); };
+      ifr.addEventListener('load', killSpin);
+      setTimeout(killSpin, 15000);
     }
   }
 
@@ -366,8 +371,10 @@
     rowsEl.innerHTML = '';
     $('#emptyList').hidden = true;
 
-    try { await loadData(); } catch (e) { rowsEl.innerHTML = '<p style="color:var(--muted);padding:24px var(--pad)">Katalogu nuk u ngarkua. Kontrollo lidhjen dhe rifresko faqen.</p>'; introDone(); return; }
+    if (!ALL.length) { rowsEl.innerHTML = '<div class="loadwait" id="loadWait"><i></i><p>Po ngarkohet katalogu…</p></div>'; const hh = $('#hero'); if (hh) hh.hidden = true; }
+    try { await loadData(); } catch (e) { document.body.classList.add('view-sub'); const h = $('#hero'); if (h) h.hidden = true; rowsEl.innerHTML = '<div class="loaderr"><div class="loaderr__mark">✦</div><h2>Katalogu nuk u ngarkua</h2><p>Kontrollo lidhjen me internetin dhe provo përsëri.</p><button class="btn btn--gold" onclick="location.reload()">Provo përsëri</button></div>'; introDone(); return; }
     if (id !== renderId) return;
+    const lw = document.getElementById('loadWait'); if (lw) lw.remove();
 
     if (r === '/lista') {
       document.body.classList.add('view-sub'); $('#hero').hidden = true;
