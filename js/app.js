@@ -25,6 +25,7 @@
       otitle: m.title_orig || '',
       year: m.year || '',
       poster: m.poster || '',
+      backdrop: m.backdrop || '',
       quality: String(m.quality || 'FULL HD').toUpperCase(),
       genres: Array.isArray(m.genres) ? m.genres : [],
       overview: m.desc || '',
@@ -148,7 +149,7 @@
     heroList = pool.slice(0, 5);
     if (!heroList.length) return;
     const bg = $('#heroBg');
-    bg.innerHTML = heroList.map((it) => `<div class="slide" style="background-image:url(${esc(it.poster)})"></div>`).join('');
+    bg.innerHTML = heroList.map((it) => `<div class="slide" style="background-image:url(${esc(it.backdrop || it.poster)})"></div>`).join('');
     $('#heroDots').innerHTML = heroList.map((it, i) => `<button role="tab" aria-label="${esc(titleOf(it))}" data-i="${i}"><i></i></button>`).join('');
     $('#heroDots').onclick = (e) => { const b = e.target.closest('button'); if (b) showHero(+b.dataset.i); };
     showHero(0);
@@ -227,7 +228,7 @@
       const similar = d.similar || [];
       remember(similar, type);
       const inList = isListed(type, id);
-      const hb = d.poster ? `background-image:url(${esc(d.poster)})` : `background:radial-gradient(80% 90% at 70% 30%,hsla(${hue(id)},70%,45%,.55),transparent 70%),linear-gradient(140deg,hsl(${hue(id)},40%,14%),#0e0e15)`;
+      const hb = (d.backdrop || d.poster) ? `background-image:url(${esc(d.backdrop || d.poster)})` : `background:radial-gradient(80% 90% at 70% 30%,hsla(${hue(id)},70%,45%,.55),transparent 70%),linear-gradient(140deg,hsl(${hue(id)},40%,14%),#0e0e15)`;
       const vids = d.videos || [];
       const epSection = vids.length > 1 ? `<section class="d__sec"><h3>${type === 'tv' ? 'Episodet' : 'Burimet'}</h3><div style="display:flex;flex-wrap:wrap;gap:8px;max-height:308px;overflow-y:auto;padding:2px 6px 2px 2px">${vids.map((v, i) => `<button class="chip" data-play="${type}:${id}:${i}" style="cursor:pointer">${esc(v.label || ('Pjesa ' + (i + 1)))}</button>`).join('')}</div></section>` : '';
       panel.innerHTML = `

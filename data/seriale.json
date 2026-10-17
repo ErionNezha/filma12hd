@@ -101,7 +101,8 @@
     "url": "https://abyssplayer.com/26OjmdcRb"
    }
   ],
-  "desc": "Goku dhe shokët shndërrohen në fëmijë nga një komplot misterioz dhe nisen në një aventurë të re në Mbretërinë e Demonëve."
+  "desc": "Goku dhe shokët shndërrohen në fëmijë nga një komplot misterioz dhe nisen në një aventurë të re në Mbretërinë e Demonëve.",
+  "backdrop": "img/backdrops/m07.webp"
  },
  {
   "id": "m20",
@@ -149,7 +150,8 @@
     "url": "https://app.hajdutetalb.box.ca/Seriale/Naruto//Season%202/S02E03%20-%20Narrowing%20the%20Field%3A%20Sudden%20Death%20Elimination%21.mp4"
    }
   ],
-  "desc": "Naruto Uzumaki, ninxha i ri plot energji, ndjek ëndrrën për t'u bërë Hokage — ninxha më i fortë i fshatit."
+  "desc": "Naruto Uzumaki, ninxha i ri plot energji, ndjek ëndrrën për t'u bërë Hokage — ninxha më i fortë i fshatit.",
+  "backdrop": "img/backdrops/m20.webp"
  },
  {
   "id": "m136",
@@ -170,7 +172,8 @@
   "videos": [
    "https://vidmoly.org/embed-vgln7x2kq567.html"
   ],
-  "type": "serial"
+  "type": "serial",
+  "backdrop": "img/backdrops/m136.webp"
  },
  {
   "id": "m137",
@@ -191,7 +194,8 @@
   "videos": [
    "https://vidmoly.org/embed-k6sbhmvmjtk2.html"
   ],
-  "type": "serial"
+  "type": "serial",
+  "backdrop": "img/backdrops/m137.webp"
  },
  {
   "id": "m138",
@@ -212,7 +216,8 @@
   "videos": [
    "https://vidmoly.org/embed-xluale2kek5p.html"
   ],
-  "type": "serial"
+  "type": "serial",
+  "backdrop": "img/backdrops/m138.webp"
  },
  {
   "id": "m139",
