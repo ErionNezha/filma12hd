@@ -230,7 +230,9 @@
       const inList = isListed(type, id);
       const hb = (d.backdrop || d.poster) ? `background-image:url(${esc(d.backdrop || d.poster)})` : `background:radial-gradient(80% 90% at 70% 30%,hsla(${hue(id)},70%,45%,.55),transparent 70%),linear-gradient(140deg,hsl(${hue(id)},40%,14%),#0e0e15)`;
       const vids = d.videos || [];
-      const epSection = vids.length > 1 ? `<section class="d__sec"><h3>${type === 'tv' ? 'Episodet' : 'Burimet'}</h3><div style="display:flex;flex-wrap:wrap;gap:8px;max-height:308px;overflow-y:auto;padding:2px 6px 2px 2px">${vids.map((v, i) => `<button class="chip" data-play="${type}:${id}:${i}" style="cursor:pointer">${esc(v.label || ('Pjesa ' + (i + 1)))}</button>`).join('')}</div></section>` : '';
+      const hostName = (u) => { try { const h = new URL(u).hostname.replace(/^www\./, ''); const map = { 'abyssplayer.com': 'Abyss', 'vidmoly.org': 'Vidmoly', 'vidmoly.com': 'Vidmoly', 'filemoon.to': 'Filemoon', 'dublimeshqipa.upns.ink': 'DublimeShqip', 'ok.ru': 'OK.ru', 'vk.com': 'VK', 'vk.ru': 'VK', 'ashqiplayer.space': 'ShqipPlayer' }; if (map[h]) return map[h]; const b = h.split('.')[0]; return b.charAt(0).toUpperCase() + b.slice(1); } catch (e) { return 'Burimi'; } };
+      const chipNames = (() => { const seenN = {}; return vids.map((v, i) => { let lab = v.label || ('Pjesa ' + (i + 1)); if (type !== 'tv' && (!v.label || v.label === 'Shiko')) lab = hostName(v.url); seenN[lab] = (seenN[lab] || 0) + 1; return seenN[lab] > 1 ? lab + ' ' + seenN[lab] : lab; }); })();
+      const epSection = vids.length > 1 ? `<section class="d__sec"><h3>${type === 'tv' ? 'Episodet' : 'Burimet'}</h3><div style="display:flex;flex-wrap:wrap;gap:8px;max-height:308px;overflow-y:auto;padding:2px 6px 2px 2px">${vids.map((v, i) => `<button class="chip" data-play="${type}:${id}:${i}" style="cursor:pointer">${esc(chipNames[i])}</button>`).join('')}</div></section>` : '';
       panel.innerHTML = `
         <div class="d__hero" style="${hb}"><button class="icon-btn d__close" data-close aria-label="Mbyll">✕</button></div>
         <div class="d__head">
