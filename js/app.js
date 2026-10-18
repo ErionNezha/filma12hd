@@ -149,7 +149,7 @@
     heroList = pool.slice(0, 5);
     if (!heroList.length) return;
     const bg = $('#heroBg');
-    bg.innerHTML = heroList.map((it) => `<div class="slide" style="background-image:url(${esc(it.backdrop || it.poster)})"></div>`).join('');
+    bg.innerHTML = heroList.map((it, n) => `<div class="slide" data-bg="${esc(it.backdrop || it.poster)}"${n === 0 ? ` style="background-image:url(${esc(it.backdrop || it.poster)})"` : ''}></div>`).join('');
     $('#heroDots').innerHTML = heroList.map((it, i) => `<button role="tab" aria-label="${esc(titleOf(it))}" data-i="${i}"><i></i></button>`).join('');
     $('#heroDots').onclick = (e) => { const b = e.target.closest('button'); if (b) showHero(+b.dataset.i); };
     showHero(0);
@@ -160,6 +160,7 @@
     const it = heroList[heroIdx];
     const type = typeOf(it);
     document.querySelectorAll('#heroBg .slide').forEach((s, n) => s.classList.toggle('on', n === heroIdx));
+    document.querySelectorAll('#heroBg .slide').forEach((s, n) => { if ((n === heroIdx || n === (heroIdx + 1) % heroList.length) && !s.style.backgroundImage && s.dataset.bg) s.style.backgroundImage = `url(${s.dataset.bg})`; });
     document.querySelectorAll('#heroDots button').forEach((b, n) => { b.classList.toggle('on', n === heroIdx); b.classList.toggle('done', n < heroIdx); });
     const genres = (it.genres || []).slice(0, 2);
     const inList = isListed(type, it.id);
