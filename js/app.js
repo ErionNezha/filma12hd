@@ -432,7 +432,17 @@
     setTimeout(close, 4500); // mos e mbaj përdoruesin në pritje
   }
 
+  /* ================= Auto-open nga ?id= (deep link) ================= */
+  async function autoOpenFromQuery() {
+    let qid = null;
+    try { qid = new URLSearchParams(location.search).get('id'); } catch (e) { return; }
+    if (!qid) return;
+    try { await loadData(); } catch (e) { return; }
+    const hit = byId.get('movie:' + qid) || byId.get('tv:' + qid);
+    if (hit) openDetail(hit.media_type, hit.id); // id e panjohur -> asgje, katalogu normal
+  }
+
   $('#year').textContent = new Date().getFullYear();
   intro();
-  render();
+  render().then(autoOpenFromQuery, autoOpenFromQuery);
 })();
